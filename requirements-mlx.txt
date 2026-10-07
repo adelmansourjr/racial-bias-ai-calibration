@@ -1,0 +1,6 @@
+# Apple-silicon local model experiments; exact measured runtime versions.
+-r requirements.txt
+mlx==0.32.3
+mlx-lm==0.31.3
+transformers==5.18.0
+safetensors==0.8.0

@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+research/data/Resume.csv
+research/data/resume-download.zip
+models/
+.cache/
+
+# Keep applicant material and all generated model outputs local.
+research/data/
+research/experiment/cases.json
+research/experiment/results/
+research/experiment/clef_results/
+research/experiment/heldout_names/
+research/experiment/ranking/
+research/experiment/ranking_secondary_full_pools/
+research/experiment/figures/
+research/experiment/*verification.json
+research/experiment/evaluation-gate.json
+research/experiment/*.log
+research/synthetic-verification-results.json
