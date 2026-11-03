@@ -1,0 +1,13 @@
+{
+  "matched_GPU_forwards": 108,
+  "direct_counterfactual_stage_comparisons": 3360,
+  "all_canonical_transformer_lengths_exact_native": true,
+  "token_corpus_examples": 32,
+  "registered_omissions_blocked": 108,
+  "different_review_payloads_blocked": 36,
+  "median_seconds": {
+    "scalar": 0.3343926250236109,
+    "canonical": 0.08152287499979138
+  },
+  "scope": "Source/result/coverage reconstruction, not GPU re-inference or automatic semantic-role proof."
+}

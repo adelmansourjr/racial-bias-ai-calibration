@@ -1,0 +1,9 @@
+{
+  "document": "output/pdf/nameguard-literature-preprint-draft.pdf",
+  "sha256": "9e0550b5ee80870311c0c94657c1585db38526756f7a0558f41262d72aadcc8a",
+  "pages": 11,
+  "all_pages_rendered_and_visually_inspected": true,
+  "visual_findings": "No clipped text, overlap, missing glyphs, broken tables or orphaned headings observed. References and page furniture readable.",
+  "method": "Poppler PNG render and full-page contact-sheet inspection; text extraction confirms 11 nonempty pages.",
+  "review_date": "2026-11-03"
+}

@@ -1,0 +1,13 @@
+{
+  "public_score": {
+    "margin": -2.5675840377807617,
+    "conditional_A_probability": 0.07125401941987165
+  },
+  "process_wide_gate_blocked": true,
+  "poisoned_reuse_blocked": true,
+  "integrity": {
+    "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "checkpoint_files_unchanged": true
+  },
+  "keys_saved": false
+}

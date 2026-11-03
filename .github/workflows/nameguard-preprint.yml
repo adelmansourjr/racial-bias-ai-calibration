@@ -1,0 +1,31 @@
+name: NameGuard preprint artifact, citations and claim checks
+on:
+  push:
+    paths: ['nameguard-preprint/**', '.github/workflows/nameguard-preprint.yml']
+  pull_request:
+    paths: ['nameguard-preprint/**', '.github/workflows/nameguard-preprint.yml']
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test contracts, coverage and review safeguards
+        working-directory: nameguard-preprint
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Verify frozen records and release manifest
+        working-directory: nameguard-preprint
+        run: |
+          python scripts/literature_tools.py
+          python scripts/scientific_claims.py
+          python scripts/verify_results.py
+          python scripts/verify_manifest.py
+      - name: Install system Z3
+        run: sudo apt-get update && sudo apt-get install -y z3
+      - name: Check conditional symbolic lemmas
+        working-directory: nameguard-preprint
+        run: python scripts/check_proofs.py

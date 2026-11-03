@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "synthetic_name": "John Miller",
+      "score": {
+        "margin": -2.5675840377807617,
+        "conditional_A_probability": 0.07125401941987165
+      }
+    },
+    {
+      "synthetic_name": "Mohammed Hassan",
+      "score": {
+        "margin": -2.5675840377807617,
+        "conditional_A_probability": 0.07125401941987165
+      }
+    },
+    {
+      "synthetic_name": "Previously Unseen 名",
+      "score": {
+        "margin": -2.5675840377807617,
+        "conditional_A_probability": 0.07125401941987165
+      }
+    }
+  ],
+  "integrity": {
+    "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "checkpoint_files_unchanged": true
+  },
+  "scope": "Generated exact-role CV demo with two synthetic credentials. Not evidence of two independent human reviewers or automatic identity discovery."
+}

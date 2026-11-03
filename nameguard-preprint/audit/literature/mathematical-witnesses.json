@@ -1,0 +1,24 @@
+{
+  "kind": "exact finite mathematical witnesses, not new GPU experiments",
+  "behavior_vs_encoding": {
+    "equal_scores": true,
+    "names_still_recoverable": true
+  },
+  "linear_vs_independence": {
+    "covariance": "0",
+    "threshold_accuracy": "3/4",
+    "nonlinear_accuracy": "1"
+  },
+  "finite_vs_universal": {
+    "observed_equal": true,
+    "unseen_violation": true
+  },
+  "agreement_vs_truth": {
+    "two_reviews_agree": true,
+    "identity_coverage_complete": false
+  },
+  "external_vs_internal": {
+    "same_outputs": true,
+    "no_internal_placement_fairness_advantage_proved": true
+  }
+}

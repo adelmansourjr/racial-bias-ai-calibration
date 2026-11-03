@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-03",
+  "prior_release": "nameguard-efficient v0.2.0",
+  "frozen_model_source_files_unchanged": 16,
+  "inherited_result_files_byte_identical": 14,
+  "new_GPU_inference_conducted": false,
+  "base_model_files_modified": false,
+  "new_CPU_test_count": 11,
+  "total_CPU_tests": 63,
+  "references": 25,
+  "claim_lint_scope": "metadata and local synchronization, not automatic source truth",
+  "publication_status": "technical report/preprint draft; not accepted or novelty-certified"
+}

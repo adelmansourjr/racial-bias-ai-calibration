@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Research prototype and preprint draft, not a universal raw-CV fairness certificate."
+title: "Native-Token-Count Name-Channel Noninterference with Authenticated Role Review"
+authors:
+  - family-names: Mansour
+    given-names: Adel
+version: 0.3.0
+date-released: 2026-11-03
+type: software
+url: "https://github.com/adelmansourjr/racial-bias-ai-calibration"
+license: MIT
+abstract: >-
+  Canonical retained evidence is tokenized internally after the complete original
+  source is embedded, giving exact native evidence token counts. Two credential
+  endorsements and registered-reference checks strengthen annotation provenance
+  and omission rejection without proving universal semantic role correctness.

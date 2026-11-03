@@ -1,6 +1,14 @@
 # racial-bias-ai-calibration
 
-## Latest: native-token-count NameGuard-Efficient
+## Latest: literature-reviewed NameGuard preprint
+
+[Manuscript](nameguard-preprint/paper/manuscript.md) · [11-page PDF](nameguard-preprint/output/pdf/nameguard-literature-preprint-draft.pdf) · [Full literature review](nameguard-preprint/literature/review.md) · [BibTeX](nameguard-preprint/literature/references.bib) · [Code and reproduction](nameguard-preprint/README.md) · [Claim/evidence ledger](nameguard-preprint/docs/CLAIM-EVIDENCE.md)
+
+The v0.3.0 release adds a targeted 25-source literature review with in-text citations, version/erratum checks, source locators and a search record. All 63 CPU tests pass (52 inherited plus 11 mathematical/citation checks). The original GPU measurements and frozen model source are unchanged; this revision adds no new model measurements or adapters.
+
+The paper explicitly distinguishes score invariance from representation erasure. Its conditional guarantee comes from reviewed evidence routing, not a model learning to forget every name. An external canonicalizer providing identical evidence has the same scoring guarantee; raw embedding first adds no mathematical fairness advantage. The 4.10x timing result is against the prior scalar service, not optimized external anonymization. Real semantic annotation accuracy, hiring utility, independent replication and academic novelty remain unestablished. This is a transparent technical-report/preprint draft, not a peer-reviewed publication or deployment fairness certificate.
+
+## Earlier: native-token-count NameGuard-Efficient
 
 [Efficient code and results](nameguard-efficient/README.md) · [Revised preprint](nameguard-efficient/paper/manuscript.md) · [PDF](nameguard-efficient/output/pdf/nameguard-efficient-preprint-draft.pdf) · [Annotation protocol](nameguard-efficient/docs/ANNOTATION-PROTOCOL.md) · [Mathematical derivation](nameguard-efficient/docs/MATHEMATICS.md)
 
@@ -88,3 +96,4 @@ Run GPU models sequentially. Clef requires a compatible text-only8bit MLX conver
 Optional scientific figures: `python -m pip install -r requirements-figures.txt`, then `python research/experiment/make_figures.py`. Generated cases, downloaded sources and all local outputs are ignored by Git.
 
 Sources: [résumés](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [job listings](https://huggingface.co/datasets/datastax/linkedin_job_listings), [name-audit research](https://www.nber.org/papers/w9873), [Qwen](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct), [Clef](https://huggingface.co/Cloudflare/clef-flash). Dataset/model terms remain with their owners; no blanket third-party license is asserted. Publishing this research code is not a hiring deployment.
+

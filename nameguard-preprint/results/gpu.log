@@ -1,0 +1,21 @@
+Body 0: 36 variants exact at native evidence token count; 3.7s
+Body 1: 36 variants exact at native evidence token count; 7.5s
+Body 2: 36 variants exact at native evidence token count; 11.2s
+{
+  "forward_checks": 108,
+  "observed_public_tensor_stages": 3456,
+  "direct_counterfactual_tensor_comparisons": 3360,
+  "native_reference_hidden_and_vocab_comparisons": 6,
+  "max_name_score_difference": 0.0,
+  "canonical_token_ratio_to_native": 1.0,
+  "mean_scalar_to_canonical_token_ratio": 3.5659765792904237,
+  "median_seconds_by_method": {
+    "scalar": 0.3343926250236109,
+    "canonical": 0.08152287499979138
+  },
+  "median_paired_speedup": 4.1005996071541455,
+  "scope": "Controlled synthetic fixtures and local timing. Canonicalization is internal after raw embedding; total embedding work is larger than native evidence alone. Roles use generator oracle, not validated humans.",
+  "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_unchanged": true,
+  "review_keys_saved": false
+}

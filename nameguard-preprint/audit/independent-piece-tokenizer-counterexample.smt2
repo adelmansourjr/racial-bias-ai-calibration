@@ -1,0 +1,15 @@
+; A general tokenizer is NOT required to be a string-concatenation homomorphism.
+; Splitting evidence before tokenization can therefore change token counts.
+(set-logic QF_UFLIA)
+(declare-fun length_of_encoding (Int) Int)
+(declare-const A Int)
+(declare-const B Int)
+(declare-const AB Int)
+(assert (distinct A B AB))
+(assert (>= (length_of_encoding A) 1))
+(assert (>= (length_of_encoding B) 1))
+(assert (>= (length_of_encoding AB) 1))
+(assert (not (= (length_of_encoding AB)
+               (+ (length_of_encoding A) (length_of_encoding B)))))
+(check-sat)
+(get-model)

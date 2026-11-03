@@ -1,0 +1,57 @@
+test_an_omission_is_reported_as_disagreement (test_agreements.Agreements.test_an_omission_is_reported_as_disagreement) ... ok
+test_different_sources_are_not_compared (test_agreements.Agreements.test_different_sources_are_not_compared) ... ok
+test_identical_valid_reviews (test_agreements.Agreements.test_identical_valid_reviews) ... ok
+test_candidates_never_automatically_assign_identity (test_annotations.ReviewTests.test_candidates_never_automatically_assign_identity) ... ok
+test_consensus_accepts_source_exact_roles (test_annotations.ReviewTests.test_consensus_accepts_source_exact_roles) ... ok
+test_disagreeing_review_rejected (test_annotations.ReviewTests.test_disagreeing_review_rejected) ... ok
+test_duplicate_reviewer_rejected (test_annotations.ReviewTests.test_duplicate_reviewer_rejected) ... ok
+test_known_alias_omission_rejected (test_annotations.ReviewTests.test_known_alias_omission_rejected) ... ok
+test_missing_body_reference_rejected (test_annotations.ReviewTests.test_missing_body_reference_rejected) ... ok
+test_native_source_encoder_does_not_tokenize_evidence_separately (test_annotations.ReviewTests.test_native_source_encoder_does_not_tokenize_evidence_separately) ... ok
+test_normalized_registered_variants_must_be_covered (test_annotations.ReviewTests.test_normalized_registered_variants_must_be_covered) ... ok
+test_one_endorsement_rejected (test_annotations.ReviewTests.test_one_endorsement_rejected) ... ok
+test_retained_role_cannot_overlap_identity (test_annotations.ReviewTests.test_retained_role_cannot_overlap_identity) ... ok
+test_same_spelled_skill_requires_explicit_retained_role (test_annotations.ReviewTests.test_same_spelled_skill_requires_explicit_retained_role) ... ok
+test_stale_identity_offsets_rejected (test_annotations.ReviewTests.test_stale_identity_offsets_rejected) ... ok
+test_two_distinct_credentials_required (test_annotations.ReviewTests.test_two_distinct_credentials_required) ... ok
+test_unknown_alias_remains_an_explicit_negative_control (test_annotations.ReviewTests.test_unknown_alias_remains_an_explicit_negative_control) ... ok
+test_unresolved_is_default_and_cannot_be_endorsed (test_annotations.ReviewTests.test_unresolved_is_default_and_cannot_be_endorsed) ... ok
+test_wrong_signature_rejected (test_annotations.ReviewTests.test_wrong_signature_rejected) ... ok
+test_original_source_embedding_precedes_canonical_evidence_construction (test_canonical_order.ConstructionOrder.test_original_source_embedding_precedes_canonical_evidence_construction) ... ok
+test_all_evidence_resegmentations_match (test_contracts.ContractTests.test_all_evidence_resegmentations_match) ... ok
+test_authentic_document_is_immutable (test_contracts.ContractTests.test_authentic_document_is_immutable) ... ok
+test_bad_review_still_not_semantically_corrected (test_contracts.ContractTests.test_bad_review_still_not_semantically_corrected) ... ok
+test_duplicate_keys_rejected (test_contracts.ContractTests.test_duplicate_keys_rejected) ... ok
+test_empty_retained_evidence_rejected (test_contracts.ContractTests.test_empty_retained_evidence_rejected) ... ok
+test_extra_claims_rejected (test_contracts.ContractTests.test_extra_claims_rejected) ... ok
+test_invalid_unicode_rejected (test_contracts.ContractTests.test_invalid_unicode_rejected) ... ok
+test_mutating_original_nodes_cannot_mutate_signed_snapshot (test_contracts.ContractTests.test_mutating_original_nodes_cannot_mutate_signed_snapshot) ... ok
+test_non_bytes_request_rejected (test_contracts.ContractTests.test_non_bytes_request_rejected) ... ok
+test_oversize_identity_rejected (test_contracts.ContractTests.test_oversize_identity_rejected) ... ok
+test_same_spelled_skill_retained (test_contracts.ContractTests.test_same_spelled_skill_retained) ... ok
+test_scalar_encoding_keeps_actual_name_tokens (test_contracts.ContractTests.test_scalar_encoding_keeps_actual_name_tokens) ... ok
+test_short_key_rejected (test_contracts.ContractTests.test_short_key_rejected) ... ok
+test_source_binding_is_explicit (test_contracts.ContractTests.test_source_binding_is_explicit) ... ok
+test_tampered_identity_role_rejected (test_contracts.ContractTests.test_tampered_identity_role_rejected) ... ok
+test_tampered_text_rejected (test_contracts.ContractTests.test_tampered_text_rejected) ... ok
+test_unknown_reviewer_rejected (test_contracts.ContractTests.test_unknown_reviewer_rejected) ... ok
+test_unsigned_request_rejected (test_contracts.ContractTests.test_unsigned_request_rejected) ... ok
+test_wrong_key_rejected (test_contracts.ContractTests.test_wrong_key_rejected) ... ok
+test_wrong_policy_rejected (test_contracts.ContractTests.test_wrong_policy_rejected) ... ok
+test_2000_random_unicode_identity_insertions_and_resegmentations (test_encoding_properties.EncodingProperties.test_2000_random_unicode_identity_insertions_and_resegmentations) ... ok
+test_malformed_review_never_reaches_original_embedding_backend (test_end_to_end_boundary.EndToEndBoundary.test_malformed_review_never_reaches_original_embedding_backend) ... ok
+test_candidates_compare_two_endorsements_and_assemble (test_review_cli.OfflineReviewWorkflow.test_candidates_compare_two_endorsements_and_assemble) ... ok
+test_audit_flag_is_not_an_api_option (test_runtime.RuntimeTests.test_audit_flag_is_not_an_api_option) ... ok
+test_backend_failure_poisoned_and_message_sanitized (test_runtime.RuntimeTests.test_backend_failure_poisoned_and_message_sanitized) ... ok
+test_closed_engine_rejected (test_runtime.RuntimeTests.test_closed_engine_rejected) ... ok
+test_concurrent_request_rejected (test_runtime.RuntimeTests.test_concurrent_request_rejected) ... ok
+test_duplicate_slots_rejected (test_runtime.RuntimeTests.test_duplicate_slots_rejected) ... ok
+test_invalid_review_never_reaches_model (test_runtime.RuntimeTests.test_invalid_review_never_reaches_model) ... ok
+test_nonfinite_scores_rejected (test_runtime.RuntimeTests.test_nonfinite_scores_rejected) ... ok
+test_public_result_has_no_identity_audit (test_runtime.RuntimeTests.test_public_result_has_no_identity_audit) ... ok
+test_tie_break_uses_opaque_slots (test_runtime.RuntimeTests.test_tie_break_uses_opaque_slots) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.338s
+
+OK

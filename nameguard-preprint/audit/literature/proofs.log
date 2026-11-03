@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "spec": "audit/canonical-factorization.smt2",
+      "spec_sha256": "dbfd20fdc7a8ffb6848857c19e1f6728c94d31ca7cb79beea38791a40e410730",
+      "result": "unsat"
+    },
+    {
+      "spec": "audit/independent-piece-tokenizer-counterexample.smt2",
+      "spec_sha256": "29b50a7fcc3a2023021af55d5b12ffbbc2d22fa0d100929d912c1093e0868270",
+      "result": "sat"
+    }
+  ],
+  "scope": "Conditional uninterpreted-function congruence and tokenizer non-homomorphism counterexample; not verified annotation correctness, GPU semantics, token minimality or universal raw-CV fairness."
+}
