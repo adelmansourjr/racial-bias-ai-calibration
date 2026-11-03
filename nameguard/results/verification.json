@@ -1,0 +1,20 @@
+{
+  "actual_GPU_forwards": 108,
+  "reference_forwards": 3,
+  "observed_public_tensor_stages": 3348,
+  "direct_counterfactual_tensor_comparisons": 3255,
+  "additional_native_hidden_tensor_comparisons": 3,
+  "maximum_recorded_name_or_segmentation_score_gap": 0.0,
+  "auth_tamper_cases_rejected": 5,
+  "ordinary_BPE_tokens": [
+    59,
+    60,
+    61
+  ],
+  "scalarwise_public_tokens": [
+    271,
+    281,
+    274
+  ],
+  "scope": "Record/source/coverage reconstruction. Direct tensor comparisons ran during GPU study; this is not independent re-inference or proof of role semantics."
+}

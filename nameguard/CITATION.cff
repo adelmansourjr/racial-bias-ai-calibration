@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Research prototype and preprint draft; consult the claim boundaries before citing."
+title: "Authenticated Name-Channel Noninterference in Frozen Language-Model Scoring"
+authors:
+  - family-names: Mansour
+    given-names: Adel
+version: 0.1.0
+date-released: 2026-11-03
+type: software
+url: "https://github.com/adelmansourjr/racial-bias-ai-calibration"
+abstract: >-
+  A scoped typed-identity information-flow prototype with authenticated review
+  records, scalarwise segmentation-independent tokenization, model-internal
+  activation exclusion, solver-checked abstract lemmas and GPU conformance tests.
+  It does not prove universal name discovery or racial fairness in unannotated CVs.

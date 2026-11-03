@@ -1,5 +1,15 @@
 # racial-bias-ai-calibration
 
+## Latest research extension: NameGuard
+
+[Code and reproducible tests](nameguard/README.md) · [Preprint draft](nameguard/paper/manuscript.md) · [PDF report](nameguard/output/pdf/nameguard-preprint-draft.pdf) · [Specific weaknesses and fixes](nameguard/docs/WEAKNESSES.md)
+
+The new `nameguard/` package studies **authenticated typed-identity noninterference** inside a frozen Qwen scoring model. It adds source-bound review authentication, segmentation-independent input encoding, an internal activation gate, strict score-only outputs, runtime guards, solver specifications and 108 actual synthetic GPU forwards. The conditional proof covers designated identity fields; it does **not** prove universal name discovery or racial fairness in unannotated CVs. Thirty CPU tests run without downloading a model. Model weights, real applicant data and review keys are not included.
+
+The package is a research prototype and preprint draft, with failed baselines and limitations preserved. It is not a peer-reviewed publication or a production hiring tool.
+
+## Original datathon study
+
 A reproducible implementation of the challenge's fourth process: **Evaluate**. It checks controlled naming-cue effects in model decisions and activations, tests corrections, and records the precise claims that pass, fail or lack evidence.
 
 ## Our solution and the central proof

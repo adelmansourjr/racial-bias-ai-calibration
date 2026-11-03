@@ -1,0 +1,9 @@
+sat
+(
+  (define-fun evidence_index () Int
+    0)
+  (define-fun first_name_length () Int
+    0)
+  (define-fun second_name_length () Int
+    1)
+)

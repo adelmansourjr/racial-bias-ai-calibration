@@ -1,0 +1,4 @@
+0: 36 full forwards exact with resegmentation; 12.0s
+1: 36 full forwards exact with resegmentation; 23.4s
+2: 36 full forwards exact with resegmentation; 35.3s
+PASS: exact direct-array noninterference, source authentication, runtime isolation and protected checkpoint.

@@ -1,0 +1,26 @@
+; Two arbitrary inserted identity blocks, separated by arbitrary evidence.
+; Formalizes the multi-block index shift without enumerating actual tokens.
+(set-option :produce-proofs true)
+(set-logic AUFLIA)
+(declare-const q (Array Int Int))
+(declare-const n1 (Array Int Int))
+(declare-const n2 (Array Int Int))
+(declare-fun emb (Int) Int)
+(declare-const m Int)
+(declare-const p1 Int)
+(declare-const p2 Int)
+(declare-const k1 Int)
+(declare-const k2 Int)
+(declare-const i Int)
+(assert (and (> m 0) (<= 0 p1) (<= p1 p2) (<= p2 m) (>= k1 0) (>= k2 0) (<= 0 i) (< i m)))
+(define-fun raw ((j Int)) Int
+ (emb (ite (< j p1) (select q j)
+   (ite (< j (+ p1 k1)) (select n1 (- j p1))
+    (ite (< j (+ p2 k1)) (select q (- j k1))
+     (ite (< j (+ p2 k1 k2)) (select n2 (- j p2 k1))
+      (select q (- j k1 k2))))))))
+(define-fun kept_index () Int
+ (+ i (ite (>= i p1) k1 0) (ite (>= i p2) k2 0)))
+(assert (not (= (raw kept_index) (emb (select q i)))))
+(check-sat)
+(get-proof)

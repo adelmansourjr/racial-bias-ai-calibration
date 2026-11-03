@@ -1,0 +1,31 @@
+# Install this file at .github/workflows/nameguard.yml when published as the
+# nameguard/ subdirectory of racial-bias-ai-calibration.
+name: NameGuard CPU contracts and symbolic checks
+on:
+  push:
+    paths: ['nameguard/**', '.github/workflows/nameguard.yml']
+  pull_request:
+    paths: ['nameguard/**', '.github/workflows/nameguard.yml']
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Contract and runtime tests (no model required)
+        working-directory: nameguard
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Frozen results and publication manifest
+        working-directory: nameguard
+        run: |
+          python scripts/verify_results.py
+          python scripts/verify_manifest.py
+      - name: Install system Z3
+        run: sudo apt-get update && sudo apt-get install -y z3
+      - name: Check symbolic specifications
+        working-directory: nameguard
+        run: python scripts/check_proofs.py

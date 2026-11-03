@@ -1,0 +1,14 @@
+{
+  "initial_score": {
+    "margin": -3.3004226684570312,
+    "conditional_A_probability": 0.035556692105369415
+  },
+  "process_wide_busy_blocked": true,
+  "poisoned_reuse_blocked": true,
+  "module_drift_blocked": true,
+  "final_parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "factory_close_integrity": {
+    "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "checkpoint_files_unchanged": true
+  }
+}

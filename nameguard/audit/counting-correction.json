@@ -1,0 +1,10 @@
+{
+  "issue": "The original direct_tensor_stages field and initial prose counted all observed public tensors, including three reference-establishing forwards, as direct comparisons.",
+  "raw_record_preserved": "results/gpu.json",
+  "observed_stage_tensors": 3348,
+  "reference_forwards": 3,
+  "counterfactual_forwards": 105,
+  "direct_counterfactual_comparisons": 3255,
+  "additional_native_final_hidden_comparisons": 3,
+  "change": "Final report and verifier distinguish observed tensors from nontrivial comparisons. No model, experiment source, outcome or acceptance criterion was changed."
+}

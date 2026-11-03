@@ -1,0 +1,10 @@
+; A superficially similar gate that retains original positions is UNSAFE.
+(set-logic QF_LIA)
+(declare-const evidence_index Int)
+(declare-const first_name_length Int)
+(declare-const second_name_length Int)
+(assert (>= evidence_index 0))
+(assert (and (>= first_name_length 0) (>= second_name_length 0)))
+(assert (not (= (+ evidence_index first_name_length) (+ evidence_index second_name_length))))
+(check-sat)
+(get-model)

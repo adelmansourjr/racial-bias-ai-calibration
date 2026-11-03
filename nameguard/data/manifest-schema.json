@@ -1,0 +1,9 @@
+{
+  "description": "Trusted operator checkpoint manifest. Replace the example with real locally computed file hashes. Not accepted from an inference request.",
+  "files": {
+    "config.json": {"sha256": "REPLACE_WITH_REAL_SHA256", "bytes": 0},
+    "model.safetensors": {"sha256": "REPLACE_WITH_REAL_SHA256", "bytes": 0},
+    "tokenizer.json": {"sha256": "REPLACE_WITH_REAL_SHA256", "bytes": 0}
+  },
+  "note": "List every file in the pinned checkpoint. Independently obtaining the specified parameter digest remains required. The example is intentionally not a usable trust manifest."
+}
