@@ -1,0 +1,54 @@
+{
+  "review_date": "2026-11-03",
+  "review_type": "expanded targeted narrative review; not exhaustive systematic search",
+  "initial_review": {
+    "review_date": "2026-11-03",
+    "review_type": "targeted structured narrative review, not exhaustive or systematic",
+    "interfaces": [
+      "web search",
+      "direct publisher/author/official-documentation page opening",
+      "versioned author PDF inspection"
+    ],
+    "query_families": [
+      "name racial bias resume screening hiring audit language models Wilson Caliskan Armstrong",
+      "counterfactual fairness fairness through awareness hiring claims sociotechnical abstraction",
+      "information flow noninterference confidentiality integrity SIF Sabelfeld Myers",
+      "INLP Null It Out LEACE linear concept erasure guardedness convex loss",
+      "probing control tasks amnesic probing residual debiasing Gonen Goldberg",
+      "LoRA QLoRA ReFT concept bottleneck models frozen weights representation intervention",
+      "BPE tokenization pipeline segmentation annotation agreement Artstein Poesio",
+      "CheckList Show Your Work model cards datasheets reproducibility"
+    ],
+    "selection": "Primary papers directly defining a compared property or motivating an evaluation component; official documentation for tokenizer behavior; canonical older foundations plus selected recent LLM hiring audits.",
+    "exclusions": "Unverified summaries, social-media claims, legal compliance advice, unrelated name recommendations, papers whose title/identifier could not be matched. No exhaustive database enumeration, duplicate-screening count or independent reviewer process was conducted.",
+    "corrections": [
+      "Rejected arXiv:2004.09083 as an INLP source: it is an unrelated paper. Used the verified ACL 2020.acl-main.647 source instead.",
+      "Used Wilson-Caliskan v3 PDF first-page erratum; HTML and abstract still show old gender statements.",
+      "Corrected Amnesic Probing author list against the ACL publisher record.",
+      "Tokenizers documentation has no verified publication year; cited n.d., pinned to v0.20.3."
+    ],
+    "not_established": [
+      "complete coverage of the field",
+      "absence of earlier equivalent systems",
+      "independent replication of cited experiments",
+      "publication acceptance or academic novelty"
+    ]
+  },
+  "expanded_queries": [
+    "name noninterference language model fairness resume",
+    "counterfactual anonymization resume language model",
+    "Robustly Improving LLM Fairness in Realistic Settings via Interpretability",
+    "span veto language model",
+    "bit-identical noninterference models",
+    "affine concept editing Marshall"
+  ],
+  "additional_primary_sources": [
+    "https://arxiv.org/html/2506.10922v1",
+    "https://arxiv.org/html/2610.15883v1",
+    "https://arxiv.org/abs/2503.18813v2",
+    "https://arxiv.org/abs/2312.03689v1",
+    "https://arxiv.org/abs/2411.09003v3",
+    "https://arxiv.org/abs/2606.18649v1"
+  ],
+  "assessment": "Direct antecedents found; broad first-method claims rejected. Integration originality not established by exhaustive exclusion."
+}

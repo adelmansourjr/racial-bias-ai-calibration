@@ -1,0 +1,5 @@
+{
+  "verified_name_rows": 256,
+  "source_hashes_checked": 12,
+  "scope": "Recorded coverage and deterministic reanalysis; not independent GPU re-inference."
+}

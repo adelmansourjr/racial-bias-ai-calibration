@@ -1,0 +1,15 @@
+{
+  "resume_source": "https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset",
+  "resume_records": 2484,
+  "resume_metadata_license": "CC0 per cached provider metadata",
+  "job_source": "https://huggingface.co/datasets/datastax/linkedin_job_listings",
+  "job_cache_rows": 61,
+  "job_license_redistribution_not_assumed": true,
+  "real_text_redistributed": false,
+  "source_hashes": {
+    "Resume.csv": "816a7cd985a9a41e3ce8d1e83cb7e1beb1e854a89c1cf1fd0d75494faaa0559d",
+    "jobs-first-rows.json": "ec675c4702eadc472d318bc5ed9d809951924d6c6bacad54045d2e88eb802e2a",
+    "private_contexts": "c5bd947b306e8ced10cd798b867f804e6864480fafcfb73a09b6735b40ec8495"
+  },
+  "role_ground_truth": "Inserted header offsets only; original body identity is not comprehensively annotated."
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "c00-matched",
+    "cv_cluster": "2d6fc4fdde07e25054a40625ee3a5d43e4d74cffe5786249b9ed41aeb5a18ceb",
+    "category": "ACCOUNTANT",
+    "job_kind": "matched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "plain"
+  },
+  {
+    "id": "c00-mismatched",
+    "cv_cluster": "2d6fc4fdde07e25054a40625ee3a5d43e4d74cffe5786249b9ed41aeb5a18ceb",
+    "category": "ACCOUNTANT",
+    "job_kind": "mismatched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "plain"
+  },
+  {
+    "id": "c01-matched",
+    "cv_cluster": "c4adcc03c07b40973ddeae0187a6809e31ad38e1ac508b26de06d9b74696a5cd",
+    "category": "ACCOUNTANT",
+    "job_kind": "matched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "plain"
+  },
+  {
+    "id": "c01-mismatched",
+    "cv_cluster": "c4adcc03c07b40973ddeae0187a6809e31ad38e1ac508b26de06d9b74696a5cd",
+    "category": "ACCOUNTANT",
+    "job_kind": "mismatched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "plain"
+  },
+  {
+    "id": "c02-matched",
+    "cv_cluster": "e7c3547635ad3b2e4bcce1ba653d12470307fa351d3da23cb1db5d2b7ceaf924",
+    "category": "ACCOUNTANT",
+    "job_kind": "matched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "selective"
+  },
+  {
+    "id": "c02-mismatched",
+    "cv_cluster": "e7c3547635ad3b2e4bcce1ba653d12470307fa351d3da23cb1db5d2b7ceaf924",
+    "category": "ACCOUNTANT",
+    "job_kind": "mismatched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "selective"
+  },
+  {
+    "id": "c03-matched",
+    "cv_cluster": "99f195136bb134672c467f41e44c48bae512965c1dfe9eaa2e4b39c4de39edd6",
+    "category": "ACCOUNTANT",
+    "job_kind": "matched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "selective"
+  },
+  {
+    "id": "c03-mismatched",
+    "cv_cluster": "99f195136bb134672c467f41e44c48bae512965c1dfe9eaa2e4b39c4de39edd6",
+    "category": "ACCOUNTANT",
+    "job_kind": "mismatched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "selective"
+  },
+  {
+    "id": "c04-matched",
+    "cv_cluster": "fcd59879dd4f766bcc58f06d9d72b4d8bc693404d02b3970bc3f0f4d58a3876d",
+    "category": "ADVOCATE",
+    "job_kind": "matched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "plain"
+  },
+  {
+    "id": "c04-mismatched",
+    "cv_cluster": "fcd59879dd4f766bcc58f06d9d72b4d8bc693404d02b3970bc3f0f4d58a3876d",
+    "category": "ADVOCATE",
+    "job_kind": "mismatched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "plain"
+  },
+  {
+    "id": "c05-matched",
+    "cv_cluster": "e76e6f2d02e51bbae3cb46cf59e5eb8185dccfde564591c98bc99e5c59b82dec",
+    "category": "ADVOCATE",
+    "job_kind": "matched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "plain"
+  },
+  {
+    "id": "c05-mismatched",
+    "cv_cluster": "e76e6f2d02e51bbae3cb46cf59e5eb8185dccfde564591c98bc99e5c59b82dec",
+    "category": "ADVOCATE",
+    "job_kind": "mismatched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "plain"
+  },
+  {
+    "id": "c06-matched",
+    "cv_cluster": "f0136d8b2d39b9995c6e2fd2d3b775d1dd6f39c2e9dbd1e2f52d405977943d27",
+    "category": "ADVOCATE",
+    "job_kind": "matched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "selective"
+  },
+  {
+    "id": "c06-mismatched",
+    "cv_cluster": "f0136d8b2d39b9995c6e2fd2d3b775d1dd6f39c2e9dbd1e2f52d405977943d27",
+    "category": "ADVOCATE",
+    "job_kind": "mismatched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "selective"
+  },
+  {
+    "id": "c07-matched",
+    "cv_cluster": "b0ce193b3c1e8245776684d78e5ce58bb42daa056ceb0aab17e006e926bf050f",
+    "category": "ADVOCATE",
+    "job_kind": "matched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "selective"
+  },
+  {
+    "id": "c07-mismatched",
+    "cv_cluster": "b0ce193b3c1e8245776684d78e5ce58bb42daa056ceb0aab17e006e926bf050f",
+    "category": "ADVOCATE",
+    "job_kind": "mismatched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "selective"
+  },
+  {
+    "id": "c08-matched",
+    "cv_cluster": "7c16a8ec230c5605674319f20f535df23f66e49dd1cc62e8e155322dfa04c328",
+    "category": "BANKING",
+    "job_kind": "matched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "plain"
+  },
+  {
+    "id": "c08-mismatched",
+    "cv_cluster": "7c16a8ec230c5605674319f20f535df23f66e49dd1cc62e8e155322dfa04c328",
+    "category": "BANKING",
+    "job_kind": "mismatched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "plain"
+  },
+  {
+    "id": "c09-matched",
+    "cv_cluster": "3e8b198ae961cdd4d8d2710be638730e5626aee7e79d0a31ceaa15c48ba29b21",
+    "category": "BANKING",
+    "job_kind": "matched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "plain"
+  },
+  {
+    "id": "c09-mismatched",
+    "cv_cluster": "3e8b198ae961cdd4d8d2710be638730e5626aee7e79d0a31ceaa15c48ba29b21",
+    "category": "BANKING",
+    "job_kind": "mismatched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "plain"
+  },
+  {
+    "id": "c10-matched",
+    "cv_cluster": "afba57b57e77eea5e539aef6e2850d1dc791c075a41ce849dff9e727c77fcbde",
+    "category": "BANKING",
+    "job_kind": "matched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "selective"
+  },
+  {
+    "id": "c10-mismatched",
+    "cv_cluster": "afba57b57e77eea5e539aef6e2850d1dc791c075a41ce849dff9e727c77fcbde",
+    "category": "BANKING",
+    "job_kind": "mismatched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "selective"
+  },
+  {
+    "id": "c11-matched",
+    "cv_cluster": "eebe6002f5c4d55b76c97ff49422ddb3f5afdfb08924d076e1087a73e9845ee9",
+    "category": "BANKING",
+    "job_kind": "matched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "selective"
+  },
+  {
+    "id": "c11-mismatched",
+    "cv_cluster": "eebe6002f5c4d55b76c97ff49422ddb3f5afdfb08924d076e1087a73e9845ee9",
+    "category": "BANKING",
+    "job_kind": "mismatched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "selective"
+  },
+  {
+    "id": "c12-matched",
+    "cv_cluster": "1c72c4c2555bf8da3fa68b9a61e50db076bf6e45b45e4f9281b81605be71789b",
+    "category": "ENGINEERING",
+    "job_kind": "matched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "plain"
+  },
+  {
+    "id": "c12-mismatched",
+    "cv_cluster": "1c72c4c2555bf8da3fa68b9a61e50db076bf6e45b45e4f9281b81605be71789b",
+    "category": "ENGINEERING",
+    "job_kind": "mismatched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "plain"
+  },
+  {
+    "id": "c13-matched",
+    "cv_cluster": "c4a621c88bb25f5cea3aaf30bfc64297650d90441b244feba02482b4ba2271fb",
+    "category": "ENGINEERING",
+    "job_kind": "matched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "plain"
+  },
+  {
+    "id": "c13-mismatched",
+    "cv_cluster": "c4a621c88bb25f5cea3aaf30bfc64297650d90441b244feba02482b4ba2271fb",
+    "category": "ENGINEERING",
+    "job_kind": "mismatched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "plain"
+  },
+  {
+    "id": "c14-matched",
+    "cv_cluster": "f7355cdf6fc749d3f90b09e742cff88f34ba54e4117c8217f6e482f5f5897fdf",
+    "category": "ENGINEERING",
+    "job_kind": "matched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "selective"
+  },
+  {
+    "id": "c14-mismatched",
+    "cv_cluster": "f7355cdf6fc749d3f90b09e742cff88f34ba54e4117c8217f6e482f5f5897fdf",
+    "category": "ENGINEERING",
+    "job_kind": "mismatched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "selective"
+  },
+  {
+    "id": "c15-matched",
+    "cv_cluster": "b9832f827afbc9ee4c63dc48ad7672f8fc114c5abf86845d071f19723d8163e1",
+    "category": "ENGINEERING",
+    "job_kind": "matched",
+    "job_category": "ENGINEERING",
+    "job_id": "56924323",
+    "style": "selective"
+  },
+  {
+    "id": "c15-mismatched",
+    "cv_cluster": "b9832f827afbc9ee4c63dc48ad7672f8fc114c5abf86845d071f19723d8163e1",
+    "category": "ENGINEERING",
+    "job_kind": "mismatched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "selective"
+  },
+  {
+    "id": "c16-matched",
+    "cv_cluster": "6ed4474ca2f1d73e661f8342bc61331236ec51806c2db0f7545859bded1744f1",
+    "category": "HEALTHCARE",
+    "job_kind": "matched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "plain"
+  },
+  {
+    "id": "c16-mismatched",
+    "cv_cluster": "6ed4474ca2f1d73e661f8342bc61331236ec51806c2db0f7545859bded1744f1",
+    "category": "HEALTHCARE",
+    "job_kind": "mismatched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "plain"
+  },
+  {
+    "id": "c17-matched",
+    "cv_cluster": "e077780c83c16020c90331355ed15194a1affefb0ccc57aa947b12075da6f49c",
+    "category": "HEALTHCARE",
+    "job_kind": "matched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "plain"
+  },
+  {
+    "id": "c17-mismatched",
+    "cv_cluster": "e077780c83c16020c90331355ed15194a1affefb0ccc57aa947b12075da6f49c",
+    "category": "HEALTHCARE",
+    "job_kind": "mismatched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "plain"
+  },
+  {
+    "id": "c18-matched",
+    "cv_cluster": "78e9c8878285fb3b2b8caf594c4af0d63c69f1f656e5de049d9482a97947c3e2",
+    "category": "HEALTHCARE",
+    "job_kind": "matched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "selective"
+  },
+  {
+    "id": "c18-mismatched",
+    "cv_cluster": "78e9c8878285fb3b2b8caf594c4af0d63c69f1f656e5de049d9482a97947c3e2",
+    "category": "HEALTHCARE",
+    "job_kind": "mismatched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "selective"
+  },
+  {
+    "id": "c19-matched",
+    "cv_cluster": "20efe6cd04bffb41132560d8a7c003edf8714ff9114c797b421ee29fe071409d",
+    "category": "HEALTHCARE",
+    "job_kind": "matched",
+    "job_category": "HEALTHCARE",
+    "job_id": "263583866",
+    "style": "selective"
+  },
+  {
+    "id": "c19-mismatched",
+    "cv_cluster": "20efe6cd04bffb41132560d8a7c003edf8714ff9114c797b421ee29fe071409d",
+    "category": "HEALTHCARE",
+    "job_kind": "mismatched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "selective"
+  },
+  {
+    "id": "c20-matched",
+    "cv_cluster": "1f9649f0c99f30c2e3327458eb45e23d7e747e46ae5097676e029a4524cb4c9d",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "matched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "plain"
+  },
+  {
+    "id": "c20-mismatched",
+    "cv_cluster": "1f9649f0c99f30c2e3327458eb45e23d7e747e46ae5097676e029a4524cb4c9d",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "mismatched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "plain"
+  },
+  {
+    "id": "c21-matched",
+    "cv_cluster": "4f620e2d7c9fc1371946fee54f50a0c2f001d334b9601390989580a5cb48c99b",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "matched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "plain"
+  },
+  {
+    "id": "c21-mismatched",
+    "cv_cluster": "4f620e2d7c9fc1371946fee54f50a0c2f001d334b9601390989580a5cb48c99b",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "mismatched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "plain"
+  },
+  {
+    "id": "c22-matched",
+    "cv_cluster": "8f634c67db0144afdf9d0421024ef1dd8b8787b0451078bc88c3786e9fa93306",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "matched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "selective"
+  },
+  {
+    "id": "c22-mismatched",
+    "cv_cluster": "8f634c67db0144afdf9d0421024ef1dd8b8787b0451078bc88c3786e9fa93306",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "mismatched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "selective"
+  },
+  {
+    "id": "c23-matched",
+    "cv_cluster": "a0298fa07fae69dfef5e268a7bef2d55f6c17510dc50d0279153f652fa068656",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "matched",
+    "job_category": "INFORMATION-TECHNOLOGY",
+    "job_id": "133130219",
+    "style": "selective"
+  },
+  {
+    "id": "c23-mismatched",
+    "cv_cluster": "a0298fa07fae69dfef5e268a7bef2d55f6c17510dc50d0279153f652fa068656",
+    "category": "INFORMATION-TECHNOLOGY",
+    "job_kind": "mismatched",
+    "job_category": "ACCOUNTANT",
+    "job_id": "115639136",
+    "style": "selective"
+  },
+  {
+    "id": "c24-matched",
+    "cv_cluster": "5533779df9b065429f679771373068b40c91fee09e84a40f50c2959d942f4ed4",
+    "category": "SALES",
+    "job_kind": "matched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "plain"
+  },
+  {
+    "id": "c24-mismatched",
+    "cv_cluster": "5533779df9b065429f679771373068b40c91fee09e84a40f50c2959d942f4ed4",
+    "category": "SALES",
+    "job_kind": "mismatched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "plain"
+  },
+  {
+    "id": "c25-matched",
+    "cv_cluster": "9225fec978b00793adba69d9855869c587cab584811f84b131dc46003472c01a",
+    "category": "SALES",
+    "job_kind": "matched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "plain"
+  },
+  {
+    "id": "c25-mismatched",
+    "cv_cluster": "9225fec978b00793adba69d9855869c587cab584811f84b131dc46003472c01a",
+    "category": "SALES",
+    "job_kind": "mismatched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "plain"
+  },
+  {
+    "id": "c26-matched",
+    "cv_cluster": "c3d3ca7c807318895917e342c58af551c53efaeb2ac558aae6b302a788dd8a98",
+    "category": "SALES",
+    "job_kind": "matched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "selective"
+  },
+  {
+    "id": "c26-mismatched",
+    "cv_cluster": "c3d3ca7c807318895917e342c58af551c53efaeb2ac558aae6b302a788dd8a98",
+    "category": "SALES",
+    "job_kind": "mismatched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "selective"
+  },
+  {
+    "id": "c27-matched",
+    "cv_cluster": "1d2a65091ede61e23cfaa01ec3010632c22a6d93cf9be2410409f069a9f535e2",
+    "category": "SALES",
+    "job_kind": "matched",
+    "job_category": "SALES",
+    "job_id": "857299959",
+    "style": "selective"
+  },
+  {
+    "id": "c27-mismatched",
+    "cv_cluster": "1d2a65091ede61e23cfaa01ec3010632c22a6d93cf9be2410409f069a9f535e2",
+    "category": "SALES",
+    "job_kind": "mismatched",
+    "job_category": "ADVOCATE",
+    "job_id": "136743465",
+    "style": "selective"
+  },
+  {
+    "id": "c28-matched",
+    "cv_cluster": "bf19d425e703a763c83984a5110e8025fb82c2ebbcd4e444e91eaf38ed252192",
+    "category": "TEACHER",
+    "job_kind": "matched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "plain"
+  },
+  {
+    "id": "c28-mismatched",
+    "cv_cluster": "bf19d425e703a763c83984a5110e8025fb82c2ebbcd4e444e91eaf38ed252192",
+    "category": "TEACHER",
+    "job_kind": "mismatched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "plain"
+  },
+  {
+    "id": "c29-matched",
+    "cv_cluster": "1a8210d654a3af5141b451dfd6a0f5ea7fe657e51d5cfdd3d3d484fb0812dcfb",
+    "category": "TEACHER",
+    "job_kind": "matched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "plain"
+  },
+  {
+    "id": "c29-mismatched",
+    "cv_cluster": "1a8210d654a3af5141b451dfd6a0f5ea7fe657e51d5cfdd3d3d484fb0812dcfb",
+    "category": "TEACHER",
+    "job_kind": "mismatched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "plain"
+  },
+  {
+    "id": "c30-matched",
+    "cv_cluster": "92db437de2589a5ebbef2ca10f0d839b1c4a8b21924ba9183c7f95e7c92242d4",
+    "category": "TEACHER",
+    "job_kind": "matched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "selective"
+  },
+  {
+    "id": "c30-mismatched",
+    "cv_cluster": "92db437de2589a5ebbef2ca10f0d839b1c4a8b21924ba9183c7f95e7c92242d4",
+    "category": "TEACHER",
+    "job_kind": "mismatched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "selective"
+  },
+  {
+    "id": "c31-matched",
+    "cv_cluster": "61a067306f119412db48359b799acbb33df6efc0a31fe4225163700892257f86",
+    "category": "TEACHER",
+    "job_kind": "matched",
+    "job_category": "TEACHER",
+    "job_id": "1183148438",
+    "style": "selective"
+  },
+  {
+    "id": "c31-mismatched",
+    "cv_cluster": "61a067306f119412db48359b799acbb33df6efc0a31fe4225163700892257f86",
+    "category": "TEACHER",
+    "job_kind": "mismatched",
+    "job_category": "BANKING",
+    "job_id": "658723396",
+    "style": "selective"
+  }
+]

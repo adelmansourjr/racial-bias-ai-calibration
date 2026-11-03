@@ -1,0 +1,25 @@
+name: NameGuard real-CV validation records and claim checks
+on:
+  push:
+    paths: ['nameguard-validation/**', '.github/workflows/nameguard-validation.yml']
+  pull_request:
+    paths: ['nameguard-validation/**', '.github/workflows/nameguard-validation.yml']
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test contracts, statistics and mathematical boundaries
+        working-directory: nameguard-validation
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Verify inference records, bibliography and release integrity
+        working-directory: nameguard-validation
+        run: |
+          python scripts/verify.py
+          python scripts/literature_tools.py
+          python scripts/verify_release.py

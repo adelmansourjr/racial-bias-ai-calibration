@@ -1,0 +1,57 @@
+{
+  "frozen_before_inference": true,
+  "seed": 20261103,
+  "source_hashes": {
+    "scripts/run_gpu.py": "95fafdee9c3764cddf4f8d01061e8318dc6c6a3af788142d9db4e2eddeb68df6",
+    "scripts/prepare.py": "238cdeb6f14dd9134eb597f8757fea5af685a3659618618576e7660509e07665",
+    "src/nameguard/canonical_backend.py": "a67b95b06eaf48e2fe53491eb8cadf87a4d3352d2102515cacf0daa1a498afca",
+    "src/nameguard/serialized_backend.py": "dcd20d81f70e6091a5adb45ead7b1083ce57d83e2cf6bfb9768083f5b0377d96",
+    "src/nameguard/encoding.py": "b0685fd140d43419038a9771ed7a991458ad0c7a314ed9855872b470d97d15d5",
+    "src/nameguard/native_encoding.py": "ffc1cedab68fe5b336dfc6a0a084487ceb867cc2de935523b7ca3a6acc451517",
+    "src/nameguard/mlx_backend.py": "9c966d7589627ab75143f2e137e00aaa5cc43249bc924e64d0ee2ee7b6e9fcb1",
+    "src/nameguard/__init__.py": "01a9861ed88ea57a97107eef2c16f1ddc784ee30e94fca3d101a17a1d8eca73a",
+    "src/nameguard/runtime.py": "db6c8247e3505a88212f7d06f769c37f69264580f12e3d6cbcfd7cb383b36ef4",
+    "src/nameguard/agreements.py": "3679cb9d224385442e5fce578b1ecd449c73b625f39388e15b15d25682928b25",
+    "src/nameguard/contracts.py": "88df4384fabd7879a56fe66563ddddcd47a63e82a73f6d52c119d59d1288e8e1",
+    "src/nameguard/annotations.py": "fa11bbea8d95df4c091e87787e930e270bf1511947705cd2d1aaf108f1cbb92a"
+  },
+  "data_sha256": {
+    "Resume.csv": "816a7cd985a9a41e3ce8d1e83cb7e1beb1e854a89c1cf1fd0d75494faaa0559d",
+    "jobs-first-rows.json": "ec675c4702eadc472d318bc5ed9d809951924d6c6bacad54045d2e88eb802e2a",
+    "private_contexts": "c5bd947b306e8ced10cd798b867f804e6864480fafcfb73a09b6735b40ec8495"
+  },
+  "CVs": 32,
+  "contexts_per_CV": 2,
+  "names": [
+    "John Miller",
+    "Mohammed Hassan",
+    "Wei Chen",
+    "Neruvo Qaslin"
+  ],
+  "categories": [
+    "ACCOUNTANT",
+    "ADVOCATE",
+    "BANKING",
+    "ENGINEERING",
+    "HEALTHCARE",
+    "INFORMATION-TECHNOLOGY",
+    "SALES",
+    "TEACHER"
+  ],
+  "names_are_interventions_not_verified_demographics": true,
+  "selection": "Four per category, hash-order seed; excludes original datathon case IDs only. Not certified unseen in every earlier local study or pretraining.",
+  "source_excerpt_policy": "First 140 whitespace words of real CV; first 40 of real job description. Full-CV validity not claimed.",
+  "conditions": "Two CVs/category plain, two selective; each receives category-matched and deterministically mismatched job.",
+  "primary": "Exact internal score/public tensor equality across four names in all 64 contexts.",
+  "comparators": [
+    "native named full-source readout",
+    "equivalent externally canonicalized native evidence readout"
+  ],
+  "native_parity": "Compare full final hidden array and full vocabulary readout at every context, not only A/B output.",
+  "utility": "Category-pair relevance ranking diagnostic only; no human hiring labels or actual job-performance validity.",
+  "timing": "One paired internal/external service trial per CV on matched job, after 2 warmups each; shuffled order; same review checks; no observation copies; signing/load excluded.",
+  "statistics": "CV-clustered percentile bootstrap, 5000 draws, seed20261103; paired relevance metrics; no population failure upper bound from this convenience sample.",
+  "annotation": "Exact inserted header span is known by construction. Original body names/proxies left unchanged; no claim of independent human body annotation.",
+  "stopping": "Run all 64 contexts and all four names; no outcome-dependent selection or adapter fitting.",
+  "private_data_publication": "Only hashes, categories and scores published; no CV/job text or secret keys."
+}

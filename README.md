@@ -1,6 +1,16 @@
 # racial-bias-ai-calibration
 
-## Latest: literature-reviewed NameGuard preprint
+## Latest: controlled real-CV validation and expanded novelty review
+
+[Code, results and reproduction](nameguard-validation/README.md) · [Revised paper](nameguard-validation/paper/manuscript.md) · [PDF](nameguard-validation/output/pdf/nameguard-real-cv-validation.pdf) · [Novelty assessment](nameguard-validation/literature/NOVELTY-ASSESSMENT.md) · [Formal boundaries](nameguard-validation/docs/FORMAL-CLAIMS.md)
+
+The v0.4.0 study ran 768 actual Apple GPU forwards on 32 real CV excerpts, eight occupational categories and 64 job contexts. Across four inserted names, the raw scorer's decision changed in 9/64 contexts; the role-isolated path changed in none. All 6,144 direct counterfactual scoring-stage comparisons and 128 native-evidence hidden/vocabulary comparisons were exactly equal. The mean raw CV naming-cue probability range was 9.75 percentage points. These are controlled name-sensitivity tests, not verified racial-group outcome estimates or human hiring accuracy.
+
+The strong external canonicalization baseline is approximately equally fast (median paired internal/external ratio 1.002). Native-evidence computation is preserved. The category-relevance diagnostic was 62.5% raw versus 68.75% corrected, but the paired interval includes no improvement; this is not a formal hiring-utility noninferiority result.
+
+Private raw embeddings still distinguish every tested name, while public scoring states coincide. The expanded 31-source review identifies direct antecedents for internal fairness editing and marked-span noninterference, so broad novelty and whole-model erasure claims are rejected. Sixty CPU tests pass. Real CV/job text, model weights and keys are excluded. External human validation and independent replication remain unperformed; the release includes a concrete review packet.
+
+## Earlier: literature-reviewed NameGuard preprint
 
 [Manuscript](nameguard-preprint/paper/manuscript.md) · [11-page PDF](nameguard-preprint/output/pdf/nameguard-literature-preprint-draft.pdf) · [Full literature review](nameguard-preprint/literature/review.md) · [BibTeX](nameguard-preprint/literature/references.bib) · [Code and reproduction](nameguard-preprint/README.md) · [Claim/evidence ledger](nameguard-preprint/docs/CLAIM-EVIDENCE.md)
 
@@ -96,4 +106,5 @@ Run GPU models sequentially. Clef requires a compatible text-only8bit MLX conver
 Optional scientific figures: `python -m pip install -r requirements-figures.txt`, then `python research/experiment/make_figures.py`. Generated cases, downloaded sources and all local outputs are ignored by Git.
 
 Sources: [résumés](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [job listings](https://huggingface.co/datasets/datastax/linkedin_job_listings), [name-audit research](https://www.nber.org/papers/w9873), [Qwen](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct), [Clef](https://huggingface.co/Cloudflare/clef-flash). Dataset/model terms remain with their owners; no blanket third-party license is asserted. Publishing this research code is not a hiring deployment.
+
 

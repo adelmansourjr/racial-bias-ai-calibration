@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nameguard-real-excerpt-validation"
+version = "0.4.0"
+description = "Controlled name-channel invariance audit of a frozen language model"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,8 @@
+local-private/
+__pycache__/
+*.pyc
+tmp/
+dist/
+.venv/
+*.key
+*.pem

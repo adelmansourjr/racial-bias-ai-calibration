@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this controlled research artifact; it is not a universal fairness certificate."
+title: "A Reproducible Audit of Name-Channel Noninterference in a Frozen Language Model"
+authors:
+  - family-names: Mansour
+    given-names: Adel
+version: 0.4.0
+date-released: 2026-11-03
+type: software
+url: "https://github.com/adelmansourjr/racial-bias-ai-calibration"
+license: MIT

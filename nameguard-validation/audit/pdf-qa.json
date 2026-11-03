@@ -1,0 +1,8 @@
+{
+  "file": "output/pdf/nameguard-real-cv-validation.pdf",
+  "sha256": "42facc84afe53630873486d066da927e61d69b6d89537f61c3adeadd81cdba69",
+  "pages": 11,
+  "every_page_rendered_and_visually_inspected": true,
+  "findings": "No clipping, overlapping text, missing glyphs or broken tables observed; references kept intact.",
+  "review_date": "2026-11-03"
+}

@@ -1,0 +1,46 @@
+{
+  "CV_clusters": 32,
+  "contexts": 64,
+  "name_interventions": 4,
+  "real_excerpt_name_rows": 256,
+  "actual_forwards": 768,
+  "internal_max_probability_range": 0.0,
+  "raw_mean_CV_probability_range": 0.0974741558223516,
+  "raw_range_CV_bootstrap_95_percent_interval": [
+    0.08272286505641538,
+    0.11191380209027392
+  ],
+  "raw_max_context_probability_range": 0.34334117685047655,
+  "raw_decision_flip_contexts": 9,
+  "internal_decision_flip_contexts": 0,
+  "direct_counterfactual_stage_comparisons": 6144,
+  "native_final_hidden_and_full_vocab_comparisons": 128,
+  "all_private_raw_states_distinct_per_context": true,
+  "finite_uniform_intervention_name_information_private_bits": 2.0,
+  "finite_uniform_intervention_name_information_public_bits": 0,
+  "category_pair_relevance_diagnostic": {
+    "raw": 0.625,
+    "internal": 0.6875,
+    "paired_difference_internal_minus_raw": 0.0625,
+    "CV_stratified_bootstrap_95_percent_interval_difference": [
+      -0.0078125,
+      0.140625
+    ],
+    "is_human_hiring_accuracy": false
+  },
+  "native_evidence_output_agreement": 1.0,
+  "timing": {
+    "paired_CVs": 32,
+    "median_internal_seconds": 0.3035086870659143,
+    "median_external_seconds": 0.29958166647702456,
+    "median_paired_internal_over_external": 1.001892049925862,
+    "IQR_paired_internal_over_external": [
+      0.9935008830000909,
+      1.0052225405126276
+    ]
+  },
+  "inference_scope": "Bootstrap describes resampling stability within eight sampled dataset categories, not worldwide fairness or unseen-alias error probability.",
+  "whole_model_erasure_established": false,
+  "independent_human_annotation_measured": false,
+  "checkpoint_files_unchanged": true
+}
