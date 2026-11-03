@@ -1,0 +1,422 @@
+[
+  {
+    "body_id": 0,
+    "pair": 0,
+    "method": "scalar",
+    "seconds": 0.30400420806836337,
+    "score": {
+      "margin": 0.12153911590576172,
+      "conditional_A_probability": 0.5303474310979914
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 0,
+    "method": "canonical",
+    "seconds": 0.08175691601354629,
+    "score": {
+      "margin": -2.5675840377807617,
+      "conditional_A_probability": 0.07125401941987165
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 1,
+    "method": "scalar",
+    "seconds": 0.3223152910359204,
+    "score": {
+      "margin": 0.12153911590576172,
+      "conditional_A_probability": 0.5303474310979914
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 1,
+    "method": "canonical",
+    "seconds": 0.07708104094490409,
+    "score": {
+      "margin": -2.5675840377807617,
+      "conditional_A_probability": 0.07125401941987165
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 2,
+    "method": "scalar",
+    "seconds": 0.3124468750320375,
+    "score": {
+      "margin": 0.12153911590576172,
+      "conditional_A_probability": 0.5303474310979914
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 2,
+    "method": "canonical",
+    "seconds": 0.08618075004778802,
+    "score": {
+      "margin": -2.5675840377807617,
+      "conditional_A_probability": 0.07125401941987165
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 3,
+    "method": "scalar",
+    "seconds": 0.3352297500241548,
+    "score": {
+      "margin": 0.12153911590576172,
+      "conditional_A_probability": 0.5303474310979914
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 3,
+    "method": "canonical",
+    "seconds": 0.08152287499979138,
+    "score": {
+      "margin": -2.5675840377807617,
+      "conditional_A_probability": 0.07125401941987165
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 4,
+    "method": "canonical",
+    "seconds": 0.08043158298823982,
+    "score": {
+      "margin": -2.5675840377807617,
+      "conditional_A_probability": 0.07125401941987165
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 4,
+    "method": "scalar",
+    "seconds": 0.32014416705351323,
+    "score": {
+      "margin": 0.12153911590576172,
+      "conditional_A_probability": 0.5303474310979914
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 5,
+    "method": "canonical",
+    "seconds": 0.07961179199628532,
+    "score": {
+      "margin": -2.5675840377807617,
+      "conditional_A_probability": 0.07125401941987165
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 5,
+    "method": "scalar",
+    "seconds": 0.3264560829848051,
+    "score": {
+      "margin": 0.12153911590576172,
+      "conditional_A_probability": 0.5303474310979914
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 6,
+    "method": "canonical",
+    "seconds": 0.0783060829853639,
+    "score": {
+      "margin": -2.5675840377807617,
+      "conditional_A_probability": 0.07125401941987165
+    }
+  },
+  {
+    "body_id": 0,
+    "pair": 6,
+    "method": "scalar",
+    "seconds": 0.33452225010842085,
+    "score": {
+      "margin": 0.12153911590576172,
+      "conditional_A_probability": 0.5303474310979914
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 0,
+    "method": "scalar",
+    "seconds": 0.35113462491426617,
+    "score": {
+      "margin": -0.29254627227783203,
+      "conditional_A_probability": 0.42738061204958294
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 0,
+    "method": "canonical",
+    "seconds": 0.07804912503343076,
+    "score": {
+      "margin": -2.964688301086426,
+      "conditional_A_probability": 0.04904687483867061
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 1,
+    "method": "scalar",
+    "seconds": 0.35460612503811717,
+    "score": {
+      "margin": -0.29254627227783203,
+      "conditional_A_probability": 0.42738061204958294
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 1,
+    "method": "canonical",
+    "seconds": 0.07907987502403557,
+    "score": {
+      "margin": -2.964688301086426,
+      "conditional_A_probability": 0.04904687483867061
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 2,
+    "method": "canonical",
+    "seconds": 0.08515850000549108,
+    "score": {
+      "margin": -2.964688301086426,
+      "conditional_A_probability": 0.04904687483867061
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 2,
+    "method": "scalar",
+    "seconds": 0.3550605829805136,
+    "score": {
+      "margin": -0.29254627227783203,
+      "conditional_A_probability": 0.42738061204958294
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 3,
+    "method": "canonical",
+    "seconds": 0.07866995909716934,
+    "score": {
+      "margin": -2.964688301086426,
+      "conditional_A_probability": 0.04904687483867061
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 3,
+    "method": "scalar",
+    "seconds": 0.35628141707275063,
+    "score": {
+      "margin": -0.29254627227783203,
+      "conditional_A_probability": 0.42738061204958294
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 4,
+    "method": "scalar",
+    "seconds": 0.35185279103461653,
+    "score": {
+      "margin": -0.29254627227783203,
+      "conditional_A_probability": 0.42738061204958294
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 4,
+    "method": "canonical",
+    "seconds": 0.0804155410733074,
+    "score": {
+      "margin": -2.964688301086426,
+      "conditional_A_probability": 0.04904687483867061
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 5,
+    "method": "scalar",
+    "seconds": 0.35571999999228865,
+    "score": {
+      "margin": -0.29254627227783203,
+      "conditional_A_probability": 0.42738061204958294
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 5,
+    "method": "canonical",
+    "seconds": 0.07965262490324676,
+    "score": {
+      "margin": -2.964688301086426,
+      "conditional_A_probability": 0.04904687483867061
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 6,
+    "method": "scalar",
+    "seconds": 0.3555713340174407,
+    "score": {
+      "margin": -0.29254627227783203,
+      "conditional_A_probability": 0.42738061204958294
+    }
+  },
+  {
+    "body_id": 1,
+    "pair": 6,
+    "method": "canonical",
+    "seconds": 0.08131745795253664,
+    "score": {
+      "margin": -2.964688301086426,
+      "conditional_A_probability": 0.04904687483867061
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 0,
+    "method": "canonical",
+    "seconds": 0.08226100006140769,
+    "score": {
+      "margin": -2.7865428924560547,
+      "conditional_A_probability": 0.058055719485582066
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 0,
+    "method": "scalar",
+    "seconds": 0.3335020410595462,
+    "score": {
+      "margin": -0.40336036682128906,
+      "conditional_A_probability": 0.40050524406313753
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 1,
+    "method": "canonical",
+    "seconds": 0.08314816595520824,
+    "score": {
+      "margin": -2.7865428924560547,
+      "conditional_A_probability": 0.058055719485582066
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 1,
+    "method": "scalar",
+    "seconds": 0.3329342500073835,
+    "score": {
+      "margin": -0.40336036682128906,
+      "conditional_A_probability": 0.40050524406313753
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 2,
+    "method": "scalar",
+    "seconds": 0.3343926250236109,
+    "score": {
+      "margin": -0.40336036682128906,
+      "conditional_A_probability": 0.40050524406313753
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 2,
+    "method": "canonical",
+    "seconds": 0.0829398341011256,
+    "score": {
+      "margin": -2.7865428924560547,
+      "conditional_A_probability": 0.058055719485582066
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 3,
+    "method": "canonical",
+    "seconds": 0.08325108292046934,
+    "score": {
+      "margin": -2.7865428924560547,
+      "conditional_A_probability": 0.058055719485582066
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 3,
+    "method": "scalar",
+    "seconds": 0.32827508298214525,
+    "score": {
+      "margin": -0.40336036682128906,
+      "conditional_A_probability": 0.40050524406313753
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 4,
+    "method": "scalar",
+    "seconds": 0.33212820801418275,
+    "score": {
+      "margin": -0.40336036682128906,
+      "conditional_A_probability": 0.40050524406313753
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 4,
+    "method": "canonical",
+    "seconds": 0.08180525002535433,
+    "score": {
+      "margin": -2.7865428924560547,
+      "conditional_A_probability": 0.058055719485582066
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 5,
+    "method": "scalar",
+    "seconds": 0.332605833071284,
+    "score": {
+      "margin": -0.40336036682128906,
+      "conditional_A_probability": 0.40050524406313753
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 5,
+    "method": "canonical",
+    "seconds": 0.08304024999961257,
+    "score": {
+      "margin": -2.7865428924560547,
+      "conditional_A_probability": 0.058055719485582066
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 6,
+    "method": "scalar",
+    "seconds": 0.334502000012435,
+    "score": {
+      "margin": -0.40336036682128906,
+      "conditional_A_probability": 0.40050524406313753
+    }
+  },
+  {
+    "body_id": 2,
+    "pair": 6,
+    "method": "canonical",
+    "seconds": 0.08271158300340176,
+    "score": {
+      "margin": -2.7865428924560547,
+      "conditional_A_probability": 0.058055719485582066
+    }
+  }
+]

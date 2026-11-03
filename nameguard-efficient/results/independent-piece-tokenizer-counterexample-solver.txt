@@ -1,0 +1,12 @@
+sat
+(
+  (define-fun AB () Int
+    5)
+  (define-fun A () Int
+    2)
+  (define-fun B () Int
+    4)
+  (define-fun length_of_encoding ((x!0 Int)) Int
+    (ite (= x!0 5) 3
+      1))
+)

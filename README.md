@@ -1,6 +1,16 @@
 # racial-bias-ai-calibration
 
-## Latest research extension: NameGuard
+## Latest: native-token-count NameGuard-Efficient
+
+[Efficient code and results](nameguard-efficient/README.md) · [Revised preprint](nameguard-efficient/paper/manuscript.md) · [PDF](nameguard-efficient/output/pdf/nameguard-efficient-preprint-draft.pdf) · [Annotation protocol](nameguard-efficient/docs/ANNOTATION-PROTOCOL.md) · [Mathematical derivation](nameguard-efficient/docs/MATHEMATICS.md)
+
+The efficient extension embeds the complete original named source, then constructs canonical reviewed evidence **inside the model** and uses ordinary BPE for the scoring transformer. It reaches exactly native-evidence token counts: 8,457 rather than 25,201 scalarwise tokens across 32 generated cases. The measured local median paired service speedup is 4.10x. All 108 name/segmentation conformance forwards preserve exact matched scores; 3,360 direct counterfactual stage comparisons and six native-reference array checks pass.
+
+Annotation checks now require source-exact roles, declared-reference coverage and two credential endorsements of the same resolved payload. They rejected 108 deliberate registered omissions and 36 review conflicts. **This does not guarantee semantic role correctness or two independent human reviews:** an unregistered-alias negative control remains. The proof still assumes correct identity roles; total work also includes embedding the original source. Fifty-two CPU tests pass. The package is a preprint draft and reproducible portfolio artifact, not a peer-reviewed or deployment-ready fairness certificate.
+
+The previous studies below remain intact; all new text/data are synthetic, with no model weights, real applicant records or secret keys uploaded.
+
+## Earlier hardening study: NameGuard
 
 [Code and reproducible tests](nameguard/README.md) · [Preprint draft](nameguard/paper/manuscript.md) · [PDF report](nameguard/output/pdf/nameguard-preprint-draft.pdf) · [Specific weaknesses and fixes](nameguard/docs/WEAKNESSES.md)
 
