@@ -1,0 +1,7 @@
+{
+  "failed_attempt_directory": "../subtractive-lora-pilot",
+  "failure": "NumPy int64 metric could not be JSON serialized after raw extraction. No successful adapter selected or capability result saved in that attempt.",
+  "fix": "Cast flip counts to Python int; save raw cached states and score metadata before selection.",
+  "current_run_completed": true,
+  "failure_not_included_as_success": true
+}

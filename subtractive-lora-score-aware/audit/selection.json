@@ -1,0 +1,440 @@
+{
+  "before_new_test_inference": true,
+  "selected": {
+    "lambda": 10,
+    "ridge_relative": 0.01,
+    "scale": 1.0,
+    "metrics": {
+      "mean_margin_range": 0.3669129193648985,
+      "worst_margin_range": 0.7586604854813392,
+      "mean_probability_range": 0.06680752589951752,
+      "flip_contexts": 1,
+      "category_pair_relevance": 0.5
+    },
+    "drift": 0.14412586620469187,
+    "eligible": true
+  },
+  "eligible_candidates": 21,
+  "candidates": [
+    {
+      "lambda": 0,
+      "ridge_relative": 0.0001,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.33059735926071826,
+        "worst_margin_range": 0.7981747720717824,
+        "mean_probability_range": 0.06736693259559651,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.4099525778535666,
+      "eligible": false
+    },
+    {
+      "lambda": 0,
+      "ridge_relative": 0.0001,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.18303644226294918,
+        "worst_margin_range": 0.42594701728809614,
+        "mean_probability_range": 0.03996430463619179,
+        "flip_contexts": 0,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.8199051557071331,
+      "eligible": false
+    },
+    {
+      "lambda": 0,
+      "ridge_relative": 0.01,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.3312309803581327,
+        "worst_margin_range": 0.8022086718959665,
+        "mean_probability_range": 0.06738198277671137,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.40638405465753735,
+      "eligible": false
+    },
+    {
+      "lambda": 0,
+      "ridge_relative": 0.01,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.18389929651266437,
+        "worst_margin_range": 0.43401481693646415,
+        "mean_probability_range": 0.04010365997963344,
+        "flip_contexts": 0,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.8127681093150747,
+      "eligible": false
+    },
+    {
+      "lambda": 0,
+      "ridge_relative": 1,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.37765490008884794,
+        "worst_margin_range": 0.9091734133289033,
+        "mean_probability_range": 0.07191642824263976,
+        "flip_contexts": 2,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.23673746722437872,
+      "eligible": true
+    },
+    {
+      "lambda": 0,
+      "ridge_relative": 1,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.26032766517673184,
+        "worst_margin_range": 0.6479442998023379,
+        "mean_probability_range": 0.05046225504403548,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.4734749344487572,
+      "eligible": false
+    },
+    {
+      "lambda": 1,
+      "ridge_relative": 0.0001,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.4110274819638075,
+        "worst_margin_range": 0.9054829858977995,
+        "mean_probability_range": 0.07750629051767714,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.16977246951427663,
+      "eligible": true
+    },
+    {
+      "lambda": 1,
+      "ridge_relative": 0.0001,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.33151613075271064,
+        "worst_margin_range": 0.6405634449401303,
+        "mean_probability_range": 0.06283926441728432,
+        "flip_contexts": 3,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.3395449390285533,
+      "eligible": false
+    },
+    {
+      "lambda": 1,
+      "ridge_relative": 0.01,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.4137321914844717,
+        "worst_margin_range": 0.9151896207653478,
+        "mean_probability_range": 0.07756930428149522,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.141553263134112,
+      "eligible": true
+    },
+    {
+      "lambda": 1,
+      "ridge_relative": 0.01,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.336356550827982,
+        "worst_margin_range": 0.6599767146752271,
+        "mean_probability_range": 0.06314176573020797,
+        "flip_contexts": 3,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.283106526268224,
+      "eligible": false
+    },
+    {
+      "lambda": 1,
+      "ridge_relative": 1,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.4545344615823302,
+        "worst_margin_range": 1.0528571794257382,
+        "mean_probability_range": 0.08299453838715168,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.02311412857500776,
+      "eligible": true
+    },
+    {
+      "lambda": 1,
+      "ridge_relative": 1,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.4095829207880861,
+        "worst_margin_range": 0.9353118319960072,
+        "mean_probability_range": 0.07356474976262681,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.046228257150015516,
+      "eligible": true
+    },
+    {
+      "lambda": 10,
+      "ridge_relative": 0.0001,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.411339430649827,
+        "worst_margin_range": 0.9062784371925647,
+        "mean_probability_range": 0.07752221920558405,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.1671765742690449,
+      "eligible": true
+    },
+    {
+      "lambda": 10,
+      "ridge_relative": 0.0001,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.3318708201329709,
+        "worst_margin_range": 0.6421543475296612,
+        "mean_probability_range": 0.06285570360957862,
+        "flip_contexts": 3,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.33435314853808973,
+      "eligible": false
+    },
+    {
+      "lambda": 10,
+      "ridge_relative": 0.01,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.42714321502648006,
+        "worst_margin_range": 0.9645315061684041,
+        "mean_probability_range": 0.07885768404647184,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.0720629331023459,
+      "eligible": true
+    },
+    {
+      "lambda": 10,
+      "ridge_relative": 0.01,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.3669129193648985,
+        "worst_margin_range": 0.7586604854813392,
+        "mean_probability_range": 0.06680752589951752,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.14412586620469187,
+      "eligible": true
+    },
+    {
+      "lambda": 10,
+      "ridge_relative": 1,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.4939860521558652,
+        "worst_margin_range": 1.1282646868870132,
+        "mean_probability_range": 0.09079583916288908,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.005738003898507145,
+      "eligible": true
+    },
+    {
+      "lambda": 10,
+      "ridge_relative": 1,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.4678937738520267,
+        "worst_margin_range": 1.0861268469185577,
+        "mean_probability_range": 0.08534854323059057,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.011476007797014194,
+      "eligible": true
+    },
+    {
+      "lambda": 100,
+      "ridge_relative": 0.0001,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.4139724306096345,
+        "worst_margin_range": 0.9138978838105638,
+        "mean_probability_range": 0.07767486280912202,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.14584577934673285,
+      "eligible": true
+    },
+    {
+      "lambda": 100,
+      "ridge_relative": 0.0001,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.3363905011194416,
+        "worst_margin_range": 0.6573932407656591,
+        "mean_probability_range": 0.06324113217127227,
+        "flip_contexts": 3,
+        "category_pair_relevance": 0.625
+      },
+      "drift": 0.29169155869346575,
+      "eligible": false
+    },
+    {
+      "lambda": 100,
+      "ridge_relative": 0.01,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.4569638522643848,
+        "worst_margin_range": 1.055544158124032,
+        "mean_probability_range": 0.08331599426846936,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.01875899010999474,
+      "eligible": true
+    },
+    {
+      "lambda": 100,
+      "ridge_relative": 0.01,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.4158268042367719,
+        "worst_margin_range": 0.9406857893925955,
+        "mean_probability_range": 0.07446915023080174,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.037517980219989436,
+      "eligible": true
+    },
+    {
+      "lambda": 100,
+      "ridge_relative": 1,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.5197157250382538,
+        "worst_margin_range": 1.164145326294292,
+        "mean_probability_range": 0.0961258020438733,
+        "flip_contexts": 3,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.0008709001227983652,
+      "eligible": true
+    },
+    {
+      "lambda": 100,
+      "ridge_relative": 1,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.5150791379884949,
+        "worst_margin_range": 1.1578881257331153,
+        "mean_probability_range": 0.09516159899777937,
+        "flip_contexts": 2,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.0017418002455968423,
+      "eligible": true
+    },
+    {
+      "lambda": 1000,
+      "ridge_relative": 0.0001,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.42726602578467787,
+        "worst_margin_range": 0.9640907565823924,
+        "mean_probability_range": 0.07888982716579994,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.0724178930681712,
+      "eligible": true
+    },
+    {
+      "lambda": 1000,
+      "ridge_relative": 0.0001,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.3671246622875024,
+        "worst_margin_range": 0.7577789863093161,
+        "mean_probability_range": 0.06686561098579691,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.1448357861363424,
+      "eligible": true
+    },
+    {
+      "lambda": 1000,
+      "ridge_relative": 0.01,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.4944905641394607,
+        "worst_margin_range": 1.12972353287587,
+        "mean_probability_range": 0.09087403264711852,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.004942891662318723,
+      "eligible": true
+    },
+    {
+      "lambda": 1000,
+      "ridge_relative": 0.01,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.4689858893726583,
+        "worst_margin_range": 1.0890445388962715,
+        "mean_probability_range": 0.08552101075643977,
+        "flip_contexts": 1,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.009885783324637453,
+      "eligible": true
+    },
+    {
+      "lambda": 1000,
+      "ridge_relative": 1,
+      "scale": 0.5,
+      "metrics": {
+        "mean_margin_range": 0.5243625006104409,
+        "worst_margin_range": 1.1697435083802215,
+        "mean_probability_range": 0.09705554786479503,
+        "flip_contexts": 3,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 9.222806043159178e-05,
+      "eligible": true
+    },
+    {
+      "lambda": 1000,
+      "ridge_relative": 1,
+      "scale": 1.0,
+      "metrics": {
+        "mean_margin_range": 0.5237924975206255,
+        "worst_margin_range": 1.1690844899049746,
+        "mean_probability_range": 0.09694284333452768,
+        "flip_contexts": 3,
+        "category_pair_relevance": 0.5
+      },
+      "drift": 0.0001844561208632252,
+      "eligible": true
+    }
+  ]
+}

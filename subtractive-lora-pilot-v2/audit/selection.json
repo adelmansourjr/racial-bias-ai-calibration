@@ -1,0 +1,381 @@
+{
+  "before_capability_evaluation": true,
+  "eligible_candidates": 8,
+  "selected": {
+    "rank": 1,
+    "scale": 1.0,
+    "center": true,
+    "development": {
+      "mean_margin_range": 0.4166622587670872,
+      "worst_margin_range": 0.9732800706469154,
+      "mean_probability_range": 0.07498699944588885,
+      "flip_contexts": 1,
+      "contexts": 16,
+      "category_pair_relevance": 0.5
+    },
+    "mean_context_margin_drift": 0.0643801920313753,
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "scale": 0.25,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.48545778892981273,
+        "worst_margin_range": 1.1211219128033305,
+        "mean_probability_range": 0.08699952938903033,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.18736944618337478,
+      "eligible": true
+    },
+    {
+      "rank": 1,
+      "scale": 0.25,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.48545778892981284,
+        "worst_margin_range": 1.1211219128033307,
+        "mean_probability_range": 0.08923088585431624,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.016095048007843824,
+      "eligible": true
+    },
+    {
+      "rank": 1,
+      "scale": 0.5,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.4558798506205246,
+        "worst_margin_range": 1.0718412987511923,
+        "mean_probability_range": 0.0780117032275641,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.3747388923667495,
+      "eligible": false
+    },
+    {
+      "rank": 1,
+      "scale": 0.5,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.4558798506205246,
+        "worst_margin_range": 1.0718412987511923,
+        "mean_probability_range": 0.08324225905517177,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.032190096015687626,
+      "eligible": true
+    },
+    {
+      "rank": 1,
+      "scale": 1.0,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.41666225876708735,
+        "worst_margin_range": 0.9732800706469154,
+        "mean_probability_range": 0.06238938855205315,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.749477784733499,
+      "eligible": false
+    },
+    {
+      "rank": 1,
+      "scale": 1.0,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.4166622587670872,
+        "worst_margin_range": 0.9732800706469154,
+        "mean_probability_range": 0.07498699944588885,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.0643801920313753,
+      "eligible": true
+    },
+    {
+      "rank": 4,
+      "scale": 0.25,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.4691807067544592,
+        "worst_margin_range": 1.066337657698395,
+        "mean_probability_range": 0.08065055772126856,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.32142849111363353,
+      "eligible": false
+    },
+    {
+      "rank": 4,
+      "scale": 0.25,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.4691807067544593,
+        "worst_margin_range": 1.0663376576983952,
+        "mean_probability_range": 0.08408923487909803,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.10284758164596365,
+      "eligible": true
+    },
+    {
+      "rank": 4,
+      "scale": 0.5,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.42355929992604624,
+        "worst_margin_range": 0.9622727885413216,
+        "mean_probability_range": 0.06570229538450974,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 0.6428569822272672,
+      "eligible": false
+    },
+    {
+      "rank": 4,
+      "scale": 0.5,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.42355929992604613,
+        "worst_margin_range": 0.9622727885413216,
+        "mean_probability_range": 0.07307645984206759,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 0.20569516329192733,
+      "eligible": true
+    },
+    {
+      "rank": 4,
+      "scale": 1.0,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.36251657301733015,
+        "worst_margin_range": 0.7541430502271744,
+        "mean_probability_range": 0.04225160215160578,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 1.2857139644545343,
+      "eligible": false
+    },
+    {
+      "rank": 4,
+      "scale": 1.0,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.3625165730173302,
+        "worst_margin_range": 0.7541430502271744,
+        "mean_probability_range": 0.05641257246882418,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.4113903265838547,
+      "eligible": false
+    },
+    {
+      "rank": 16,
+      "scale": 0.25,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.42566360780289536,
+        "worst_margin_range": 0.9984335298684928,
+        "mean_probability_range": 0.07134371992761784,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.6804505189997953,
+      "eligible": false
+    },
+    {
+      "rank": 16,
+      "scale": 0.25,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.42566360780289547,
+        "worst_margin_range": 0.998433529868493,
+        "mean_probability_range": 0.0821136202808898,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.19181320651809095,
+      "eligible": true
+    },
+    {
+      "rank": 16,
+      "scale": 0.5,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.3315419386907578,
+        "worst_margin_range": 0.8264645328815168,
+        "mean_probability_range": 0.04407629243806099,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 1.3609010379995905,
+      "eligible": false
+    },
+    {
+      "rank": 16,
+      "scale": 0.5,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.331541938690758,
+        "worst_margin_range": 0.826464532881517,
+        "mean_probability_range": 0.06641217278210862,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 0.3836264130361819,
+      "eligible": false
+    },
+    {
+      "rank": 16,
+      "scale": 1.0,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.18305674522127047,
+        "worst_margin_range": 0.4922760169910907,
+        "mean_probability_range": 0.008062564041865436,
+        "flip_contexts": 0,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 2.721802075999181,
+      "eligible": false
+    },
+    {
+      "rank": 16,
+      "scale": 1.0,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.1830567452212705,
+        "worst_margin_range": 0.49227601699108936,
+        "mean_probability_range": 0.03905913331435956,
+        "flip_contexts": 0,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.7672528260723638,
+      "eligible": false
+    },
+    {
+      "rank": 48,
+      "scale": 0.25,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.4255288644508206,
+        "worst_margin_range": 0.9842662260798005,
+        "mean_probability_range": 0.07828313435477412,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.3609395177794089,
+      "eligible": false
+    },
+    {
+      "rank": 48,
+      "scale": 0.25,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.4255288644508206,
+        "worst_margin_range": 0.9842662260798007,
+        "mean_probability_range": 0.08269792555785054,
+        "flip_contexts": 2,
+        "contexts": 16,
+        "category_pair_relevance": 0.5
+      },
+      "mean_context_margin_drift": 0.2049942952341472,
+      "eligible": true
+    },
+    {
+      "rank": 48,
+      "scale": 0.5,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.33059083540392276,
+        "worst_margin_range": 0.7981299253041318,
+        "mean_probability_range": 0.05759572854891264,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 0.7218790355588176,
+      "eligible": false
+    },
+    {
+      "rank": 48,
+      "scale": 0.5,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.3305908354039228,
+        "worst_margin_range": 0.7981299253041325,
+        "mean_probability_range": 0.06736680444365988,
+        "flip_contexts": 1,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 0.40998859046829433,
+      "eligible": false
+    },
+    {
+      "rank": 48,
+      "scale": 1.0,
+      "center": false,
+      "development": {
+        "mean_margin_range": 0.18302788232357198,
+        "worst_margin_range": 0.42585732375279495,
+        "mean_probability_range": 0.02199921424791021,
+        "flip_contexts": 0,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 1.4437580711176352,
+      "eligible": false
+    },
+    {
+      "rank": 48,
+      "scale": 1.0,
+      "center": true,
+      "development": {
+        "mean_margin_range": 0.18302788232357198,
+        "worst_margin_range": 0.4258573237527963,
+        "mean_probability_range": 0.03996291955334662,
+        "flip_contexts": 0,
+        "contexts": 16,
+        "category_pair_relevance": 0.625
+      },
+      "mean_context_margin_drift": 0.8199771809365887,
+      "eligible": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "before_new_confirmation_inference": true,
+  "design_status": "Adaptive exploratory follow-up; candidate grid informed by the prior pilot and an explicit development-only diagnostic. No new confirmation outputs seen before freezing.",
+  "cached_fit_CVs": 8,
+  "cached_development_CVs": 8,
+  "new_confirmation_CVs": 16,
+  "new_confirmation_contexts": 32,
+  "candidate_lambda": [
+    0,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "candidate_ridge_relative": [
+    0.0001,
+    0.01,
+    1
+  ],
+  "candidate_scales": [
+    0.5,
+    1.0
+  ],
+  "selection": "Lowest development mean logit range among candidates with mean absolute context drift <=0.25 and no category-pair relevance loss. Fallback diagnostic if none pass.",
+  "fit_names": [
+    "John Miller",
+    "Mohammed Hassan",
+    "Wei Chen",
+    "Neruvo Qaslin"
+  ],
+  "confirmation_names": [
+    "John Miller",
+    "Mohammed Hassan",
+    "Wei Chen",
+    "Neruvo Qaslin",
+    "Zahra Bakri",
+    "Kwame Mensah",
+    "Aiko Mori",
+    "Soren Vale"
+  ],
+  "capability": "Same fixed 64 ARC-style items as prior pilot, no capability-based adapter selection; not untouched full ARC evaluation.",
+  "source_hashes": {
+    "tests/test_cancellation.py": "f30adf0c1bca796319b57997dc5f528e614a9a96818ff1ee2be605e685d2292c",
+    "scripts/experiment.py": "d82337eefb435e375bbd4b04be0e6e1253b4b45b76cf0e9b87ddbea0edc29e43",
+    "src/nameguard/canonical_backend.py": "a67b95b06eaf48e2fe53491eb8cadf87a4d3352d2102515cacf0daa1a498afca",
+    "src/nameguard/serialized_backend.py": "dcd20d81f70e6091a5adb45ead7b1083ce57d83e2cf6bfb9768083f5b0377d96",
+    "src/nameguard/encoding.py": "b0685fd140d43419038a9771ed7a991458ad0c7a314ed9855872b470d97d15d5",
+    "src/nameguard/native_encoding.py": "ffc1cedab68fe5b336dfc6a0a084487ceb867cc2de935523b7ca3a6acc451517",
+    "src/nameguard/mlx_backend.py": "9c966d7589627ab75143f2e137e00aaa5cc43249bc924e64d0ee2ee7b6e9fcb1",
+    "src/nameguard/__init__.py": "01a9861ed88ea57a97107eef2c16f1ddc784ee30e94fca3d101a17a1d8eca73a",
+    "src/nameguard/runtime.py": "db6c8247e3505a88212f7d06f769c37f69264580f12e3d6cbcfd7cb383b36ef4",
+    "src/nameguard/agreements.py": "3679cb9d224385442e5fce578b1ecd449c73b625f39388e15b15d25682928b25",
+    "src/nameguard/contracts.py": "88df4384fabd7879a56fe66563ddddcd47a63e82a73f6d52c119d59d1288e8e1",
+    "src/nameguard/annotations.py": "fa11bbea8d95df4c091e87787e930e270bf1511947705cd2d1aaf108f1cbb92a"
+  },
+  "cached_hidden_sha256": "7bc0881023e5ef6fb380788a6d7155c0059f6dbacfbf02d5be86c46f44dd0815",
+  "new_contexts_sha256": "a7e80f967bec18948bbbc0c29a1d1e73f908b9de38a99c37392feee928e5537c",
+  "no_base_weight_modification": true,
+  "no_input_identity_detection_or_rewrite": true,
+  "method": "Ridge fit of paired name-margin cancellation with context-mean retention penalty; implement as rank-one residual activation adapter."
+}

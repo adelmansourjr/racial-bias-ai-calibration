@@ -1,6 +1,14 @@
 # racial-bias-ai-calibration
 
-## Latest: controlled real-CV validation and expanded novelty review
+## Latest: subtractive activation/LoRA mechanism pilots
+
+[Score-aware source and aggregate results](subtractive-lora-score-aware/README.md) · [Mathematical derivation](subtractive-lora-score-aware/METHOD.md) · [Preserved SVD pilot](subtractive-lora-pilot-v2/README.md)
+
+Two final-state subtractive adapters were fitted and evaluated on intact named prompts with frozen base weights. The score-aware follow-up uses sixteen additional CVs and 320 actual forwards; its rank-one activation subtraction is equivalent to a low-rank head update plus affine offset. Mean name-related probability range falls from 12.80 to 11.35 percentage points, but name-dependent flip contexts rise from 5 to 6 and a name-ID probe remains at 96.88%. The 64-item ARC-style regression changes from 51 to 52 correct; this is not a full benchmark or general capability noninferiority result. Category-pair relevance falls from 75% to 68.75% and is not human hiring accuracy.
+
+**These variants do not solve universal name invariance or representation erasure.** Seventeen exact arithmetic tests pass, actual adapter execution is smoke-tested, and unchanged base parameter/file hashes are verified. There is no input name detector or redaction. This public release contains source code and aggregate summaries only: learned adapter binaries, per-CV rows, raw CV text and hidden-state caches are retained locally. Public CI checks mathematics and source integrity, not independent private-data reproduction. Earlier structural studies below remain separate and unchanged.
+
+## Earlier: controlled real-CV validation and expanded novelty review
 
 [Code, results and reproduction](nameguard-validation/README.md) · [Revised paper](nameguard-validation/paper/manuscript.md) · [PDF](nameguard-validation/output/pdf/nameguard-real-cv-validation.pdf) · [Novelty assessment](nameguard-validation/literature/NOVELTY-ASSESSMENT.md) · [Formal boundaries](nameguard-validation/docs/FORMAL-CLAIMS.md)
 

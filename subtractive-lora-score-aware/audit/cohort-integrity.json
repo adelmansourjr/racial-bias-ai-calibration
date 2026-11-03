@@ -1,0 +1,7 @@
+{
+  "previous_CV_hashes": 32,
+  "new_CV_hashes": 16,
+  "overlap": 0,
+  "no_claim_disjoint_from_every_prior_local_study": true,
+  "new_raw_source_text_public": false
+}

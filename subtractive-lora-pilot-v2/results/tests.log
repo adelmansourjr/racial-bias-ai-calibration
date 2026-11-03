@@ -1,0 +1,12 @@
+test_affine_head_factorization (test_cancellation.Cancellation.test_affine_head_factorization) ... ok
+test_negative_lora_is_already_positive_lora_with_signed_factor (test_cancellation.Cancellation.test_negative_lora_is_already_positive_lora_with_signed_factor) ... ok
+test_only_full_strength_annihilates (test_cancellation.Cancellation.test_only_full_strength_annihilates) ... ok
+test_orthogonal_task_direction_is_preserved (test_cancellation.Cancellation.test_orthogonal_task_direction_is_preserved) ... ok
+test_task_overlap_cannot_be_preserved (test_cancellation.Cancellation.test_task_overlap_cannot_be_preserved) ... ok
+test_unit_direction_exactly_cancelled (test_cancellation.Cancellation.test_unit_direction_exactly_cancelled) ... ok
+test_unseen_orthogonal_name_channel_survives (test_cancellation.Cancellation.test_unseen_orthogonal_name_channel_survives) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK

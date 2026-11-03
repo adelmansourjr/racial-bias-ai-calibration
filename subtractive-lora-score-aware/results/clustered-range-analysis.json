@@ -1,0 +1,11 @@
+{
+  "CV_clusters": 16,
+  "bootstrap_draws": 5000,
+  "seed": 20261103,
+  "mean_adapted_minus_raw_probability_range": -0.014501785089224898,
+  "CV_clustered_percentile_95_interval": [
+    -0.026060768312124408,
+    -0.003478828146465887
+  ],
+  "scope": "Small exploratory convenience sample; not a universal fairness or racial-group outcome interval."
+}

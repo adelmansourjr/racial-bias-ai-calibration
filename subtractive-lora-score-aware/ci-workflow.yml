@@ -1,0 +1,22 @@
+name: Subtractive adapter mathematics and public source checks
+on:
+  push:
+    paths: ['subtractive-lora-score-aware/**', 'subtractive-lora-pilot-v2/**', '.github/workflows/subtractive-lora.yml']
+  pull_request:
+    paths: ['subtractive-lora-score-aware/**', 'subtractive-lora-pilot-v2/**', '.github/workflows/subtractive-lora.yml']
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test exact subtraction and affine identities
+        run: |
+          python -m unittest discover -s subtractive-lora-pilot-v2/tests -v
+          python -m unittest discover -s subtractive-lora-score-aware/tests -v
+      - name: Verify frozen sources and public aggregate release
+        run: python subtractive-lora-score-aware/scripts/verify_public.py

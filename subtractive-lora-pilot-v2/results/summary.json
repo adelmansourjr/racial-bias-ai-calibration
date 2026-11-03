@@ -1,0 +1,77 @@
+{
+  "selected": {
+    "rank": 1,
+    "scale": 1.0,
+    "center": true,
+    "eligible": true
+  },
+  "development_candidates_passing_retention": 8,
+  "test_raw": {
+    "mean_margin_range": 0.8133918046951294,
+    "worst_margin_range": 1.611642837524414,
+    "mean_probability_range": 0.137194496761104,
+    "flip_contexts": 7,
+    "contexts": 32,
+    "category_pair_relevance": 0.8125
+  },
+  "test_adapted": {
+    "mean_margin_range": 0.7884139057770398,
+    "worst_margin_range": 1.3954406646500017,
+    "mean_probability_range": 0.13375319370524758,
+    "flip_contexts": 8,
+    "contexts": 32,
+    "category_pair_relevance": 0.8125
+  },
+  "fit_raw": {
+    "mean_margin_range": 0.4074498414993286,
+    "worst_margin_range": 0.7711963653564453,
+    "mean_probability_range": 0.07602390352516206,
+    "flip_contexts": 1,
+    "contexts": 16,
+    "category_pair_relevance": 0.375
+  },
+  "fit_adapted": {
+    "mean_margin_range": 0.3404628593584338,
+    "worst_margin_range": 0.7522732441304526,
+    "mean_probability_range": 0.06037602331699897,
+    "flip_contexts": 0,
+    "contexts": 16,
+    "category_pair_relevance": 0.375
+  },
+  "test_new_names_raw": {
+    "mean_margin_range": 0.6136232018470764,
+    "worst_margin_range": 1.355844497680664,
+    "mean_probability_range": 0.10150200644646706,
+    "flip_contexts": 6,
+    "contexts": 32,
+    "category_pair_relevance": 0.8125
+  },
+  "test_new_names_adapted": {
+    "mean_margin_range": 0.626048527385608,
+    "worst_margin_range": 1.3877176855446138,
+    "mean_probability_range": 0.1051509924173456,
+    "flip_contexts": 7,
+    "contexts": 32,
+    "category_pair_relevance": 0.8125
+  },
+  "probe": {
+    "raw_four_name_accuracy": 0.984375,
+    "adapted_four_name_accuracy": 0.7109375,
+    "chance": 0.25,
+    "scope": "One fixed linear decoder, CV-disjoint split; not proof of erasure or discriminatory use."
+  },
+  "ARC_style_regression": {
+    "items": 64,
+    "raw_accuracy": 0.796875,
+    "adapted_accuracy": 0.796875,
+    "prediction_agreement": 0.984375
+  },
+  "max_full_vocab_factorization_error": 8.58306884765625e-06,
+  "base_parameter_digest_after": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_unchanged": true,
+  "activation_basis_parameters": 1536,
+  "compiled_head_factor_parameters": 153472,
+  "whole_model_erasure_proven": false,
+  "universal_unseen_name_invariance_proven": false,
+  "original_named_input_unchanged": true
+}

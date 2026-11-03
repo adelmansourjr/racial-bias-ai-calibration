@@ -1,0 +1,67 @@
+{
+  "selected": {
+    "lambda": 10,
+    "ridge_relative": 0.01,
+    "scale": 1.0,
+    "metrics": {
+      "mean_margin_range": 0.3669129193648985,
+      "worst_margin_range": 0.7586604854813392,
+      "mean_probability_range": 0.06680752589951752,
+      "flip_contexts": 1,
+      "category_pair_relevance": 0.5
+    },
+    "drift": 0.14412586620469187,
+    "eligible": true
+  },
+  "new_confirmation_CVs": 16,
+  "new_confirmation_contexts": 32,
+  "name_rows": 256,
+  "actual_forward_passes": 320,
+  "raw": {
+    "mean_margin_range": 0.7294933199882507,
+    "worst_margin_range": 2.225574493408203,
+    "mean_probability_range": 0.1279753576925466,
+    "flip_contexts": 5,
+    "category_pair_relevance": 0.75
+  },
+  "adapted": {
+    "mean_margin_range": 0.6480003595352173,
+    "worst_margin_range": 2.174144744873047,
+    "mean_probability_range": 0.11347357260332169,
+    "flip_contexts": 6,
+    "category_pair_relevance": 0.6875
+  },
+  "unseen_fit_names_raw": {
+    "mean_margin_range": 0.5127711594104767,
+    "worst_margin_range": 1.1075553894042969,
+    "mean_probability_range": 0.0907321940583388,
+    "flip_contexts": 5,
+    "category_pair_relevance": 0.6875
+  },
+  "unseen_fit_names_adapted": {
+    "mean_margin_range": 0.440138041973114,
+    "worst_margin_range": 1.02880859375,
+    "mean_probability_range": 0.08165021083385333,
+    "flip_contexts": 6,
+    "category_pair_relevance": 0.6875
+  },
+  "four_name_probe": {
+    "raw": 0.96875,
+    "adapted": 0.96875,
+    "chance": 0.25
+  },
+  "capability": {
+    "items": 64,
+    "raw_accuracy": 0.796875,
+    "adapted_accuracy": 0.8125,
+    "prediction_agreement": 0.96875
+  },
+  "max_actual_adapter_formula_error": 6.079673767089844e-06,
+  "base_parameter_digest_after": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_unchanged": true,
+  "base_weights_modified": false,
+  "no_name_detection_or_input_rewrite": true,
+  "adapter_linear_rank": 1,
+  "universal_name_invariance_proven": false,
+  "whole_model_erasure_proven": false
+}
