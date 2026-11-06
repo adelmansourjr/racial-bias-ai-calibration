@@ -1,0 +1,50 @@
+{
+  "cohort_cv_count": 56,
+  "fresh_test_cv_count": 24,
+  "disjoint_normalized_name_sets": true,
+  "test_records_reconstructed": 288,
+  "shortlist_extremes": {
+    "native": {
+      "pools": 8,
+      "pool_size": 6,
+      "k": 3,
+      "variable_membership_pools": 5,
+      "candidate_job_memberships_that_can_change": 17
+    },
+    "previous": {
+      "pools": 8,
+      "pool_size": 6,
+      "k": 3,
+      "variable_membership_pools": 5,
+      "candidate_job_memberships_that_can_change": 17
+    },
+    "adapted": {
+      "pools": 8,
+      "pool_size": 6,
+      "k": 3,
+      "variable_membership_pools": 5,
+      "candidate_job_memberships_that_can_change": 16
+    }
+  },
+  "stratified_paired_range_change": {
+    "previous": {
+      "mean_difference": -0.03749442100524902,
+      "percentile_95_interval": [
+        -0.061957220236460366,
+        -0.013974746068318685
+      ],
+      "unit": "A-minus-B logit range",
+      "resampling": "CV clusters within fixed occupation strata"
+    },
+    "adapted": {
+      "mean_difference": -0.13795367876688638,
+      "percentile_95_interval": [
+        -0.1559643546740214,
+        -0.12076036135355632
+      ],
+      "unit": "A-minus-B logit range",
+      "resampling": "CV clusters within fixed occupation strata"
+    }
+  },
+  "scope": "Record and source consistency. Shortlists allow independent substitutions from the fixed six-name pool."
+}

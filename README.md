@@ -1,5 +1,12 @@
 # racial-bias-ai-calibration
 
+## Latest validation of subtractive LoRA and exact score equality
+
+The held-out study used 24 CVs, 48 CV/job contexts and six new evaluation names. The learned subtractive adapter reduced the mean name-related logit range by 21.2%, with exact score equality in 0/48 contexts and decision flips in 2/48. It lost six correct synthetic qualification decisions. The role-bound control achieved exact score and final-state equality in 48/48 contexts and stable top-three membership in all eight job pools. Its guarantee uses the designated identity span and fixed evidence.
+
+[Study, protocol, and aggregate results](subtractive-lora-validation/README.md)
+
+
 ## Latest: subtractive activation/LoRA mechanism pilots
 
 [Score-aware source and aggregate results](subtractive-lora-score-aware/README.md) · [Mathematical derivation](subtractive-lora-score-aware/METHOD.md) · [Preserved SVD pilot](subtractive-lora-pilot-v2/README.md)

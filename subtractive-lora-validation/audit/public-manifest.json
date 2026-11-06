@@ -1,0 +1,24 @@
+{
+  "sha256": {
+    ".gitignore": "a24ff29a70ef536cc6c0dc0cfb0ec6de085547e084a75136d34453cf0b1c69a6",
+    "README.md": "6fb0181b1984bb2809573faa30c6befd892604ae8829c193dfb7f6aa3a725592",
+    "METHOD.md": "387489e727737093951ee632b4e2b517e362e78ec44ed81dfc87439830d9c5e4",
+    "LICENSE": "92b295fb34de1fe6877e76945c93ca0ea55697a48c35414f8aa7b5fd086aa1fa",
+    "experiment.py": "0e59da63a5d6dbb6470e93d95dc27c055f82a4bfeb41a7dddf01ffdde5b47cb3",
+    "audit_results.py": "020e5e10b63ca6f948df0c8f95851f152210adc96cd7095e9b8df56b64a1f1b5",
+    "demo.py": "96dd82acc0a3367e41b3f43fa5ce6782ba446842b0f31542cb23d6449c779920",
+    "exact_control.py": "b62beec48a3135b607d881d51c8fb1146bde64a20c14c3327b4afabfbb3b0df4",
+    "span_diagnostic.py": "a3635735463b1f8bed4c33690666bcfe32d6128d9ffa8fd4c6bd98f2b9219dd8",
+    "verify_public.py": "10cdd6e7b13f6d0b81e05b5f5e6458fab18393faf7d931d36643ec23d839979f",
+    "ci-workflow.yml": "adaffb9d25dd9ccf5c801cc681939e5265925485c8f65a1fa777f619fb89c95d",
+    "tests/test_ranking.py": "ada73666891e6866556ea5ae1f93ec1dec671fbcdc8f4996f265b828375a3b7d",
+    "audit/plan.json": "a9af4f473a33f037a797cd2c50b636c6cadca1ad5191c945bc7d3cd82f051176",
+    "audit/selection.json": "b8aa105f6b67136ecc069f9bee47c0e3d68b494aa986376ff484e74f9d64865d",
+    "audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45",
+    "results/verified-summary.json": "3b2bccb26c3966aa0a6d1aa7d5a2330c4e7fd05fcf909e1c5630a9ee63b6b2e6",
+    "results/secondary-audit.json": "125300abeae5cd386b17c2531c7b4882c0ad7c09ab30f399b3253498a2a07cbc",
+    "results/exact-control.json": "94d217b9bdd1709145f20406a7aa9d8fc6ce75e62330b14cf59422fa05edc677",
+    "results/span-diagnostic.json": "3125c975c11f19401287ade1e1f5dd2763c69376f886342591921f594991fcae"
+  },
+  "scope": "Source and aggregate records"
+}

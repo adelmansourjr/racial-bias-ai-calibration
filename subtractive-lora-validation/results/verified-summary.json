@@ -1,0 +1,116 @@
+{
+  "test_CVs": 24,
+  "test_rows": 288,
+  "metrics": {
+    "native": {
+      "flips": 3,
+      "above_tolerance": 48,
+      "mean_range": 0.6519306500752767,
+      "worst_range": 1.7402210235595703,
+      "mean_context_drift": 0.0,
+      "category_diagnostic": 0.5833333333333334,
+      "contexts": 48,
+      "mean_probability_range": 0.0857569105587311,
+      "exact_margin_bits_contexts": 0,
+      "exact_output_contexts": 0,
+      "exact_decision_logits_contexts": 0,
+      "exact_vocabulary_contexts": 0,
+      "exact_activation_contexts": 0
+    },
+    "previous": {
+      "flips": 2,
+      "above_tolerance": 48,
+      "mean_range": 0.6144362290700277,
+      "worst_range": 1.808110237121582,
+      "mean_context_drift": 0.1747933030128479,
+      "category_diagnostic": 0.5833333333333334,
+      "contexts": 48,
+      "mean_probability_range": 0.08263746216432688,
+      "exact_margin_bits_contexts": 0,
+      "exact_output_contexts": 0,
+      "exact_decision_logits_contexts": 0,
+      "exact_vocabulary_contexts": 0,
+      "exact_activation_contexts": 0
+    },
+    "adapted": {
+      "flips": 2,
+      "above_tolerance": 48,
+      "mean_range": 0.5139769713083903,
+      "worst_range": 1.2972345352172852,
+      "mean_context_drift": 0.25465788112746346,
+      "category_diagnostic": 0.5833333333333334,
+      "contexts": 48,
+      "mean_probability_range": 0.07621457526032406,
+      "exact_margin_bits_contexts": 0,
+      "exact_output_contexts": 0,
+      "exact_decision_logits_contexts": 0,
+      "exact_vocabulary_contexts": 0,
+      "exact_activation_contexts": 0
+    }
+  },
+  "rubric": {
+    "native": {
+      "binary_correct": 59,
+      "total": 96,
+      "directional_pairs_correct": 48,
+      "pairs": 48
+    },
+    "previous": {
+      "binary_correct": 53,
+      "total": 96,
+      "directional_pairs_correct": 48,
+      "pairs": 48
+    },
+    "adapted": {
+      "binary_correct": 53,
+      "total": 96,
+      "directional_pairs_correct": 48,
+      "pairs": 48
+    }
+  },
+  "ARC_style": {
+    "native": 52,
+    "previous": 52,
+    "adapted": 52,
+    "total": 64
+  },
+  "gates": {
+    "all_serialized_outputs_exact": false,
+    "all_margins_exact_fp32": false,
+    "zero_name_flips": false,
+    "category_diagnostic_at_least_native": true,
+    "rubric_accuracy_at_least_native": false,
+    "arc_accuracy_at_least_native": true
+  },
+  "acceptance": false,
+  "mean_logit_range_change_cluster_interval": [
+    -0.16847036282221475,
+    -0.11048571268717448
+  ],
+  "repeat_exact_contexts": 8,
+  "role_bound_exact_contexts": 8,
+  "max_correction_formula_error": 6.973743438720703e-06,
+  "forward_counts": {
+    "fit": 192,
+    "dev": 64,
+    "teacher_fit_only": 48,
+    "test": 288,
+    "repeat": 8,
+    "structural_control": 48,
+    "rubric": 96,
+    "arc": 64
+  },
+  "base_parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_unchanged": true,
+  "reporting_correction": "Test mean_context_drift recomputed against native margins. The frozen runner used each arm as its own reference in that field. Development selection and test gates do not use the erroneous field.",
+  "ARC_choice_changes_from_native": {
+    "native": 0,
+    "previous": 1,
+    "adapted": 0
+  },
+  "rubric_changes_from_native": {
+    "native": 0,
+    "previous": 6,
+    "adapted": 6
+  }
+}

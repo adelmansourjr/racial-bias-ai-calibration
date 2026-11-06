@@ -1,0 +1,21 @@
+{
+  "exact_serialized_score_contexts": 48,
+  "context_count": 48,
+  "name_variants_per_context": 6,
+  "role_bound_model_forwards": 288,
+  "native_evidence_forwards": 48,
+  "direct_counterfactual_final_hidden_and_vocab_comparisons": 480,
+  "direct_native_evidence_hidden_and_vocab_comparisons": 96,
+  "category_matched_job_wins": 16,
+  "category_diagnostic_CVs": 24,
+  "shortlist": {
+    "pools": 8,
+    "pool_size": 6,
+    "k": 3,
+    "variable_membership_pools": 0,
+    "candidate_job_memberships_that_can_change": 0
+  },
+  "runtime_parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "experiment_sha256": "b62beec48a3135b607d881d51c8fb1146bde64a20c14c3327b4afabfbb3b0df4",
+  "scope": "Positive control on the same CV/job/name fixtures using trusted injected-name spans. Does not test detection of names in raw prose."
+}

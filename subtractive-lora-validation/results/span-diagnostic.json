@@ -1,0 +1,19 @@
+{
+  "scope": "Retrospective cached-state geometry diagnostic from earlier studies, separate from the frozen current test.",
+  "fit_CVs": 8,
+  "heldout_CVs": 16,
+  "span_rank": 48,
+  "maximum_fit_centered_state_residual_L2": 2.1302963909174327e-14,
+  "heldout_contrast_energy_outside_fitted_span": 0.4130115254736814,
+  "hard_fit_margin_constraints_rank": 63,
+  "maximum_fit_margin_constraint_error": 1.4502288259166107e-15,
+  "heldout_native": {
+    "mean_logit_range": 0.7294933199882507,
+    "flip_contexts": 5
+  },
+  "heldout_hard_fit_cancellation": {
+    "mean_logit_range": 0.6282641973891581,
+    "flip_contexts": 8
+  },
+  "proof_scope": "Finite fitted differences only. Numerical least squares and an affine margin replay."
+}

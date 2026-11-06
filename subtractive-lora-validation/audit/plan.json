@@ -1,0 +1,159 @@
+{
+  "cv_source_sha256": "816a7cd985a9a41e3ce8d1e83cb7e1beb1e854a89c1cf1fd0d75494faaa0559d",
+  "job_source_sha256": "ec675c4702eadc472d318bc5ed9d809951924d6c6bacad54045d2e88eb802e2a",
+  "capability_source_sha256": "e4be3a2408b2c2970c369d05caff3830246afc085b0bcb0c92e90a4eb985b694",
+  "earlier_CV_ids_excluded": 48,
+  "seed": 20261106,
+  "cohort_context_counts": {
+    "fit": 48,
+    "dev": 16,
+    "test": 48
+  },
+  "names": {
+    "fit": [
+      "John Miller",
+      "Mohammed Hassan",
+      "Wei Chen",
+      "Neruvo Qaslin"
+    ],
+    "dev": [
+      "Mina Park",
+      "Luca Bellini",
+      "Amina Sule",
+      "Ravi Sethi"
+    ],
+    "test": [
+      "Hugo Almeida",
+      "Fatima El Idrissi",
+      "Chinedu Okeke",
+      "Kavita Nair",
+      "ليلى منصور",
+      "陳美玲"
+    ]
+  },
+  "tolerance_logit": 0.1,
+  "taps": [
+    8,
+    16,
+    24,
+    28
+  ],
+  "source_sha256": {
+    "experiment.py": "0e59da63a5d6dbb6470e93d95dc27c055f82a4bfeb41a7dddf01ffdde5b47cb3",
+    "audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45"
+  },
+  "dependency_sha256": {
+    "nameguard-validation/src/nameguard/__init__.py": "01a9861ed88ea57a97107eef2c16f1ddc784ee30e94fca3d101a17a1d8eca73a",
+    "nameguard-validation/src/nameguard/agreements.py": "3679cb9d224385442e5fce578b1ecd449c73b625f39388e15b15d25682928b25",
+    "nameguard-validation/src/nameguard/annotations.py": "fa11bbea8d95df4c091e87787e930e270bf1511947705cd2d1aaf108f1cbb92a",
+    "nameguard-validation/src/nameguard/canonical_backend.py": "a67b95b06eaf48e2fe53491eb8cadf87a4d3352d2102515cacf0daa1a498afca",
+    "nameguard-validation/src/nameguard/contracts.py": "88df4384fabd7879a56fe66563ddddcd47a63e82a73f6d52c119d59d1288e8e1",
+    "nameguard-validation/src/nameguard/encoding.py": "b0685fd140d43419038a9771ed7a991458ad0c7a314ed9855872b470d97d15d5",
+    "nameguard-validation/src/nameguard/mlx_backend.py": "9c966d7589627ab75143f2e137e00aaa5cc43249bc924e64d0ee2ee7b6e9fcb1",
+    "nameguard-validation/src/nameguard/native_encoding.py": "ffc1cedab68fe5b336dfc6a0a084487ceb867cc2de935523b7ca3a6acc451517",
+    "nameguard-validation/src/nameguard/runtime.py": "db6c8247e3505a88212f7d06f769c37f69264580f12e3d6cbcfd7cb383b36ef4",
+    "nameguard-validation/src/nameguard/serialized_backend.py": "dcd20d81f70e6091a5adb45ead7b1083ce57d83e2cf6bfb9768083f5b0377d96"
+  },
+  "previous_adapter_sha256": "8a057c0b87d0d5d55ff72294d2cbc52187a8b7b59b0ae7c891be997f7b09f96b",
+  "cohort_sha256": "a6d126d90eb6e5b77d32f8ba7a277bc97ce1540dc16c24149cc232388a501943",
+  "selection": "Dev only. Require category diagnostic >= native, mean absolute context drift <= .25 and flips <= native. Minimize contexts above 0.10, then worst range, mean range and drift. Fallback exploratory only.",
+  "grid": {
+    "feature_modes": [
+      "final",
+      "taps"
+    ],
+    "mean_weights": [
+      1,
+      10,
+      100
+    ],
+    "relative_ridge": [
+      0.003,
+      0.03,
+      0.3
+    ],
+    "targets": [
+      "raw_mean",
+      "teacher"
+    ],
+    "strengths": [
+      0.5,
+      1.0
+    ]
+  },
+  "acceptance": {
+    "all_serialized_outputs_exact": true,
+    "all_margins_exact_fp32": true,
+    "zero_name_flips": true,
+    "category_diagnostic_at_least_native": true,
+    "rubric_accuracy_at_least_native": true,
+    "arc_accuracy_at_least_native": true
+  },
+  "evaluation": "Freeze fit and development selection before any test inference. Cluster bootstrap uses CVs. Test is exact for these rows only. Controlled rubric and ARC are separate regression diagnostics.",
+  "capability_ids": [
+    "arc_validation_Mercury_7203245",
+    "arc_test_Mercury_7004585",
+    "arc_test_MCAS_1998_8_19",
+    "arc_test_Mercury_SC_413242",
+    "arc_test_Mercury_7236058",
+    "arc_test_Mercury_7093013",
+    "arc_validation_MCAS_1998_4_22",
+    "arc_test_Mercury_7018393",
+    "arc_test_NCEOGA_2013_5_18",
+    "arc_test_TIMSS_2011_4_pg58",
+    "arc_test_NYSEDREGENTS_2012_4_5",
+    "arc_test_Mercury_7284095",
+    "arc_test_NYSEDREGENTS_2015_4_13",
+    "arc_test_MDSA_2009_4_24",
+    "arc_test_MCAS_2004_5_32",
+    "arc_test_NYSEDREGENTS_2012_4_18",
+    "arc_test_Mercury_189753",
+    "arc_test_Mercury_415270",
+    "arc_test_Mercury_7001715",
+    "arc_test_Mercury_SC_407796",
+    "arc_test_Mercury_411809",
+    "arc_test_Mercury_7056490",
+    "arc_test_TAKS_2009_8_24",
+    "arc_test_NYSEDREGENTS_2010_8_39",
+    "arc_validation_VASoL_2008_3_26",
+    "arc_test_Mercury_412777",
+    "arc_test_Mercury_7252403",
+    "arc_test_Mercury_LBS10126",
+    "arc_test_Mercury_SC_400609",
+    "arc_test_VASoL_2007_3_15",
+    "arc_test_Mercury_177485",
+    "arc_test_Mercury_7081288",
+    "arc_test_NYSEDREGENTS_2008_8_2",
+    "arc_test_Mercury_7195125",
+    "arc_test_Mercury_416374",
+    "arc_test_ACTAAP_2013_7_15",
+    "arc_test_Mercury_SC_400306",
+    "arc_test_Mercury_7210158",
+    "arc_test_MCAS_2000_4_24",
+    "arc_test_ACTAAP_2010_7_17",
+    "arc_test_Mercury_SC_408426",
+    "arc_test_Mercury_7044065",
+    "arc_test_Mercury_416369",
+    "arc_test_Mercury_7218243",
+    "arc_test_NYSEDREGENTS_2015_4_28",
+    "arc_test_Mercury_7271320",
+    "arc_test_TIMSS_2007_8_pg57",
+    "arc_validation_Mercury_7241343",
+    "arc_test_Mercury_7228393",
+    "arc_test_Mercury_7100643",
+    "arc_test_Mercury_7179253",
+    "arc_test_ACTAAP_2014_7_12",
+    "arc_validation_Mercury_SC_LBS10689",
+    "arc_test_MEA_2016_8_2",
+    "arc_test_Mercury_7026495",
+    "arc_test_MDSA_2009_8_25",
+    "arc_test_NCEOGA_2013_8_32",
+    "arc_test_MCAS_2004_5_22",
+    "arc_validation_MEAP_2005_8_43",
+    "arc_test_NYSEDREGENTS_2012_8_11",
+    "arc_test_Mercury_7283343",
+    "arc_test_Mercury_7183103",
+    "arc_test_Mercury_7165813",
+    "arc_test_Mercury_7084595"
+  ]
+}
