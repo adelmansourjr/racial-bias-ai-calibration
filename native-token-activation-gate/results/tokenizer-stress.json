@@ -1,0 +1,31 @@
+{
+  "planned_tokenizer_checks": 120,
+  "layouts": {
+    "newlines": {
+      "accepted": 21,
+      "Native tokenizer crosses a reviewed role boundary": 3,
+      "distinct_accepted_evidence_sequences": 1
+    },
+    "space_outside_identity": {
+      "Native tokenizer crosses a reviewed role boundary": 21,
+      "accepted": 3,
+      "distinct_accepted_evidence_sequences": 1
+    },
+    "space_inside_identity": {
+      "accepted": 22,
+      "Native tokenizer crosses a reviewed role boundary": 2,
+      "distinct_accepted_evidence_sequences": 1
+    },
+    "punctuation_seam": {
+      "Native tokenizer crosses a reviewed role boundary": 6,
+      "accepted": 18,
+      "distinct_accepted_evidence_sequences": 1
+    },
+    "attached_letters": {
+      "accepted": 23,
+      "Native tokenizer crosses a reviewed role boundary": 1,
+      "distinct_accepted_evidence_sequences": 1
+    }
+  },
+  "scope": "Synthetic tokenizer factorization only. Authentication and model activations are exercised separately."
+}

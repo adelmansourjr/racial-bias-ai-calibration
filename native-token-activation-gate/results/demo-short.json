@@ -1,0 +1,9 @@
+{
+  "score": {
+    "margin": 6.7916259765625,
+    "conditional_A_probability": 0.9988781189431055
+  },
+  "original_native_tokens": 66,
+  "evidence_compute_tokens": 65,
+  "identity_slots_cleared": 1
+}

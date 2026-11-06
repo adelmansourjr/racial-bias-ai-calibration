@@ -1,0 +1,32 @@
+{
+  "sha256": {
+    ".gitignore": "a24ff29a70ef536cc6c0dc0cfb0ec6de085547e084a75136d34453cf0b1c69a6",
+    "README.md": "ae99702bb86f52e235b4f02ed78091f92c2175ce85f868cad9337dba7ffb647b",
+    "METHOD.md": "add4054c842b5784e1f3be98172d775e5f7530c09e7e3634952f0ca5668d83a7",
+    "LICENSE": "92b295fb34de1fe6877e76945c93ca0ea55697a48c35414f8aa7b5fd086aa1fa",
+    "gate.py": "36cbc81403ca2d56883aa8575e843c4ff5cd487f8e14bbbabb1d370b04241a59",
+    "experiment.py": "962bba1c78bc851c1f4ef249666a55827a1a02b56e8fca186bff2b454187fe26",
+    "verify.py": "6882687432e7f45c1957e3b9b93d69a7dcd521d99d6fd8b0168be68775e691db",
+    "demo.py": "b23a3a3a31acf0b93bf77c27f709a1540e76e14b58948f79043dda352406810b",
+    "geometry_check.py": "0042781b8b00966b657388b6959165a8943d516a96781f0535be5841f27d7fe4",
+    "dense_audit.py": "29a043e994f8a3c2d5f1a68ce574468ecdb5f3eff253f76dbd5501f69bfae544",
+    "dense_audit_real.py": "805c48c344305a3c342d34f721e6313f102b3c70ac6c64c0c7cc55e1fd6ffdf7",
+    "tokenizer_stress.py": "033d00bca8b7507219aa35ea3a562b1cfc2f717948c61d498fdecf132cade198",
+    "ci-workflow.yml": "caed3b0836b8cfb5dafeed121f7d28906b61cd4191b19e748f800e69c3573d56",
+    "tests/test_contract.py": "7fc6eb82ece7e12b782281b7e17061218d77d4d65a7947482070319e0e95e627",
+    "audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45",
+    "audit/plan.json": "e002c3926920197811e89418f217eeb58e72660fbf0da0e37e872899c9eab617",
+    "audit/environment.json": "bf338074e7f1deccc8e6d9f1b93767b6bb0fee1db79dbec59ba166ee9b622e78",
+    "results/summary.json": "5c978e40d777f697f2bbc28cdd8f25dedd759048aba2c8407fcba53ba628dc67",
+    "results/equal-geometry.json": "ef114a65ff0669ec606ab1a162d6b4b7c4e75e62a8f35b8bbc4628017b215eb2",
+    "results/dense-audit.json": "d6218253fe286d3ca4d08377b349a71da1e51985ab1a7b2fec50d2733021519e",
+    "results/dense-audit-real.json": "b63bf0db6518cc4e01d829c49966b0a3f80521e6ede493f9db5b38182c5d7150",
+    "results/tokenizer-stress.json": "1b069c72070bd05bc6f00482d6263c88960ee922774a9589d1bfe018515576e3",
+    "results/demo-short.json": "b38edda95bf85ceaa08e37575e3a69af91bc8f17aaa99790332c9f7c92d6f434",
+    "results/demo-long.json": "973f3ff75227ad4dd85c98c75df9fca93616650e48720cbc045852601b2112b3",
+    "results/final-audit.json": "3f10e8b8fc14ae196f8c379e69befdbc117c07013f6bdab9a43220254dfe508d",
+    "results/tests.log": "07cef6b44462534d819480786e41b4f4879d4140b9d28cd11d062b6cfa0798e6",
+    "results/verification.log": "ee785cba57282c97c7e4bc63c936d0a5126af1864544eae9c214e316246aad05"
+  },
+  "publication_scope": "Allowlisted source and aggregate findings, no raw CVs, per-CV records, review credentials or model weights"
+}

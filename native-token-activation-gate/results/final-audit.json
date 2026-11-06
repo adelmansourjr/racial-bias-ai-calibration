@@ -1,0 +1,19 @@
+{
+  "review_date": "2026-11-07",
+  "fresh_CLI_exact_score_match": true,
+  "original_token_counts": [
+    66,
+    72
+  ],
+  "evidence_compute_token_counts": [
+    65,
+    65
+  ],
+  "equal_geometry_full_arrays_checked": 248,
+  "first_dense_real_context_unequal_operation": "attention",
+  "synthetic_tokenizer_accepted": 87,
+  "synthetic_tokenizer_rejected": 33,
+  "primary_identity_channel_gate_passed": true,
+  "hiring_utility_validated": false,
+  "qualification_binary_accuracy_difference": -0.010416666666666666
+}

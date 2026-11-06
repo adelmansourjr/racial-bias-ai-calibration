@@ -1,0 +1,60 @@
+{
+  "synthetic_case": true,
+  "first_block_stage_comparison": {
+    "boundary": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "input_norm": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "q_proj": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "k_proj": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "v_proj": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "q_rope": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "k_rope": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "attention": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "o_proj": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "residual": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "post_norm": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "mlp": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    },
+    "block_1": {
+      "exact": true,
+      "max_absolute_error": 0.0
+    }
+  },
+  "first_unequal_stage": null,
+  "source_sha256": "29a043e994f8a3c2d5f1a68ce574468ecdb5f3eff253f76dbd5501f69bfae544",
+  "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40"
+}

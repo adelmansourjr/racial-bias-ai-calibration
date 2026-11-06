@@ -1,5 +1,19 @@
 # racial-bias-ai-calibration
 
+## Latest: original-token activation gating with variable name lengths
+
+[Code and measured results](native-token-activation-gate/README.md) · [Mathematics, controls and primary literature](native-token-activation-gate/METHOD.md)
+
+The frozen original-token scorer passed exact score and aligned activation equality in all 32 CV/job contexts across six names with one to seven native tokens. All 192 planned named inputs were accepted. Original source token IDs and full stored slot geometry were preserved. Inside each block the implementation gathers ordered evidence rows, uses evidence-relative RoPE and scatters back into the original slots. It has a different active computation schedule from ordinary full-length attention.
+
+The main study ran 788 model forwards, with 4,991 direct counterfactual array comparisons and 64 native retained-ID reference comparisons. The ordinary scorer changed decisions in 5/32 contexts, versus 0/32 under the gate. The gate preserved all 48 qualification-change directions but had 48/96 binary rubric accuracy, versus 49/96 for the native scorer. Real hiring usefulness remains unvalidated. Thirty-two clean ARC-style inputs had identical full vocabulary arrays to the original model.
+
+Dense logical masking still showed name-length-dependent numerical variation on this runtime. A diagnostic located its first difference at fused attention after exact evidence Q/K/V and logical RoPE values. The packed path resolves that observed geometry dependence. Five contract tests and fresh-process CLI checks pass.
+
+The conditional result requires reviewed role spans and a conservative native-token boundary witness. The synthetic tokenizer stress sweep accepted 87/120 cases and rejected 33. General name knowledge, original raw embedding and private sequence geometry remain available to the host. The public guarantee covers the declared score path under the reviewed identity policy. The release contains source and aggregates, with private data and weights retained locally.
+
+
+
 ## Latest validation of subtractive LoRA and exact score equality
 
 The held-out study used 24 CVs, 48 CV/job contexts and six new evaluation names. The learned subtractive adapter reduced the mean name-related logit range by 21.2%, with exact score equality in 0/48 contexts and decision flips in 2/48. It lost six correct synthetic qualification decisions. The role-bound control achieved exact score and final-state equality in 48/48 contexts and stable top-three membership in all eight job pools. Its guarantee uses the designated identity span and fixed evidence.

@@ -1,0 +1,10 @@
+test_cross_role_merge_rejects (test_contract.TokenContract.test_cross_role_merge_rejects) ... ok
+test_full_native_tokens_and_physical_slots_survive_different_span_lengths (test_contract.TokenContract.test_full_native_tokens_and_physical_slots_survive_different_span_lengths) ... ok
+test_length_limit_rejects_instead_of_truncating (test_contract.TokenContract.test_length_limit_rejects_instead_of_truncating) ... ok
+test_same_role_segmentation_keeps_native_merge (test_contract.TokenContract.test_same_role_segmentation_keeps_native_merge) ... ok
+test_unreviewed_input_and_identity_tail_reject (test_contract.TokenContract.test_unreviewed_input_and_identity_tail_reject) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

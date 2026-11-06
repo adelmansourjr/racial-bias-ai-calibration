@@ -1,0 +1,13 @@
+{
+  "python": "3.12.8",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "packages": {
+    "mlx": "0.32.3",
+    "mlx-lm": "0.31.3",
+    "numpy": "2.5.3",
+    "transformers": "5.18.0",
+    "tokenizers": "0.23.2",
+    "safetensors": "0.8.0"
+  },
+  "scope": "Environment inspected after the experiment. GPU model runs used the same Python executable."
+}

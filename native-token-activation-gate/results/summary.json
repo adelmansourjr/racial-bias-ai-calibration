@@ -1,0 +1,149 @@
+{
+  "accepted_name_inputs": 192,
+  "planned_name_inputs": 192,
+  "rejected_name_inputs": 0,
+  "contexts_with_variable_identity_length": 32,
+  "identity_token_length_counts": {
+    "1": 64,
+    "5": 32,
+    "6": 32,
+    "3": 32,
+    "7": 32
+  },
+  "metrics": {
+    "native": {
+      "complete_contexts": 32,
+      "exact_score_contexts": 0,
+      "exact_stage_contexts": 0,
+      "flip_contexts": 5,
+      "mean_logit_range": 1.0619386434555054,
+      "max_logit_range": 4.733844757080078
+    },
+    "packed": {
+      "complete_contexts": 32,
+      "exact_score_contexts": 32,
+      "exact_stage_contexts": 32,
+      "flip_contexts": 0,
+      "mean_logit_range": 0.0,
+      "max_logit_range": 0.0
+    },
+    "dense-logical": {
+      "complete_contexts": 8,
+      "exact_score_contexts": 0,
+      "exact_stage_contexts": 0,
+      "flip_contexts": 0,
+      "mean_logit_range": 0.2169342041015625,
+      "max_logit_range": 0.4094505310058594
+    },
+    "dense-physical": {
+      "complete_contexts": 8,
+      "exact_score_contexts": 0,
+      "exact_stage_contexts": 0,
+      "flip_contexts": 0,
+      "mean_logit_range": 0.38468384742736816,
+      "max_logit_range": 0.7292098999023438
+    }
+  },
+  "checks": {
+    "full_native_ID_checks": 322,
+    "zeroed_full_shape_stage_checks": 9660,
+    "native_reference_exact_arrays": 64,
+    "direct_packed_counterfactual_array_checks": 4991
+  },
+  "equal_length_first_two_names": {
+    "native": {
+      "complete_contexts": 32,
+      "exact_score_contexts": 0,
+      "exact_stage_contexts": 0,
+      "flip_contexts": 0,
+      "mean_logit_range": 0.25782111287117004,
+      "max_logit_range": 1.9824914932250977
+    },
+    "packed": {
+      "complete_contexts": 32,
+      "exact_score_contexts": 32,
+      "exact_stage_contexts": 32,
+      "flip_contexts": 0,
+      "mean_logit_range": 0.0,
+      "max_logit_range": 0.0
+    },
+    "dense-logical": {
+      "complete_contexts": 8,
+      "exact_score_contexts": 8,
+      "exact_stage_contexts": 8,
+      "flip_contexts": 0,
+      "mean_logit_range": 0.0,
+      "max_logit_range": 0.0
+    },
+    "dense-physical": {
+      "complete_contexts": 8,
+      "exact_score_contexts": 8,
+      "exact_stage_contexts": 8,
+      "flip_contexts": 0,
+      "mean_logit_range": 0.0,
+      "max_logit_range": 0.0
+    }
+  },
+  "multi_span_exact": true,
+  "packed_exact_gate": true,
+  "matched_category": {
+    "native": {
+      "matched_job_wins": 10,
+      "CVs": 16
+    },
+    "packed": {
+      "matched_job_wins": 11,
+      "CVs": 16
+    }
+  },
+  "shortlist": {
+    "native": {
+      "complete_jobs": 8,
+      "variable_jobs": 4,
+      "variable_candidate_memberships": 9
+    },
+    "packed": {
+      "complete_jobs": 8,
+      "variable_jobs": 0,
+      "variable_candidate_memberships": 0
+    }
+  },
+  "qualification": {
+    "native": {
+      "correct": 49,
+      "decisions": 96,
+      "correct_direction": 48,
+      "pairs": 48
+    },
+    "packed": {
+      "correct": 48,
+      "decisions": 96,
+      "correct_direction": 48,
+      "pairs": 48
+    }
+  },
+  "clean_ARC_style": {
+    "correct": 25,
+    "exact_full_vocabulary": 32
+  },
+  "retained_ids_equal_anonymized_text_retokenization_contexts": 0,
+  "boundary_rejection": true,
+  "tampered_signature_rejection": true,
+  "paired_warm_median_seconds": {
+    "packed": 0.661867250000796,
+    "dense-logical": 0.6860131670000555
+  },
+  "forwards": {
+    "native_retained_ID_reference": 32,
+    "native_named": 192,
+    "dense-logical": 48,
+    "packed": 226,
+    "dense-physical": 48,
+    "timing": 18,
+    "rubric_native": 96,
+    "rubric_packed": 96,
+    "clean_native": 32
+  },
+  "model_parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "model_file_digests_verified": true
+}

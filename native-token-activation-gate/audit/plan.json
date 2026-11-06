@@ -1,0 +1,49 @@
+{
+  "resume_sha256": "816a7cd985a9a41e3ce8d1e83cb7e1beb1e854a89c1cf1fd0d75494faaa0559d",
+  "jobs_sha256": "ec675c4702eadc472d318bc5ed9d809951924d6c6bacad54045d2e88eb802e2a",
+  "seed": 20261106,
+  "CVs": 16,
+  "contexts": 32,
+  "names": [
+    "Ai",
+    "Bo",
+    "Fatou Ndiaye",
+    "أمينة بنت يوسف",
+    "陳美玲",
+    "Inês de Albuquerque-Silva"
+  ],
+  "dense_context_ids": [
+    "0-0-matched",
+    "1-0-matched",
+    "2-0-matched",
+    "3-0-matched",
+    "4-0-matched",
+    "5-0-matched",
+    "6-0-matched",
+    "7-0-matched"
+  ],
+  "sources": {
+    "experiment.py": "962bba1c78bc851c1f4ef249666a55827a1a02b56e8fca186bff2b454187fe26",
+    "gate.py": "36cbc81403ca2d56883aa8575e843c4ff5cd487f8e14bbbabb1d370b04241a59",
+    "audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45"
+  },
+  "dependencies": {
+    "nameguard-validation/src/nameguard/__init__.py": "01a9861ed88ea57a97107eef2c16f1ddc784ee30e94fca3d101a17a1d8eca73a",
+    "nameguard-validation/src/nameguard/agreements.py": "3679cb9d224385442e5fce578b1ecd449c73b625f39388e15b15d25682928b25",
+    "nameguard-validation/src/nameguard/annotations.py": "fa11bbea8d95df4c091e87787e930e270bf1511947705cd2d1aaf108f1cbb92a",
+    "nameguard-validation/src/nameguard/canonical_backend.py": "a67b95b06eaf48e2fe53491eb8cadf87a4d3352d2102515cacf0daa1a498afca",
+    "nameguard-validation/src/nameguard/contracts.py": "88df4384fabd7879a56fe66563ddddcd47a63e82a73f6d52c119d59d1288e8e1",
+    "nameguard-validation/src/nameguard/encoding.py": "b0685fd140d43419038a9771ed7a991458ad0c7a314ed9855872b470d97d15d5",
+    "nameguard-validation/src/nameguard/mlx_backend.py": "9c966d7589627ab75143f2e137e00aaa5cc43249bc924e64d0ee2ee7b6e9fcb1",
+    "nameguard-validation/src/nameguard/native_encoding.py": "ffc1cedab68fe5b336dfc6a0a084487ceb867cc2de935523b7ca3a6acc451517",
+    "nameguard-validation/src/nameguard/runtime.py": "db6c8247e3505a88212f7d06f769c37f69264580f12e3d6cbcfd7cb383b36ef4",
+    "nameguard-validation/src/nameguard/serialized_backend.py": "dcd20d81f70e6091a5adb45ead7b1083ce57d83e2cf6bfb9768083f5b0377d96"
+  },
+  "cohort_sha256": "e8d0b6211d43bd9cc6b323d68ffb838b0efe12eaf27ff309c7702b058aece57c",
+  "acceptance": "Complete planned cohort, original native IDs and physical slots, exact output and all aligned activation bytes, zero identity rows after boundary, exact native retained-ID reference. Report rejection separately.",
+  "no_fitting": true,
+  "clean_multiple_choice_items": 32,
+  "rubric_pairs": 48,
+  "shortlist": "Top three out of four candidates per job, opaque tie-break, independent name substitutions.",
+  "scope": "Name-string interventions on fixed real CV/job excerpts. Known injected spans. No human hiring labels."
+}
