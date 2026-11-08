@@ -1,0 +1,8 @@
+{
+  "profile": "synthetic-active-credential-v1",
+  "threshold": 4.733816146850586,
+  "frozen_before_test": true,
+  "fit_rows": 32,
+  "fit_correct_uncalibrated": 16,
+  "fit_correct_calibrated": 32
+}

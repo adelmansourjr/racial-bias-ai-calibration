@@ -1,0 +1,34 @@
+{
+  "synthetic_variants": 120,
+  "layouts": {
+    "newlines": {
+      "matches_approved_evidence": 21,
+      "changed_evidence_rejected": 2,
+      "token_compatible_variants": 23
+    },
+    "space_outside_identity": {
+      "matches_approved_evidence": 19,
+      "changed_evidence_rejected": 5,
+      "token_compatible_variants": 24
+    },
+    "space_inside_identity": {
+      "matches_approved_evidence": 22,
+      "changed_evidence_rejected": 2,
+      "token_compatible_variants": 24
+    },
+    "punctuation_seam": {
+      "matches_approved_evidence": 18,
+      "token_compatible_variants": 18
+    },
+    "attached_letters": {
+      "matches_approved_evidence": 23,
+      "token_compatible_variants": 23
+    }
+  },
+  "first_reviewed_variant_is_approved_anchor": true,
+  "source_sha256": "395080b2e70ab4ec77a09f383d55ab85168ada47170c33f8cca4c737cae7d1a7",
+  "contract_source_sha256": "ae26faf5bfe471322f44b4c4b609c8a7dba19d9f98cc290ea7b8f27cdba6a78e",
+  "review_entry_source_sha256": "6951c65b8331ee083e888c59c03c80876000feb3faf54534a4228e7a86e779c1",
+  "comparison": "Exact immutable token tuple equality; digest is reporting only.",
+  "scope": "Boundary admission and evidence identity are distinct checks. Anchor compatibility depends on the approved role choice."
+}

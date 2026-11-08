@@ -1,0 +1,31 @@
+{
+  "synthetic_variants": 120,
+  "layouts": {
+    "newlines": {
+      "matches_approved_evidence": 21,
+      "changed_evidence_rejected": 2,
+      "token_compatible_variants": 23
+    },
+    "space_outside_identity": {
+      "matches_approved_evidence": 19,
+      "changed_evidence_rejected": 5,
+      "token_compatible_variants": 24
+    },
+    "space_inside_identity": {
+      "matches_approved_evidence": 22,
+      "changed_evidence_rejected": 2,
+      "token_compatible_variants": 24
+    },
+    "punctuation_seam": {
+      "matches_approved_evidence": 18,
+      "token_compatible_variants": 18
+    },
+    "attached_letters": {
+      "matches_approved_evidence": 23,
+      "token_compatible_variants": 23
+    }
+  },
+  "first_reviewed_variant_is_approved_anchor": true,
+  "source_sha256": "9deb138123d77ad7fc5348897c50a489649379bc027668f140da2142ea7ae6d7",
+  "scope": "Boundary admission and evidence identity are distinct checks. Anchor compatibility depends on the approved role choice."
+}

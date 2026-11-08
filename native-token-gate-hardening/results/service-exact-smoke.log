@@ -1,0 +1,9 @@
+{
+  "exact_short_and_long_name_pairs": 2,
+  "correct_qualification_decisions": 4,
+  "changed_evidence_contracts_rejected": 2,
+  "raw_backend_forwards": 4,
+  "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "source_sha256": "529b64e7320ac7b7fee45175bcf0a84a29cb6a0456bc50ad28c6346df7a3ed48",
+  "contract_source_sha256": "ae26faf5bfe471322f44b4c4b609c8a7dba19d9f98cc290ea7b8f27cdba6a78e"
+}

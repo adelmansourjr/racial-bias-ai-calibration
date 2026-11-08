@@ -1,0 +1,11 @@
+{
+  "score": {
+    "margin": -3.9113502502441406,
+    "conditional_A_probability": 0.019620779943371292
+  },
+  "profile": "synthetic-active-credential-v1",
+  "original_native_tokens": 82,
+  "evidence_tokens": 75,
+  "evidence_ids_sha256": "ffa1f198e1d0ebe30f18cc338ca0b810460e0c16aee743d6d4040d37f2eca045",
+  "original_input_ids_sha256": "f1fff94252daf3b2f921eeff95e6d5911e9b2593ec7ac4966423327acce26982"
+}

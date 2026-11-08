@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-09",
+  "before_model_inference": true,
+  "sources": {
+    "gate.py": "d2d8775deb83d8b04491446199b9fb3a3df4668e266b22a9dce6b355f209e347",
+    "calibration.py": "36397294af306113688bb7623f54794aa848c99561f73e2e5b9fe566dcafffd5",
+    "review.py": "1f675ac977a883f8e832c581c2988772082c98d31c1245f44eed7716394e5f8c",
+    "experiment.py": "fc184afa9607269f1149311633d7e318846059a740dd66b3040c497948f89219"
+  },
+  "runtime_dependencies": {
+    "nameguard-validation/src/nameguard/__init__.py": "01a9861ed88ea57a97107eef2c16f1ddc784ee30e94fca3d101a17a1d8eca73a",
+    "nameguard-validation/src/nameguard/agreements.py": "3679cb9d224385442e5fce578b1ecd449c73b625f39388e15b15d25682928b25",
+    "nameguard-validation/src/nameguard/annotations.py": "fa11bbea8d95df4c091e87787e930e270bf1511947705cd2d1aaf108f1cbb92a",
+    "nameguard-validation/src/nameguard/canonical_backend.py": "a67b95b06eaf48e2fe53491eb8cadf87a4d3352d2102515cacf0daa1a498afca",
+    "nameguard-validation/src/nameguard/contracts.py": "88df4384fabd7879a56fe66563ddddcd47a63e82a73f6d52c119d59d1288e8e1",
+    "nameguard-validation/src/nameguard/encoding.py": "b0685fd140d43419038a9771ed7a991458ad0c7a314ed9855872b470d97d15d5",
+    "nameguard-validation/src/nameguard/mlx_backend.py": "9c966d7589627ab75143f2e137e00aaa5cc43249bc924e64d0ee2ee7b6e9fcb1",
+    "nameguard-validation/src/nameguard/native_encoding.py": "ffc1cedab68fe5b336dfc6a0a084487ceb867cc2de935523b7ca3a6acc451517",
+    "nameguard-validation/src/nameguard/runtime.py": "db6c8247e3505a88212f7d06f769c37f69264580f12e3d6cbcfd7cb383b36ef4",
+    "nameguard-validation/src/nameguard/serialized_backend.py": "dcd20d81f70e6091a5adb45ead7b1083ce57d83e2cf6bfb9768083f5b0377d96"
+  },
+  "old_contexts_sha256": "e8d0b6211d43bd9cc6b323d68ffb838b0efe12eaf27ff309c7702b058aece57c",
+  "old_records_sha256": "2814cce90c6c05f013f07af8ff4b47133cba078721bc458dbe54e24486028825",
+  "frozen_previous_cases": 192,
+  "calibration_fit_credentials": [
+    [
+      "forklift operator certificate",
+      "warehouse operator"
+    ],
+    [
+      "first aid certificate",
+      "camp supervisor"
+    ],
+    [
+      "welding qualification",
+      "fabricator"
+    ],
+    [
+      "commercial pilot license",
+      "pilot"
+    ],
+    [
+      "electrical trade license",
+      "electrician"
+    ],
+    [
+      "lifeguard certificate",
+      "pool supervisor"
+    ],
+    [
+      "radiography license",
+      "radiographer"
+    ],
+    [
+      "security guard license",
+      "security officer"
+    ]
+  ],
+  "heldout_credentials": [
+    [
+      "HVAC Level II certification",
+      "technician"
+    ],
+    [
+      "registered nurse license",
+      "nurse"
+    ],
+    [
+      "CPA credential",
+      "accountant"
+    ],
+    [
+      "commercial driving license",
+      "driver"
+    ],
+    [
+      "food safety certificate",
+      "supervisor"
+    ],
+    [
+      "teaching license",
+      "teacher"
+    ]
+  ],
+  "test_names": [
+    "Aiko Mori",
+    "Amine Haddad",
+    "Orla Byrne",
+    "Nkosana Dube"
+  ],
+  "fit_name": "Taylor Quinn",
+  "threshold_selection": "Fitting error count, then minimum absolute threshold, then signed threshold. All fitting margins precede held-out inference.",
+  "calibration_scope": "One fixed A/B readout offset under synthetic-active-credential-v1. No calibration claim for arbitrary real hiring or full LLM output.",
+  "regression_acceptance": "All 192 prior scores and every aligned packed state digest preserved exactly through score().",
+  "rubric_gate": "Held-out calibrated accuracy strictly improves over the uncalibrated gate, identical scores per same evidence under all four names, qualification direction preserved.",
+  "boundary_policy": "Unresolved proposals may absorb at most 16 adjacent whitespace characters per side under explicit permission. Author-generated synthetic truth resolves them in this test only.",
+  "boundary_stress_cases": 120,
+  "semantic_annotation": "Supplied spans remain necessary. No independent human review accuracy is measured."
+}

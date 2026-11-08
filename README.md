@@ -1,5 +1,17 @@
 # racial-bias-ai-calibration
 
+## Latest: hardened native-token gate and fixed credential readout
+
+[Source, results and use](native-token-gate-hardening/README.md) · [Formal claim and protocol](native-token-gate-hardening/METHOD.md) · [Specific problems and fixes](native-token-gate-hardening/ISSUES.md)
+
+The hardening revision preserves all 192 earlier CV scores, 5,952 aligned activation fingerprints and 32 clean full-vocabulary comparisons. It adds recoverable input rejection, poisoned-service handling after backend failures, concurrency/close checks, reviewed whitespace proposals and an exact immutable evidence-token contract. The original named input and native IDs reach the model intact; identity activations are gated internally and native blocks execute on shape-stable gathered evidence. Frozen base weights remain unchanged. This successful structural path is separate from the earlier learned LoRA pilots.
+
+A fixed threshold fitted on separate synthetic credential types improves the held-out credential diagnostic from 48/96 to 96/96, with equal scores across names in all 24 condition groups and correct qualification direction in 48/48 pairs. This is a task-specific readout correction, not independently validated hiring accuracy. The original CV readout remains available with its prior exact scores.
+
+The 120-case follow-up distinguishes 112 token-compatible variants from 103 variants matching the approved evidence anchor. Nine additional compatible variants are rejected for changed evidence and eight fail tokenizer compatibility. Direct token-tuple comparison avoids assuming hash collision freedom. GPU integration and separate CLI processes confirm exact short/long name scores. Twenty-nine CPU tests and public artifact verification pass.
+
+The conditional guarantee requires correct reviewed roles and fixed evidence. Original raw embeddings and private token geometry still retain name information; general racial fairness, semantic name discovery and population hiring utility are not established. Source, synthetic examples and aggregates are public; real CV/job records, review keys, private states and model weights stay local. Earlier completed studies remain preserved below.
+
 ## Latest: original-token activation gating with variable name lengths
 
 [Code and measured results](native-token-activation-gate/README.md) · [Mathematics, controls and primary literature](native-token-activation-gate/METHOD.md)
@@ -135,5 +147,6 @@ Run GPU models sequentially. Clef requires a compatible text-only8bit MLX conver
 Optional scientific figures: `python -m pip install -r requirements-figures.txt`, then `python research/experiment/make_figures.py`. Generated cases, downloaded sources and all local outputs are ignored by Git.
 
 Sources: [résumés](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [job listings](https://huggingface.co/datasets/datastax/linkedin_job_listings), [name-audit research](https://www.nber.org/papers/w9873), [Qwen](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct), [Clef](https://huggingface.co/Cloudflare/clef-flash). Dataset/model terms remain with their owners; no blanket third-party license is asserted. Publishing this research code is not a hiring deployment.
+
 
 

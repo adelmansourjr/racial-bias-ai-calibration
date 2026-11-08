@@ -1,0 +1,84 @@
+Calibration frozen at threshold 4.733816146850586
+Held-out credential HVAC Level II certification complete
+Held-out credential registered nurse license complete
+Held-out credential CPA credential complete
+Held-out credential commercial driving license complete
+Held-out credential food safety certificate complete
+Held-out credential teaching license complete
+Regression 24/192 preserved
+Regression 48/192 preserved
+Regression 72/192 preserved
+Regression 96/192 preserved
+Regression 120/192 preserved
+Regression 144/192 preserved
+Regression 168/192 preserved
+Regression 192/192 preserved
+{
+  "credential": {
+    "test_rows": 96,
+    "credential_types": 6,
+    "raw_correct": 48,
+    "calibrated_correct": 96,
+    "name_equal_conditions": 24,
+    "name_conditions": 24,
+    "correct_qualification_directions": 48,
+    "qualification_pairs": 48
+  },
+  "threshold": 4.733816146850586,
+  "prior_regression": {
+    "prior_scores_exact": 192,
+    "prior_stage_digests_exact": 5952,
+    "zeroed_slot_checks": 5760
+  },
+  "boundary_stress": {
+    "newlines": {
+      "strict_accepted": 21,
+      "formatting_allowed_accepted": 23,
+      "strict_rejected": 3,
+      "requires_expanded_role_review": 2,
+      "formatting_allowed_rejected": 1,
+      "formatting_allowed_public_sequences": 2
+    },
+    "space_outside_identity": {
+      "strict_rejected": 21,
+      "formatting_allowed_accepted": 24,
+      "requires_expanded_role_review": 21,
+      "strict_accepted": 3,
+      "formatting_allowed_public_sequences": 3
+    },
+    "space_inside_identity": {
+      "strict_accepted": 22,
+      "formatting_allowed_accepted": 24,
+      "strict_rejected": 2,
+      "requires_expanded_role_review": 2,
+      "formatting_allowed_public_sequences": 2
+    },
+    "punctuation_seam": {
+      "strict_rejected": 6,
+      "formatting_allowed_rejected": 6,
+      "strict_accepted": 18,
+      "formatting_allowed_accepted": 18,
+      "formatting_allowed_public_sequences": 1
+    },
+    "attached_letters": {
+      "strict_accepted": 23,
+      "formatting_allowed_accepted": 23,
+      "strict_rejected": 1,
+      "formatting_allowed_rejected": 1,
+      "formatting_allowed_public_sequences": 1
+    }
+  },
+  "clean": {
+    "exact_native_vocabulary": 32
+  },
+  "lifecycle": {
+    "invalid_request_recoverable": true,
+    "poisoned_service_reuse_blocked": true,
+    "closed_service_reuse_blocked": true,
+    "fresh_service_reproduces_score": true
+  },
+  "checkpoint_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_verified": true,
+  "rubric_gate_passed": true,
+  "all_original_results_preserved": true
+}
