@@ -1,0 +1,34 @@
+test_bad_thresholds_reject (test_calibration.Calibration.test_bad_thresholds_reject) ... ok
+test_calibration_does_not_erase_a_preexisting_name_gap (test_calibration.Calibration.test_calibration_does_not_erase_a_preexisting_name_gap) ... ok
+test_identical_name_scores_remain_exact (test_calibration.Calibration.test_identical_name_scores_remain_exact) ... ok
+test_separates_a_biased_but_ordered_fitting_rubric (test_calibration.Calibration.test_separates_a_biased_but_ordered_fitting_rubric) ... ok
+test_cross_role_merge_rejects (test_contract.TokenContract.test_cross_role_merge_rejects) ... ok
+test_full_native_tokens_and_physical_slots_survive_different_span_lengths (test_contract.TokenContract.test_full_native_tokens_and_physical_slots_survive_different_span_lengths) ... ok
+test_length_limit_rejects_instead_of_truncating (test_contract.TokenContract.test_length_limit_rejects_instead_of_truncating) ... ok
+test_same_role_segmentation_keeps_native_merge (test_contract.TokenContract.test_same_role_segmentation_keeps_native_merge) ... ok
+test_unreviewed_input_and_identity_tail_reject (test_contract.TokenContract.test_unreviewed_input_and_identity_tail_reject) ... ok
+test_approved_sequence_cannot_mutate (test_evidence_contract.EvidenceBinding.test_approved_sequence_cannot_mutate) ... ok
+test_digest_collision_cannot_admit_changed_evidence (test_evidence_contract.EvidenceBinding.test_digest_collision_cannot_admit_changed_evidence) ... ok
+test_malformed_contract_rejects (test_evidence_contract.EvidenceBinding.test_malformed_contract_rejects) ... ok
+test_mismatch_never_reaches_model_and_remains_recoverable (test_evidence_contract.EvidenceBinding.test_mismatch_never_reaches_model_and_remains_recoverable) ... ok
+test_name_tokens_change_while_approved_evidence_stays_fixed (test_evidence_contract.EvidenceBinding.test_name_tokens_change_while_approved_evidence_stays_fixed) ... ok
+test_substantive_or_formatting_token_change_rejects (test_evidence_contract.EvidenceBinding.test_substantive_or_formatting_token_change_rejects) ... ok
+test_bad_request_is_recoverable_and_never_enters_backend (test_lifecycle.Lifecycle.test_bad_request_is_recoverable_and_never_enters_backend) ... ok
+test_close_is_idempotent_and_blocks_future_scoring (test_lifecycle.Lifecycle.test_close_is_idempotent_and_blocks_future_scoring) ... ok
+test_global_busy_is_recoverable (test_lifecycle.Lifecycle.test_global_busy_is_recoverable) ... ok
+test_overlapping_request_and_close_are_rejected (test_lifecycle.Lifecycle.test_overlapping_request_and_close_are_rejected) ... ok
+test_public_score_has_no_trace_switch (test_lifecycle.Lifecycle.test_public_score_has_no_trace_switch) ... ok
+test_runtime_failure_sanitizes_and_poisoned_service_cannot_retry (test_lifecycle.Lifecycle.test_runtime_failure_sanitizes_and_poisoned_service_cannot_retry) ... ok
+test_explicit_whitespace_permission_yields_unresolved_source_exact_proposal (test_review.ReviewPolicy.test_explicit_whitespace_permission_yields_unresolved_source_exact_proposal) ... ok
+test_no_permission_does_not_reclassify_evidence_whitespace (test_review.ReviewPolicy.test_no_permission_does_not_reclassify_evidence_whitespace) ... ok
+test_substantive_merged_fact_cannot_be_absorbed (test_review.ReviewPolicy.test_substantive_merged_fact_cannot_be_absorbed) ... ok
+test_actual_space_name_merge_can_still_be_proposed (test_review_entrypoint.ReviewEntrypoint.test_actual_space_name_merge_can_still_be_proposed) ... ok
+test_already_valid_long_formatting_is_preserved (test_review_entrypoint.ReviewEntrypoint.test_already_valid_long_formatting_is_preserved) ... ok
+test_calibration_digest_detects_changed_artifact (test_service.NormalService.test_calibration_digest_detects_changed_artifact) ... ok
+test_close_propagates (test_service.NormalService.test_close_propagates) ... ok
+test_service_uses_fixed_task_offset (test_service.NormalService.test_service_uses_fixed_task_offset) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.004s
+
+OK

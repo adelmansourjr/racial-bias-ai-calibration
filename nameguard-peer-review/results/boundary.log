@@ -1,0 +1,99 @@
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+{
+  "newline": {
+    "fit_panel": 12,
+    "fit_optimal_support": 12,
+    "fit_total_formatting_cost": 0,
+    "test_panel": 24,
+    "test_token_compatible": 23,
+    "test_strict": 21,
+    "test_greedy_anchor": 21,
+    "test_compiled": 21,
+    "test_compiled_formatting_cost": 0,
+    "test_oracle_support_descriptive_only": 23
+  },
+  "space": {
+    "fit_panel": 12,
+    "fit_optimal_support": 12,
+    "fit_total_formatting_cost": 12,
+    "test_panel": 24,
+    "test_token_compatible": 24,
+    "test_strict": 2,
+    "test_greedy_anchor": 20,
+    "test_compiled": 22,
+    "test_compiled_formatting_cost": 22,
+    "test_oracle_support_descriptive_only": 24
+  },
+  "equals": {
+    "fit_panel": 12,
+    "fit_optimal_support": 5,
+    "fit_total_formatting_cost": 0,
+    "test_panel": 24,
+    "test_token_compatible": 17,
+    "test_strict": 17,
+    "test_greedy_anchor": 17,
+    "test_compiled": 17,
+    "test_compiled_formatting_cost": 0,
+    "test_oracle_support_descriptive_only": 17
+  },
+  "tabs": {
+    "fit_panel": 12,
+    "fit_optimal_support": 12,
+    "fit_total_formatting_cost": 12,
+    "test_panel": 24,
+    "test_token_compatible": 24,
+    "test_strict": 14,
+    "test_greedy_anchor": 14,
+    "test_compiled": 24,
+    "test_compiled_formatting_cost": 24,
+    "test_oracle_support_descriptive_only": 24
+  },
+  "blank_lines": {
+    "fit_panel": 12,
+    "fit_optimal_support": 12,
+    "fit_total_formatting_cost": 0,
+    "test_panel": 24,
+    "test_token_compatible": 23,
+    "test_strict": 21,
+    "test_greedy_anchor": 21,
+    "test_compiled": 21,
+    "test_compiled_formatting_cost": 0,
+    "test_oracle_support_descriptive_only": 23
+  },
+  "parentheses": {
+    "fit_panel": 12,
+    "fit_optimal_support": 12,
+    "fit_total_formatting_cost": 0,
+    "test_panel": 24,
+    "test_token_compatible": 22,
+    "test_strict": 22,
+    "test_greedy_anchor": 22,
+    "test_compiled": 22,
+    "test_compiled_formatting_cost": 0,
+    "test_oracle_support_descriptive_only": 22
+  },
+  "attached": {
+    "fit_panel": 12,
+    "fit_optimal_support": 12,
+    "fit_total_formatting_cost": 0,
+    "test_panel": 24,
+    "test_token_compatible": 23,
+    "test_strict": 23,
+    "test_greedy_anchor": 23,
+    "test_compiled": 23,
+    "test_compiled_formatting_cost": 0,
+    "test_oracle_support_descriptive_only": 23
+  },
+  "wide_space": {
+    "fit_panel": 12,
+    "fit_optimal_support": 12,
+    "fit_total_formatting_cost": 12,
+    "test_panel": 24,
+    "test_token_compatible": 23,
+    "test_strict": 1,
+    "test_greedy_anchor": 20,
+    "test_compiled": 20,
+    "test_compiled_formatting_cost": 20,
+    "test_oracle_support_descriptive_only": 22
+  }
+}

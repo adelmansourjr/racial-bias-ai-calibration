@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "case-00-0",
+    "text": "Applicant: Jordan Lee\nCV: Active translation credential. Reference: Jordan Blake, former supervisor.\nJob: Translator; active translation credential required.",
+    "source_sha256": "57ae164f1c2b413dcad685682c0c2ff20c4c0ff7b27b06db0109fb4046b8e4b4"
+  },
+  {
+    "case_id": "case-00-1",
+    "text": "Applicant: Jordan Lee\nCV: Uses Django and Java. Translation credential expired.\nJob: Translator; active translation credential required.",
+    "source_sha256": "9d6898f5c90a219e421f74a5f64382a42ebdbb0bda9b040c6c080d61f156c8c5"
+  },
+  {
+    "case_id": "case-00-2",
+    "text": "Applicant: Jordan Lee\nCV: Completed Prince2 training. Current translation credential is not held.\nJob: Translator; active translation credential required.",
+    "source_sha256": "eee37b31b1b90a2189a395577166c0debe9652d2fd23f3a938f9c4765ca1e5d5"
+  },
+  {
+    "case_id": "case-00-3",
+    "text": "Jordan Lee supplied the credential evidence. Jordan approved it.\nJob: Translator; active translation credential required.",
+    "source_sha256": "e055f2fdd18e27ef439808d5c2666eb2a8c86c2cdba8d219112cb5b69e434a9b"
+  },
+  {
+    "case_id": "case-01-0",
+    "text": "Applicant: Rose Baker\nCV: Active translation credential. Reference: Jordan Blake, former supervisor.\nJob: Translator; active translation credential required.",
+    "source_sha256": "424c72dc017d83100c6d568bbc0e69cf19269edbb973938e38eaefbca8494ac4"
+  },
+  {
+    "case_id": "case-01-1",
+    "text": "Applicant: Rose Baker\nCV: Uses Django and Java. Translation credential expired.\nJob: Translator; active translation credential required.",
+    "source_sha256": "c97625de67b3e311b51b241abc106f23813d08bd6659454939c87248fa71b074"
+  },
+  {
+    "case_id": "case-01-2",
+    "text": "Applicant: Rose Baker\nCV: Completed Prince2 training. Current translation credential is not held.\nJob: Translator; active translation credential required.",
+    "source_sha256": "c05a112aaed0755b045f54065efe58a467a9755ef87816ba8c439895f1275a6d"
+  },
+  {
+    "case_id": "case-01-3",
+    "text": "Rose Baker supplied the credential evidence. Jordan approved it.\nJob: Translator; active translation credential required.",
+    "source_sha256": "56c14bad500da31a394cb732c14e2f6e69eb1f182f7784803b5825151a2aa17c"
+  },
+  {
+    "case_id": "case-02-0",
+    "text": "Applicant: سلمى الخطيب\nCV: Active translation credential. Reference: Jordan Blake, former supervisor.\nJob: Translator; active translation credential required.",
+    "source_sha256": "7226e3b91b2e86067380873d9a3b856fa119f43e793cfc7ad94b7e50a811245c"
+  },
+  {
+    "case_id": "case-02-1",
+    "text": "Applicant: سلمى الخطيب\nCV: Uses Django and Java. Translation credential expired.\nJob: Translator; active translation credential required.",
+    "source_sha256": "1140547db41e7eaf431a5941e384ce13e5ef27fab4886d10d31d233921978fb3"
+  },
+  {
+    "case_id": "case-02-2",
+    "text": "Applicant: سلمى الخطيب\nCV: Completed Prince2 training. Current translation credential is not held.\nJob: Translator; active translation credential required.",
+    "source_sha256": "de1bd616a297af29bceecb7901f08ce3dde0f967bcd8fcf97a066b18ad129bf7"
+  },
+  {
+    "case_id": "case-02-3",
+    "text": "سلمى الخطيب supplied the credential evidence. Jordan approved it.\nJob: Translator; active translation credential required.",
+    "source_sha256": "2c0027bd01481299549691574492dea8d453acb5d1f30677448f9fdb706c7025"
+  },
+  {
+    "case_id": "case-03-0",
+    "text": "Applicant: 王小明\nCV: Active translation credential. Reference: Jordan Blake, former supervisor.\nJob: Translator; active translation credential required.",
+    "source_sha256": "4026178f830c0f2c8cea0bb67dd07b098e0fef98844daac7475131aa122b1757"
+  },
+  {
+    "case_id": "case-03-1",
+    "text": "Applicant: 王小明\nCV: Uses Django and Java. Translation credential expired.\nJob: Translator; active translation credential required.",
+    "source_sha256": "a3428a8ce6220ac4eca203441251adfdd892c0a5387317557b7fae400429d4ce"
+  },
+  {
+    "case_id": "case-03-2",
+    "text": "Applicant: 王小明\nCV: Completed Prince2 training. Current translation credential is not held.\nJob: Translator; active translation credential required.",
+    "source_sha256": "f8b9ddab5607168f18a533734ce2d8ec89e2d6756fed708c1192dc28bae47d94"
+  },
+  {
+    "case_id": "case-03-3",
+    "text": "王小明 supplied the credential evidence. Jordan approved it.\nJob: Translator; active translation credential required.",
+    "source_sha256": "3004f13bdf2e4d93e215c95c582673c9f05fe44821a28e791753f8998a3a71fe"
+  },
+  {
+    "case_id": "case-04-0",
+    "text": "Applicant: Zoë Kovač\nCV: Active translation credential. Reference: Jordan Blake, former supervisor.\nJob: Translator; active translation credential required.",
+    "source_sha256": "9980fbbb380c7f6dca7429f1ace14db8917aab9169557cc2eae71de902d5034a"
+  },
+  {
+    "case_id": "case-04-1",
+    "text": "Applicant: Zoë Kovač\nCV: Uses Django and Java. Translation credential expired.\nJob: Translator; active translation credential required.",
+    "source_sha256": "e0776a123a2aaaa88d21b78489c50c450e3f70c545e535ed5c5afc5d5233b08a"
+  },
+  {
+    "case_id": "case-04-2",
+    "text": "Applicant: Zoë Kovač\nCV: Completed Prince2 training. Current translation credential is not held.\nJob: Translator; active translation credential required.",
+    "source_sha256": "e788e4900f1c78d021fed3146e151994d7445bebeb053c29d2339ba3ebffc045"
+  },
+  {
+    "case_id": "case-04-3",
+    "text": "Zoë Kovač supplied the credential evidence. Jordan approved it.\nJob: Translator; active translation credential required.",
+    "source_sha256": "4c77835e73257dea5b382df13b39fe69ee8cf3ffcae41297b1ba94d163f8353e"
+  },
+  {
+    "case_id": "case-05-0",
+    "text": "Applicant: Ayaan Qureshi\nCV: Active translation credential. Reference: Jordan Blake, former supervisor.\nJob: Translator; active translation credential required.",
+    "source_sha256": "64fbaeeef2e330578333228106e742f8401603995bdc568de50baf9c95140ca3"
+  },
+  {
+    "case_id": "case-05-1",
+    "text": "Applicant: Ayaan Qureshi\nCV: Uses Django and Java. Translation credential expired.\nJob: Translator; active translation credential required.",
+    "source_sha256": "de30aad29bd17f4345b81fa0b4f3764235c1104bdb9807cba341777ae5d89136"
+  },
+  {
+    "case_id": "case-05-2",
+    "text": "Applicant: Ayaan Qureshi\nCV: Completed Prince2 training. Current translation credential is not held.\nJob: Translator; active translation credential required.",
+    "source_sha256": "a090a08ac6b2cb986ce4819990edf7e544856b43f1d45d882ec88378798a408b"
+  },
+  {
+    "case_id": "case-05-3",
+    "text": "Ayaan Qureshi supplied the credential evidence. Jordan approved it.\nJob: Translator; active translation credential required.",
+    "source_sha256": "d188308fc5d2aacc4b98d9cfb4c1fc2ac4b09771f9f5f257646d053652fb4235"
+  }
+]

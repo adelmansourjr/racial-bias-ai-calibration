@@ -1,0 +1,14 @@
+{
+  "before_inference": true,
+  "adaptive_followup": true,
+  "reason": "Original timing selected the first eight cases and overrepresented one task family.",
+  "design": "One direct positive context per each of eight families, two fixed names, five shuffled paired repeats. Two identical-policy authenticated score APIs.",
+  "families": 8,
+  "names": [
+    "Zev",
+    "\u05d0\u05d5\u05e8 \u05d1\u05df \u05d3\u05d5\u05d3"
+  ],
+  "pair_repetitions": 5,
+  "source_sha256": "c60af7e5de3cf3eb30a937cf05d4a47530af1104a08d0ec411df80baa17116a5",
+  "limitation": "Other user-approved training jobs may continue. Timing measures this host under concurrent load; no universal latency claim."
+}

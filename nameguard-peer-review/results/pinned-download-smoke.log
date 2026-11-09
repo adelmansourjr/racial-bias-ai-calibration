@@ -1,0 +1,6 @@
+{
+  "url": "https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/ARC-Challenge/test-00000-of-00001.parquet",
+  "snapshot_sha256": "91c1be2264c2502441ec97b0c20fb6a8941d60e3fbd58088e473ab166c2f84e5",
+  "selected_rows_canonical_sha256": "da1953ba6f2b87c9d2d75f82bdb77ddb9c7aad371a30cc8171df1aea7eea19e0",
+  "scope": "Transport JSON can differ from the historical viewer snapshot; every question/choice/answer row is verified exactly."
+}

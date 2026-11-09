@@ -1,0 +1,90 @@
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+{
+  "adaptive_followup": true,
+  "reason": "Technical review identified confounded contract and witness search.",
+  "layouts": {
+    "newline": {
+      "greedy_contract_greedy_witness": 21,
+      "greedy_contract_all_witnesses": 21,
+      "compiled_contract_greedy_witness": 21,
+      "compiled_contract_all_witnesses": 21,
+      "fit_anchor_all_witness_support": 12,
+      "fit_compiled_all_witness_support": 12,
+      "test_panel": 24
+    },
+    "space": {
+      "greedy_contract_greedy_witness": 20,
+      "greedy_contract_all_witnesses": 22,
+      "compiled_contract_greedy_witness": 20,
+      "compiled_contract_all_witnesses": 22,
+      "fit_anchor_all_witness_support": 12,
+      "fit_compiled_all_witness_support": 12,
+      "test_panel": 24
+    },
+    "equals": {
+      "greedy_contract_greedy_witness": 17,
+      "greedy_contract_all_witnesses": 17,
+      "compiled_contract_greedy_witness": 17,
+      "compiled_contract_all_witnesses": 17,
+      "fit_anchor_all_witness_support": 5,
+      "fit_compiled_all_witness_support": 5,
+      "test_panel": 24
+    },
+    "tabs": {
+      "greedy_contract_greedy_witness": 14,
+      "greedy_contract_all_witnesses": 14,
+      "compiled_contract_greedy_witness": 10,
+      "compiled_contract_all_witnesses": 24,
+      "fit_anchor_all_witness_support": 1,
+      "fit_compiled_all_witness_support": 12,
+      "test_panel": 24
+    },
+    "blank_lines": {
+      "greedy_contract_greedy_witness": 21,
+      "greedy_contract_all_witnesses": 21,
+      "compiled_contract_greedy_witness": 21,
+      "compiled_contract_all_witnesses": 21,
+      "fit_anchor_all_witness_support": 12,
+      "fit_compiled_all_witness_support": 12,
+      "test_panel": 24
+    },
+    "parentheses": {
+      "greedy_contract_greedy_witness": 22,
+      "greedy_contract_all_witnesses": 22,
+      "compiled_contract_greedy_witness": 22,
+      "compiled_contract_all_witnesses": 22,
+      "fit_anchor_all_witness_support": 12,
+      "fit_compiled_all_witness_support": 12,
+      "test_panel": 24
+    },
+    "attached": {
+      "greedy_contract_greedy_witness": 23,
+      "greedy_contract_all_witnesses": 23,
+      "compiled_contract_greedy_witness": 23,
+      "compiled_contract_all_witnesses": 23,
+      "fit_anchor_all_witness_support": 12,
+      "fit_compiled_all_witness_support": 12,
+      "test_panel": 24
+    },
+    "wide_space": {
+      "greedy_contract_greedy_witness": 20,
+      "greedy_contract_all_witnesses": 20,
+      "compiled_contract_greedy_witness": 20,
+      "compiled_contract_all_witnesses": 20,
+      "fit_anchor_all_witness_support": 12,
+      "fit_compiled_all_witness_support": 12,
+      "test_panel": 24
+    }
+  },
+  "totals": {
+    "greedy_contract_greedy_witness": 158,
+    "greedy_contract_all_witnesses": 160,
+    "compiled_contract_greedy_witness": 154,
+    "compiled_contract_all_witnesses": 170,
+    "fit_anchor_all_witness_support": 78,
+    "fit_compiled_all_witness_support": 89,
+    "test_panel": 192
+  },
+  "source_sha256": "9038aa42b288268f4be207f99f93127ef706907ce3434fda31d26dec2d7a0497",
+  "scope": "Tokenizer-only component ablation. Contracts use fit names only. No test-outcome fitting."
+}

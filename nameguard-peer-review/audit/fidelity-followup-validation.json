@@ -1,0 +1,8 @@
+{
+  "complete_unique_planned_cohort": true,
+  "source_sha256": "6aea3d9df89d2786a834f2f012f85e2e5e5c77c0d4a49403762ed4e208980beb",
+  "reason": "Technical review: completeness, uniqueness, finite numbers and scale-aware identity checks hardened. Original outputs and initial source preserved.",
+  "source_rows_sha256": "2b81729bf5d154e853ec297613d11fe3e24c4ec96b14be78fb2fdabb144ee50c",
+  "prospective_plan_sha256": "028aee33a3ab22541bbfdc45b8547211c5f4e1f72ae9f82bff639a3c6f16ca14",
+  "fixtures_sha256": "e997d012945c62bd93c0ed94ef68b1cfed639014ea31749f5c177db7727ea4f1"
+}

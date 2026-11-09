@@ -1,0 +1,22 @@
+test_cross_boundary_merge_requires_authorized_space_expansion (test_compiler.CompilerMath.test_cross_boundary_merge_requires_authorized_space_expansion) ... ok
+test_exhaustive_small_support_optimality (test_compiler.CompilerMath.test_exhaustive_small_support_optimality) ... ok
+test_frequency_of_support_not_candidate_duplicates (test_compiler.CompilerMath.test_frequency_of_support_not_candidate_duplicates) ... ok
+test_infeasible_and_unseen_mismatch_fail_closed (test_compiler.CompilerMath.test_infeasible_and_unseen_mismatch_fail_closed) ... ok
+test_minimum_formatting_and_deterministic_tie_break (test_compiler.CompilerMath.test_minimum_formatting_and_deterministic_tie_break) ... ok
+test_no_substantive_expansion_and_unresolved_review (test_compiler.CompilerMath.test_no_substantive_expansion_and_unresolved_review) ... ok
+test_wide_whitespace_keeps_original_valid_candidate (test_compiler.CompilerMath.test_wide_whitespace_keeps_original_valid_candidate) ... ok
+test_witness_minimizes_cost (test_compiler.CompilerMath.test_witness_minimizes_cost) ... ok
+test_constant_native_family_can_be_preserved (test_fidelity.FidelityMath.test_constant_native_family_can_be_preserved) ... ok
+test_midpoint_minimax_and_majority_decisions (test_fidelity.FidelityMath.test_midpoint_minimax_and_majority_decisions) ... ok
+test_missing_duplicate_and_unplanned_cases_reject (test_fidelity.FidelityMath.test_missing_duplicate_and_unplanned_cases_reject) ... ok
+test_nonfinite_or_boolean_scores_reject (test_fidelity.FidelityMath.test_nonfinite_or_boolean_scores_reject) ... ok
+test_variance_decomposition (test_fidelity.FidelityMath.test_variance_decomposition) ... ok
+test_all_rejected_not_successful_coverage (test_statistics.StatisticsMath.test_all_rejected_not_successful_coverage) ... ok
+test_exact_zero_failure_binomial_bound (test_statistics.StatisticsMath.test_exact_zero_failure_binomial_bound) ... ok
+test_paired_bootstrap_deterministic_and_constant_exact (test_statistics.StatisticsMath.test_paired_bootstrap_deterministic_and_constant_exact) ... ok
+test_score_parity_can_hide_admission_failure (test_statistics.StatisticsMath.test_score_parity_can_hide_admission_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.014s
+
+OK

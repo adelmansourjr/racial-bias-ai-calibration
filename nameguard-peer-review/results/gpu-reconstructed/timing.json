@@ -1,0 +1,1282 @@
+[
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.09129308399860747
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.09320595802273601
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.10355625001830049
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09444679200532846
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09475841600215062
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.09905358398100361
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.09025737500633113
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.09091624998836778
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.0920807920047082
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.1135020419897046
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10039954198873602
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.09446933399885893
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.09191845898749307
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.09588162502041087
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.11498358400422148
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.10081279202131554
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.09114983401377685
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.10423966700909659
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.09023545801755972
+  },
+  {
+    "case": 0,
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10114000001340173
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.1170026249892544
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.0997191250207834
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.09927254100330174
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.08890916698146611
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.11513537500286475
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10188649999327026
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.10024154098937288
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.09029541601194069
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.09239808298298158
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.09982124998350628
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09668204199988395
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.11603170802118257
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09831054101232439
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.10278991700033657
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.09182433399837464
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.12360325001645833
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.09375983299105428
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.12115554200136103
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.10012654197635129
+  },
+  {
+    "case": 1,
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09761583298677579
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.1067959170031827
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.09197662500082515
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.09180070797447115
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10151095801847987
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.15407074999529868
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.10409383400110528
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.09295420898706652
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10347904200898483
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.10617187499883585
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09993504200247116
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.09198399999877438
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.09141837499919347
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.09486512499279343
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.10248266698908992
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.09158279199618846
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09942308298195712
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.09156658299616538
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.10308420800720342
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.09432420899975114
+  },
+  {
+    "case": 2,
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10120862501207739
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.11868304098607041
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.09507762501016259
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.0947669169981964
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.10230462500476278
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.09230541597935371
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.10046820799470879
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10923950001597404
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.12793683301424608
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.0962236670020502
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.10469520901096985
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.09110720799071714
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09963437501573935
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.09987100001308136
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09899337499518879
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.0926527910050936
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.10156941699096933
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.10838774999137968
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10499812502530403
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.10685104099684395
+  },
+  {
+    "case": 3,
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.09332262500538491
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.09255508301430382
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.09966854102094658
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.10693087498657405
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10398520799935795
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.11155720797250979
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.09305379100260325
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.09662945798481815
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.10721041698707268
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10772108301171102
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.09345687500899658
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.09408800001256168
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.10601700001279823
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10592845900100656
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.09625241701724008
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.10885620798217133
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.09606870799325407
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10464887498528697
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.09592429097392596
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.10379816699423827
+  },
+  {
+    "case": 4,
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.09392116600065492
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.10897387500153854
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.11452624999219552
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.12298074999125674
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.2043767090071924
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.18483879198902287
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.09993962498265319
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10684220801340416
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.09849849998136051
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.10394916700897738
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.09536320800543763
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.145371457998408
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.11633449999499135
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.12760691699804738
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.1311915840196889
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.09787850000429899
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.09590049998951145
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.155273375014076
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.10414370900252834
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.1649685410084203
+  },
+  {
+    "case": 5,
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.1291870000131894
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.13234512499184348
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.1091050420072861
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.11254649999318644
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.09346166698378511
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.10383541701594368
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.09254783397773281
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10543820800376125
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.09788645801017992
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.09418300000834279
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10628583299694583
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.10003608299302869
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.09520229100598954
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.10364670801209286
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.10028470901306719
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.09350837499368936
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.0933970829937607
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.09217116600484587
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.097920875006821
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.09135424997657537
+  },
+  {
+    "case": 6,
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.10227154201129451
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "external_text",
+    "seconds": 0.09253779100254178
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "internal_score",
+    "seconds": 0.09660566700040363
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09556695801438764
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 0,
+    "arm": "native_named",
+    "seconds": 0.1168845420179423
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "external_text",
+    "seconds": 0.09098695800639689
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09987058400292881
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "internal_score",
+    "seconds": 0.10001208298490383
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 1,
+    "arm": "native_named",
+    "seconds": 0.11553279199870303
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "external_text",
+    "seconds": 0.09137737500714138
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "internal_score",
+    "seconds": 0.09843266700045206
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09483124999678694
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 2,
+    "arm": "native_named",
+    "seconds": 0.11649370798841119
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "external_text",
+    "seconds": 0.09017912502167746
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "native_named",
+    "seconds": 0.11869116697926074
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09669833301450126
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 3,
+    "arm": "internal_score",
+    "seconds": 0.09763429200393148
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "native_named",
+    "seconds": 0.1166923749842681
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "external_same_ids_matched_service",
+    "seconds": 0.09652066702255979
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "external_text",
+    "seconds": 0.09032679200754501
+  },
+  {
+    "case": 7,
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "repeat": 4,
+    "arm": "internal_score",
+    "seconds": 0.0967820420046337
+  }
+]

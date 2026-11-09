@@ -1,0 +1,69 @@
+{
+  "planned_rows": 192,
+  "contexts": 32,
+  "task_clusters": 8,
+  "admission": {
+    "strict_admitted": 0,
+    "greedy_anchor_admitted": 192,
+    "compiled_admitted": 192
+  },
+  "context_checks": {
+    "accepted_exact_score": 32,
+    "accepted_exact_stages": 32,
+    "admission_disagreement": 0,
+    "conditional_score_disagreement": 0,
+    "total_outcome_disagreement": 0,
+    "native_decision_flip": 4
+  },
+  "all_same_id_reference_stage_matches": true,
+  "same_id_reference_rows": 192,
+  "external_text_identical_ids": 0,
+  "external_text_exact_scores": 0,
+  "native_mean_name_logit_range": 0.8848302960395813,
+  "task_native_correct": 179,
+  "task_compiled_correct_intent_to_score": 168,
+  "paired_task_accuracy_change_by_family": {
+    "mean": -0.05729166666666667,
+    "lower_95": -0.140625,
+    "upper_95": 0.015625000000000003,
+    "units": 8,
+    "bootstrap_repetitions": 4000,
+    "seed": 20261109
+  },
+  "timing_internal_over_matched_external": {
+    "mean": 1.01525033364136,
+    "lower_95": 1.0044806320273736,
+    "upper_95": 1.0240382490000937,
+    "units": 8,
+    "bootstrap_repetitions": 4000,
+    "seed": 20261109
+  },
+  "timing_ratio_median_cases": 1.0175726968031729,
+  "timing_pairs": 40,
+  "arc_challenge": {
+    "items": 100,
+    "full_vocabulary_exact": 100,
+    "native_correct": 68,
+    "gated_correct": 68
+  },
+  "boundary_held_out": {
+    "test_panel": 192,
+    "test_strict": 121,
+    "test_token_compatible": 179,
+    "test_greedy_anchor": 158,
+    "test_compiled": 170,
+    "test_oracle_support_descriptive_only": 178
+  },
+  "runtime": {
+    "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "checkpoint_files_verified": true,
+    "python": "3.12.8",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "elapsed_seconds": 147.59351654100465,
+    "zero_identity_stage_checks": 5760,
+    "direct_stage_comparisons": 10912,
+    "mlx": "0.32.3"
+  },
+  "analysis_source_sha256": "22474c0e1914f0be019fc9f33c2b4f60631d69827c93655b786106c3c29a7e15",
+  "scope": "Public synthetic counterfactual conformance and official ARC subset. Generator roles, eight task families, one model/runtime. No real hiring or independent human review validation."
+}

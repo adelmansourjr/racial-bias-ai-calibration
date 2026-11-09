@@ -1,0 +1,8 @@
+{
+  "before_inference": true,
+  "adaptive_followup": true,
+  "reason": "Review requested a bridge between timed service and direct reference, plus explicit trace completeness.",
+  "rows": 192,
+  "comparison": "Normal score() for internal instrumented service and the matched external service; preserve original scores/fingerprints; explicit ordered 31 stages, shapes, finite values.",
+  "source_sha256": "6881c775099d3b3f54d69dbe423f490454bc90784ae136ee32026ccac1030432"
+}

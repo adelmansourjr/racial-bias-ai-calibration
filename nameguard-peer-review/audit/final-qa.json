@@ -1,0 +1,15 @@
+{
+  "pdf_pages": 7,
+  "rendered_all_pages": true,
+  "visual_review": "All pages inspected via contact sheet; final changed pages 5-6 rendered separately. No clipping, overlap or missing glyphs observed.",
+  "text_key_results_present": [
+    "179/192",
+    "168/192",
+    "68/100",
+    "170/192"
+  ],
+  "cpu_tests": 17,
+  "dependency_cpu_tests": 29,
+  "fresh_download_entrypoint_verified": true,
+  "fresh_analysis_entrypoint_exact": true
+}

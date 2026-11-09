@@ -1,0 +1,28 @@
+{
+  "source_repository": "Qwen/Qwen2.5-1.5B-Instruct",
+  "source_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "parameter_digest": "2d86c6e48c070f8be72f58a7e1c615c1e040304b76d804b70173da61b6bee12f",
+  "matches_pinned_parameters": false,
+  "matches_every_pinned_checkpoint_file": false,
+  "source_files_unchanged": true,
+  "reconstructed_files_sha256": {
+    "README.md": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+    "chat_template.jinja": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+    "config.json": "c3f8420ce8046fabcf0bb0efc7952f7ffb0031029be28313cb738a8c263f94ec",
+    "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+    "model.safetensors": "5b6abb3e8bbb783216a1a034fe742de5f25a836f3c642910ce327199c51217e7",
+    "model.safetensors.index.json": "19e664257b50911ac12ff231c42e952c210d48d1861f7fa304eb640dd10dccb8",
+    "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+    "tokenizer_config.json": "ee8f6d44bf2353e6d3686c3adaf70e1ccfe9e6ed6822d0ab2f28cafdd7754792"
+  },
+  "source_script_sha256": "49fe0f7af8aa7929f6c5f95ca7f3ffaeef293d30e3f355254d65189785ecce83",
+  "scope": "Same-host reconstruction, not independent external replication. Acquire the declared source revision separately."
+}
+Traceback (most recent call last):
+  File "/Users/adelmansour/Desktop/ai bias/nameguard-peer-review/rebuild_checkpoint.py", line 53, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/adelmansour/Desktop/ai bias/nameguard-peer-review/rebuild_checkpoint.py", line 50, in main
+    if not source_unchanged or digest!=PARAMETER_DIGEST:raise RuntimeError('Checkpoint reconstruction failed the parameter/source check')
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Checkpoint reconstruction failed the parameter/source check

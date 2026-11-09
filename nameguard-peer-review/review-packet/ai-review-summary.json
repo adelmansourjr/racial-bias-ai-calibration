@@ -1,0 +1,21 @@
+{
+  "review_type": "Blinded AI-agent review, not independent human validation",
+  "reviewers": [
+    "ai-reviewer-a",
+    "ai-reviewer-b"
+  ],
+  "cases": 24,
+  "exact_identity_span_agreement": 24,
+  "exact_retained_span_agreement": 24,
+  "qualification_agreement": 24,
+  "status_agreement": 24,
+  "uncertain_per_reviewer": [
+    6,
+    6
+  ],
+  "source_hashes": {
+    "ai-reviewer-a.json": "37b58368a638dee794f4e5d4b77b823014b36648abf3a29846281eb96a34eebc",
+    "ai-reviewer-b.json": "aab9cfa3620297cbb948d7a759ff9b87561b13b58496f91baa4961c81271122d"
+  },
+  "limitations": "Fresh contexts and restricted instructions provide procedural blinding. Agents share the provider/model family; no human reliability, population accuracy or independent-lab replication follows."
+}

@@ -1,0 +1,431 @@
+{
+  "reviewer_id": "ai-reviewer-a",
+  "reviewer_kind": "AI agent",
+  "blinded_to_methods_and_results": true,
+  "read_paths": [
+    "/Users/adelmansour/Desktop/ai bias/nameguard-peer-review/review-packet/PROTOCOL.md",
+    "/Users/adelmansour/Desktop/ai bias/nameguard-peer-review/review-packet/cases.json"
+  ],
+  "cases": [
+    {
+      "case_id": "case-00-0",
+      "source_sha256": "57ae164f1c2b413dcad685682c0c2ff20c4c0ff7b27b06db0109fb4046b8e4b4",
+      "identity_spans": [
+        [
+          11,
+          21
+        ]
+      ],
+      "retained_spans": [
+        [
+          68,
+          80
+        ]
+      ],
+      "status": "clear",
+      "eligible": "yes",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The CV states an active translation credential. Jordan Blake is explicitly a reference and must remain."
+    },
+    {
+      "case_id": "case-00-1",
+      "source_sha256": "9d6898f5c90a219e421f74a5f64382a42ebdbb0bda9b040c6c080d61f156c8c5",
+      "identity_spans": [
+        [
+          11,
+          21
+        ]
+      ],
+      "retained_spans": [
+        [
+          31,
+          37
+        ],
+        [
+          42,
+          46
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The credential is explicitly expired, so the active-credential requirement is not met. Django and Java are skills, not applicant names."
+    },
+    {
+      "case_id": "case-00-2",
+      "source_sha256": "eee37b31b1b90a2189a395577166c0debe9652d2fd23f3a938f9c4765ca1e5d5",
+      "identity_spans": [
+        [
+          11,
+          21
+        ]
+      ],
+      "retained_spans": [
+        [
+          36,
+          43
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. A current translation credential is explicitly not held. Prince2 is the training label and must remain."
+    },
+    {
+      "case_id": "case-00-3",
+      "source_sha256": "e055f2fdd18e27ef439808d5c2666eb2a8c86c2cdba8d219112cb5b69e434a9b",
+      "identity_spans": [],
+      "retained_spans": [],
+      "status": "uncertain",
+      "eligible": "uncertain",
+      "notes": "No applicant is identified. Supplying credential evidence does not establish that the named supplier is the applicant or credential holder; approving it does not establish the approver's relationship to the applicant. No name can be confidently assigned to either requested span category, so both lists are empty pending role clarification. The text does not explicitly establish an active translation credential. Need the applicant identity, the credential holder and validity, and the approver's role. Jordan may also refer to Jordan Lee or to a different person; that coreference needs clarification."
+    },
+    {
+      "case_id": "case-01-0",
+      "source_sha256": "424c72dc017d83100c6d568bbc0e69cf19269edbb973938e38eaefbca8494ac4",
+      "identity_spans": [
+        [
+          11,
+          21
+        ]
+      ],
+      "retained_spans": [
+        [
+          68,
+          80
+        ]
+      ],
+      "status": "clear",
+      "eligible": "yes",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The CV states an active translation credential. Jordan Blake is explicitly a reference and must remain."
+    },
+    {
+      "case_id": "case-01-1",
+      "source_sha256": "c97625de67b3e311b51b241abc106f23813d08bd6659454939c87248fa71b074",
+      "identity_spans": [
+        [
+          11,
+          21
+        ]
+      ],
+      "retained_spans": [
+        [
+          31,
+          37
+        ],
+        [
+          42,
+          46
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The credential is explicitly expired, so the active-credential requirement is not met. Django and Java are skills, not applicant names."
+    },
+    {
+      "case_id": "case-01-2",
+      "source_sha256": "c05a112aaed0755b045f54065efe58a467a9755ef87816ba8c439895f1275a6d",
+      "identity_spans": [
+        [
+          11,
+          21
+        ]
+      ],
+      "retained_spans": [
+        [
+          36,
+          43
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. A current translation credential is explicitly not held. Prince2 is the training label and must remain."
+    },
+    {
+      "case_id": "case-01-3",
+      "source_sha256": "56c14bad500da31a394cb732c14e2f6e69eb1f182f7784803b5825151a2aa17c",
+      "identity_spans": [],
+      "retained_spans": [],
+      "status": "uncertain",
+      "eligible": "uncertain",
+      "notes": "No applicant is identified. Supplying credential evidence does not establish that the named supplier is the applicant or credential holder; approving it does not establish the approver's relationship to the applicant. No name can be confidently assigned to either requested span category, so both lists are empty pending role clarification. The text does not explicitly establish an active translation credential. Need the applicant identity, the credential holder and validity, and the approver's role."
+    },
+    {
+      "case_id": "case-02-0",
+      "source_sha256": "7226e3b91b2e86067380873d9a3b856fa119f43e793cfc7ad94b7e50a811245c",
+      "identity_spans": [
+        [
+          11,
+          22
+        ]
+      ],
+      "retained_spans": [
+        [
+          69,
+          81
+        ]
+      ],
+      "status": "clear",
+      "eligible": "yes",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The CV states an active translation credential. Jordan Blake is explicitly a reference and must remain."
+    },
+    {
+      "case_id": "case-02-1",
+      "source_sha256": "1140547db41e7eaf431a5941e384ce13e5ef27fab4886d10d31d233921978fb3",
+      "identity_spans": [
+        [
+          11,
+          22
+        ]
+      ],
+      "retained_spans": [
+        [
+          32,
+          38
+        ],
+        [
+          43,
+          47
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The credential is explicitly expired, so the active-credential requirement is not met. Django and Java are skills, not applicant names."
+    },
+    {
+      "case_id": "case-02-2",
+      "source_sha256": "de1bd616a297af29bceecb7901f08ce3dde0f967bcd8fcf97a066b18ad129bf7",
+      "identity_spans": [
+        [
+          11,
+          22
+        ]
+      ],
+      "retained_spans": [
+        [
+          37,
+          44
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. A current translation credential is explicitly not held. Prince2 is the training label and must remain."
+    },
+    {
+      "case_id": "case-02-3",
+      "source_sha256": "2c0027bd01481299549691574492dea8d453acb5d1f30677448f9fdb706c7025",
+      "identity_spans": [],
+      "retained_spans": [],
+      "status": "uncertain",
+      "eligible": "uncertain",
+      "notes": "No applicant is identified. Supplying credential evidence does not establish that the named supplier is the applicant or credential holder; approving it does not establish the approver's relationship to the applicant. No name can be confidently assigned to either requested span category, so both lists are empty pending role clarification. The text does not explicitly establish an active translation credential. Need the applicant identity, the credential holder and validity, and the approver's role."
+    },
+    {
+      "case_id": "case-03-0",
+      "source_sha256": "4026178f830c0f2c8cea0bb67dd07b098e0fef98844daac7475131aa122b1757",
+      "identity_spans": [
+        [
+          11,
+          14
+        ]
+      ],
+      "retained_spans": [
+        [
+          61,
+          73
+        ]
+      ],
+      "status": "clear",
+      "eligible": "yes",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The CV states an active translation credential. Jordan Blake is explicitly a reference and must remain."
+    },
+    {
+      "case_id": "case-03-1",
+      "source_sha256": "a3428a8ce6220ac4eca203441251adfdd892c0a5387317557b7fae400429d4ce",
+      "identity_spans": [
+        [
+          11,
+          14
+        ]
+      ],
+      "retained_spans": [
+        [
+          24,
+          30
+        ],
+        [
+          35,
+          39
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The credential is explicitly expired, so the active-credential requirement is not met. Django and Java are skills, not applicant names."
+    },
+    {
+      "case_id": "case-03-2",
+      "source_sha256": "f8b9ddab5607168f18a533734ce2d8ec89e2d6756fed708c1192dc28bae47d94",
+      "identity_spans": [
+        [
+          11,
+          14
+        ]
+      ],
+      "retained_spans": [
+        [
+          29,
+          36
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. A current translation credential is explicitly not held. Prince2 is the training label and must remain."
+    },
+    {
+      "case_id": "case-03-3",
+      "source_sha256": "3004f13bdf2e4d93e215c95c582673c9f05fe44821a28e791753f8998a3a71fe",
+      "identity_spans": [],
+      "retained_spans": [],
+      "status": "uncertain",
+      "eligible": "uncertain",
+      "notes": "No applicant is identified. Supplying credential evidence does not establish that the named supplier is the applicant or credential holder; approving it does not establish the approver's relationship to the applicant. No name can be confidently assigned to either requested span category, so both lists are empty pending role clarification. The text does not explicitly establish an active translation credential. Need the applicant identity, the credential holder and validity, and the approver's role."
+    },
+    {
+      "case_id": "case-04-0",
+      "source_sha256": "9980fbbb380c7f6dca7429f1ace14db8917aab9169557cc2eae71de902d5034a",
+      "identity_spans": [
+        [
+          11,
+          20
+        ]
+      ],
+      "retained_spans": [
+        [
+          67,
+          79
+        ]
+      ],
+      "status": "clear",
+      "eligible": "yes",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The CV states an active translation credential. Jordan Blake is explicitly a reference and must remain."
+    },
+    {
+      "case_id": "case-04-1",
+      "source_sha256": "e0776a123a2aaaa88d21b78489c50c450e3f70c545e535ed5c5afc5d5233b08a",
+      "identity_spans": [
+        [
+          11,
+          20
+        ]
+      ],
+      "retained_spans": [
+        [
+          30,
+          36
+        ],
+        [
+          41,
+          45
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The credential is explicitly expired, so the active-credential requirement is not met. Django and Java are skills, not applicant names."
+    },
+    {
+      "case_id": "case-04-2",
+      "source_sha256": "e788e4900f1c78d021fed3146e151994d7445bebeb053c29d2339ba3ebffc045",
+      "identity_spans": [
+        [
+          11,
+          20
+        ]
+      ],
+      "retained_spans": [
+        [
+          35,
+          42
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. A current translation credential is explicitly not held. Prince2 is the training label and must remain."
+    },
+    {
+      "case_id": "case-04-3",
+      "source_sha256": "4c77835e73257dea5b382df13b39fe69ee8cf3ffcae41297b1ba94d163f8353e",
+      "identity_spans": [],
+      "retained_spans": [],
+      "status": "uncertain",
+      "eligible": "uncertain",
+      "notes": "No applicant is identified. Supplying credential evidence does not establish that the named supplier is the applicant or credential holder; approving it does not establish the approver's relationship to the applicant. No name can be confidently assigned to either requested span category, so both lists are empty pending role clarification. The text does not explicitly establish an active translation credential. Need the applicant identity, the credential holder and validity, and the approver's role."
+    },
+    {
+      "case_id": "case-05-0",
+      "source_sha256": "64fbaeeef2e330578333228106e742f8401603995bdc568de50baf9c95140ca3",
+      "identity_spans": [
+        [
+          11,
+          24
+        ]
+      ],
+      "retained_spans": [
+        [
+          71,
+          83
+        ]
+      ],
+      "status": "clear",
+      "eligible": "yes",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The CV states an active translation credential. Jordan Blake is explicitly a reference and must remain."
+    },
+    {
+      "case_id": "case-05-1",
+      "source_sha256": "de30aad29bd17f4345b81fa0b4f3764235c1104bdb9807cba341777ae5d89136",
+      "identity_spans": [
+        [
+          11,
+          24
+        ]
+      ],
+      "retained_spans": [
+        [
+          34,
+          40
+        ],
+        [
+          45,
+          49
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. The credential is explicitly expired, so the active-credential requirement is not met. Django and Java are skills, not applicant names."
+    },
+    {
+      "case_id": "case-05-2",
+      "source_sha256": "a090a08ac6b2cb986ce4819990edf7e544856b43f1d45d882ec88378798a408b",
+      "identity_spans": [
+        [
+          11,
+          24
+        ]
+      ],
+      "retained_spans": [
+        [
+          39,
+          46
+        ]
+      ],
+      "status": "clear",
+      "eligible": "no",
+      "notes": "The Applicant label explicitly binds the full name to the applicant. A current translation credential is explicitly not held. Prince2 is the training label and must remain."
+    },
+    {
+      "case_id": "case-05-3",
+      "source_sha256": "d188308fc5d2aacc4b98d9cfb4c1fc2ac4b09771f9f5f257646d053652fb4235",
+      "identity_spans": [],
+      "retained_spans": [],
+      "status": "uncertain",
+      "eligible": "uncertain",
+      "notes": "No applicant is identified. Supplying credential evidence does not establish that the named supplier is the applicant or credential holder; approving it does not establish the approver's relationship to the applicant. No name can be confidently assigned to either requested span category, so both lists are empty pending role clarification. The text does not explicitly establish an active translation credential. Need the applicant identity, the credential holder and validity, and the approver's role."
+    }
+  ]
+}

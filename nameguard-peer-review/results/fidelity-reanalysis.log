@@ -1,0 +1,9 @@
+{
+  "contexts": 32,
+  "native_nonconstant_contexts": 32,
+  "minimum_binary_changes_any_invariant_rule": 5,
+  "measured_binary_changes": 15,
+  "mean_best_possible_uniform_logit_error": 0.44241514801979065,
+  "mse_decomposition_verified": true,
+  "scope": "Fidelity to existing native scores, not prediction accuracy. Accuracy loss is not mathematically required by name invariance."
+}

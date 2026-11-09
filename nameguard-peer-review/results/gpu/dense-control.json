@@ -1,0 +1,58 @@
+[
+  {
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "packed": -1.6966896057128906,
+    "dense-logical": -1.8420524597167969,
+    "dense-physical": -1.3643150329589844
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "packed": -1.6966896057128906,
+    "dense-logical": -1.733551025390625,
+    "dense-physical": -1.5037269592285156
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "packed": -1.6966896057128906,
+    "dense-logical": -1.7825431823730469,
+    "dense-physical": -1.6707935333251953
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "packed": -1.6966896057128906,
+    "dense-logical": -1.7825431823730469,
+    "dense-physical": -1.6707935333251953
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "packed": -1.6966896057128906,
+    "dense-logical": -1.9178352355957031,
+    "dense-physical": -1.5163612365722656
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "packed": -1.6966896057128906,
+    "dense-logical": -1.7825431823730469,
+    "dense-physical": -1.6707935333251953
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "packed": -3.747467041015625,
+    "dense-logical": -3.697084426879883,
+    "dense-physical": -3.156740188598633
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "packed": -3.747467041015625,
+    "dense-logical": -3.663839340209961,
+    "dense-physical": -3.197813034057617
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "synthetic_rows_identical_except_setup_timing": 192,
+  "synthetic_stage_fingerprints_identical": 192,
+  "arc_records_identical": true,
+  "arc_count": 100,
+  "checkpoint_files_recreated_exactly": true,
+  "scope": "Same-host fresh-process reconstruction and repeat; not independent-lab replication."
+}

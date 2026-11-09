@@ -1,0 +1,12 @@
+{
+  "url": "https://datasets-server.huggingface.co/rows?dataset=allenai%2Fai2_arc&config=ARC-Challenge&split=test&offset=200&length=100",
+  "viewer_url": "https://datasets-server.huggingface.co/rows?dataset=allenai%2Fai2_arc&config=ARC-Challenge&split=test&offset=200&length=100",
+  "sha256": "e8ec8243f420bbe072500df4adae7e44ed6649c38f57ae8672b20c4efbb88d59",
+  "rows": 100,
+  "source_parquet_sha256": null,
+  "dataset": "allenai/ai2_arc",
+  "config": "ARC-Challenge",
+  "split": "test",
+  "offset": 200,
+  "scope": "Standard dataset subset, original prompt/readout protocol; not a published full leaderboard score."
+}

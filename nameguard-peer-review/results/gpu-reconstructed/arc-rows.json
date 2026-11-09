@@ -1,0 +1,902 @@
+[
+  {
+    "id": "Mercury_SC_400708",
+    "target": 2,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "9e504bb0203f1d45b3995cd624073de5d1bf4a022c9f6824a96cf70b9945a040",
+    "gated_vocab_sha256": "9e504bb0203f1d45b3995cd624073de5d1bf4a022c9f6824a96cf70b9945a040"
+  },
+  {
+    "id": "Mercury_7075040",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "7629ea5c80eb810e7f6a6880970d4523d6accd55fb861edf73aef7ed65d6b5a0",
+    "gated_vocab_sha256": "7629ea5c80eb810e7f6a6880970d4523d6accd55fb861edf73aef7ed65d6b5a0"
+  },
+  {
+    "id": "Mercury_7137165",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "3c8a3b026c23ad894976533676f23ca8aa9b0a64d9f5f6433b91bdf1cc027946",
+    "gated_vocab_sha256": "3c8a3b026c23ad894976533676f23ca8aa9b0a64d9f5f6433b91bdf1cc027946"
+  },
+  {
+    "id": "Mercury_SC_400046",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "d9f44cb1af38eb9893c4c0e5ce31c3d1862d7f9885660998879a50a6090c5b40",
+    "gated_vocab_sha256": "d9f44cb1af38eb9893c4c0e5ce31c3d1862d7f9885660998879a50a6090c5b40"
+  },
+  {
+    "id": "Mercury_7099330",
+    "target": 3,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "9bede2156236b838583cfb6f92ed2f8994407704a1457dd07049f1a2979425ff",
+    "gated_vocab_sha256": "9bede2156236b838583cfb6f92ed2f8994407704a1457dd07049f1a2979425ff"
+  },
+  {
+    "id": "MDSA_2007_5_2",
+    "target": 2,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "0fba88c80d4cf7827cbf244cfabfac1ac9c4661f874e829e17302449de6993cf",
+    "gated_vocab_sha256": "0fba88c80d4cf7827cbf244cfabfac1ac9c4661f874e829e17302449de6993cf"
+  },
+  {
+    "id": "Mercury_7271758",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "5cf8700ab23253d5d224997c486b350e31a5ab992e0690877b52401ec81a3f33",
+    "gated_vocab_sha256": "5cf8700ab23253d5d224997c486b350e31a5ab992e0690877b52401ec81a3f33"
+  },
+  {
+    "id": "MCAS_2003_8_31",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c584693b22da0c6814dd66c8989b4dcbb2f71417053b44297cb3f379642dd1c1",
+    "gated_vocab_sha256": "c584693b22da0c6814dd66c8989b4dcbb2f71417053b44297cb3f379642dd1c1"
+  },
+  {
+    "id": "AKDE&ED_2008_8_53",
+    "target": 2,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "abb2eb20d159cd114353900290c489657b41cb99213dbd828157d587d27cbff4",
+    "gated_vocab_sha256": "abb2eb20d159cd114353900290c489657b41cb99213dbd828157d587d27cbff4"
+  },
+  {
+    "id": "TIMSS_2007_8_pg109",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "4f76be64b67eb87122263125a74f0dcbf9fbaa0a230b973016798fe28890756f",
+    "gated_vocab_sha256": "4f76be64b67eb87122263125a74f0dcbf9fbaa0a230b973016798fe28890756f"
+  },
+  {
+    "id": "Mercury_175385",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "02be583f0ebe28a914e806cc487b3d87be9a51801caec1bfc3a5a010210306cd",
+    "gated_vocab_sha256": "02be583f0ebe28a914e806cc487b3d87be9a51801caec1bfc3a5a010210306cd"
+  },
+  {
+    "id": "Mercury_410669",
+    "target": 3,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "a81d9acd28a7aac1f036a4f901a0eb039006384d32bd1b3e55dff93dbeb33f17",
+    "gated_vocab_sha256": "a81d9acd28a7aac1f036a4f901a0eb039006384d32bd1b3e55dff93dbeb33f17"
+  },
+  {
+    "id": "MEAP_2005_8_39",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "6c56094218733b68e540018fda4103d33d706d3fa0557cebed4ada9dd7cfbf57",
+    "gated_vocab_sha256": "6c56094218733b68e540018fda4103d33d706d3fa0557cebed4ada9dd7cfbf57"
+  },
+  {
+    "id": "Mercury_SC_408568",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c3d8d93275472df2b2f1ce1d46c1d61511004164f141a798bf4a84572d309603",
+    "gated_vocab_sha256": "c3d8d93275472df2b2f1ce1d46c1d61511004164f141a798bf4a84572d309603"
+  },
+  {
+    "id": "AKDE&ED_2008_8_7",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "bf613459ae7c5296f6fbc187185db5ec5259568248e7a89f64add389fb0eccdd",
+    "gated_vocab_sha256": "bf613459ae7c5296f6fbc187185db5ec5259568248e7a89f64add389fb0eccdd"
+  },
+  {
+    "id": "Mercury_7082845",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "842189f01d92dab9cc8cadcf7d3df5f55f0c427d48ebd2bc87c4976cd7718db4",
+    "gated_vocab_sha256": "842189f01d92dab9cc8cadcf7d3df5f55f0c427d48ebd2bc87c4976cd7718db4"
+  },
+  {
+    "id": "Mercury_SC_405726",
+    "target": 3,
+    "native_prediction": 3,
+    "gated_prediction": 3,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "a6dde936314f05e9e5ae66d624b0d9f767df888b6525423bc8864552d2642255",
+    "gated_vocab_sha256": "a6dde936314f05e9e5ae66d624b0d9f767df888b6525423bc8864552d2642255"
+  },
+  {
+    "id": "Mercury_SC_415407",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "2fc99adae837e9440d82fd0a1657718f36c1ae82d1966e68b12324676d0e514f",
+    "gated_vocab_sha256": "2fc99adae837e9440d82fd0a1657718f36c1ae82d1966e68b12324676d0e514f"
+  },
+  {
+    "id": "Mercury_SC_401792",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "ffed2acb03445bb2809cc80b1b4aa6abc105bfcca9fe1d39de9c8a1bf0daf37a",
+    "gated_vocab_sha256": "ffed2acb03445bb2809cc80b1b4aa6abc105bfcca9fe1d39de9c8a1bf0daf37a"
+  },
+  {
+    "id": "LEAP_2000_8_4",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c45c03bf11c2d6dcb70442fc2e1733f71d2224a5d8f5295fef8ab796ccdbe240",
+    "gated_vocab_sha256": "c45c03bf11c2d6dcb70442fc2e1733f71d2224a5d8f5295fef8ab796ccdbe240"
+  },
+  {
+    "id": "Mercury_SC_413439",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "62e15aac1c37b049ce40c762ab2a8135aaf732bfe28836bd8bd6030b45717433",
+    "gated_vocab_sha256": "62e15aac1c37b049ce40c762ab2a8135aaf732bfe28836bd8bd6030b45717433"
+  },
+  {
+    "id": "ACTAAP_2014_7_13",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "4ff365d21ba08a2b5020fffbd27623dacb3fe891776c75b89c3466a232bfb84c",
+    "gated_vocab_sha256": "4ff365d21ba08a2b5020fffbd27623dacb3fe891776c75b89c3466a232bfb84c"
+  },
+  {
+    "id": "Mercury_SC_402638",
+    "target": 0,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "92438bfc4074fbf62bf2e10ec689a0ebe61b521e720579269d3d386f34962db5",
+    "gated_vocab_sha256": "92438bfc4074fbf62bf2e10ec689a0ebe61b521e720579269d3d386f34962db5"
+  },
+  {
+    "id": "Mercury_SC_406725",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "08d31728ebb46f03f5c80c837074e56fe00f83b25bb232a8098bdd8118b4dad9",
+    "gated_vocab_sha256": "08d31728ebb46f03f5c80c837074e56fe00f83b25bb232a8098bdd8118b4dad9"
+  },
+  {
+    "id": "NYSEDREGENTS_2015_4_29",
+    "target": 0,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c0cfea0462f86e0eda6c3becb4d5f70a67387a23f253af89bdd4ba4237e5c545",
+    "gated_vocab_sha256": "c0cfea0462f86e0eda6c3becb4d5f70a67387a23f253af89bdd4ba4237e5c545"
+  },
+  {
+    "id": "Mercury_406136",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "979cfffe487ddaa7672e69b7a68e5172bfbc3fcb3b5c4f676a5efc2798c2e82b",
+    "gated_vocab_sha256": "979cfffe487ddaa7672e69b7a68e5172bfbc3fcb3b5c4f676a5efc2798c2e82b"
+  },
+  {
+    "id": "MSA_2012_5_23",
+    "target": 2,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "5833d9f3dfe974cf3bdb8e2d822d9eff05469a9c065bbbde69e14f440bcc53be",
+    "gated_vocab_sha256": "5833d9f3dfe974cf3bdb8e2d822d9eff05469a9c065bbbde69e14f440bcc53be"
+  },
+  {
+    "id": "Mercury_405873",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c0de2dae982f228d0ab6452f09992f085ad5ff7364a3937cd3837597b91e5a9d",
+    "gated_vocab_sha256": "c0de2dae982f228d0ab6452f09992f085ad5ff7364a3937cd3837597b91e5a9d"
+  },
+  {
+    "id": "Mercury_7043820",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "ab9b65e9dce62c984cbee99655baa4904e0c391c899e9cd0157377eaf253bf6d",
+    "gated_vocab_sha256": "ab9b65e9dce62c984cbee99655baa4904e0c391c899e9cd0157377eaf253bf6d"
+  },
+  {
+    "id": "MCAS_2005_5_34",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "76c0603207409940d5e036e231237c4da0f5a1a98c77660dba55238f6075c6e2",
+    "gated_vocab_sha256": "76c0603207409940d5e036e231237c4da0f5a1a98c77660dba55238f6075c6e2"
+  },
+  {
+    "id": "Mercury_7182245",
+    "target": 3,
+    "native_prediction": 3,
+    "gated_prediction": 3,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "24e1dae23ff6b1110bcc0fb6cd446116944c809daf5e0395ce6112e0c9e8269d",
+    "gated_vocab_sha256": "24e1dae23ff6b1110bcc0fb6cd446116944c809daf5e0395ce6112e0c9e8269d"
+  },
+  {
+    "id": "MSA_2012_8_30",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "dd3d651107e08c1fbe5ade52737ee6c1e04cde87baefb9df2fb2a4c57028a98d",
+    "gated_vocab_sha256": "dd3d651107e08c1fbe5ade52737ee6c1e04cde87baefb9df2fb2a4c57028a98d"
+  },
+  {
+    "id": "Mercury_7252753",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "83d78e022c5413312817565b9356c531309f28ce4479c29508e517d5e83f9890",
+    "gated_vocab_sha256": "83d78e022c5413312817565b9356c531309f28ce4479c29508e517d5e83f9890"
+  },
+  {
+    "id": "TAKS_2009_8_36",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "19899611571a0769271112670282740d9ab4935a3ea82eb88953915fc4c914b7",
+    "gated_vocab_sha256": "19899611571a0769271112670282740d9ab4935a3ea82eb88953915fc4c914b7"
+  },
+  {
+    "id": "Mercury_SC_415473",
+    "target": 2,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "781d627d3341da166ab837ab1a47c1ec98b5c2bc0dd5599c309b6578f85a00be",
+    "gated_vocab_sha256": "781d627d3341da166ab837ab1a47c1ec98b5c2bc0dd5599c309b6578f85a00be"
+  },
+  {
+    "id": "Mercury_SC_413624",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "ee4d0fd441c7bd05843542cf4fb97c6e8a155579f014a72ebe9cf01f0fb697e1",
+    "gated_vocab_sha256": "ee4d0fd441c7bd05843542cf4fb97c6e8a155579f014a72ebe9cf01f0fb697e1"
+  },
+  {
+    "id": "Mercury_7016800",
+    "target": 3,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "fe9c041fa1158b12774e641291b0b0e81c809e17095f1d6c2e11ec785cf512c8",
+    "gated_vocab_sha256": "fe9c041fa1158b12774e641291b0b0e81c809e17095f1d6c2e11ec785cf512c8"
+  },
+  {
+    "id": "Mercury_SC_407228",
+    "target": 3,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c327bd8e9f2ac5ab765c099f5452a02a64ea0982534627284fee94bb5486058c",
+    "gated_vocab_sha256": "c327bd8e9f2ac5ab765c099f5452a02a64ea0982534627284fee94bb5486058c"
+  },
+  {
+    "id": "Mercury_414504",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "eaab1aa77dd51d11006ffebc76712b2d67a177674e6b6a08694c5a83b35b231e",
+    "gated_vocab_sha256": "eaab1aa77dd51d11006ffebc76712b2d67a177674e6b6a08694c5a83b35b231e"
+  },
+  {
+    "id": "TIMSS_2011_4_pg27",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "5bf3089547dc7c132608b83da1a652946a9297ab6e0d2d3437ac69e84c9c7e46",
+    "gated_vocab_sha256": "5bf3089547dc7c132608b83da1a652946a9297ab6e0d2d3437ac69e84c9c7e46"
+  },
+  {
+    "id": "Mercury_SC_402029",
+    "target": 3,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c011e8bec5c8d273942e97219f78ce952a7f27494557ad5b089f7ef84dbaa638",
+    "gated_vocab_sha256": "c011e8bec5c8d273942e97219f78ce952a7f27494557ad5b089f7ef84dbaa638"
+  },
+  {
+    "id": "Mercury_7131845",
+    "target": 2,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "e8e3a97d93ee4afc3804f8d982a2b2b1999e5576a9c744e8038798bf6dad0dc9",
+    "gated_vocab_sha256": "e8e3a97d93ee4afc3804f8d982a2b2b1999e5576a9c744e8038798bf6dad0dc9"
+  },
+  {
+    "id": "Mercury_SC_405533",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "0ca6bf22c2e3642d9ac604652f369c2db7d13d54886dfc1dd356b8ec778f0449",
+    "gated_vocab_sha256": "0ca6bf22c2e3642d9ac604652f369c2db7d13d54886dfc1dd356b8ec778f0449"
+  },
+  {
+    "id": "Mercury_7086748",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "a17f8ac3b799a021bab21e4549fd4e2aa9b0a2ebee55235015c6962ea3d0b42c",
+    "gated_vocab_sha256": "a17f8ac3b799a021bab21e4549fd4e2aa9b0a2ebee55235015c6962ea3d0b42c"
+  },
+  {
+    "id": "MDSA_2007_8_17",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "a1e306a543e37ace475024dfb69779e63eda93487b178cf7f9c195b3560d39bb",
+    "gated_vocab_sha256": "a1e306a543e37ace475024dfb69779e63eda93487b178cf7f9c195b3560d39bb"
+  },
+  {
+    "id": "Mercury_7210473",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "757501d162392819a601b329e1a649e8ba84c7beb1794a143115edd80ffe756e",
+    "gated_vocab_sha256": "757501d162392819a601b329e1a649e8ba84c7beb1794a143115edd80ffe756e"
+  },
+  {
+    "id": "Mercury_7214340",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "fe7b19ad857c0f4d555df0d298a42cf675d7fc838884a8e78314f71d99e73113",
+    "gated_vocab_sha256": "fe7b19ad857c0f4d555df0d298a42cf675d7fc838884a8e78314f71d99e73113"
+  },
+  {
+    "id": "MCAS_2005_9_17",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "bacdc3baf1ffe68ac2e6e2fdeaf21b8a02b1aabbd18820943327ba753d724a3e",
+    "gated_vocab_sha256": "bacdc3baf1ffe68ac2e6e2fdeaf21b8a02b1aabbd18820943327ba753d724a3e"
+  },
+  {
+    "id": "MEA_2016_8_12",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "17506ac07d9ad62ea30de4cc980096f008cc337f0c111661e45a82ed81c0f26f",
+    "gated_vocab_sha256": "17506ac07d9ad62ea30de4cc980096f008cc337f0c111661e45a82ed81c0f26f"
+  },
+  {
+    "id": "Mercury_SC_401278",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "e07f6851215e2807acf5e873605228233941e6e70a988d46d715d0b5910e7fad",
+    "gated_vocab_sha256": "e07f6851215e2807acf5e873605228233941e6e70a988d46d715d0b5910e7fad"
+  },
+  {
+    "id": "Mercury_SC_407689",
+    "target": 3,
+    "native_prediction": 3,
+    "gated_prediction": 3,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "faf62ced26dfa9e72f1c2aee933a54e96feb0bc9dfad6125eac27301ae58eedd",
+    "gated_vocab_sha256": "faf62ced26dfa9e72f1c2aee933a54e96feb0bc9dfad6125eac27301ae58eedd"
+  },
+  {
+    "id": "Mercury_7230405",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "081a81cd8778ab08903cc0114a3db7eed96e2be3e6afdf5c5951d5870c92adfa",
+    "gated_vocab_sha256": "081a81cd8778ab08903cc0114a3db7eed96e2be3e6afdf5c5951d5870c92adfa"
+  },
+  {
+    "id": "Mercury_SC_405640",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "2365beab997f12e4e4174eaec02b52080d030c9af850b6f9bf4e555e732523df",
+    "gated_vocab_sha256": "2365beab997f12e4e4174eaec02b52080d030c9af850b6f9bf4e555e732523df"
+  },
+  {
+    "id": "Mercury_7201775",
+    "target": 3,
+    "native_prediction": 3,
+    "gated_prediction": 3,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "098573b5fd35d6914a934f0cc04a6ca121066d6ff661358225830f920babaca9",
+    "gated_vocab_sha256": "098573b5fd35d6914a934f0cc04a6ca121066d6ff661358225830f920babaca9"
+  },
+  {
+    "id": "Mercury_7177398",
+    "target": 3,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "7ba93ae761ee6b632a058b0c521a29d786aab629f079818d4f5ef24eb4b975e0",
+    "gated_vocab_sha256": "7ba93ae761ee6b632a058b0c521a29d786aab629f079818d4f5ef24eb4b975e0"
+  },
+  {
+    "id": "Mercury_7041423",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "0bc33d861998df3d0833903497c343e90893bac45831a336760b34908b652604",
+    "gated_vocab_sha256": "0bc33d861998df3d0833903497c343e90893bac45831a336760b34908b652604"
+  },
+  {
+    "id": "Mercury_7004743",
+    "target": 3,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "4e8951dfd91a30a9ab7cdb04c976e40164c765a6b9d66d69d43d8b86ff48105d",
+    "gated_vocab_sha256": "4e8951dfd91a30a9ab7cdb04c976e40164c765a6b9d66d69d43d8b86ff48105d"
+  },
+  {
+    "id": "Mercury_7198468",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "118a08e9f65769f3545e9221cd27f3b1fa7a512eb761f5409d46bc624d437f30",
+    "gated_vocab_sha256": "118a08e9f65769f3545e9221cd27f3b1fa7a512eb761f5409d46bc624d437f30"
+  },
+  {
+    "id": "MEA_2014_5_11",
+    "target": 2,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "b970ca03bf1c8e9abe2d5deb9065c7a911668530e333dc1cebb7e3ff89f72c3e",
+    "gated_vocab_sha256": "b970ca03bf1c8e9abe2d5deb9065c7a911668530e333dc1cebb7e3ff89f72c3e"
+  },
+  {
+    "id": "Mercury_410602",
+    "target": 0,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "cdad6b384b4fb47dc60cc817a182501e3f3427ccc8d3e5079c9e10de0d6cce12",
+    "gated_vocab_sha256": "cdad6b384b4fb47dc60cc817a182501e3f3427ccc8d3e5079c9e10de0d6cce12"
+  },
+  {
+    "id": "Mercury_7108868",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "e451ef3eb51a5397f7a3cab512040e6490e34f88f67b05a348946e96c4caa0b3",
+    "gated_vocab_sha256": "e451ef3eb51a5397f7a3cab512040e6490e34f88f67b05a348946e96c4caa0b3"
+  },
+  {
+    "id": "Mercury_7033828",
+    "target": 3,
+    "native_prediction": 3,
+    "gated_prediction": 3,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "efa8e36a9ff296bc71738f2b228d1d59c93e4141a480613bd5f8c867edda151b",
+    "gated_vocab_sha256": "efa8e36a9ff296bc71738f2b228d1d59c93e4141a480613bd5f8c867edda151b"
+  },
+  {
+    "id": "TIMSS_2007_4_pg19",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "9b2495be7cb1a77c00e5d24096a0b29494e3c5e3dc6b2631cf2ddf838a9a9ac6",
+    "gated_vocab_sha256": "9b2495be7cb1a77c00e5d24096a0b29494e3c5e3dc6b2631cf2ddf838a9a9ac6"
+  },
+  {
+    "id": "Mercury_400828",
+    "target": 3,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "7913070a3eae90ac675e2025c7bab64c9fea6fec13ea082f09eb71bc30712b3d",
+    "gated_vocab_sha256": "7913070a3eae90ac675e2025c7bab64c9fea6fec13ea082f09eb71bc30712b3d"
+  },
+  {
+    "id": "VASoL_2008_3_16",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "ca0caa1dc97aee67b652c64fab309805d0be833af5900fb0890f06f01eb88924",
+    "gated_vocab_sha256": "ca0caa1dc97aee67b652c64fab309805d0be833af5900fb0890f06f01eb88924"
+  },
+  {
+    "id": "LEAP__5_10315",
+    "target": 2,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "bb3218ed6c7c75981dca9a28ce25dd505acfd699dde45fabfa0df2491ba6a0d1",
+    "gated_vocab_sha256": "bb3218ed6c7c75981dca9a28ce25dd505acfd699dde45fabfa0df2491ba6a0d1"
+  },
+  {
+    "id": "Mercury_SC_415471",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "c60c1293484874a2146280fa97664eb7b7ab0040bed499395ba0e06a6ebec12c",
+    "gated_vocab_sha256": "c60c1293484874a2146280fa97664eb7b7ab0040bed499395ba0e06a6ebec12c"
+  },
+  {
+    "id": "Mercury_7247065",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "6242d6c34be06b68ddc86e04235b7522e6fc1e629dc8390fbd56a7a093a64d37",
+    "gated_vocab_sha256": "6242d6c34be06b68ddc86e04235b7522e6fc1e629dc8390fbd56a7a093a64d37"
+  },
+  {
+    "id": "MDSA_2011_5_3",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "8b099835d0a2a6f83effb8fa458ef5cbf4729510fd81de91b0a36d5501bb1dc5",
+    "gated_vocab_sha256": "8b099835d0a2a6f83effb8fa458ef5cbf4729510fd81de91b0a36d5501bb1dc5"
+  },
+  {
+    "id": "MDSA_2009_5_39",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "6de2e1791bdc568a7a7b05e4ab488a29462466a1b651489faf0aeaf73f99e5ce",
+    "gated_vocab_sha256": "6de2e1791bdc568a7a7b05e4ab488a29462466a1b651489faf0aeaf73f99e5ce"
+  },
+  {
+    "id": "Mercury_187198",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "46c02113d193720ad01fa5b7a7c1cf39ca66939a398e9c3b7c8fa1f3cf2f7d83",
+    "gated_vocab_sha256": "46c02113d193720ad01fa5b7a7c1cf39ca66939a398e9c3b7c8fa1f3cf2f7d83"
+  },
+  {
+    "id": "MCAS_2000_4_36",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "4dfb196d78328162ba361fb73d82ef0f806b78fe91e109c6c87204320dfd9527",
+    "gated_vocab_sha256": "4dfb196d78328162ba361fb73d82ef0f806b78fe91e109c6c87204320dfd9527"
+  },
+  {
+    "id": "Mercury_184100",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "22f556efbfc10535e4809f45edaf96c08e60a6c36daba2a67c57f745aafcd799",
+    "gated_vocab_sha256": "22f556efbfc10535e4809f45edaf96c08e60a6c36daba2a67c57f745aafcd799"
+  },
+  {
+    "id": "Mercury_LBS10814",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "b7f0f51deb25b86e909da3a6e9395559f7d98ac6e13bbb1eee53651ea38b7a67",
+    "gated_vocab_sha256": "b7f0f51deb25b86e909da3a6e9395559f7d98ac6e13bbb1eee53651ea38b7a67"
+  },
+  {
+    "id": "Mercury_SC_408384",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "bd0465bdb189a7cf4e1bdcdc28fa85a8be1227be5e7086fd94534069bfa10610",
+    "gated_vocab_sha256": "bd0465bdb189a7cf4e1bdcdc28fa85a8be1227be5e7086fd94534069bfa10610"
+  },
+  {
+    "id": "Mercury_7043068",
+    "target": 3,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "68d990ff9cac5419412096421513fb585731ed15fe7a8c22ca5a528cea1f81e8",
+    "gated_vocab_sha256": "68d990ff9cac5419412096421513fb585731ed15fe7a8c22ca5a528cea1f81e8"
+  },
+  {
+    "id": "Mercury_411071",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "16bc1fdea8953ef3171a9dd144491ed95c768bb9129e53394c66903b590a6c31",
+    "gated_vocab_sha256": "16bc1fdea8953ef3171a9dd144491ed95c768bb9129e53394c66903b590a6c31"
+  },
+  {
+    "id": "NYSEDREGENTS_2010_4_24",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "0c3b5032c89c02dc3e632c649573a39e136744d9d02885e7e69eba5063e28dd1",
+    "gated_vocab_sha256": "0c3b5032c89c02dc3e632c649573a39e136744d9d02885e7e69eba5063e28dd1"
+  },
+  {
+    "id": "Mercury_SC_409673",
+    "target": 3,
+    "native_prediction": 3,
+    "gated_prediction": 3,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "718e36356e6ac7d8d244b3c7d588d4ab8620321eaac1ed7197d63d17c75beae9",
+    "gated_vocab_sha256": "718e36356e6ac7d8d244b3c7d588d4ab8620321eaac1ed7197d63d17c75beae9"
+  },
+  {
+    "id": "Mercury_SC_400374",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "6d0c1be276dedab8c5ea3de859c9c98f6cf3475ef80631e4495821fc7fe77747",
+    "gated_vocab_sha256": "6d0c1be276dedab8c5ea3de859c9c98f6cf3475ef80631e4495821fc7fe77747"
+  },
+  {
+    "id": "CSZ_2009_8_CSZ20740",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "32463c62b4104c2422af17527b7a2e66a70c73cf9f1f48046985c03f88b64cae",
+    "gated_vocab_sha256": "32463c62b4104c2422af17527b7a2e66a70c73cf9f1f48046985c03f88b64cae"
+  },
+  {
+    "id": "Mercury_SC_406482",
+    "target": 3,
+    "native_prediction": 3,
+    "gated_prediction": 3,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "72c2f5682a9d5c387cd66afadec26597b977447528defe66a541665510ac1027",
+    "gated_vocab_sha256": "72c2f5682a9d5c387cd66afadec26597b977447528defe66a541665510ac1027"
+  },
+  {
+    "id": "OHAT_2007_8_24",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "e2cd78efbac24aa7dca81ddc680366ca1ac7e6a0f7e433e9ba3e430b5959136f",
+    "gated_vocab_sha256": "e2cd78efbac24aa7dca81ddc680366ca1ac7e6a0f7e433e9ba3e430b5959136f"
+  },
+  {
+    "id": "Mercury_188335",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "ae46766e7abffd40f1f79df2866ecfb0bedf5392c9790147d4e7629bd0168bc8",
+    "gated_vocab_sha256": "ae46766e7abffd40f1f79df2866ecfb0bedf5392c9790147d4e7629bd0168bc8"
+  },
+  {
+    "id": "Mercury_7128555",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "e3e8684536d504fb7b80a3936d9bee90d36c596330a73c2039ad94b0fbd3125e",
+    "gated_vocab_sha256": "e3e8684536d504fb7b80a3936d9bee90d36c596330a73c2039ad94b0fbd3125e"
+  },
+  {
+    "id": "Mercury_407517",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "3628971456f3f9d8e759fe91a3967b10614052c9683a316e95c98568748c2f37",
+    "gated_vocab_sha256": "3628971456f3f9d8e759fe91a3967b10614052c9683a316e95c98568748c2f37"
+  },
+  {
+    "id": "Mercury_405950",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "a3c1b54ca0be9ba71c565215c4034dd2266de5454d9ac7aeb15476305b208a3c",
+    "gated_vocab_sha256": "a3c1b54ca0be9ba71c565215c4034dd2266de5454d9ac7aeb15476305b208a3c"
+  },
+  {
+    "id": "MCAS_2004_9_5",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "910969a0b97891ffbb693eae17bb34489dc2cc3a4a204fcbd503f4d5ac019f7c",
+    "gated_vocab_sha256": "910969a0b97891ffbb693eae17bb34489dc2cc3a4a204fcbd503f4d5ac019f7c"
+  },
+  {
+    "id": "NCEOGA_2013_8_28",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "58efcbc8d322f1bf8e45a288acf665be8957b152662e2eb30de92b270975a6be",
+    "gated_vocab_sha256": "58efcbc8d322f1bf8e45a288acf665be8957b152662e2eb30de92b270975a6be"
+  },
+  {
+    "id": "Mercury_SC_406451",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "d1171ba988a4eae9b04427175330efdbc2ea7d6ea93f2bafbfb96e5e423ec7ad",
+    "gated_vocab_sha256": "d1171ba988a4eae9b04427175330efdbc2ea7d6ea93f2bafbfb96e5e423ec7ad"
+  },
+  {
+    "id": "Mercury_7109323",
+    "target": 3,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "cbdf1c56119228b7d5d0a4bd6c07485617ba0dad1f73295dd3516f1ac2556750",
+    "gated_vocab_sha256": "cbdf1c56119228b7d5d0a4bd6c07485617ba0dad1f73295dd3516f1ac2556750"
+  },
+  {
+    "id": "Mercury_404132",
+    "target": 1,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "1f864440f0217cda856d781fd12077d47c6846e31c65f54e0e19cf765ba21068",
+    "gated_vocab_sha256": "1f864440f0217cda856d781fd12077d47c6846e31c65f54e0e19cf765ba21068"
+  },
+  {
+    "id": "Mercury_7210210",
+    "target": 2,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "b1fc1dbdfe3daa41f8114188d1823717388f68135fc8e7b62c0ac3557d680d3b",
+    "gated_vocab_sha256": "b1fc1dbdfe3daa41f8114188d1823717388f68135fc8e7b62c0ac3557d680d3b"
+  },
+  {
+    "id": "Mercury_SC_408042",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "95052a250a2157f4ee90a6d2e508940dfa03cba5984db197b63dbb0c72985edb",
+    "gated_vocab_sha256": "95052a250a2157f4ee90a6d2e508940dfa03cba5984db197b63dbb0c72985edb"
+  },
+  {
+    "id": "MCAS_2004_8_14",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "1c4361af569aa0bdd6b56aea60c544002bd84c30c785196bdf9877647d543de4",
+    "gated_vocab_sha256": "1c4361af569aa0bdd6b56aea60c544002bd84c30c785196bdf9877647d543de4"
+  },
+  {
+    "id": "TIMSS_2011_4_pg5",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "dc60394eb46e955914fd2dd4ec432112fa7dc217edeecd7ac2bcb23e5726e7cd",
+    "gated_vocab_sha256": "dc60394eb46e955914fd2dd4ec432112fa7dc217edeecd7ac2bcb23e5726e7cd"
+  },
+  {
+    "id": "Mercury_SC_406833",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "d0b2ce30b34051bcbeb362e73a27217592444efa88174d5f33b4a5eaa0467c75",
+    "gated_vocab_sha256": "d0b2ce30b34051bcbeb362e73a27217592444efa88174d5f33b4a5eaa0467c75"
+  },
+  {
+    "id": "Mercury_7029558",
+    "target": 2,
+    "native_prediction": 2,
+    "gated_prediction": 2,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "faf360e7db8855d5bd60c65a41efb3d7d5c0ef998f378fe7f3f2145e42eae4a6",
+    "gated_vocab_sha256": "faf360e7db8855d5bd60c65a41efb3d7d5c0ef998f378fe7f3f2145e42eae4a6"
+  },
+  {
+    "id": "Mercury_7138390",
+    "target": 1,
+    "native_prediction": 1,
+    "gated_prediction": 1,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "6d6b08430cce045cf677bf1423acd0cad6d5d0ba33e87dbb43760f7f3c92c627",
+    "gated_vocab_sha256": "6d6b08430cce045cf677bf1423acd0cad6d5d0ba33e87dbb43760f7f3c92c627"
+  },
+  {
+    "id": "MEAP_2005_5_12",
+    "target": 0,
+    "native_prediction": 0,
+    "gated_prediction": 0,
+    "full_vocabulary_exact": true,
+    "native_vocab_sha256": "33207c64676deb046e7850768173ff1a29896d7d2938db8a2eab31b56a765aac",
+    "gated_vocab_sha256": "33207c64676deb046e7850768173ff1a29896d7d2938db8a2eab31b56a765aac"
+  }
+]

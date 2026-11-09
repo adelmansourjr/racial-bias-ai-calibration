@@ -1,0 +1,585 @@
+{
+  "paired_records": [
+    {
+      "family": 0,
+      "name": "Zev",
+      "repeat": 0,
+      "internal_seconds": 0.08849858300527558,
+      "external_seconds": 0.08683254200150259
+    },
+    {
+      "family": 0,
+      "name": "Zev",
+      "repeat": 1,
+      "external_seconds": 0.08704816599492915,
+      "internal_seconds": 0.08829687497927807
+    },
+    {
+      "family": 0,
+      "name": "Zev",
+      "repeat": 2,
+      "internal_seconds": 0.08788741700118408,
+      "external_seconds": 0.08707995800068602
+    },
+    {
+      "family": 0,
+      "name": "Zev",
+      "repeat": 3,
+      "internal_seconds": 0.08847770799184218,
+      "external_seconds": 0.08709687500959262
+    },
+    {
+      "family": 0,
+      "name": "Zev",
+      "repeat": 4,
+      "internal_seconds": 0.08802341599948704,
+      "external_seconds": 0.08679649999248795
+    },
+    {
+      "family": 0,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "external_seconds": 0.0870549580140505,
+      "internal_seconds": 0.08823791702161543
+    },
+    {
+      "family": 0,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "internal_seconds": 0.08820679198834114,
+      "external_seconds": 0.0871083750098478
+    },
+    {
+      "family": 0,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "external_seconds": 0.08699758400325663,
+      "internal_seconds": 0.08821866699145176
+    },
+    {
+      "family": 0,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "internal_seconds": 0.08805712501634844,
+      "external_seconds": 0.08712466701399535
+    },
+    {
+      "family": 0,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "internal_seconds": 0.08812637499067932,
+      "external_seconds": 0.08787575000314973
+    },
+    {
+      "family": 1,
+      "name": "Zev",
+      "repeat": 0,
+      "external_seconds": 0.09085862501524389,
+      "internal_seconds": 0.08922629200969823
+    },
+    {
+      "family": 1,
+      "name": "Zev",
+      "repeat": 1,
+      "internal_seconds": 0.08807891700416803,
+      "external_seconds": 0.087071666988777
+    },
+    {
+      "family": 1,
+      "name": "Zev",
+      "repeat": 2,
+      "internal_seconds": 0.08804933400824666,
+      "external_seconds": 0.08692212498863228
+    },
+    {
+      "family": 1,
+      "name": "Zev",
+      "repeat": 3,
+      "internal_seconds": 0.08817279199138284,
+      "external_seconds": 0.08689562499057502
+    },
+    {
+      "family": 1,
+      "name": "Zev",
+      "repeat": 4,
+      "external_seconds": 0.08702608299790882,
+      "internal_seconds": 0.08904541700030677
+    },
+    {
+      "family": 1,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "external_seconds": 0.08698762499261647,
+      "internal_seconds": 0.08773754199501127
+    },
+    {
+      "family": 1,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "internal_seconds": 0.0881397079792805,
+      "external_seconds": 0.08701745799044147
+    },
+    {
+      "family": 1,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "external_seconds": 0.08707766700536013,
+      "internal_seconds": 0.0879624170192983
+    },
+    {
+      "family": 1,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "external_seconds": 0.08706037499359809,
+      "internal_seconds": 0.0878885830170475
+    },
+    {
+      "family": 1,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "external_seconds": 0.08798924999427982,
+      "internal_seconds": 0.08797829199465923
+    },
+    {
+      "family": 2,
+      "name": "Zev",
+      "repeat": 0,
+      "external_seconds": 0.08720495799207129,
+      "internal_seconds": 0.08813579200068489
+    },
+    {
+      "family": 2,
+      "name": "Zev",
+      "repeat": 1,
+      "internal_seconds": 0.08819283300545067,
+      "external_seconds": 0.08707949999370612
+    },
+    {
+      "family": 2,
+      "name": "Zev",
+      "repeat": 2,
+      "external_seconds": 0.08753637500922196,
+      "internal_seconds": 0.08833966701058671
+    },
+    {
+      "family": 2,
+      "name": "Zev",
+      "repeat": 3,
+      "external_seconds": 0.08731399997486733,
+      "internal_seconds": 0.08892929201829247
+    },
+    {
+      "family": 2,
+      "name": "Zev",
+      "repeat": 4,
+      "internal_seconds": 0.08825391600839794,
+      "external_seconds": 0.08737166700302623
+    },
+    {
+      "family": 2,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "internal_seconds": 0.08874704202753492,
+      "external_seconds": 0.08836945801158436
+    },
+    {
+      "family": 2,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "external_seconds": 0.08927900000708178,
+      "internal_seconds": 0.0888249590061605
+    },
+    {
+      "family": 2,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "external_seconds": 0.08730570902116597,
+      "internal_seconds": 0.08867041699704714
+    },
+    {
+      "family": 2,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "external_seconds": 0.08739091598545201,
+      "internal_seconds": 0.08904362501925789
+    },
+    {
+      "family": 2,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "internal_seconds": 0.08825708398944698,
+      "external_seconds": 0.08730858398484997
+    },
+    {
+      "family": 3,
+      "name": "Zev",
+      "repeat": 0,
+      "external_seconds": 0.08701629200368188,
+      "internal_seconds": 0.08791783300694078
+    },
+    {
+      "family": 3,
+      "name": "Zev",
+      "repeat": 1,
+      "internal_seconds": 0.08794874997693114,
+      "external_seconds": 0.08692808300838806
+    },
+    {
+      "family": 3,
+      "name": "Zev",
+      "repeat": 2,
+      "external_seconds": 0.0869951670174487,
+      "internal_seconds": 0.08791000000201166
+    },
+    {
+      "family": 3,
+      "name": "Zev",
+      "repeat": 3,
+      "external_seconds": 0.0876709170115646,
+      "internal_seconds": 0.08796687499852851
+    },
+    {
+      "family": 3,
+      "name": "Zev",
+      "repeat": 4,
+      "external_seconds": 0.08700283398502506,
+      "internal_seconds": 0.08794516700436361
+    },
+    {
+      "family": 3,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "internal_seconds": 0.08805566697265022,
+      "external_seconds": 0.0869301250204444
+    },
+    {
+      "family": 3,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "internal_seconds": 0.08792320900829509,
+      "external_seconds": 0.08714616598444991
+    },
+    {
+      "family": 3,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "external_seconds": 0.08688058398547582,
+      "internal_seconds": 0.08868408398120664
+    },
+    {
+      "family": 3,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "external_seconds": 0.08685029202024452,
+      "internal_seconds": 0.08839016599813476
+    },
+    {
+      "family": 3,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "external_seconds": 0.08692670799791813,
+      "internal_seconds": 0.08817716600606218
+    },
+    {
+      "family": 4,
+      "name": "Zev",
+      "repeat": 0,
+      "external_seconds": 0.08706637501018122,
+      "internal_seconds": 0.08823983400361612
+    },
+    {
+      "family": 4,
+      "name": "Zev",
+      "repeat": 1,
+      "internal_seconds": 0.08816433398169465,
+      "external_seconds": 0.08708291698712856
+    },
+    {
+      "family": 4,
+      "name": "Zev",
+      "repeat": 2,
+      "internal_seconds": 0.08858820900786668,
+      "external_seconds": 0.08707708300789818
+    },
+    {
+      "family": 4,
+      "name": "Zev",
+      "repeat": 3,
+      "external_seconds": 0.08724741599871777,
+      "internal_seconds": 0.08813270798418671
+    },
+    {
+      "family": 4,
+      "name": "Zev",
+      "repeat": 4,
+      "external_seconds": 0.08699720801087096,
+      "internal_seconds": 0.08844858402153477
+    },
+    {
+      "family": 4,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "internal_seconds": 0.08815241701086052,
+      "external_seconds": 0.08730433299206197
+    },
+    {
+      "family": 4,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "internal_seconds": 0.08833858399884775,
+      "external_seconds": 0.08720658300444484
+    },
+    {
+      "family": 4,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "external_seconds": 0.08785108299343847,
+      "internal_seconds": 0.08836475000134669
+    },
+    {
+      "family": 4,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "external_seconds": 0.08721541598788463,
+      "internal_seconds": 0.0882922500022687
+    },
+    {
+      "family": 4,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "external_seconds": 0.08737824999843724,
+      "internal_seconds": 0.08840179201797582
+    },
+    {
+      "family": 5,
+      "name": "Zev",
+      "repeat": 0,
+      "external_seconds": 0.0872726249799598,
+      "internal_seconds": 0.08818620801321231
+    },
+    {
+      "family": 5,
+      "name": "Zev",
+      "repeat": 1,
+      "internal_seconds": 0.08816054102499038,
+      "external_seconds": 0.08778162498492748
+    },
+    {
+      "family": 5,
+      "name": "Zev",
+      "repeat": 2,
+      "external_seconds": 0.08731712499866262,
+      "internal_seconds": 0.08807758300099522
+    },
+    {
+      "family": 5,
+      "name": "Zev",
+      "repeat": 3,
+      "internal_seconds": 0.08828454199829139,
+      "external_seconds": 0.08731625002110377
+    },
+    {
+      "family": 5,
+      "name": "Zev",
+      "repeat": 4,
+      "external_seconds": 0.087206750002224,
+      "internal_seconds": 0.08804470900213346
+    },
+    {
+      "family": 5,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "internal_seconds": 0.08816874999320135,
+      "external_seconds": 0.08717104198876768
+    },
+    {
+      "family": 5,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "external_seconds": 0.08769958300399594,
+      "internal_seconds": 0.08850199999869801
+    },
+    {
+      "family": 5,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "external_seconds": 0.08727020799415186,
+      "internal_seconds": 0.08825429200078361
+    },
+    {
+      "family": 5,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "internal_seconds": 0.08818962500663474,
+      "external_seconds": 0.08710158299072646
+    },
+    {
+      "family": 5,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "internal_seconds": 0.08833275001961738,
+      "external_seconds": 0.08697545900940895
+    },
+    {
+      "family": 6,
+      "name": "Zev",
+      "repeat": 0,
+      "external_seconds": 0.08793429200886749,
+      "internal_seconds": 0.08829004198196344
+    },
+    {
+      "family": 6,
+      "name": "Zev",
+      "repeat": 1,
+      "internal_seconds": 0.08918941600131802,
+      "external_seconds": 0.08735100002377294
+    },
+    {
+      "family": 6,
+      "name": "Zev",
+      "repeat": 2,
+      "external_seconds": 0.08719783299602568,
+      "internal_seconds": 0.08823216601740569
+    },
+    {
+      "family": 6,
+      "name": "Zev",
+      "repeat": 3,
+      "internal_seconds": 0.08825479101506062,
+      "external_seconds": 0.0872904580028262
+    },
+    {
+      "family": 6,
+      "name": "Zev",
+      "repeat": 4,
+      "external_seconds": 0.08716795800137334,
+      "internal_seconds": 0.08855375001439825
+    },
+    {
+      "family": 6,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "internal_seconds": 0.0882464160094969,
+      "external_seconds": 0.08778000000165775
+    },
+    {
+      "family": 6,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "external_seconds": 0.08704945797217079,
+      "internal_seconds": 0.08834483299870044
+    },
+    {
+      "family": 6,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "internal_seconds": 0.08825766699737869,
+      "external_seconds": 0.08733033397584222
+    },
+    {
+      "family": 6,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "internal_seconds": 0.0888449999911245,
+      "external_seconds": 0.08737770799780264
+    },
+    {
+      "family": 6,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "internal_seconds": 0.08855283301090822,
+      "external_seconds": 0.087007750000339
+    },
+    {
+      "family": 7,
+      "name": "Zev",
+      "repeat": 0,
+      "external_seconds": 0.0877873329736758,
+      "internal_seconds": 0.08833829101058654
+    },
+    {
+      "family": 7,
+      "name": "Zev",
+      "repeat": 1,
+      "internal_seconds": 0.08902066698647104,
+      "external_seconds": 0.087109291984234
+    },
+    {
+      "family": 7,
+      "name": "Zev",
+      "repeat": 2,
+      "external_seconds": 0.08792912500211969,
+      "internal_seconds": 0.08806154201738536
+    },
+    {
+      "family": 7,
+      "name": "Zev",
+      "repeat": 3,
+      "external_seconds": 0.08712787501281127,
+      "internal_seconds": 0.08802979200845584
+    },
+    {
+      "family": 7,
+      "name": "Zev",
+      "repeat": 4,
+      "external_seconds": 0.08769187500001863,
+      "internal_seconds": 0.08872770899324678
+    },
+    {
+      "family": 7,
+      "name": "אור בן דוד",
+      "repeat": 0,
+      "internal_seconds": 0.08970508401398547,
+      "external_seconds": 0.08708795902202837
+    },
+    {
+      "family": 7,
+      "name": "אור בן דוד",
+      "repeat": 1,
+      "external_seconds": 0.08704033299000002,
+      "internal_seconds": 0.08823966700583696
+    },
+    {
+      "family": 7,
+      "name": "אור בן דוד",
+      "repeat": 2,
+      "external_seconds": 0.0874712500080932,
+      "internal_seconds": 0.08858879099716432
+    },
+    {
+      "family": 7,
+      "name": "אור בן דוד",
+      "repeat": 3,
+      "external_seconds": 0.08769641700200737,
+      "internal_seconds": 0.08838549998472445
+    },
+    {
+      "family": 7,
+      "name": "אור בן דוד",
+      "repeat": 4,
+      "internal_seconds": 0.08821941600763239,
+      "external_seconds": 0.08811266598058864
+    }
+  ],
+  "family_median_ratios": [
+    1.0138122362142115,
+    1.0108642634956397,
+    1.010768930390804,
+    1.0112862856718565,
+    1.0123825380497982,
+    1.010778816563421,
+    1.013371410291712,
+    1.0110819235965756
+  ],
+  "paired_family_bootstrap": {
+    "mean": 1.0117933005342523,
+    "lower_95": 1.0110423729642244,
+    "upper_95": 1.0126580143165822,
+    "units": 8,
+    "bootstrap_repetitions": 4000,
+    "seed": 20261109
+  },
+  "median_family_ratio": 1.011184104634216,
+  "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "source_sha256": "c60af7e5de3cf3eb30a937cf05d4a47530af1104a08d0ec411df80baa17116a5"
+}

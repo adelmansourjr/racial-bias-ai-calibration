@@ -1,0 +1,10 @@
+{
+  "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_verified": true,
+  "python": "3.12.8",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "elapsed_seconds": 147.59351654100465,
+  "zero_identity_stage_checks": 5760,
+  "direct_stage_comparisons": 10912,
+  "mlx": "0.32.3"
+}

@@ -1,0 +1,13 @@
+Conformance 8/32 complete
+Conformance 16/32 complete
+Conformance 24/32 complete
+Conformance 32/32 complete
+{
+  "rows": 192,
+  "stages_per_row": 31,
+  "all_original_fingerprints_preserved": true,
+  "matched_external_service_scores_exact": 192,
+  "all_stages_finite_and_expected_shape": true,
+  "parameter_digest": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "source_sha256": "6881c775099d3b3f54d69dbe423f490454bc90784ae136ee32026ccac1030432"
+}

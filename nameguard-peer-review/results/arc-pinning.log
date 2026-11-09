@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/adelmansour/Desktop/ai bias/nameguard-peer-review/pin_arc.py", line 6, in <module>
+    import pyarrow.parquet as pq
+ModuleNotFoundError: No module named 'pyarrow'

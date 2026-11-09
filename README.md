@@ -1,5 +1,17 @@
 # racial-bias-ai-calibration
 
+## Latest: admission-aware name noninterference review package
+
+[Paper PDF](nameguard-peer-review/output/pdf/nameguard-admission-aware-preprint.pdf) · [Manuscript](nameguard-peer-review/paper/manuscript.md) · [Code and reproduction](nameguard-peer-review/README.md) · [Mathematical results](nameguard-peer-review/paper/THEORY.md) · [Literature/novelty](nameguard-peer-review/literature/review.md) · [Review responses](nameguard-peer-review/review-packet/RESPONSE-TO-REVIEW.md)
+
+The new focused study includes rejection in the name-invariance audit and adds a maximum-support native-token evidence-contract compiler. A component ablation holds witness search fixed: the compiler supports 170/192 disjoint-name tokenizer variants versus 160/192 under a fixed greedy contract. This is a structural finite-panel result requiring semantic approval, with established enumeration and noninterference foundations rather than a claim of first universal erasure.
+
+A separate public synthetic GPU study admits all 192 named CV inputs and achieves exact scores and aligned scoring states in all 32 conditions across six names. All 10,912 direct counterfactual/reference arrays match. The equivalent external retained-ID baseline is exact at every checked stage. On 100 official ARC-Challenge questions, native and protected paths both score 68/100 with identical full vocabulary arrays. The constructed credential task scores 179/192 native versus 168/192 protected and 168/192 with character deletion; hiring utility preservation is not established.
+
+Every pinned checkpoint file is reconstructed from the official source revision into a new private directory, with the source unchanged. A fresh-process full repeat preserves every synthetic score/stage fingerprint and ARC record. Two fresh-context AI agents provide blinded annotations and then technical criticism; their findings trigger a 2x2 ablation, balanced paired timing and complete service-stage validation. The matched internal service has about 1.1% overhead in the balanced timing follow-up on this host.
+
+The release includes a seven-page review draft, formal derivations, targeted prior-work review, all original synthetic per-case records, immutable benchmark-source pin, 17 new CPU tests, 29 dependency tests, source-integrity checks and a response-to-review ledger. Blinded AI agreement is not independent human validation; real hiring labels, external replication and broad novelty assessment remain open. The base models and earlier completed studies remain unchanged.
+
 ## Latest: hardened native-token gate and fixed credential readout
 
 [Source, results and use](native-token-gate-hardening/README.md) · [Formal claim and protocol](native-token-gate-hardening/METHOD.md) · [Specific problems and fixes](native-token-gate-hardening/ISSUES.md)
@@ -147,6 +159,7 @@ Run GPU models sequentially. Clef requires a compatible text-only8bit MLX conver
 Optional scientific figures: `python -m pip install -r requirements-figures.txt`, then `python research/experiment/make_figures.py`. Generated cases, downloaded sources and all local outputs are ignored by Git.
 
 Sources: [résumés](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [job listings](https://huggingface.co/datasets/datastax/linkedin_job_listings), [name-audit research](https://www.nber.org/papers/w9873), [Qwen](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct), [Clef](https://huggingface.co/Cloudflare/clef-flash). Dataset/model terms remain with their owners; no blanket third-party license is asserted. Publishing this research code is not a hiring deployment.
+
 
 
 
