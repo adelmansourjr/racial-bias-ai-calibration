@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-16",
+  "pre_test_source_sha256": {
+    "analyze.py": "6d2e4f526634ccbd5adea041ac0539c20572fc7688fed90d0355f72eca8f189d",
+    "experiment.py": "8554fbfea62b8f4a755f9375a9067fa8f846f43a58cffe24bcedc6010010c3b6",
+    "methods.py": "51d856df54e9ede40738b9e60ff33fc11f42b4805638a11f4d5fcd0ea1aa1f80",
+    "fixtures.py": "93709a7ab461972618ea1bb7cb7ea423928cc5e8b2d4e77961196ad455cb76e4",
+    "audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45"
+  },
+  "scope": "Local prospective freeze before test inference. No externally registered timestamp. All arms declared in experiment.py. Development and test use disjoint families and distinct phrases."
+}

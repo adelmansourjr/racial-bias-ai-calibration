@@ -1,0 +1,19 @@
+name: NameGuard utility follow-up
+on:
+  push:
+    paths: ['nameguard-utility-study/**', '.github/workflows/nameguard-utility.yml']
+  pull_request:
+    paths: ['nameguard-utility-study/**', '.github/workflows/nameguard-utility.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s nameguard-utility-study/tests -v
+      - run: python3 nameguard-utility-study/verify.py
+      - run: python3 nameguard-peer-review/verify.py

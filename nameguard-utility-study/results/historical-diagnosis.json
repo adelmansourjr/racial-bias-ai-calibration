@@ -1,0 +1,41 @@
+{
+  "post_hoc_diagnosis": true,
+  "source_sha256": "2b81729bf5d154e853ec297613d11fe3e24c4ec96b14be78fb2fdabb144ee50c",
+  "cells": [
+    {
+      "wording": "direct",
+      "truth": false,
+      "rows": 48,
+      "cv_conditions": 8,
+      "native_correct": 41,
+      "protected_correct": 42
+    },
+    {
+      "wording": "direct",
+      "truth": true,
+      "rows": 48,
+      "cv_conditions": 8,
+      "native_correct": 48,
+      "protected_correct": 48
+    },
+    {
+      "wording": "negation",
+      "truth": false,
+      "rows": 48,
+      "cv_conditions": 8,
+      "native_correct": 48,
+      "protected_correct": 48
+    },
+    {
+      "wording": "negation",
+      "truth": true,
+      "rows": 48,
+      "cv_conditions": 8,
+      "native_correct": 42,
+      "protected_correct": 30
+    }
+  ],
+  "native_total": 179,
+  "protected_total": 168,
+  "scope": "Repeated names share CV conditions. This localizes historical errors, without identifying a unique causal mechanism."
+}

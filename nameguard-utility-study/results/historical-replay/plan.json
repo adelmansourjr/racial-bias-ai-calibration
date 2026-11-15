@@ -1,0 +1,20 @@
+{
+  "adaptation": "Post-hoc replay. Historical errors already examined.",
+  "frozen_before_replay": true,
+  "sources": {
+    "nameguard-utility-study/historical_replay.py": "aa56c262daf1d82d4187b10cfded59b977463b6f8c93fa8cf8fbeb2f7e801fea",
+    "nameguard-peer-review/src/fixtures.py": "e997d012945c62bd93c0ed94ef68b1cfed639014ea31749f5c177db7727ea4f1",
+    "nameguard-peer-review/results/gpu/synthetic-rows.json": "2b81729bf5d154e853ec297613d11fe3e24c4ec96b14be78fb2fdabb144ee50c",
+    "nameguard-utility-study/compositional.py": "853947500e2b397ccf9250a57d45256f5bb4f832004336a24bc65c162458badd",
+    "nameguard-utility-study/fixtures.py": "93709a7ab461972618ea1bb7cb7ea423928cc5e8b2d4e77961196ad455cb76e4",
+    "nameguard-utility-study/experiment.py": "8554fbfea62b8f4a755f9375a9067fa8f846f43a58cffe24bcedc6010010c3b6",
+    "nameguard-utility-study/methods.py": "51d856df54e9ede40738b9e60ff33fc11f42b4805638a11f4d5fcd0ea1aa1f80",
+    "native-token-gate-hardening/gate.py": "d2d8775deb83d8b04491446199b9fb3a3df4668e266b22a9dce6b355f209e347",
+    "nameguard-peer-review/src/compiler.py": "ad08c3b5794136d4ffccbb2713c827984997840dedfbcce330f2abf855a53ecb"
+  },
+  "arms": [
+    "published native",
+    "published internal gate",
+    "new few-shot three-way on the same CV body"
+  ]
+}

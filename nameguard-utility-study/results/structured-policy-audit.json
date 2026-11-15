@@ -1,0 +1,11 @@
+{
+  "tested_structured_cases": 1024,
+  "identical_report_comparisons": 4096,
+  "case_status_counts": {
+    "confirmed": 320,
+    "contradicted": 320,
+    "review": 384
+  },
+  "reports_with_controlling_records": 960,
+  "scope": "Finite exhaustive conformance with supplied reviewed observations. This is independent of free-text model accuracy."
+}

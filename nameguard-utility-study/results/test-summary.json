@@ -1,0 +1,410 @@
+{
+  "split": "test",
+  "scored_name_variants": 252,
+  "all_name_variants_admitted": true,
+  "primary_contexts": 144,
+  "known_contexts": 96,
+  "unresolved_contexts": 48,
+  "families": 24,
+  "invariance": {
+    "contexts": 36,
+    "complete_admission": 36,
+    "exact_aligned_stages": 36,
+    "exact_paired_scores": 36,
+    "exact_cyclic_scores": 36,
+    "exact_report_bytes": 36,
+    "stage_fingerprint_comparisons": 20088
+  },
+  "utility": {
+    "native": {
+      "known_correct": 73,
+      "all_correct": 73,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 30,
+      "wrong_terminal_known_decisions": 23,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 24,
+          "total": 24
+        },
+        "negative": {
+          "correct": 9,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 19,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 21,
+          "total": 24
+        },
+        "missing": {
+          "correct": 0,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 43,
+        "confirmed -> contradicted": 5,
+        "contradicted -> confirmed": 18,
+        "contradicted -> contradicted": 30,
+        "review -> confirmed": 30,
+        "review -> contradicted": 18
+      }
+    },
+    "legacy": {
+      "known_correct": 71,
+      "all_correct": 71,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 21,
+      "wrong_terminal_known_decisions": 25,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 24,
+          "total": 24
+        },
+        "negative": {
+          "correct": 16,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 8,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 23,
+          "total": 24
+        },
+        "missing": {
+          "correct": 0,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 32,
+        "confirmed -> contradicted": 16,
+        "contradicted -> confirmed": 9,
+        "contradicted -> contradicted": 39,
+        "review -> confirmed": 21,
+        "review -> contradicted": 27
+      }
+    },
+    "binary_forward": {
+      "known_correct": 72,
+      "all_correct": 72,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 1,
+      "wrong_terminal_known_decisions": 24,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 24,
+          "total": 24
+        },
+        "negative": {
+          "correct": 24,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 0,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 24,
+          "total": 24
+        },
+        "missing": {
+          "correct": 0,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 24,
+        "confirmed -> contradicted": 24,
+        "contradicted -> contradicted": 48,
+        "review -> confirmed": 1,
+        "review -> contradicted": 47
+      }
+    },
+    "binary_reverse": {
+      "known_correct": 51,
+      "all_correct": 51,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 0,
+      "wrong_terminal_known_decisions": 45,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 3,
+          "total": 24
+        },
+        "negative": {
+          "correct": 24,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 0,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 24,
+          "total": 24
+        },
+        "missing": {
+          "correct": 0,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 3,
+        "confirmed -> contradicted": 45,
+        "contradicted -> contradicted": 48,
+        "review -> contradicted": 48
+      }
+    },
+    "paired": {
+      "known_correct": 61,
+      "all_correct": 61,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 0,
+      "wrong_terminal_known_decisions": 35,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 13,
+          "total": 24
+        },
+        "negative": {
+          "correct": 24,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 0,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 24,
+          "total": 24
+        },
+        "missing": {
+          "correct": 0,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 13,
+        "confirmed -> contradicted": 35,
+        "contradicted -> contradicted": 48,
+        "review -> contradicted": 48
+      }
+    },
+    "deleted_paired": {
+      "known_correct": 57,
+      "all_correct": 57,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 0,
+      "wrong_terminal_known_decisions": 39,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 9,
+          "total": 24
+        },
+        "negative": {
+          "correct": 24,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 0,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 24,
+          "total": 24
+        },
+        "missing": {
+          "correct": 0,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 9,
+        "confirmed -> contradicted": 39,
+        "contradicted -> contradicted": 48,
+        "review -> contradicted": 48
+      }
+    },
+    "single": {
+      "known_correct": 73,
+      "all_correct": 73,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 48,
+      "wrong_terminal_known_decisions": 23,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 24,
+          "total": 24
+        },
+        "negative": {
+          "correct": 8,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 24,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 17,
+          "total": 24
+        },
+        "missing": {
+          "correct": 0,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 48,
+        "contradicted -> confirmed": 23,
+        "contradicted -> contradicted": 25,
+        "review -> confirmed": 48
+      }
+    },
+    "cyclic": {
+      "known_correct": 83,
+      "all_correct": 91,
+      "correct_referrals": 8,
+      "unresolved_false_confirmations": 40,
+      "wrong_terminal_known_decisions": 13,
+      "known_referred": 0,
+      "by_kind": {
+        "positive": {
+          "correct": 24,
+          "total": 24
+        },
+        "negative": {
+          "correct": 18,
+          "total": 24
+        },
+        "qualified_negation": {
+          "correct": 23,
+          "total": 24
+        },
+        "negative_distractor": {
+          "correct": 18,
+          "total": 24
+        },
+        "missing": {
+          "correct": 8,
+          "total": 24
+        },
+        "conflict": {
+          "correct": 0,
+          "total": 24
+        }
+      },
+      "confusion": {
+        "confirmed -> confirmed": 47,
+        "confirmed -> contradicted": 1,
+        "contradicted -> confirmed": 12,
+        "contradicted -> contradicted": 36,
+        "review -> confirmed": 40,
+        "review -> review": 8
+      }
+    }
+  },
+  "paired_binary_vs_legacy_protected": {
+    "improved": 9,
+    "worsened": 19,
+    "family_bootstrap": {
+      "mean": -0.10416666666666667,
+      "lower_95": -0.1875,
+      "upper_95": -0.020833333333333332,
+      "families": 24,
+      "resamples": 8000
+    }
+  },
+  "paired_binary_vs_native": {
+    "improved": 18,
+    "worsened": 30,
+    "family_bootstrap": {
+      "mean": -0.125,
+      "lower_95": -0.19791666666666666,
+      "upper_95": -0.0625,
+      "families": 24,
+      "resamples": 8000
+    }
+  },
+  "paired_binary_vs_forward": {
+    "improved": 0,
+    "worsened": 11,
+    "family_bootstrap": {
+      "mean": -0.11458333333333333,
+      "lower_95": -0.16666666666666666,
+      "upper_95": -0.0625,
+      "families": 24,
+      "resamples": 8000
+    }
+  },
+  "paired_binary_vs_external_deletion": {
+    "improved": 4,
+    "worsened": 0,
+    "family_bootstrap": {
+      "mean": 0.041666666666666664,
+      "lower_95": 0.010416666666666666,
+      "upper_95": 0.08333333333333333,
+      "families": 24,
+      "resamples": 8000
+    }
+  },
+  "cyclic_vs_single_all_contexts": {
+    "improved": 20,
+    "worsened": 2,
+    "family_bootstrap": {
+      "mean": 0.125,
+      "lower_95": 0.06944444444444445,
+      "upper_95": 0.18055555555555555,
+      "families": 24,
+      "resamples": 8000
+    }
+  },
+  "runtime": {
+    "native_forwards": 540,
+    "zero_identity_checks": 25920,
+    "protected_forwards": 1512,
+    "seconds": 545.5039706669922,
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "checkpoint_files_verified": true
+  }
+}

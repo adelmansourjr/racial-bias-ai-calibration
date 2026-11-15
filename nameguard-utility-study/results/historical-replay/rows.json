@@ -1,0 +1,2882 @@
+[
+  {
+    "context": "c0-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.070842742919922,
+      28.867277145385742,
+      26.300678253173828
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.070842742919922,
+      28.867277145385742,
+      26.300678253173828
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.070842742919922,
+      28.867277145385742,
+      26.300678253173828
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.070842742919922,
+      28.867277145385742,
+      26.300678253173828
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.070842742919922,
+      28.867277145385742,
+      26.300678253173828
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.070842742919922,
+      28.867277145385742,
+      26.300678253173828
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      25.34402847290039,
+      28.832324981689453,
+      28.046926498413086
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      25.34402847290039,
+      28.832324981689453,
+      28.046926498413086
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      25.34402847290039,
+      28.832324981689453,
+      28.046926498413086
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      25.34402847290039,
+      28.832324981689453,
+      28.046926498413086
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      25.34402847290039,
+      28.832324981689453,
+      28.046926498413086
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      25.34402847290039,
+      28.832324981689453,
+      28.046926498413086
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.386146545410156,
+      23.69150161743164,
+      25.63037872314453
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.386146545410156,
+      23.69150161743164,
+      25.63037872314453
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.386146545410156,
+      23.69150161743164,
+      25.63037872314453
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.386146545410156,
+      23.69150161743164,
+      25.63037872314453
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.386146545410156,
+      23.69150161743164,
+      25.63037872314453
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.386146545410156,
+      23.69150161743164,
+      25.63037872314453
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.516231536865234,
+      22.315420150756836,
+      24.201969146728516
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.516231536865234,
+      22.315420150756836,
+      24.201969146728516
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.516231536865234,
+      22.315420150756836,
+      24.201969146728516
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.516231536865234,
+      22.315420150756836,
+      24.201969146728516
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.516231536865234,
+      22.315420150756836,
+      24.201969146728516
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c0-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.516231536865234,
+      22.315420150756836,
+      24.201969146728516
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"biosafety authorization\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.181232452392578,
+      28.393198013305664,
+      26.323253631591797
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.181232452392578,
+      28.393198013305664,
+      26.323253631591797
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.181232452392578,
+      28.393198013305664,
+      26.323253631591797
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.181232452392578,
+      28.393198013305664,
+      26.323253631591797
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.181232452392578,
+      28.393198013305664,
+      26.323253631591797
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.181232452392578,
+      28.393198013305664,
+      26.323253631591797
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      27.323701858520508,
+      28.067384719848633,
+      26.132497787475586
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      27.323701858520508,
+      28.067384719848633,
+      26.132497787475586
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      27.323701858520508,
+      28.067384719848633,
+      26.132497787475586
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      27.323701858520508,
+      28.067384719848633,
+      26.132497787475586
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      27.323701858520508,
+      28.067384719848633,
+      26.132497787475586
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      27.323701858520508,
+      28.067384719848633,
+      26.132497787475586
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.951095581054688,
+      24.152408599853516,
+      22.90276336669922
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.951095581054688,
+      24.152408599853516,
+      22.90276336669922
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.951095581054688,
+      24.152408599853516,
+      22.90276336669922
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.951095581054688,
+      24.152408599853516,
+      22.90276336669922
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.951095581054688,
+      24.152408599853516,
+      22.90276336669922
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.951095581054688,
+      24.152408599853516,
+      22.90276336669922
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c1-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.60748291015625,
+      23.174423217773438,
+      22.793933868408203
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.60748291015625,
+      23.174423217773438,
+      22.793933868408203
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.60748291015625,
+      23.174423217773438,
+      22.793933868408203
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.60748291015625,
+      23.174423217773438,
+      22.793933868408203
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.60748291015625,
+      23.174423217773438,
+      22.793933868408203
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c1-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.60748291015625,
+      23.174423217773438,
+      22.793933868408203
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"certified translation credential\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c2-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.30788803100586,
+      28.508987426757812,
+      26.749454498291016
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.30788803100586,
+      28.508987426757812,
+      26.749454498291016
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.30788803100586,
+      28.508987426757812,
+      26.749454498291016
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.30788803100586,
+      28.508987426757812,
+      26.749454498291016
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.30788803100586,
+      28.508987426757812,
+      26.749454498291016
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.30788803100586,
+      28.508987426757812,
+      26.749454498291016
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "review",
+    "logits": [
+      24.302480697631836,
+      26.391178131103516,
+      29.14322853088379
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"airframe maintenance license\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "review",
+    "logits": [
+      24.302480697631836,
+      26.391178131103516,
+      29.14322853088379
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"airframe maintenance license\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "review",
+    "logits": [
+      24.302480697631836,
+      26.391178131103516,
+      29.14322853088379
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"airframe maintenance license\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "review",
+    "logits": [
+      24.302480697631836,
+      26.391178131103516,
+      29.14322853088379
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"airframe maintenance license\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "review",
+    "logits": [
+      24.302480697631836,
+      26.391178131103516,
+      29.14322853088379
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"airframe maintenance license\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "review",
+    "logits": [
+      24.302480697631836,
+      26.391178131103516,
+      29.14322853088379
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"airframe maintenance license\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.537837982177734,
+      23.666465759277344,
+      26.352619171142578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.537837982177734,
+      23.666465759277344,
+      26.352619171142578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.537837982177734,
+      23.666465759277344,
+      26.352619171142578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.537837982177734,
+      23.666465759277344,
+      26.352619171142578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.537837982177734,
+      23.666465759277344,
+      26.352619171142578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.537837982177734,
+      23.666465759277344,
+      26.352619171142578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.080421447753906,
+      22.76262664794922,
+      25.91095733642578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.080421447753906,
+      22.76262664794922,
+      25.91095733642578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.080421447753906,
+      22.76262664794922,
+      25.91095733642578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.080421447753906,
+      22.76262664794922,
+      25.91095733642578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.080421447753906,
+      22.76262664794922,
+      25.91095733642578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c2-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.080421447753906,
+      22.76262664794922,
+      25.91095733642578
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"airframe maintenance license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.120136260986328,
+      28.156421661376953,
+      26.3262939453125
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.120136260986328,
+      28.156421661376953,
+      26.3262939453125
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.120136260986328,
+      28.156421661376953,
+      26.3262939453125
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.120136260986328,
+      28.156421661376953,
+      26.3262939453125
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.120136260986328,
+      28.156421661376953,
+      26.3262939453125
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.120136260986328,
+      28.156421661376953,
+      26.3262939453125
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.88719367980957,
+      28.29018211364746,
+      26.593887329101562
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.88719367980957,
+      28.29018211364746,
+      26.593887329101562
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.88719367980957,
+      28.29018211364746,
+      26.593887329101562
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.88719367980957,
+      28.29018211364746,
+      26.593887329101562
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.88719367980957,
+      28.29018211364746,
+      26.593887329101562
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.88719367980957,
+      28.29018211364746,
+      26.593887329101562
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.0747013092041,
+      24.485551834106445,
+      24.26431655883789
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.0747013092041,
+      24.485551834106445,
+      24.26431655883789
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.0747013092041,
+      24.485551834106445,
+      24.26431655883789
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.0747013092041,
+      24.485551834106445,
+      24.26431655883789
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.0747013092041,
+      24.485551834106445,
+      24.26431655883789
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.0747013092041,
+      24.485551834106445,
+      24.26431655883789
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.432315826416016,
+      23.213464736938477,
+      23.510257720947266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.432315826416016,
+      23.213464736938477,
+      23.510257720947266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.432315826416016,
+      23.213464736938477,
+      23.510257720947266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.432315826416016,
+      23.213464736938477,
+      23.510257720947266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.432315826416016,
+      23.213464736938477,
+      23.510257720947266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c3-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.432315826416016,
+      23.213464736938477,
+      23.510257720947266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"pharmacy practice registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.464046478271484,
+      28.71636962890625,
+      26.749042510986328
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.464046478271484,
+      28.71636962890625,
+      26.749042510986328
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.464046478271484,
+      28.71636962890625,
+      26.749042510986328
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.464046478271484,
+      28.71636962890625,
+      26.749042510986328
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.464046478271484,
+      28.71636962890625,
+      26.749042510986328
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      24.464046478271484,
+      28.71636962890625,
+      26.749042510986328
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      24.16213607788086,
+      28.370576858520508,
+      27.595197677612305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      24.16213607788086,
+      28.370576858520508,
+      27.595197677612305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      24.16213607788086,
+      28.370576858520508,
+      27.595197677612305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      24.16213607788086,
+      28.370576858520508,
+      27.595197677612305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      24.16213607788086,
+      28.370576858520508,
+      27.595197677612305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      24.16213607788086,
+      28.370576858520508,
+      27.595197677612305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "review",
+    "logits": [
+      24.98233985900879,
+      24.190757751464844,
+      26.280536651611328
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "review",
+    "logits": [
+      24.98233985900879,
+      24.190757751464844,
+      26.280536651611328
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "review",
+    "logits": [
+      24.98233985900879,
+      24.190757751464844,
+      26.280536651611328
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "review",
+    "logits": [
+      24.98233985900879,
+      24.190757751464844,
+      26.280536651611328
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "review",
+    "logits": [
+      24.98233985900879,
+      24.190757751464844,
+      26.280536651611328
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "review",
+    "logits": [
+      24.98233985900879,
+      24.190757751464844,
+      26.280536651611328
+    ],
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"review\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c4-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.07429313659668,
+      23.383350372314453,
+      23.7750244140625
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"confirmed\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c4-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.07429313659668,
+      23.383350372314453,
+      23.7750244140625
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"confirmed\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c4-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.07429313659668,
+      23.383350372314453,
+      23.7750244140625
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"confirmed\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c4-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.07429313659668,
+      23.383350372314453,
+      23.7750244140625
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c4-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.07429313659668,
+      23.383350372314453,
+      23.7750244140625
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"confirmed\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c4-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.07429313659668,
+      23.383350372314453,
+      23.7750244140625
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"maritime watchkeeping certificate\",\"status\":\"confirmed\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c5-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.003360748291016,
+      28.193805694580078,
+      26.325042724609375
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.003360748291016,
+      28.193805694580078,
+      26.325042724609375
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.003360748291016,
+      28.193805694580078,
+      26.325042724609375
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.003360748291016,
+      28.193805694580078,
+      26.325042724609375
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.003360748291016,
+      28.193805694580078,
+      26.325042724609375
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.003360748291016,
+      28.193805694580078,
+      26.325042724609375
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.11774444580078,
+      28.905033111572266,
+      26.987186431884766
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.11774444580078,
+      28.905033111572266,
+      26.987186431884766
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.11774444580078,
+      28.905033111572266,
+      26.987186431884766
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.11774444580078,
+      28.905033111572266,
+      26.987186431884766
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.11774444580078,
+      28.905033111572266,
+      26.987186431884766
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.11774444580078,
+      28.905033111572266,
+      26.987186431884766
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.654287338256836,
+      23.8076229095459,
+      25.01072883605957
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.654287338256836,
+      23.8076229095459,
+      25.01072883605957
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.654287338256836,
+      23.8076229095459,
+      25.01072883605957
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.654287338256836,
+      23.8076229095459,
+      25.01072883605957
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.654287338256836,
+      23.8076229095459,
+      25.01072883605957
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      26.654287338256836,
+      23.8076229095459,
+      25.01072883605957
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.936843872070312,
+      23.600963592529297,
+      23.710805892944336
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.936843872070312,
+      23.600963592529297,
+      23.710805892944336
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.936843872070312,
+      23.600963592529297,
+      23.710805892944336
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.936843872070312,
+      23.600963592529297,
+      23.710805892944336
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.936843872070312,
+      23.600963592529297,
+      23.710805892944336
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c5-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      27.936843872070312,
+      23.600963592529297,
+      23.710805892944336
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"land surveying registration\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.643815994262695,
+      28.68411636352539,
+      26.616300582885742
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.643815994262695,
+      28.68411636352539,
+      26.616300582885742
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.643815994262695,
+      28.68411636352539,
+      26.616300582885742
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.643815994262695,
+      28.68411636352539,
+      26.616300582885742
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.643815994262695,
+      28.68411636352539,
+      26.616300582885742
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.643815994262695,
+      28.68411636352539,
+      26.616300582885742
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.640995025634766,
+      28.670425415039062,
+      27.581480026245117
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.640995025634766,
+      28.670425415039062,
+      27.581480026245117
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.640995025634766,
+      28.670425415039062,
+      27.581480026245117
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.640995025634766,
+      28.670425415039062,
+      27.581480026245117
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.640995025634766,
+      28.670425415039062,
+      27.581480026245117
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.640995025634766,
+      28.670425415039062,
+      27.581480026245117
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.009733200073242,
+      24.005361557006836,
+      25.291643142700195
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.009733200073242,
+      24.005361557006836,
+      25.291643142700195
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.009733200073242,
+      24.005361557006836,
+      25.291643142700195
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.009733200073242,
+      24.005361557006836,
+      25.291643142700195
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.009733200073242,
+      24.005361557006836,
+      25.291643142700195
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      27.009733200073242,
+      24.005361557006836,
+      25.291643142700195
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c6-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.821884155273438,
+      23.93723487854004,
+      23.468732833862305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c6-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.821884155273438,
+      23.93723487854004,
+      23.468732833862305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c6-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.821884155273438,
+      23.93723487854004,
+      23.468732833862305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c6-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.821884155273438,
+      23.93723487854004,
+      23.468732833862305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c6-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.821884155273438,
+      23.93723487854004,
+      23.468732833862305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c6-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.821884155273438,
+      23.93723487854004,
+      23.468732833862305
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"dental hygiene license\",\"status\":\"confirmed\"}",
+    "native_correct": false,
+    "old_gate_correct": false
+  },
+  {
+    "context": "c7-0-direct",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.480289459228516,
+      28.48183822631836,
+      26.625320434570312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": false,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-direct",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.480289459228516,
+      28.48183822631836,
+      26.625320434570312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-direct",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.480289459228516,
+      28.48183822631836,
+      26.625320434570312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-direct",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.480289459228516,
+      28.48183822631836,
+      26.625320434570312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-direct",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.480289459228516,
+      28.48183822631836,
+      26.625320434570312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-direct",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "direct",
+    "fewshot": "contradicted",
+    "logits": [
+      25.480289459228516,
+      28.48183822631836,
+      26.625320434570312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": false,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-negation",
+    "name": "Zev",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.844226837158203,
+      28.756444931030273,
+      26.567956924438477
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-negation",
+    "name": "Ayaan Qureshi",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.844226837158203,
+      28.756444931030273,
+      26.567956924438477
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-negation",
+    "name": "Zoë Kovač",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.844226837158203,
+      28.756444931030273,
+      26.567956924438477
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-negation",
+    "name": "سلمى الخطيب",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.844226837158203,
+      28.756444931030273,
+      26.567956924438477
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-negation",
+    "name": "אור בן דוד",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.844226837158203,
+      28.756444931030273,
+      26.567956924438477
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-0-negation",
+    "name": "王小明",
+    "status": "contradicted",
+    "wording": "negation",
+    "fewshot": "contradicted",
+    "logits": [
+      26.844226837158203,
+      28.756444931030273,
+      26.567956924438477
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"contradicted\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-direct",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.04153060913086,
+      24.732646942138672,
+      25.565750122070312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-direct",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.04153060913086,
+      24.732646942138672,
+      25.565750122070312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-direct",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.04153060913086,
+      24.732646942138672,
+      25.565750122070312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-direct",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.04153060913086,
+      24.732646942138672,
+      25.565750122070312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-direct",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.04153060913086,
+      24.732646942138672,
+      25.565750122070312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-direct",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "direct",
+    "fewshot": "confirmed",
+    "logits": [
+      28.04153060913086,
+      24.732646942138672,
+      25.565750122070312
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-negation",
+    "name": "Zev",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.217876434326172,
+      22.745952606201172,
+      23.837162017822266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-negation",
+    "name": "Ayaan Qureshi",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.217876434326172,
+      22.745952606201172,
+      23.837162017822266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-negation",
+    "name": "Zoë Kovač",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.217876434326172,
+      22.745952606201172,
+      23.837162017822266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-negation",
+    "name": "سلمى الخطيب",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.217876434326172,
+      22.745952606201172,
+      23.837162017822266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-negation",
+    "name": "אור בן דוד",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.217876434326172,
+      22.745952606201172,
+      23.837162017822266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  },
+  {
+    "context": "c7-1-negation",
+    "name": "王小明",
+    "status": "confirmed",
+    "wording": "negation",
+    "fewshot": "confirmed",
+    "logits": [
+      28.217876434326172,
+      22.745952606201172,
+      23.837162017822266
+    ],
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"building inspection certification\",\"status\":\"confirmed\"}",
+    "native_correct": true,
+    "old_gate_correct": true
+  }
+]

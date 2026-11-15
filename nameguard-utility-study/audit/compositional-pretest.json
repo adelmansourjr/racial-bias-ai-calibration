@@ -1,0 +1,8 @@
+{
+  "pre_inference_sha256": {
+    "compositional.py": "853947500e2b397ccf9250a57d45256f5bb4f832004336a24bc65c162458badd",
+    "analyze_compositional.py": "ab39d7da8dc624fbd3ea7d8820a7637dd67566a91ff2328ecde5a9bc67930431",
+    "compositional_fixtures.py": "1c32e9d3b685f817bd26e8c6c10752a4eeaf14f7dec304a9face21b5725a9e50"
+  },
+  "date": "2026-11-16"
+}

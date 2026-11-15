@@ -1,0 +1,13 @@
+{
+  "rows": 192,
+  "contexts": 32,
+  "native_correct": 179,
+  "old_gate_correct": 168,
+  "new_fewshot_correct": 180,
+  "positive_double_negation_new_correct": 48,
+  "identical_logits_and_reports_contexts": 32,
+  "review_count": 12,
+  "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_verified": true,
+  "scope": "Post-hoc historical replay. Unchanged CV body and names; protocol changes also alter prompt layout. Fresh comparative evidence is in the held-out studies."
+}

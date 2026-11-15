@@ -1,0 +1,4274 @@
+[
+  {
+    "case": "0-subject_0",
+    "family": 0,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6233655199667474,
+      0.16432230588358904,
+      0.2123121741496632
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "10d8fce6d32ae32f0f7ba2012bc50ecc969243b20040cd2e84e865183479e0b7",
+    "plain_logits": [
+      25.558488845825195,
+      28.141395568847656,
+      24.40771484375
+    ],
+    "fewshot_logits": [
+      27.7744083404541,
+      25.61032485961914,
+      26.32464599609375
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "0-subject_0",
+    "family": 0,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.6233655199667474,
+      0.16432230588358904,
+      0.2123121741496632
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "10d8fce6d32ae32f0f7ba2012bc50ecc969243b20040cd2e84e865183479e0b7",
+    "plain_logits": [
+      25.558488845825195,
+      28.141395568847656,
+      24.40771484375
+    ],
+    "fewshot_logits": [
+      27.7744083404541,
+      25.61032485961914,
+      26.32464599609375
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "0-subject_0",
+    "family": 0,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.6233655199667474,
+      0.16432230588358904,
+      0.2123121741496632
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "10d8fce6d32ae32f0f7ba2012bc50ecc969243b20040cd2e84e865183479e0b7",
+    "plain_logits": [
+      25.558488845825195,
+      28.141395568847656,
+      24.40771484375
+    ],
+    "fewshot_logits": [
+      27.7744083404541,
+      25.61032485961914,
+      26.32464599609375
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "0-subject_1",
+    "family": 0,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2853192106949743,
+      0.5008560313630241,
+      0.21382475794200123
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "81a5f41f4112cb18f7e6943259119d38c5c577db53d0f3c2d3b6da801e9e3b90",
+    "plain_logits": [
+      24.405338287353516,
+      28.481277465820312,
+      24.71929931640625
+    ],
+    "fewshot_logits": [
+      26.17190170288086,
+      27.75548553466797,
+      26.762332916259766
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "0-subject_1",
+    "family": 0,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.2853192106949743,
+      0.5008560313630241,
+      0.21382475794200123
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "81a5f41f4112cb18f7e6943259119d38c5c577db53d0f3c2d3b6da801e9e3b90",
+    "plain_logits": [
+      24.405338287353516,
+      28.481277465820312,
+      24.71929931640625
+    ],
+    "fewshot_logits": [
+      26.17190170288086,
+      27.75548553466797,
+      26.762332916259766
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-subject_1",
+    "family": 0,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.2853192106949743,
+      0.5008560313630241,
+      0.21382475794200123
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "81a5f41f4112cb18f7e6943259119d38c5c577db53d0f3c2d3b6da801e9e3b90",
+    "plain_logits": [
+      24.405338287353516,
+      28.481277465820312,
+      24.71929931640625
+    ],
+    "fewshot_logits": [
+      26.17190170288086,
+      27.75548553466797,
+      26.762332916259766
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-time_0",
+    "family": 0,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3665238353045151,
+      0.411547840143787,
+      0.22192832455169792
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "df2f8b5f072ea9516c3ab336283adbca2eec5dd47fca0db60ea044900c23b906",
+    "plain_logits": [
+      25.363319396972656,
+      28.582523345947266,
+      23.081974029541016
+    ],
+    "fewshot_logits": [
+      27.271221160888672,
+      27.925046920776367,
+      24.95206642150879
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "0-time_0",
+    "family": 0,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.3665238353045151,
+      0.411547840143787,
+      0.22192832455169792
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "df2f8b5f072ea9516c3ab336283adbca2eec5dd47fca0db60ea044900c23b906",
+    "plain_logits": [
+      25.363319396972656,
+      28.582523345947266,
+      23.081974029541016
+    ],
+    "fewshot_logits": [
+      27.271221160888672,
+      27.925046920776367,
+      24.95206642150879
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-time_0",
+    "family": 0,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.3665238353045151,
+      0.411547840143787,
+      0.22192832455169792
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "df2f8b5f072ea9516c3ab336283adbca2eec5dd47fca0db60ea044900c23b906",
+    "plain_logits": [
+      25.363319396972656,
+      28.582523345947266,
+      23.081974029541016
+    ],
+    "fewshot_logits": [
+      27.271221160888672,
+      27.925046920776367,
+      24.95206642150879
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-time_1",
+    "family": 0,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2839501806266137,
+      0.52412782964169,
+      0.19192198973169636
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "7a7db974d7dcc4a61fa513208cb9f4a5f52ff5a00218fc6106eebdca9212a602",
+    "plain_logits": [
+      25.074716567993164,
+      28.615285873413086,
+      22.76511573791504
+    ],
+    "fewshot_logits": [
+      27.27719497680664,
+      27.737878799438477,
+      24.950956344604492
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "0-time_1",
+    "family": 0,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.2839501806266137,
+      0.52412782964169,
+      0.19192198973169636
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "7a7db974d7dcc4a61fa513208cb9f4a5f52ff5a00218fc6106eebdca9212a602",
+    "plain_logits": [
+      25.074716567993164,
+      28.615285873413086,
+      22.76511573791504
+    ],
+    "fewshot_logits": [
+      27.27719497680664,
+      27.737878799438477,
+      24.950956344604492
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-time_1",
+    "family": 0,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.2839501806266137,
+      0.52412782964169,
+      0.19192198973169636
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "7a7db974d7dcc4a61fa513208cb9f4a5f52ff5a00218fc6106eebdca9212a602",
+    "plain_logits": [
+      25.074716567993164,
+      28.615285873413086,
+      22.76511573791504
+    ],
+    "fewshot_logits": [
+      27.27719497680664,
+      27.737878799438477,
+      24.950956344604492
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-negation_0",
+    "family": 0,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2944404464815419,
+      0.5222263775505804,
+      0.18333317596787774
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "4fc934339c525d22e2fd3e4934d455e509bc153aa1266c25289fe43e8583843d",
+    "plain_logits": [
+      24.639949798583984,
+      29.402942657470703,
+      23.18068504333496
+    ],
+    "fewshot_logits": [
+      25.575130462646484,
+      26.34803009033203,
+      26.795555114746094
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "0-negation_0",
+    "family": 0,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.2944404464815419,
+      0.5222263775505804,
+      0.18333317596787774
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "4fc934339c525d22e2fd3e4934d455e509bc153aa1266c25289fe43e8583843d",
+    "plain_logits": [
+      24.639949798583984,
+      29.402942657470703,
+      23.18068504333496
+    ],
+    "fewshot_logits": [
+      25.575130462646484,
+      26.34803009033203,
+      26.795555114746094
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-negation_0",
+    "family": 0,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.2944404464815419,
+      0.5222263775505804,
+      0.18333317596787774
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "4fc934339c525d22e2fd3e4934d455e509bc153aa1266c25289fe43e8583843d",
+    "plain_logits": [
+      24.639949798583984,
+      29.402942657470703,
+      23.18068504333496
+    ],
+    "fewshot_logits": [
+      25.575130462646484,
+      26.34803009033203,
+      26.795555114746094
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-negation_1",
+    "family": 0,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.0018983737436205073,
+      0.7571761479127213,
+      0.24092547834365782
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "a3cf8f85abde9df9ec604a5b970406a42b16332c9c85c7c2dc77ce4e99e4ce8c",
+    "plain_logits": [
+      25.245616912841797,
+      29.26272201538086,
+      25.124229431152344
+    ],
+    "fewshot_logits": [
+      25.18468475341797,
+      26.956470489501953,
+      27.432348251342773
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "0-negation_1",
+    "family": 0,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.0018983737436205073,
+      0.7571761479127213,
+      0.24092547834365782
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "a3cf8f85abde9df9ec604a5b970406a42b16332c9c85c7c2dc77ce4e99e4ce8c",
+    "plain_logits": [
+      25.245616912841797,
+      29.26272201538086,
+      25.124229431152344
+    ],
+    "fewshot_logits": [
+      25.18468475341797,
+      26.956470489501953,
+      27.432348251342773
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-negation_1",
+    "family": 0,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.0018983737436205073,
+      0.7571761479127213,
+      0.24092547834365782
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "a3cf8f85abde9df9ec604a5b970406a42b16332c9c85c7c2dc77ce4e99e4ce8c",
+    "plain_logits": [
+      25.245616912841797,
+      29.26272201538086,
+      25.124229431152344
+    ],
+    "fewshot_logits": [
+      25.18468475341797,
+      26.956470489501953,
+      27.432348251342773
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "0-missing",
+    "family": 0,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.7081146028527274,
+      -0.0658453743360149,
+      0.3577307714832875
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "48febfb53531983571f2395fd0a02c1a5f946f8553162d8be8bedb24fd572fb8",
+    "plain_logits": [
+      26.311262130737305,
+      28.528593063354492,
+      23.474626541137695
+    ],
+    "fewshot_logits": [
+      23.88189697265625,
+      23.41598892211914,
+      24.688793182373047
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "0-missing",
+    "family": 0,
+    "kind": "missing",
+    "status": "review",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.7081146028527274,
+      -0.0658453743360149,
+      0.3577307714832875
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "48febfb53531983571f2395fd0a02c1a5f946f8553162d8be8bedb24fd572fb8",
+    "plain_logits": [
+      26.311262130737305,
+      28.528593063354492,
+      23.474626541137695
+    ],
+    "fewshot_logits": [
+      23.88189697265625,
+      23.41598892211914,
+      24.688793182373047
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "0-missing",
+    "family": 0,
+    "kind": "missing",
+    "status": "review",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.7081146028527274,
+      -0.0658453743360149,
+      0.3577307714832875
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "48febfb53531983571f2395fd0a02c1a5f946f8553162d8be8bedb24fd572fb8",
+    "plain_logits": [
+      26.311262130737305,
+      28.528593063354492,
+      23.474626541137695
+    ],
+    "fewshot_logits": [
+      23.88189697265625,
+      23.41598892211914,
+      24.688793182373047
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "0-conflict",
+    "family": 0,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.18397578279970034,
+      0.14444992470581766,
+      0.6715742924944816
+    ],
+    "ridge": "review",
+    "hidden_sha256": "854d8825a59ebe413c3b52182c42a6f12790dcf0c0dcec68d5e71815d852f783",
+    "plain_logits": [
+      24.05559539794922,
+      28.08778190612793,
+      22.76125144958496
+    ],
+    "fewshot_logits": [
+      28.68754005432129,
+      27.093597412109375,
+      26.322521209716797
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"review\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "0-conflict",
+    "family": 0,
+    "kind": "conflict",
+    "status": "review",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.18397578279970034,
+      0.14444992470581766,
+      0.6715742924944816
+    ],
+    "ridge": "review",
+    "hidden_sha256": "854d8825a59ebe413c3b52182c42a6f12790dcf0c0dcec68d5e71815d852f783",
+    "plain_logits": [
+      24.05559539794922,
+      28.08778190612793,
+      22.76125144958496
+    ],
+    "fewshot_logits": [
+      28.68754005432129,
+      27.093597412109375,
+      26.322521209716797
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"review\"}"
+  },
+  {
+    "case": "0-conflict",
+    "family": 0,
+    "kind": "conflict",
+    "status": "review",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.18397578279970034,
+      0.14444992470581766,
+      0.6715742924944816
+    ],
+    "ridge": "review",
+    "hidden_sha256": "854d8825a59ebe413c3b52182c42a6f12790dcf0c0dcec68d5e71815d852f783",
+    "plain_logits": [
+      24.05559539794922,
+      28.08778190612793,
+      22.76125144958496
+    ],
+    "fewshot_logits": [
+      28.68754005432129,
+      27.093597412109375,
+      26.322521209716797
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"acoustic field testing credential\",\"status\":\"review\"}"
+  },
+  {
+    "case": "1-subject_0",
+    "family": 1,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.4720965044613138,
+      0.21979540542694712,
+      0.30810809011173923
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "4399918077069225fa0556157942c028bedf7c2a0f305d83409be60349afedd8",
+    "plain_logits": [
+      24.450786590576172,
+      27.742168426513672,
+      24.462358474731445
+    ],
+    "fewshot_logits": [
+      26.344545364379883,
+      26.23366928100586,
+      26.2318115234375
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"turbine service endorsement\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "1-subject_1",
+    "family": 1,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.29543180270273717,
+      0.4408585742188843,
+      0.2637096230783784
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "51035c78398f7935fdf9d0baf65bae5ec577101081a0023c1f27303c3f288176",
+    "plain_logits": [
+      24.190902709960938,
+      28.20189094543457,
+      24.62795639038086
+    ],
+    "fewshot_logits": [
+      25.557350158691406,
+      28.011795043945312,
+      25.944801330566406
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"turbine service endorsement\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "1-time_0",
+    "family": 1,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.46254635926490106,
+      0.311083062830367,
+      0.22637057790473197
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "a2df650a64ae7ddd81bef96aaeb6a4c11586613e7250d7449449db21245634fe",
+    "plain_logits": [
+      25.53254508972168,
+      27.967147827148438,
+      23.26123809814453
+    ],
+    "fewshot_logits": [
+      27.016416549682617,
+      28.38198471069336,
+      24.8072509765625
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"turbine service endorsement\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "1-time_1",
+    "family": 1,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3634601511991801,
+      0.43067187365442994,
+      0.20586797514638996
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "f4e2b448061d17fa906318d7e96cbf99ff6d4c7bbf4894e0c34bd2d0f857caec",
+    "plain_logits": [
+      25.414531707763672,
+      28.05425262451172,
+      23.017162322998047
+    ],
+    "fewshot_logits": [
+      26.805030822753906,
+      27.855113983154297,
+      24.477819442749023
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"turbine service endorsement\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "1-negation_0",
+    "family": 1,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.36381273245982765,
+      0.4461008262294549,
+      0.19008644131071764
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "fea8a4600e9581b8093beb4887cb8fd06fa9e7fa55fc532eeee6568ef20145b0",
+    "plain_logits": [
+      23.821434020996094,
+      29.053380966186523,
+      23.041271209716797
+    ],
+    "fewshot_logits": [
+      24.956607818603516,
+      25.179889678955078,
+      26.573516845703125
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"turbine service endorsement\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "1-negation_1",
+    "family": 1,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.11862806528062003,
+      0.7335094654267478,
+      0.14786246929263247
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "dee783f528045d36334818056ea9463149dfe5696d6e702590f3b92ae45047df",
+    "plain_logits": [
+      24.710338592529297,
+      28.67836570739746,
+      23.556310653686523
+    ],
+    "fewshot_logits": [
+      24.372699737548828,
+      26.98033905029297,
+      26.90093994140625
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"turbine service endorsement\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "1-missing",
+    "family": 1,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5734631897075635,
+      -0.02513013868758429,
+      0.45166694898002047
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "c6f1d6ad20adf11279c3c02abf3d06f2e273c07fa0182822766f5adbd5dd9e55",
+    "plain_logits": [
+      25.007755279541016,
+      28.379087448120117,
+      23.54030418395996
+    ],
+    "fewshot_logits": [
+      24.156753540039062,
+      24.77012062072754,
+      27.225929260253906
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"turbine service endorsement\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "1-conflict",
+    "family": 1,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.15406855120232238,
+      0.05853436358743297,
+      0.7873970852102454
+    ],
+    "ridge": "review",
+    "hidden_sha256": "1f86fc679240a0a15eee43a7f394914f92a34d6c0e5f15ffe3143c4765d7d64e",
+    "plain_logits": [
+      23.491832733154297,
+      27.83363914489746,
+      22.35132598876953
+    ],
+    "fewshot_logits": [
+      27.881389617919922,
+      27.492507934570312,
+      26.23118019104004
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"turbine service endorsement\",\"status\":\"review\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "2-subject_0",
+    "family": 2,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.49274039691714305,
+      0.2347815867239011,
+      0.2724780163589555
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "9f2057f816dcddad25a895baa916f09ba720097298562a0811e9c8844fe78742",
+    "plain_logits": [
+      24.67046546936035,
+      28.008800506591797,
+      24.186559677124023
+    ],
+    "fewshot_logits": [
+      26.985706329345703,
+      27.342208862304688,
+      25.933752059936523
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "2-subject_1",
+    "family": 2,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.1542740549203185,
+      0.6379391788558617,
+      0.2077867662238195
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "40c70c2802c5d4a8b940d7bca04a279d2b9c7afbe56422e24315589e06c2d149",
+    "plain_logits": [
+      23.903949737548828,
+      28.500904083251953,
+      24.545419692993164
+    ],
+    "fewshot_logits": [
+      25.686416625976562,
+      28.91084098815918,
+      25.84189224243164
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "2-time_0",
+    "family": 2,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.4218476113000597,
+      0.3923933001310685,
+      0.1857590885688719
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "6bb4ac55deb300d33ad7c67be3225395cf9e16e17cf4a783de7d4233f0e2a17d",
+    "plain_logits": [
+      25.125152587890625,
+      28.122148513793945,
+      22.90425682067871
+    ],
+    "fewshot_logits": [
+      27.12173843383789,
+      28.107572555541992,
+      24.46044158935547
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "2-time_1",
+    "family": 2,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2932272734144833,
+      0.5173042848399743,
+      0.18946844174554248
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "b4c1f8165d64f3ff8d19a01c645e347096ba96b9f769ca8f14db6c61f977e6ac",
+    "plain_logits": [
+      24.937969207763672,
+      28.0044002532959,
+      22.66962242126465
+    ],
+    "fewshot_logits": [
+      27.154216766357422,
+      28.023731231689453,
+      24.510650634765625
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "2-negation_0",
+    "family": 2,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5443124069486067,
+      0.3830588638694016,
+      0.0726287291819919
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "e3a0ea7b62abab84ecb95f9d1d734bd05b83678a9895893b0875b538ce1b5aea",
+    "plain_logits": [
+      24.674848556518555,
+      29.136199951171875,
+      22.02573585510254
+    ],
+    "fewshot_logits": [
+      26.346813201904297,
+      26.046478271484375,
+      25.658422470092773
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "2-negation_1",
+    "family": 2,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.19331171294751054,
+      0.6735037615704516,
+      0.13318452548203807
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "b8f6c5319796b7fb0e00444cbe75ea4f8530f23387392f4e6540f3936826a883",
+    "plain_logits": [
+      25.381011962890625,
+      29.286935806274414,
+      23.191694259643555
+    ],
+    "fewshot_logits": [
+      25.44076156616211,
+      27.17062759399414,
+      26.391088485717773
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "2-missing",
+    "family": 2,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6166356781506792,
+      0.03156518888026494,
+      0.35179913296905707
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "54ed58d4af83f7df01fa5b74082e763006930ee7875cfd58977917fd065bce0a",
+    "plain_logits": [
+      25.747648239135742,
+      28.25766372680664,
+      23.26952362060547
+    ],
+    "fewshot_logits": [
+      25.920392990112305,
+      26.156661987304688,
+      25.55278778076172
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "2-conflict",
+    "family": 2,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.18293377721785972,
+      0.14685603483576284,
+      0.6702101879463767
+    ],
+    "ridge": "review",
+    "hidden_sha256": "d138411b78514d1cda8e45ee6c41994779fe5e0e05eee2db7d4eed0fe7d57922",
+    "plain_logits": [
+      23.696983337402344,
+      28.004058837890625,
+      22.519081115722656
+    ],
+    "fewshot_logits": [
+      28.245582580566406,
+      28.31521224975586,
+      25.78082847595215
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"nitrate film handling permit\",\"status\":\"review\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "3-subject_0",
+    "family": 3,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.46647673793611427,
+      0.2622156094785588,
+      0.2713076525853268
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "ee3dc2b5dde41792a7a372f624257aaecdcedd616f0ed118e145d7a7028e5f20",
+    "plain_logits": [
+      24.92380714416504,
+      28.21562957763672,
+      24.779809951782227
+    ],
+    "fewshot_logits": [
+      27.4295597076416,
+      26.361736297607422,
+      26.361270904541016
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "3-subject_1",
+    "family": 3,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.1339808386630562,
+      0.6428502906439445,
+      0.22316887069299884
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "941d5a27f99f481d1d706bf537f05119d0a1f22d9c068c104b559eb3be187b1d",
+    "plain_logits": [
+      24.105403900146484,
+      28.416122436523438,
+      24.945281982421875
+    ],
+    "fewshot_logits": [
+      25.98366355895996,
+      28.461589813232422,
+      26.186771392822266
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "3-time_0",
+    "family": 3,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5038018461733709,
+      0.2392317795745263,
+      0.2569663742521032
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "96f0d16bb250ad67f02034aa71beddafbb88f9d3ea2608f8ed7008fbc11852cb",
+    "plain_logits": [
+      25.296649932861328,
+      27.793140411376953,
+      23.221790313720703
+    ],
+    "fewshot_logits": [
+      26.774402618408203,
+      28.074033737182617,
+      24.688732147216797
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "3-time_1",
+    "family": 3,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.36421350276014386,
+      0.3975398947972587,
+      0.23824660244259752
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "3d5e54d419c8f205442fc9da2aa21d37166099cf05b779c8430589ffa8787612",
+    "plain_logits": [
+      25.26790428161621,
+      28.041526794433594,
+      22.929691314697266
+    ],
+    "fewshot_logits": [
+      27.115726470947266,
+      27.817970275878906,
+      24.462810516357422
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "3-negation_0",
+    "family": 3,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.4028433118824745,
+      0.40052294574187586,
+      0.1966337423756499
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "9e28dade4955c5ca623841e3deeb3b90945156abffdcdc65d00bce40e77458d3",
+    "plain_logits": [
+      24.545215606689453,
+      28.961971282958984,
+      22.733142852783203
+    ],
+    "fewshot_logits": [
+      25.937965393066406,
+      26.442405700683594,
+      25.489686965942383
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "3-negation_1",
+    "family": 3,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.07527291596433189,
+      0.7168488016044354,
+      0.20787828243123216
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "dc59536a3ce41351f8fa13f56454d73ce8b337ae004a1297eb9891a2ad1f9b48",
+    "plain_logits": [
+      25.270950317382812,
+      28.486465454101562,
+      24.822343826293945
+    ],
+    "fewshot_logits": [
+      25.36473846435547,
+      26.905248641967773,
+      26.518741607666016
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "3-missing",
+    "family": 3,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6706666856716941,
+      -0.07589154916828328,
+      0.4052248634965896
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "82bcf937d2ef06b49abb72a61bd39e731cdec82ff7b70af9c616460790c88216",
+    "plain_logits": [
+      25.029335021972656,
+      28.609066009521484,
+      23.286314010620117
+    ],
+    "fewshot_logits": [
+      24.220827102661133,
+      24.129623413085938,
+      25.269636154174805
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "3-conflict",
+    "family": 3,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.187688772743368,
+      0.15592762182656483,
+      0.6563836054300665
+    ],
+    "ridge": "review",
+    "hidden_sha256": "a35718b39f3466f6c75e321bb27bdc0cfaea5694a0ecaf59507ff7fe57c0d5d7",
+    "plain_logits": [
+      23.773700714111328,
+      28.060413360595703,
+      23.110443115234375
+    ],
+    "fewshot_logits": [
+      28.106712341308594,
+      27.38379669189453,
+      25.827625274658203
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"refrigerated transport certification\",\"status\":\"review\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "4-subject_0",
+    "family": 4,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.4796994799036964,
+      0.1717176381049899,
+      0.3485828819913134
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "9a370de8186f3bf9fd744b2d983b8f337dc49d06ebee53e95f0e792f9fa30f54",
+    "plain_logits": [
+      24.376907348632812,
+      28.244749069213867,
+      24.554977416992188
+    ],
+    "fewshot_logits": [
+      27.315673828125,
+      26.085927963256836,
+      25.62441635131836
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "4-subject_0",
+    "family": 4,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.4796994799036964,
+      0.1717176381049899,
+      0.3485828819913134
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "9a370de8186f3bf9fd744b2d983b8f337dc49d06ebee53e95f0e792f9fa30f54",
+    "plain_logits": [
+      24.376907348632812,
+      28.244749069213867,
+      24.554977416992188
+    ],
+    "fewshot_logits": [
+      27.315673828125,
+      26.085927963256836,
+      25.62441635131836
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "4-subject_0",
+    "family": 4,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.4796994799036964,
+      0.1717176381049899,
+      0.3485828819913134
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "9a370de8186f3bf9fd744b2d983b8f337dc49d06ebee53e95f0e792f9fa30f54",
+    "plain_logits": [
+      24.376907348632812,
+      28.244749069213867,
+      24.554977416992188
+    ],
+    "fewshot_logits": [
+      27.315673828125,
+      26.085927963256836,
+      25.62441635131836
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "4-subject_1",
+    "family": 4,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.34605544984005937,
+      0.3769865676466883,
+      0.27695798251325215
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "01e95864e7e55bc2c17b8322875e7f0597571e70e181337481ad0c7457c44924",
+    "plain_logits": [
+      24.208415985107422,
+      28.448686599731445,
+      24.653133392333984
+    ],
+    "fewshot_logits": [
+      26.162139892578125,
+      28.186668395996094,
+      25.61678695678711
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "4-subject_1",
+    "family": 4,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.34605544984005937,
+      0.3769865676466883,
+      0.27695798251325215
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "01e95864e7e55bc2c17b8322875e7f0597571e70e181337481ad0c7457c44924",
+    "plain_logits": [
+      24.208415985107422,
+      28.448686599731445,
+      24.653133392333984
+    ],
+    "fewshot_logits": [
+      26.162139892578125,
+      28.186668395996094,
+      25.61678695678711
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-subject_1",
+    "family": 4,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.34605544984005937,
+      0.3769865676466883,
+      0.27695798251325215
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "01e95864e7e55bc2c17b8322875e7f0597571e70e181337481ad0c7457c44924",
+    "plain_logits": [
+      24.208415985107422,
+      28.448686599731445,
+      24.653133392333984
+    ],
+    "fewshot_logits": [
+      26.162139892578125,
+      28.186668395996094,
+      25.61678695678711
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-time_0",
+    "family": 4,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.47372408379601355,
+      0.34659950538836676,
+      0.1796764108156199
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "0b6f3961a9a6620471aeaf6f5cbba2df34a2cfc962144628e04a3b559e164390",
+    "plain_logits": [
+      25.94021987915039,
+      28.60206413269043,
+      23.482891082763672
+    ],
+    "fewshot_logits": [
+      27.323270797729492,
+      28.43288803100586,
+      24.399709701538086
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "4-time_0",
+    "family": 4,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.47372408379601355,
+      0.34659950538836676,
+      0.1796764108156199
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "0b6f3961a9a6620471aeaf6f5cbba2df34a2cfc962144628e04a3b559e164390",
+    "plain_logits": [
+      25.94021987915039,
+      28.60206413269043,
+      23.482891082763672
+    ],
+    "fewshot_logits": [
+      27.323270797729492,
+      28.43288803100586,
+      24.399709701538086
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "4-time_0",
+    "family": 4,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.47372408379601355,
+      0.34659950538836676,
+      0.1796764108156199
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "0b6f3961a9a6620471aeaf6f5cbba2df34a2cfc962144628e04a3b559e164390",
+    "plain_logits": [
+      25.94021987915039,
+      28.60206413269043,
+      23.482891082763672
+    ],
+    "fewshot_logits": [
+      27.323270797729492,
+      28.43288803100586,
+      24.399709701538086
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "4-time_1",
+    "family": 4,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3714531534282535,
+      0.44204307146600846,
+      0.18650377510573807
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "1e8951b44225d02c8d1afa589553f762b145d0f649fd09c134f00ec81443c977",
+    "plain_logits": [
+      25.76423454284668,
+      28.548519134521484,
+      23.095518112182617
+    ],
+    "fewshot_logits": [
+      27.764175415039062,
+      28.11958122253418,
+      24.466331481933594
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "4-time_1",
+    "family": 4,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.3714531534282535,
+      0.44204307146600846,
+      0.18650377510573807
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "1e8951b44225d02c8d1afa589553f762b145d0f649fd09c134f00ec81443c977",
+    "plain_logits": [
+      25.76423454284668,
+      28.548519134521484,
+      23.095518112182617
+    ],
+    "fewshot_logits": [
+      27.764175415039062,
+      28.11958122253418,
+      24.466331481933594
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-time_1",
+    "family": 4,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.3714531534282535,
+      0.44204307146600846,
+      0.18650377510573807
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "1e8951b44225d02c8d1afa589553f762b145d0f649fd09c134f00ec81443c977",
+    "plain_logits": [
+      25.76423454284668,
+      28.548519134521484,
+      23.095518112182617
+    ],
+    "fewshot_logits": [
+      27.764175415039062,
+      28.11958122253418,
+      24.466331481933594
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-negation_0",
+    "family": 4,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.31496056813544004,
+      0.4637073629526459,
+      0.2213320689119142
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "56bba78e7593395215eacefedd4a0e8093297c65b89b516cf63bd637e1154091",
+    "plain_logits": [
+      24.25672149658203,
+      29.27458953857422,
+      23.21753692626953
+    ],
+    "fewshot_logits": [
+      25.6966552734375,
+      26.293521881103516,
+      26.248291015625
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "4-negation_0",
+    "family": 4,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.31496056813544004,
+      0.4637073629526459,
+      0.2213320689119142
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "56bba78e7593395215eacefedd4a0e8093297c65b89b516cf63bd637e1154091",
+    "plain_logits": [
+      24.25672149658203,
+      29.27458953857422,
+      23.21753692626953
+    ],
+    "fewshot_logits": [
+      25.6966552734375,
+      26.293521881103516,
+      26.248291015625
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-negation_0",
+    "family": 4,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.31496056813544004,
+      0.4637073629526459,
+      0.2213320689119142
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "56bba78e7593395215eacefedd4a0e8093297c65b89b516cf63bd637e1154091",
+    "plain_logits": [
+      24.25672149658203,
+      29.27458953857422,
+      23.21753692626953
+    ],
+    "fewshot_logits": [
+      25.6966552734375,
+      26.293521881103516,
+      26.248291015625
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-negation_1",
+    "family": 4,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.09432553369984187,
+      0.7503725004257238,
+      0.15530196587443476
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "b52408ace10caaf51930eb3222d9bee1d0cd4a50654429672d45b6a4e7454f03",
+    "plain_logits": [
+      25.821392059326172,
+      29.467121124267578,
+      24.193222045898438
+    ],
+    "fewshot_logits": [
+      25.573665618896484,
+      26.955215454101562,
+      26.95354461669922
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "4-negation_1",
+    "family": 4,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.09432553369984187,
+      0.7503725004257238,
+      0.15530196587443476
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "b52408ace10caaf51930eb3222d9bee1d0cd4a50654429672d45b6a4e7454f03",
+    "plain_logits": [
+      25.821392059326172,
+      29.467121124267578,
+      24.193222045898438
+    ],
+    "fewshot_logits": [
+      25.573665618896484,
+      26.955215454101562,
+      26.95354461669922
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-negation_1",
+    "family": 4,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.09432553369984187,
+      0.7503725004257238,
+      0.15530196587443476
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "b52408ace10caaf51930eb3222d9bee1d0cd4a50654429672d45b6a4e7454f03",
+    "plain_logits": [
+      25.821392059326172,
+      29.467121124267578,
+      24.193222045898438
+    ],
+    "fewshot_logits": [
+      25.573665618896484,
+      26.955215454101562,
+      26.95354461669922
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "4-missing",
+    "family": 4,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5829730565271753,
+      0.03737490005498112,
+      0.3796520434178436
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "1d216f2ba74add14dc01625bcfe1f63e840825546bd46f961fdae12490c7229f",
+    "plain_logits": [
+      25.43597412109375,
+      28.672592163085938,
+      23.71623420715332
+    ],
+    "fewshot_logits": [
+      25.348621368408203,
+      24.397167205810547,
+      25.72064781188965
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "4-missing",
+    "family": 4,
+    "kind": "missing",
+    "status": "review",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.5829730565271753,
+      0.03737490005498112,
+      0.3796520434178436
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "1d216f2ba74add14dc01625bcfe1f63e840825546bd46f961fdae12490c7229f",
+    "plain_logits": [
+      25.43597412109375,
+      28.672592163085938,
+      23.71623420715332
+    ],
+    "fewshot_logits": [
+      25.348621368408203,
+      24.397167205810547,
+      25.72064781188965
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "4-missing",
+    "family": 4,
+    "kind": "missing",
+    "status": "review",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.5829730565271753,
+      0.03737490005498112,
+      0.3796520434178436
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "1d216f2ba74add14dc01625bcfe1f63e840825546bd46f961fdae12490c7229f",
+    "plain_logits": [
+      25.43597412109375,
+      28.672592163085938,
+      23.71623420715332
+    ],
+    "fewshot_logits": [
+      25.348621368408203,
+      24.397167205810547,
+      25.72064781188965
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "4-conflict",
+    "family": 4,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2547352173582917,
+      0.050845407836742074,
+      0.6944193748049662
+    ],
+    "ridge": "review",
+    "hidden_sha256": "62425be5097e0a8e8859e85ed2fdd69e3183876d6d2103269d89d06aba5decae",
+    "plain_logits": [
+      23.84684944152832,
+      28.28308868408203,
+      22.95681381225586
+    ],
+    "fewshot_logits": [
+      28.155513763427734,
+      27.19647789001465,
+      25.194948196411133
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"review\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "4-conflict",
+    "family": 4,
+    "kind": "conflict",
+    "status": "review",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.2547352173582917,
+      0.050845407836742074,
+      0.6944193748049662
+    ],
+    "ridge": "review",
+    "hidden_sha256": "62425be5097e0a8e8859e85ed2fdd69e3183876d6d2103269d89d06aba5decae",
+    "plain_logits": [
+      23.84684944152832,
+      28.28308868408203,
+      22.95681381225586
+    ],
+    "fewshot_logits": [
+      28.155513763427734,
+      27.19647789001465,
+      25.194948196411133
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"review\"}"
+  },
+  {
+    "case": "4-conflict",
+    "family": 4,
+    "kind": "conflict",
+    "status": "review",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.2547352173582917,
+      0.050845407836742074,
+      0.6944193748049662
+    ],
+    "ridge": "review",
+    "hidden_sha256": "62425be5097e0a8e8859e85ed2fdd69e3183876d6d2103269d89d06aba5decae",
+    "plain_logits": [
+      23.84684944152832,
+      28.28308868408203,
+      22.95681381225586
+    ],
+    "fewshot_logits": [
+      28.155513763427734,
+      27.19647789001465,
+      25.194948196411133
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"plant quarantine authorization\",\"status\":\"review\"}"
+  },
+  {
+    "case": "5-subject_0",
+    "family": 5,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5719914992494277,
+      0.17926711033527112,
+      0.24874139041530116
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "c872100c0734c51338076224f7233f67ed37e49bf9536b5ab710c410d4cd7479",
+    "plain_logits": [
+      25.103979110717773,
+      28.0146484375,
+      24.175268173217773
+    ],
+    "fewshot_logits": [
+      27.267574310302734,
+      25.46324920654297,
+      24.89276123046875
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "5-subject_1",
+    "family": 5,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.4199584790954832,
+      0.3663884905745338,
+      0.21365303032998295
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "d2cbba5d3a6c36f3e49ffd2313d0f8cf5dad5d06f2f02c8859dab54f18a534e1",
+    "plain_logits": [
+      24.532880783081055,
+      28.145212173461914,
+      24.41501235961914
+    ],
+    "fewshot_logits": [
+      26.93457794189453,
+      26.985393524169922,
+      25.308048248291016
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "5-time_0",
+    "family": 5,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.597098728662667,
+      0.18653444603072553,
+      0.2163668253066075
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "e94a476501912f8b2126c2395549394772120aaa59b4f27759954db6763fd10b",
+    "plain_logits": [
+      25.738754272460938,
+      27.88046646118164,
+      23.32504653930664
+    ],
+    "fewshot_logits": [
+      27.903038024902344,
+      26.96236801147461,
+      24.534677505493164
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "5-time_1",
+    "family": 5,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5003605385263146,
+      0.30168630721114564,
+      0.1979531542625398
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "489a79cbb63641c90332810ff1187ad782ede5ce6f899e924395b473442fa0c6",
+    "plain_logits": [
+      25.786523818969727,
+      27.990705490112305,
+      23.024126052856445
+    ],
+    "fewshot_logits": [
+      27.700916290283203,
+      26.481182098388672,
+      24.216773986816406
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "5-negation_0",
+    "family": 5,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.8104103073654729,
+      0.011494623175903385,
+      0.17809506945862508
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "61959368a5092c580e049df46b4643b16212bd2da84498bc79fa48dc1a3b0e3e",
+    "plain_logits": [
+      26.4210205078125,
+      28.245380401611328,
+      23.20232391357422
+    ],
+    "fewshot_logits": [
+      25.2343807220459,
+      25.514339447021484,
+      25.820192337036133
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "5-negation_1",
+    "family": 5,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2803579214594132,
+      0.5094626609091724,
+      0.2101794176314144
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "15afff56895e2531ea5612598b3a70879b32954d3bc0ffa56695d9b95ffc008b",
+    "plain_logits": [
+      25.541894912719727,
+      29.1412353515625,
+      24.095735549926758
+    ],
+    "fewshot_logits": [
+      25.83609962463379,
+      25.654064178466797,
+      26.709484100341797
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "5-missing",
+    "family": 5,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.7501006599894183,
+      -0.18839818946287923,
+      0.4382975294734599
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "e8d7dc08f91eb3dd173007e8e0effaab5642206b20dd69692c20da51237fee13",
+    "plain_logits": [
+      25.87353515625,
+      27.651268005371094,
+      23.047149658203125
+    ],
+    "fewshot_logits": [
+      26.095050811767578,
+      24.219470977783203,
+      25.36680030822754
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "5-conflict",
+    "family": 5,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2991683981633871,
+      -0.07990684963495448,
+      0.780738451471568
+    ],
+    "ridge": "review",
+    "hidden_sha256": "43092d24e4ddb7022b096ac717e7fb955cd398f79436c9d5c5e1ee28dd686c60",
+    "plain_logits": [
+      24.27626609802246,
+      27.661518096923828,
+      22.15123748779297
+    ],
+    "fewshot_logits": [
+      28.34659767150879,
+      26.122499465942383,
+      25.086986541748047
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"habitat evaluation accreditation\",\"status\":\"review\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "6-subject_0",
+    "family": 6,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6429308974145125,
+      0.1499585786123471,
+      0.2071105239731401
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "50c6702bd98a1f82e5f3e7cda3a73473030e94ff1677c456b5ce373cb6464764",
+    "plain_logits": [
+      25.524202346801758,
+      28.054359436035156,
+      24.49289894104004
+    ],
+    "fewshot_logits": [
+      27.31234359741211,
+      26.908050537109375,
+      26.95123863220215
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "6-subject_1",
+    "family": 6,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3635933618551517,
+      0.43275718040102407,
+      0.2036494577438241
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "025a9ad3d4303579ce55ec4c47f58c79dd5fb83218c723dfcb992bca31a1742a",
+    "plain_logits": [
+      24.6048641204834,
+      28.37384033203125,
+      24.724925994873047
+    ],
+    "fewshot_logits": [
+      25.87727928161621,
+      28.457815170288086,
+      26.92764663696289
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "6-time_0",
+    "family": 6,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.609761055152027,
+      0.20062363534555644,
+      0.189615309502417
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "72fe17215fc5998364165fd6c4ef58ecab047bec51dc629c7a8fa470ff743212",
+    "plain_logits": [
+      25.860374450683594,
+      28.24190902709961,
+      23.687971115112305
+    ],
+    "fewshot_logits": [
+      26.73564338684082,
+      28.039060592651367,
+      24.896162033081055
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "6-time_1",
+    "family": 6,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5190784983802611,
+      0.2923813346268709,
+      0.18854016699286819
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "c044cf2b1fbdc2d75c3121b2c6c7036e700fec4ed8311f7f523bc951b1ab94cb",
+    "plain_logits": [
+      25.393447875976562,
+      27.838926315307617,
+      23.095916748046875
+    ],
+    "fewshot_logits": [
+      27.237751007080078,
+      27.960224151611328,
+      24.762657165527344
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "6-negation_0",
+    "family": 6,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3969114983209683,
+      0.37937764774089244,
+      0.2237108539381395
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "4b177c78982d6c24910d2edb486ac3a4716c0221613d16e1d9f333cb58fe607c",
+    "plain_logits": [
+      24.19261932373047,
+      29.298412322998047,
+      23.082551956176758
+    ],
+    "fewshot_logits": [
+      25.940448760986328,
+      26.73678207397461,
+      26.64699935913086
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "6-negation_1",
+    "family": 6,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.08195431514877655,
+      0.692374350252366,
+      0.22567133459885752
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "32df5795425b47734e158bf18a53eabc97b280dfcb50f9137aa9520dc194df64",
+    "plain_logits": [
+      24.97032928466797,
+      29.26205825805664,
+      24.137752532958984
+    ],
+    "fewshot_logits": [
+      24.89254379272461,
+      27.44675636291504,
+      27.231613159179688
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "6-missing",
+    "family": 6,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.7453683821586432,
+      -0.10681769342244057,
+      0.36144931126379715
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "1c58032a18a260623816b960d5cb7d982142871b77d1e9a5cbe1e9a8ccaf3617",
+    "plain_logits": [
+      26.537004470825195,
+      28.647098541259766,
+      24.035078048706055
+    ],
+    "fewshot_logits": [
+      25.484336853027344,
+      24.235374450683594,
+      25.719873428344727
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "6-conflict",
+    "family": 6,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.25453472226498486,
+      0.10595018291237196,
+      0.6395150948226431
+    ],
+    "ridge": "review",
+    "hidden_sha256": "82bc80fdafa26dafb0bdf8eb56b865fad191b60e7df650b54d8af10d220a9dd8",
+    "plain_logits": [
+      24.205211639404297,
+      28.146347045898438,
+      22.721302032470703
+    ],
+    "fewshot_logits": [
+      28.88481330871582,
+      28.047943115234375,
+      26.65789031982422
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"gallery electrical signoff credential\",\"status\":\"review\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "7-subject_0",
+    "family": 7,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6677934776735799,
+      0.07062415939917382,
+      0.2615823629272467
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "045e7775034f9bb62c43bb7e6c20dacea3bfe4077e196eabe9610eb4b879154f",
+    "plain_logits": [
+      25.152814865112305,
+      27.41206932067871,
+      24.336505889892578
+    ],
+    "fewshot_logits": [
+      26.41754913330078,
+      26.36080551147461,
+      26.072067260742188
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "7-subject_1",
+    "family": 7,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.34139546063259024,
+      0.4069310307969162,
+      0.2516735085704937
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "860d6c0f9bd37442ec61bb9739bc15ec9d11a2a0a9b142f3d35b034167565384",
+    "plain_logits": [
+      24.360023498535156,
+      27.905487060546875,
+      24.755813598632812
+    ],
+    "fewshot_logits": [
+      25.697864532470703,
+      28.231952667236328,
+      25.92738151550293
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "7-time_0",
+    "family": 7,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.45079460398566723,
+      0.30727131402950414,
+      0.2419340819848288
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "612434afb7aafef24eb37439352bf62b20420d1a668e4b88ad847b30bad796ff",
+    "plain_logits": [
+      25.55130386352539,
+      27.80231475830078,
+      23.62535858154297
+    ],
+    "fewshot_logits": [
+      26.876441955566406,
+      28.41855239868164,
+      24.678268432617188
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "7-time_1",
+    "family": 7,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.34914287495868795,
+      0.4224791592827397,
+      0.22837796575857228
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "e4a0453758ab6faf5725029744ad7d6798942cdf7b3a6881bd26047f3fd2b34e",
+    "plain_logits": [
+      25.323043823242188,
+      27.703075408935547,
+      23.00714111328125
+    ],
+    "fewshot_logits": [
+      27.11202621459961,
+      28.103206634521484,
+      24.59547996520996
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "7-negation_0",
+    "family": 7,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.27234067183184485,
+      0.5450517523610025,
+      0.18260757580715253
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "b827b43810f47cc1d81ce4855693bd9a80dffc20fcd11c4620bea6ea8b8b4c2a",
+    "plain_logits": [
+      23.97169303894043,
+      28.287694931030273,
+      23.85916519165039
+    ],
+    "fewshot_logits": [
+      25.40949249267578,
+      26.652629852294922,
+      26.355430603027344
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "7-negation_1",
+    "family": 7,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.18864477447966782,
+      0.6844477575675278,
+      0.12690746795280508
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "2e19b6ff5b592988d943dc979535fcae0f84b69324295a31b6558d6efa4c8b45",
+    "plain_logits": [
+      24.837963104248047,
+      28.235485076904297,
+      24.4877872467041
+    ],
+    "fewshot_logits": [
+      24.83191680908203,
+      27.54145050048828,
+      26.741247177124023
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "7-missing",
+    "family": 7,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.7289468127142292,
+      -0.17887494124834769,
+      0.4499281285341176
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "73fe9d8ba20feb3ec51d1fad0a4738335ea44fa613269da94dac968a595e1bf9",
+    "plain_logits": [
+      25.51934814453125,
+      27.811738967895508,
+      23.77991485595703
+    ],
+    "fewshot_logits": [
+      24.97134780883789,
+      26.148801803588867,
+      27.964271545410156
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "7-conflict",
+    "family": 7,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.26740493782809577,
+      -0.01639067112763748,
+      0.7489857332995419
+    ],
+    "ridge": "review",
+    "hidden_sha256": "7bad78292bfda1d953ce35d4db75cd2f1244a95aa278d3ef62ac9eba4d0a436c",
+    "plain_logits": [
+      24.155071258544922,
+      27.355712890625,
+      23.039371490478516
+    ],
+    "fewshot_logits": [
+      27.799509048461914,
+      26.82438087463379,
+      25.833385467529297
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"vessel maintenance approval\",\"status\":\"review\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "8-subject_0",
+    "family": 8,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5968354548328478,
+      0.1526876710642239,
+      0.2504768741029283
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "491ffebbc9b90d89c442770ac4e919048e1236eebfb34880e0534fb774f455d7",
+    "plain_logits": [
+      24.876285552978516,
+      28.584543228149414,
+      24.281530380249023
+    ],
+    "fewshot_logits": [
+      27.703094482421875,
+      24.760887145996094,
+      25.690414428710938
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "8-subject_0",
+    "family": 8,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.5968354548328478,
+      0.1526876710642239,
+      0.2504768741029283
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "491ffebbc9b90d89c442770ac4e919048e1236eebfb34880e0534fb774f455d7",
+    "plain_logits": [
+      24.876285552978516,
+      28.584543228149414,
+      24.281530380249023
+    ],
+    "fewshot_logits": [
+      27.703094482421875,
+      24.760887145996094,
+      25.690414428710938
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-subject_0",
+    "family": 8,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.5968354548328478,
+      0.1526876710642239,
+      0.2504768741029283
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "491ffebbc9b90d89c442770ac4e919048e1236eebfb34880e0534fb774f455d7",
+    "plain_logits": [
+      24.876285552978516,
+      28.584543228149414,
+      24.281530380249023
+    ],
+    "fewshot_logits": [
+      27.703094482421875,
+      24.760887145996094,
+      25.690414428710938
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-subject_1",
+    "family": 8,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.41983923039438037,
+      0.36109867481873614,
+      0.21906209478688338
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "2cc09584537adfe239b4c59980ee0da4d2ea6aa38fd98fc975f9aa8762d7f092",
+    "plain_logits": [
+      24.45645523071289,
+      28.842409133911133,
+      24.286954879760742
+    ],
+    "fewshot_logits": [
+      26.190948486328125,
+      27.61619758605957,
+      26.54848861694336
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "8-subject_1",
+    "family": 8,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.41983923039438037,
+      0.36109867481873614,
+      0.21906209478688338
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "2cc09584537adfe239b4c59980ee0da4d2ea6aa38fd98fc975f9aa8762d7f092",
+    "plain_logits": [
+      24.45645523071289,
+      28.842409133911133,
+      24.286954879760742
+    ],
+    "fewshot_logits": [
+      26.190948486328125,
+      27.61619758605957,
+      26.54848861694336
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-subject_1",
+    "family": 8,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.41983923039438037,
+      0.36109867481873614,
+      0.21906209478688338
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "2cc09584537adfe239b4c59980ee0da4d2ea6aa38fd98fc975f9aa8762d7f092",
+    "plain_logits": [
+      24.45645523071289,
+      28.842409133911133,
+      24.286954879760742
+    ],
+    "fewshot_logits": [
+      26.190948486328125,
+      27.61619758605957,
+      26.54848861694336
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-time_0",
+    "family": 8,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.48106554702087556,
+      0.3409664255664532,
+      0.17796802741267126
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "b5bade370708259a5f22d473268cecc43b162383d72a2d4ed7b466ed29d52bfa",
+    "plain_logits": [
+      25.595413208007812,
+      28.655834197998047,
+      22.720043182373047
+    ],
+    "fewshot_logits": [
+      27.142749786376953,
+      28.529129028320312,
+      24.773082733154297
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "8-time_0",
+    "family": 8,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.48106554702087556,
+      0.3409664255664532,
+      0.17796802741267126
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "b5bade370708259a5f22d473268cecc43b162383d72a2d4ed7b466ed29d52bfa",
+    "plain_logits": [
+      25.595413208007812,
+      28.655834197998047,
+      22.720043182373047
+    ],
+    "fewshot_logits": [
+      27.142749786376953,
+      28.529129028320312,
+      24.773082733154297
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-time_0",
+    "family": 8,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.48106554702087556,
+      0.3409664255664532,
+      0.17796802741267126
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "b5bade370708259a5f22d473268cecc43b162383d72a2d4ed7b466ed29d52bfa",
+    "plain_logits": [
+      25.595413208007812,
+      28.655834197998047,
+      22.720043182373047
+    ],
+    "fewshot_logits": [
+      27.142749786376953,
+      28.529129028320312,
+      24.773082733154297
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-time_1",
+    "family": 8,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3764632396196277,
+      0.43595765370142386,
+      0.18757910667894845
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "a1d57d50f678e1b5a4d615ad21295a4677d326d3be9c2f5b49244fda981eb4d9",
+    "plain_logits": [
+      25.337345123291016,
+      28.478755950927734,
+      22.516441345214844
+    ],
+    "fewshot_logits": [
+      27.327348709106445,
+      28.17510223388672,
+      24.544845581054688
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "8-time_1",
+    "family": 8,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.3764632396196277,
+      0.43595765370142386,
+      0.18757910667894845
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "a1d57d50f678e1b5a4d615ad21295a4677d326d3be9c2f5b49244fda981eb4d9",
+    "plain_logits": [
+      25.337345123291016,
+      28.478755950927734,
+      22.516441345214844
+    ],
+    "fewshot_logits": [
+      27.327348709106445,
+      28.17510223388672,
+      24.544845581054688
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "8-time_1",
+    "family": 8,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.3764632396196277,
+      0.43595765370142386,
+      0.18757910667894845
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "a1d57d50f678e1b5a4d615ad21295a4677d326d3be9c2f5b49244fda981eb4d9",
+    "plain_logits": [
+      25.337345123291016,
+      28.478755950927734,
+      22.516441345214844
+    ],
+    "fewshot_logits": [
+      27.327348709106445,
+      28.17510223388672,
+      24.544845581054688
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "8-negation_0",
+    "family": 8,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.35840096136877364,
+      0.4872299730640289,
+      0.15436906556719787
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "29c54950eb478e5c6f91a5c0270a1072b822103cec62b874348f9a2843f4eccf",
+    "plain_logits": [
+      24.137577056884766,
+      29.338293075561523,
+      22.934207916259766
+    ],
+    "fewshot_logits": [
+      26.308765411376953,
+      25.38536834716797,
+      25.996570587158203
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "8-negation_0",
+    "family": 8,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.35840096136877364,
+      0.4872299730640289,
+      0.15436906556719787
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "29c54950eb478e5c6f91a5c0270a1072b822103cec62b874348f9a2843f4eccf",
+    "plain_logits": [
+      24.137577056884766,
+      29.338293075561523,
+      22.934207916259766
+    ],
+    "fewshot_logits": [
+      26.308765411376953,
+      25.38536834716797,
+      25.996570587158203
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "8-negation_0",
+    "family": 8,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.35840096136877364,
+      0.4872299730640289,
+      0.15436906556719787
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "29c54950eb478e5c6f91a5c0270a1072b822103cec62b874348f9a2843f4eccf",
+    "plain_logits": [
+      24.137577056884766,
+      29.338293075561523,
+      22.934207916259766
+    ],
+    "fewshot_logits": [
+      26.308765411376953,
+      25.38536834716797,
+      25.996570587158203
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "8-negation_1",
+    "family": 8,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.09119531903432021,
+      0.7584482944575728,
+      0.15035638650810784
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "35cb3c64ab9058278d2a10a3517a7059542de54d845b1621d40a640b3b759207",
+    "plain_logits": [
+      25.644956588745117,
+      29.5402774810791,
+      23.82596778869629
+    ],
+    "fewshot_logits": [
+      25.11260414123535,
+      27.431161880493164,
+      27.279565811157227
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "8-negation_1",
+    "family": 8,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.09119531903432021,
+      0.7584482944575728,
+      0.15035638650810784
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "35cb3c64ab9058278d2a10a3517a7059542de54d845b1621d40a640b3b759207",
+    "plain_logits": [
+      25.644956588745117,
+      29.5402774810791,
+      23.82596778869629
+    ],
+    "fewshot_logits": [
+      25.11260414123535,
+      27.431161880493164,
+      27.279565811157227
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "8-negation_1",
+    "family": 8,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.09119531903432021,
+      0.7584482944575728,
+      0.15035638650810784
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "35cb3c64ab9058278d2a10a3517a7059542de54d845b1621d40a640b3b759207",
+    "plain_logits": [
+      25.644956588745117,
+      29.5402774810791,
+      23.82596778869629
+    ],
+    "fewshot_logits": [
+      25.11260414123535,
+      27.431161880493164,
+      27.279565811157227
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"contradicted\"}"
+  },
+  {
+    "case": "8-missing",
+    "family": 8,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6998533922424657,
+      -0.12323962936267635,
+      0.42338623712021106
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "dcb0abac7d70ed6fc5fe5f3fabba624e228c3cd103023003b61c88e1547d9c70",
+    "plain_logits": [
+      25.92209243774414,
+      28.208576202392578,
+      23.54348373413086
+    ],
+    "fewshot_logits": [
+      25.290870666503906,
+      23.48086166381836,
+      24.922687530517578
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "8-missing",
+    "family": 8,
+    "kind": "missing",
+    "status": "review",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.6998533922424657,
+      -0.12323962936267635,
+      0.42338623712021106
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "dcb0abac7d70ed6fc5fe5f3fabba624e228c3cd103023003b61c88e1547d9c70",
+    "plain_logits": [
+      25.92209243774414,
+      28.208576202392578,
+      23.54348373413086
+    ],
+    "fewshot_logits": [
+      25.290870666503906,
+      23.48086166381836,
+      24.922687530517578
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-missing",
+    "family": 8,
+    "kind": "missing",
+    "status": "review",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.6998533922424657,
+      -0.12323962936267635,
+      0.42338623712021106
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "dcb0abac7d70ed6fc5fe5f3fabba624e228c3cd103023003b61c88e1547d9c70",
+    "plain_logits": [
+      25.92209243774414,
+      28.208576202392578,
+      23.54348373413086
+    ],
+    "fewshot_logits": [
+      25.290870666503906,
+      23.48086166381836,
+      24.922687530517578
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"imaging safety credential\",\"status\":\"confirmed\"}"
+  },
+  {
+    "case": "8-conflict",
+    "family": 8,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.29476382082460467,
+      0.00516283551448421,
+      0.7000733436609106
+    ],
+    "ridge": "review",
+    "hidden_sha256": "ab65d8c83ce793c55dbca3c3f984b2118763caaa5d515997207bc33a2b80d23c",
+    "plain_logits": [
+      24.002830505371094,
+      28.076274871826172,
+      22.474136352539062
+    ],
+    "fewshot_logits": [
+      28.86346435546875,
+      26.471315383911133,
+      25.587383270263672
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"imaging safety credential\",\"status\":\"review\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "8-conflict",
+    "family": 8,
+    "kind": "conflict",
+    "status": "review",
+    "name": "مريم السعدي",
+    "primary": false,
+    "ridge_scores": [
+      0.29476382082460467,
+      0.00516283551448421,
+      0.7000733436609106
+    ],
+    "ridge": "review",
+    "hidden_sha256": "ab65d8c83ce793c55dbca3c3f984b2118763caaa5d515997207bc33a2b80d23c",
+    "plain_logits": [
+      24.002830505371094,
+      28.076274871826172,
+      22.474136352539062
+    ],
+    "fewshot_logits": [
+      28.86346435546875,
+      26.471315383911133,
+      25.587383270263672
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"imaging safety credential\",\"status\":\"review\"}"
+  },
+  {
+    "case": "8-conflict",
+    "family": 8,
+    "kind": "conflict",
+    "status": "review",
+    "name": "佐藤葵",
+    "primary": false,
+    "ridge_scores": [
+      0.29476382082460467,
+      0.00516283551448421,
+      0.7000733436609106
+    ],
+    "ridge": "review",
+    "hidden_sha256": "ab65d8c83ce793c55dbca3c3f984b2118763caaa5d515997207bc33a2b80d23c",
+    "plain_logits": [
+      24.002830505371094,
+      28.076274871826172,
+      22.474136352539062
+    ],
+    "fewshot_logits": [
+      28.86346435546875,
+      26.471315383911133,
+      25.587383270263672
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"imaging safety credential\",\"status\":\"review\"}"
+  },
+  {
+    "case": "9-subject_0",
+    "family": 9,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.38920573480706144,
+      0.36251705850204907,
+      0.2482772066908893
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "9788c180a9e1d67ede1cdcbda8900a1b97aed117460e01ee53024e7a66df2fa2",
+    "plain_logits": [
+      24.544189453125,
+      28.199596405029297,
+      24.498260498046875
+    ],
+    "fewshot_logits": [
+      26.673795700073242,
+      27.383182525634766,
+      25.723970413208008
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"chemical bath authorization\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "9-subject_1",
+    "family": 9,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.17404265495127874,
+      0.6331389252578631,
+      0.19281841979085837
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "7ece84ff7c5c610706b8eba6f81bc75a625c376acbbd63c963fdb4966846d8dc",
+    "plain_logits": [
+      24.086833953857422,
+      28.505046844482422,
+      24.769184112548828
+    ],
+    "fewshot_logits": [
+      25.698963165283203,
+      28.468364715576172,
+      25.34105682373047
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"chemical bath authorization\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "9-time_0",
+    "family": 9,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5071897636474386,
+      0.26669664732960696,
+      0.22611358902295486
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "77bbea56ddfb38825c0760b4ddfc0d4a10d110733578086a16f4f8319f87fcbb",
+    "plain_logits": [
+      25.637088775634766,
+      28.31911277770996,
+      23.38116455078125
+    ],
+    "fewshot_logits": [
+      27.06292724609375,
+      28.38118553161621,
+      24.667125701904297
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"chemical bath authorization\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "9-time_1",
+    "family": 9,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3789150553699704,
+      0.4003672987479834,
+      0.22071764588204637
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "cc8b1a9f9a7179061284ed758bbb4528a8938da7b70b9a11a6e3197b93897e26",
+    "plain_logits": [
+      25.478174209594727,
+      28.229328155517578,
+      23.139881134033203
+    ],
+    "fewshot_logits": [
+      27.233701705932617,
+      28.31792449951172,
+      24.680862426757812
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"chemical bath authorization\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "9-negation_0",
+    "family": 9,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.36073719615408856,
+      0.4935387256162846,
+      0.1457240782296267
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "2da45b6ce6c7b0a8efd03821b72a7cbb6d328cf32fa378fb317a82815be9f870",
+    "plain_logits": [
+      24.487407684326172,
+      29.34136962890625,
+      22.988815307617188
+    ],
+    "fewshot_logits": [
+      25.051692962646484,
+      26.653841018676758,
+      26.060894012451172
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"chemical bath authorization\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "9-negation_1",
+    "family": 9,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.11780677980099219,
+      0.7993855528877304,
+      0.08280766731127753
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "617496fe26c7ac78bebfe062b12f706a43e7890573203bdc6f136b40bb9935ac",
+    "plain_logits": [
+      25.5712833404541,
+      29.43438720703125,
+      23.592330932617188
+    ],
+    "fewshot_logits": [
+      25.048133850097656,
+      27.322660446166992,
+      26.68130874633789
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"chemical bath authorization\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "9-missing",
+    "family": 9,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5385683681350734,
+      0.04603769816056125,
+      0.4153939337043654
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "f21e91d5e425dd938e81cfe67c6bf32092a3841bda3902bf7a0e1bf25f6e3b6a",
+    "plain_logits": [
+      24.688243865966797,
+      28.714874267578125,
+      23.769567489624023
+    ],
+    "fewshot_logits": [
+      23.55013656616211,
+      25.885910034179688,
+      26.89813995361328
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"chemical bath authorization\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "9-conflict",
+    "family": 9,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.2189396258846397,
+      0.1554696271606635,
+      0.6255907469546957
+    ],
+    "ridge": "review",
+    "hidden_sha256": "ea8b48d71522c129c4fe7da1c02c507c624bb3bf5a4d37ea19063c6add560d1c",
+    "plain_logits": [
+      24.06780433654785,
+      28.041091918945312,
+      22.546459197998047
+    ],
+    "fewshot_logits": [
+      28.07550811767578,
+      27.309093475341797,
+      25.22478675842285
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"chemical bath authorization\",\"status\":\"review\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "10-subject_0",
+    "family": 10,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6239623073249246,
+      0.06749786314316508,
+      0.3085398295319097
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "584228321c62c8a8513bb8c6e6d2f7ae663f5a9b862e8b44a266ee46badde433",
+    "plain_logits": [
+      25.868349075317383,
+      28.205455780029297,
+      24.294841766357422
+    ],
+    "fewshot_logits": [
+      26.47100067138672,
+      25.90538787841797,
+      25.99092674255371
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"drainage inspection credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "10-subject_1",
+    "family": 10,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3691719513430925,
+      0.3598269600985612,
+      0.27100108855834615
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "8b0e6e154800520ceb53fd9d9a7348a46989bfc542caaf626a7268bd7e1aac01",
+    "plain_logits": [
+      25.01641273498535,
+      28.33233642578125,
+      24.307842254638672
+    ],
+    "fewshot_logits": [
+      25.79278564453125,
+      27.879501342773438,
+      26.180809020996094
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"drainage inspection credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "10-time_0",
+    "family": 10,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5904105800322879,
+      0.17119248770026754,
+      0.23839693226744496
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "e9b64e644b416118a9586a02b07f2b21fc7a7a6474c51636d3b134c80bd35ef4",
+    "plain_logits": [
+      26.564044952392578,
+      28.260061264038086,
+      23.17641830444336
+    ],
+    "fewshot_logits": [
+      27.315336227416992,
+      28.003055572509766,
+      24.68434715270996
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"drainage inspection credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "10-time_1",
+    "family": 10,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.43082659509541077,
+      0.32514892280331015,
+      0.24402448210127914
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "6f21955bf6a8092095c6d52ce955bbdaa4872f5a8f1cd8b498225e544abfef8d",
+    "plain_logits": [
+      26.386791229248047,
+      28.16839599609375,
+      22.58637237548828
+    ],
+    "fewshot_logits": [
+      27.484760284423828,
+      27.501771926879883,
+      24.500186920166016
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"drainage inspection credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "10-negation_0",
+    "family": 10,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.6221787380949093,
+      0.10070506547738545,
+      0.2771161964277053
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "347fec1c9a86c2d9c968738628daa41d889c0660f175cfa1905526e1d7e15911",
+    "plain_logits": [
+      25.807445526123047,
+      28.279449462890625,
+      22.982059478759766
+    ],
+    "fewshot_logits": [
+      25.427452087402344,
+      25.714292526245117,
+      25.986614227294922
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"drainage inspection credential\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "10-negation_1",
+    "family": 10,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.15668733652361969,
+      0.5733920624921253,
+      0.2699206009842552
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "e06df6fc30d400aacf42e45f7560c1e662d2d8fe192d42958992408b1536611c",
+    "plain_logits": [
+      25.859882354736328,
+      28.85843849182129,
+      24.640026092529297
+    ],
+    "fewshot_logits": [
+      24.686370849609375,
+      26.487403869628906,
+      27.02771759033203
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"drainage inspection credential\",\"status\":\"contradicted\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "10-missing",
+    "family": 10,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.9095421118288027,
+      -0.3072457037433004,
+      0.397703591914497
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "c7bc74d666955d6b4f832a59535a653a0cf84e770ac7ad7f1a28d3d7d6e40831",
+    "plain_logits": [
+      26.927282333374023,
+      27.46898651123047,
+      23.006851196289062
+    ],
+    "fewshot_logits": [
+      23.755393981933594,
+      23.948673248291016,
+      25.53561782836914
+    ],
+    "plain": "contradicted",
+    "fewshot": "review",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"drainage inspection credential\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "10-conflict",
+    "family": 10,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.17885177126548604,
+      0.04053358739770213,
+      0.7806146413368121
+    ],
+    "ridge": "review",
+    "hidden_sha256": "dfda958dba97d0fa649638a5f74da0946da94deb4b0ef15fd0caaf6ba9c58c3c",
+    "plain_logits": [
+      24.04486083984375,
+      27.767772674560547,
+      22.564714431762695
+    ],
+    "fewshot_logits": [
+      28.244693756103516,
+      27.392047882080078,
+      25.28004264831543
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"drainage inspection credential\",\"status\":\"review\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "11-subject_0",
+    "family": 11,
+    "kind": "subject_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.8194919753713009,
+      -0.014261051501043731,
+      0.19476907612974267
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "d73e6233e915bb30de15f57dbf54ad846f92f490978ed5c8e36f5a890f7c16e5",
+    "plain_logits": [
+      26.241472244262695,
+      27.643569946289062,
+      23.841869354248047
+    ],
+    "fewshot_logits": [
+      28.573287963867188,
+      24.789287567138672,
+      24.822324752807617
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"survey data verification certification\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "11-subject_1",
+    "family": 11,
+    "kind": "subject_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.5727043014956041,
+      0.22304859802083438,
+      0.20424710048356148
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "8641dcd342e30c6904ae4c9f369235bb1da6552c4c603e7109a056010b7517e4",
+    "plain_logits": [
+      25.459129333496094,
+      27.991233825683594,
+      24.210166931152344
+    ],
+    "fewshot_logits": [
+      28.31498146057129,
+      26.76233673095703,
+      25.719314575195312
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"survey data verification certification\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "11-time_0",
+    "family": 11,
+    "kind": "time_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.49944256865673287,
+      0.2768851944007057,
+      0.22367223694256166
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "f6bc2ce5f67dd0ebf90c21ab29a05f453f0dc56d5ef0eabc9e4dcfce3f0e32f1",
+    "plain_logits": [
+      25.55642318725586,
+      28.02349853515625,
+      22.66018295288086
+    ],
+    "fewshot_logits": [
+      27.610044479370117,
+      28.10106086730957,
+      24.650554656982422
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"survey data verification certification\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "11-time_1",
+    "family": 11,
+    "kind": "time_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.38427818869338276,
+      0.4042198724156102,
+      0.21150193889100705
+    ],
+    "ridge": "contradicted",
+    "hidden_sha256": "ce19de76a8b225aa6f6ddfeeff3032c08a12cd1830fd73bf516578791cd4fc05",
+    "plain_logits": [
+      25.501689910888672,
+      27.863719940185547,
+      22.248193740844727
+    ],
+    "fewshot_logits": [
+      28.1796817779541,
+      27.506921768188477,
+      24.333166122436523
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as lacking or inactive based on the supplied evidence.\",\"requirement\":\"survey data verification certification\",\"status\":\"contradicted\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "11-negation_0",
+    "family": 11,
+    "kind": "negation_0",
+    "status": "confirmed",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.8379157300349227,
+      0.013855369042787335,
+      0.14822890092229063
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "04b48d73708cddd2deb9688c1dc1abb35baf0843ae11f2b09f356c1be534d0d7",
+    "plain_logits": [
+      26.32703399658203,
+      28.350879669189453,
+      22.667205810546875
+    ],
+    "fewshot_logits": [
+      27.105743408203125,
+      25.112632751464844,
+      24.414718627929688
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"survey data verification certification\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "11-negation_1",
+    "family": 11,
+    "kind": "negation_1",
+    "status": "contradicted",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.47250125615559135,
+      0.3316343258820441,
+      0.19586441796236462
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "3194ea2509fc68c99f1d83a65430fb587dd9bbdfbe9bc1dc541bc7a2c759831e",
+    "plain_logits": [
+      26.087604522705078,
+      28.631935119628906,
+      23.63903045654297
+    ],
+    "fewshot_logits": [
+      25.779396057128906,
+      26.45499610900879,
+      25.98484230041504
+    ],
+    "plain": "contradicted",
+    "fewshot": "contradicted",
+    "legacy": "contradicted",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"survey data verification certification\",\"status\":\"confirmed\"}",
+    "native": "contradicted"
+  },
+  {
+    "case": "11-missing",
+    "family": 11,
+    "kind": "missing",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.8869709345715886,
+      -0.17744902900324033,
+      0.29047809443165146
+    ],
+    "ridge": "confirmed",
+    "hidden_sha256": "68b901a6fd4509a12efa2732a2542233c528392db8440c72b6da1adc44935861",
+    "plain_logits": [
+      26.133121490478516,
+      28.089031219482422,
+      22.842561721801758
+    ],
+    "fewshot_logits": [
+      27.20102310180664,
+      24.953338623046875,
+      24.455020904541016
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer classified the required credential as current based on the supplied evidence.\",\"requirement\":\"survey data verification certification\",\"status\":\"confirmed\"}",
+    "native": "confirmed"
+  },
+  {
+    "case": "11-conflict",
+    "family": 11,
+    "kind": "conflict",
+    "status": "review",
+    "name": "Éva Barta",
+    "primary": true,
+    "ridge_scores": [
+      0.3043712108394172,
+      0.008130535773073766,
+      0.6874982533875086
+    ],
+    "ridge": "review",
+    "hidden_sha256": "4b91761329a5cfed410e2b0b52fa56ed4a42a0328a350e49b8cb5baa4bc75f24",
+    "plain_logits": [
+      24.62208366394043,
+      27.47512435913086,
+      22.463159561157227
+    ],
+    "fewshot_logits": [
+      29.321590423583984,
+      26.521957397460938,
+      25.707984924316406
+    ],
+    "plain": "contradicted",
+    "fewshot": "confirmed",
+    "legacy": "confirmed",
+    "report": "{\"explanation\":\"The scorer referred the credential for review because its current status was unresolved.\",\"requirement\":\"survey data verification certification\",\"status\":\"review\"}",
+    "native": "confirmed"
+  }
+]

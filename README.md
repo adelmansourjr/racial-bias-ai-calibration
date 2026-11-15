@@ -1,5 +1,15 @@
 # racial-bias-ai-calibration
 
+## Latest study. Credential utility after exact name isolation
+
+[Experiment report](nameguard-utility-study/REPORT.md) · [Proofs](nameguard-utility-study/MATHEMATICS.md) · [Reproduction](nameguard-utility-study/README.md)
+
+A post-hoc replay of the original synthetic cohort recovered the accuracy loss. The new protected prompt scored 180/192, compared with 168/192 for the previous protected prompt and 179/192 for native inference. The 32 historical CV conditions retained identical logits and explanation bytes across their six names.
+
+In a separate held-out test with matched applicant and date reversals, a ridge readout fitted on protected activations scored 69/96, compared with 42/96 for the old protected readout and 41/96 native. It still falsely confirmed all twelve missing-evidence cases. An independent run showed a failure of binary answer-label balancing, and the linked report preserves every comparison.
+
+The evidence supports name invariance and improved synthetic credential inference under specified conditions. The structured-record evaluator separately verifies the rule and cites reviewed observations. Human annotation, real hiring validity and independent model replication remain open.
+
 ## Latest: admission-aware name noninterference review package
 
 [Paper PDF](nameguard-peer-review/output/pdf/nameguard-admission-aware-preprint.pdf) · [Manuscript](nameguard-peer-review/paper/manuscript.md) · [Code and reproduction](nameguard-peer-review/README.md) · [Mathematical results](nameguard-peer-review/paper/THEORY.md) · [Literature/novelty](nameguard-peer-review/literature/review.md) · [Review responses](nameguard-peer-review/review-packet/RESPONSE-TO-REVIEW.md)

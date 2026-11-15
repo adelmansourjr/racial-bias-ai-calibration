@@ -1,0 +1,198 @@
+{
+  "families": 12,
+  "primary_cases": 96,
+  "known_cases": 72,
+  "scored_name_variants": 144,
+  "exact_across_names": {
+    "contexts_checked": 24,
+    "hidden_sha256": 24,
+    "ridge_scores": 24,
+    "fewshot_logits": 24,
+    "plain_logits": 24,
+    "report": 24
+  },
+  "utility": {
+    "native": {
+      "correct": 41,
+      "known_correct": 41,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 19,
+      "by_kind": {
+        "subject_0": 10,
+        "subject_1": 7,
+        "time_0": 12,
+        "negation_1": 12
+      },
+      "pairs": {
+        "subject": {
+          "both_correct": 5,
+          "same_decision_on_reversal": 7
+        },
+        "time": {
+          "both_correct": 0,
+          "same_decision_on_reversal": 12
+        },
+        "negation": {
+          "both_correct": 0,
+          "same_decision_on_reversal": 12
+        }
+      },
+      "paired_accuracy_change_vs_legacy": {
+        "mean": -0.010416666666666666,
+        "lower_95": -0.0625,
+        "upper_95": 0.041666666666666664,
+        "families": 12,
+        "resamples": 8000
+      }
+    },
+    "legacy": {
+      "correct": 42,
+      "known_correct": 42,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 20,
+      "by_kind": {
+        "subject_1": 10,
+        "time_0": 12,
+        "negation_1": 12,
+        "subject_0": 7,
+        "negation_0": 1
+      },
+      "pairs": {
+        "subject": {
+          "both_correct": 5,
+          "same_decision_on_reversal": 7
+        },
+        "time": {
+          "both_correct": 0,
+          "same_decision_on_reversal": 12
+        },
+        "negation": {
+          "both_correct": 1,
+          "same_decision_on_reversal": 11
+        }
+      },
+      "paired_accuracy_change_vs_legacy": {
+        "mean": 0.0,
+        "lower_95": 0.0,
+        "upper_95": 0.0,
+        "families": 12,
+        "resamples": 8000
+      }
+    },
+    "plain": {
+      "correct": 36,
+      "known_correct": 36,
+      "correct_referrals": 0,
+      "unresolved_false_confirmations": 0,
+      "by_kind": {
+        "subject_1": 12,
+        "time_1": 12,
+        "negation_1": 12
+      },
+      "pairs": {
+        "subject": {
+          "both_correct": 0,
+          "same_decision_on_reversal": 12
+        },
+        "time": {
+          "both_correct": 0,
+          "same_decision_on_reversal": 12
+        },
+        "negation": {
+          "both_correct": 0,
+          "same_decision_on_reversal": 12
+        }
+      },
+      "paired_accuracy_change_vs_legacy": {
+        "mean": -0.0625,
+        "lower_95": -0.09375,
+        "upper_95": -0.03125,
+        "families": 12,
+        "resamples": 8000
+      }
+    },
+    "fewshot": {
+      "correct": 52,
+      "known_correct": 44,
+      "correct_referrals": 8,
+      "unresolved_false_confirmations": 14,
+      "by_kind": {
+        "subject_0": 10,
+        "subject_1": 11,
+        "time_1": 10,
+        "missing": 8,
+        "negation_1": 9,
+        "negation_0": 3,
+        "time_0": 1
+      },
+      "pairs": {
+        "subject": {
+          "both_correct": 9,
+          "same_decision_on_reversal": 3
+        },
+        "time": {
+          "both_correct": 0,
+          "same_decision_on_reversal": 11
+        },
+        "negation": {
+          "both_correct": 3,
+          "same_decision_on_reversal": 8
+        }
+      },
+      "paired_accuracy_change_vs_legacy": {
+        "mean": 0.10416666666666667,
+        "lower_95": 0.03125,
+        "upper_95": 0.16666666666666666,
+        "families": 12,
+        "resamples": 8000
+      }
+    },
+    "ridge": {
+      "correct": 69,
+      "known_correct": 57,
+      "correct_referrals": 12,
+      "unresolved_false_confirmations": 12,
+      "by_kind": {
+        "subject_0": 12,
+        "subject_1": 8,
+        "time_1": 9,
+        "negation_1": 11,
+        "conflict": 12,
+        "time_0": 11,
+        "negation_0": 6
+      },
+      "pairs": {
+        "subject": {
+          "both_correct": 8,
+          "same_decision_on_reversal": 4
+        },
+        "time": {
+          "both_correct": 8,
+          "same_decision_on_reversal": 4
+        },
+        "negation": {
+          "both_correct": 5,
+          "same_decision_on_reversal": 7
+        }
+      },
+      "paired_accuracy_change_vs_legacy": {
+        "mean": 0.28125,
+        "lower_95": 0.20833333333333334,
+        "upper_95": 0.3541666666666667,
+        "families": 12,
+        "resamples": 8000
+      }
+    }
+  },
+  "fit": {
+    "fit_count": 48,
+    "parameter_sha256": "770631555541dd5fd32cf2b03ea273e07185df804f803562bb63e134dffcf966",
+    "fit_correct": 48
+  },
+  "runtime": {
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "forwards": 576,
+    "seconds": 186.28032316701137,
+    "checkpoint_files_verified": true
+  }
+}
