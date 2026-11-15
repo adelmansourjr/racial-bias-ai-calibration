@@ -1,5 +1,13 @@
 # racial-bias-ai-calibration
 
+## Latest study. Exact name-invariant generation and evidence-verification failures
+
+[Research report](nameguard-risk-study/REPORT.md) · [Reproduction](nameguard-risk-study/README.md)
+
+On a human-annotated source-verification benchmark, the protected Qwen runtime produced exactly the same generated tokens and evidence reports across all 20 four-name groups. All 375 direct cross-name vocabulary checks matched. The unrestricted native generator changed its sequence in 7/20 groups. A native model given the identical retained IDs matched all 500 vocabulary-step digests.
+
+Neither evidence verifier met the predeclared risk and coverage target. On 320 reserve cases, candidate-blind extraction confirmed 55 claims, including 19 unsupported confirmations. The 95% finite accepted-set audit bound was 40%. All 19 wrong confirmations disappeared when the passage was blanked. The results document a conditional name-isolation proof and a distinct source-reasoning failure mode. The benchmark is Wikipedia evidence support, with real-CV findings reported separately below.
+
 ## Latest study. Exact name invariance and imperfect evidence extraction on real CVs
 
 [Report and preprint assessment](nameguard-real-evidence/REPORT.md) · [Protocol](nameguard-real-evidence/PROTOCOL.md) · [Reproduction](nameguard-real-evidence/README.md)

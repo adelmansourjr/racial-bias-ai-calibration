@@ -1,0 +1,12 @@
+{
+  "accepted_ids": [],
+  "audit_ids": [],
+  "observations_sha256": "a27f2e077c933d34ab5663c8cacc97a74fab650516e5632938dc9854e6efb9a3",
+  "plan_sha256": "4f46952db1345b4fc1d885873b386ef3d4a92ad4c09edb3cad8b6c9666aee16c",
+  "rule": {
+    "accepted": 0,
+    "errors": 0,
+    "mode": "mean",
+    "threshold": null
+  }
+}

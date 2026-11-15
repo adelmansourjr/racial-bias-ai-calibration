@@ -1,0 +1,13 @@
+{
+  "checkpoint_verified": true,
+  "extractions": 380,
+  "generated_tokens": 2562,
+  "host": "macOS-26.5.1-arm64-arm-64bit",
+  "mlx": "0.32.3",
+  "mlx_lm": "0.31.3",
+  "parameters": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "plan_sha256": "200981cd016c883aeea6b09fd7092d15cf3fcaa97296f3b510f65882f557dde0",
+  "python": "3.12.8",
+  "seconds": 470.7576456670067,
+  "thresholds_sha256": "e67194c13f8548e236264d76fb2325b473e51f1867b6163221b7f7cf11d321ba"
+}

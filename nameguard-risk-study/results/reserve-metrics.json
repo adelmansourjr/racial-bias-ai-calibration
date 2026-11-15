@@ -1,0 +1,133 @@
+{
+  "admitted": 320,
+  "audit_covers_census": true,
+  "by_article": {
+    "Black_Death": {
+      "accepted": 2,
+      "cases": 16,
+      "false_support": 0,
+      "supported": 8
+    },
+    "Civil_disobedience": {
+      "accepted": 2,
+      "cases": 20,
+      "false_support": 1,
+      "supported": 10
+    },
+    "Economic_inequality": {
+      "accepted": 7,
+      "cases": 48,
+      "false_support": 3,
+      "supported": 24
+    },
+    "European_Union_law": {
+      "accepted": 1,
+      "cases": 12,
+      "false_support": 1,
+      "supported": 6
+    },
+    "Force": {
+      "accepted": 8,
+      "cases": 60,
+      "false_support": 2,
+      "supported": 30
+    },
+    "Harvard_University": {
+      "accepted": 6,
+      "cases": 24,
+      "false_support": 1,
+      "supported": 12
+    },
+    "Immune_system": {
+      "accepted": 6,
+      "cases": 52,
+      "false_support": 1,
+      "supported": 26
+    },
+    "Prime_number": {
+      "accepted": 5,
+      "cases": 20,
+      "false_support": 2,
+      "supported": 10
+    },
+    "Southern_California": {
+      "accepted": 12,
+      "cases": 38,
+      "false_support": 6,
+      "supported": 19
+    },
+    "Yuan_dynasty": {
+      "accepted": 6,
+      "cases": 30,
+      "false_support": 2,
+      "supported": 15
+    }
+  },
+  "candidate_aware": {
+    "accepted": 0,
+    "auc_among_admitted": 0.726953125,
+    "correct": 0,
+    "coverage": 0.0,
+    "false_support": 0,
+    "false_support_fraction": null,
+    "recall_among_supported": 0.0
+  },
+  "cases": 320,
+  "extraction": {
+    "accepted": 55,
+    "correct": 36,
+    "coverage": 0.171875,
+    "false_support": 19,
+    "false_support_fraction": 0.34545454545454546,
+    "recall_among_supported": 0.225
+  },
+  "fit_check": {
+    "coverage": false,
+    "exact_name_orbits": true,
+    "finite_audit": false
+  },
+  "gate_pass": false,
+  "literal": {
+    "accepted": 320,
+    "auc_among_admitted": 0.5,
+    "correct": 160,
+    "coverage": 1.0,
+    "false_support": 160,
+    "false_support_fraction": 0.5,
+    "recall_among_supported": 1.0
+  },
+  "panel": {
+    "cases": 20,
+    "direct_full_vocabulary_step_matches": 375,
+    "exact_orbits": 20,
+    "variants_per_case": 4
+  },
+  "posthoc_matched_count_candidate_aware": {
+    "accepted": 55,
+    "auc_among_admitted": 0.726953125,
+    "correct": 44,
+    "coverage": 0.171875,
+    "false_support": 11,
+    "false_support_fraction": 0.2,
+    "recall_among_supported": 0.275
+  },
+  "prevalence_sensitivity": {
+    "error_by_prevalence": {
+      "1/10": 0.8260869565217391,
+      "1/2": 0.34545454545454546,
+      "1/4": 0.6129032258064516,
+      "3/4": 0.14960629921259844
+    },
+    "fpr": 0.11875,
+    "minimum_for_target": 0.8260869565217391,
+    "tpr": 0.225
+  },
+  "sample": {
+    "N": 55,
+    "m": 44,
+    "upper_count": 22,
+    "upper_fraction": 0.4,
+    "x": 15
+  },
+  "terminated": 311
+}

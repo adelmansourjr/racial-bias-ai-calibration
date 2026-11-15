@@ -1,0 +1,9 @@
+{
+  "checkpoint_verified": true,
+  "native_forwards": 80,
+  "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "plan_sha256": "4f46952db1345b4fc1d885873b386ef3d4a92ad4c09edb3cad8b6c9666aee16c",
+  "protected_forwards": 1032,
+  "seconds": 503.9729979999829,
+  "zero_stage_checks": 4800
+}

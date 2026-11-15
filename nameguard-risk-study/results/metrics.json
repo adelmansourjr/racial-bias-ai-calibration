@@ -1,0 +1,87 @@
+{
+  "audit_covers_census": false,
+  "dev_rules": {
+    "mean": {
+      "accepted": 0,
+      "errors": 0,
+      "mode": "mean",
+      "threshold": null
+    },
+    "minimum": {
+      "accepted": 0,
+      "errors": 0,
+      "mode": "minimum",
+      "threshold": null
+    },
+    "single": {
+      "accepted": 0,
+      "errors": 0,
+      "mode": "single",
+      "threshold": null
+    }
+  },
+  "development_cases": 144,
+  "fit_check": {
+    "coverage": false,
+    "exact_name_orbits": true,
+    "finite_audit": false
+  },
+  "gate_pass": false,
+  "holdout": {
+    "literal_span": {
+      "accepted": 312,
+      "auc_among_admitted": 0.5,
+      "correct": 156,
+      "coverage": 1.0,
+      "false_support": 156,
+      "false_support_fraction": 0.5,
+      "recall_among_supported": 1.0
+    },
+    "mean": {
+      "accepted": 0,
+      "auc_among_admitted": 0.7609714003944773,
+      "correct": 0,
+      "coverage": 0.0,
+      "false_support": 0,
+      "false_support_fraction": null,
+      "recall_among_supported": 0.0
+    },
+    "minimum": {
+      "accepted": 0,
+      "auc_among_admitted": 0.7694773175542406,
+      "correct": 0,
+      "coverage": 0.0,
+      "false_support": 0,
+      "false_support_fraction": null,
+      "recall_among_supported": 0.0
+    },
+    "single": {
+      "accepted": 0,
+      "auc_among_admitted": 0.789776462853386,
+      "correct": 0,
+      "coverage": 0.0,
+      "false_support": 0,
+      "false_support_fraction": null,
+      "recall_among_supported": 0.0
+    }
+  },
+  "holdout_admitted": 312,
+  "holdout_cases": 312,
+  "panel": {
+    "cases": 20,
+    "exact_orbits": 20,
+    "names_per_case": 4,
+    "native_logit_changes": 20,
+    "native_unthresholded_flips": 1,
+    "stage_digest_matches": 3720
+  },
+  "primary": "mean",
+  "sample": {
+    "N": 0,
+    "alpha": "1/20",
+    "m": 0,
+    "upper_count": null,
+    "upper_fraction": null,
+    "x": 0
+  }
+}

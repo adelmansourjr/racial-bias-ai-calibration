@@ -1,0 +1,19 @@
+{
+  "blank_passage_comparison": {
+    "supported": {
+      "no_source_blank_no_match": 124,
+      "source_blank_match": 1,
+      "source_blank_no_match": 35
+    },
+    "unsupported": {
+      "no_source_blank_no_match": 141,
+      "source_blank_no_match": 19
+    }
+  },
+  "cases": 320,
+  "native_confirmation_varies": 0,
+  "native_generation_varies": 7,
+  "panel_cases": 20,
+  "same_id_panels": 20,
+  "vocabulary_matches": 500
+}

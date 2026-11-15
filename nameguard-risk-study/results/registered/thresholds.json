@@ -1,0 +1,23 @@
+{
+  "primary": "mean",
+  "rules": {
+    "mean": {
+      "accepted": 0,
+      "errors": 0,
+      "mode": "mean",
+      "threshold": null
+    },
+    "minimum": {
+      "accepted": 0,
+      "errors": 0,
+      "mode": "minimum",
+      "threshold": null
+    },
+    "single": {
+      "accepted": 0,
+      "errors": 0,
+      "mode": "single",
+      "threshold": null
+    }
+  }
+}

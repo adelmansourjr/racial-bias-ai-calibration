@@ -1,0 +1,9 @@
+{
+  "condition": "Passage blanked; compare exact generated answer before checking original offsets",
+  "control": "Same retained IDs through native cached Qwen; original named IDs as unrestricted control",
+  "program_sha256": "2e40ae8e87b44532aebb7168a6a96d36e2f8da0859d730df6e1d05f46f0cb097",
+  "reserve_observed_sha256": "ecd94bd0215948b4bb01a8c82d0a0fa0af277feed01a31e76cab7358f69cf206",
+  "reserve_panel_sha256": "3861d8921b78846975d683c8146ab49c540b74e0f74b6c8a185fa6be33b0d99c",
+  "reserve_plan_sha256": "200981cd016c883aeea6b09fd7092d15cf3fcaa97296f3b510f65882f557dde0",
+  "selected_after_reserve_results": true
+}

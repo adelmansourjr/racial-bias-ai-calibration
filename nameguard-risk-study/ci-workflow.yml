@@ -1,0 +1,61 @@
+name: NameGuard evidence risk study
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'nameguard-risk-study/**'
+      - 'nameguard-validation/src/**'
+      - 'nameguard-peer-review/src/**'
+      - 'nameguard-utility-study/experiment.py'
+      - 'native-token-gate-hardening/**'
+      - '.github/workflows/nameguard-risk-study.yml'
+  pull_request:
+    paths:
+      - 'nameguard-risk-study/**'
+      - 'nameguard-validation/src/**'
+      - 'nameguard-peer-review/src/**'
+      - 'nameguard-utility-study/experiment.py'
+      - 'native-token-gate-hardening/**'
+      - '.github/workflows/nameguard-risk-study.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify audit mathematics and evidence rules
+        run: python3 -m unittest discover -s nameguard-risk-study/tests -v
+      - name: Reconstruct split and replay both analyses
+        run: |
+          set -euo pipefail
+          study=nameguard-risk-study
+          temp=$(mktemp -d)
+          curl --fail --location --silent --show-error --retry 3 \
+            https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json \
+            -o "$temp/dev-v2.0.json"
+          python3 "$study/replay.py" --source "$temp/dev-v2.0.json" --output "$temp/source"
+          python3 "$study/analyze.py" \
+            --development-labels "$temp/source/queue/development-labels.json" \
+            --holdout-labels "$temp/source/queue/holdout-labels.json" \
+            --output "$temp/first-analysis"
+          python3 "$study/reserve_analysis.py" \
+            --queue "$temp/source/reserve" --output "$temp/reserve-analysis"
+          python3 "$study/diagnostic.py" analyze \
+            --queue "$temp/source/reserve" --summary "$temp/diagnostic-metrics.json"
+          diff "$study/results/diagnostic-metrics.json" "$temp/diagnostic-metrics.json"
+          for f in metrics.json audit-selection.json; do
+            diff "$study/results/$f" "$temp/first-analysis/$f"
+          done
+          for f in reserve-metrics.json reserve-audit-selection.json; do
+            diff "$study/results/$f" "$temp/reserve-analysis/$f"
+          done
