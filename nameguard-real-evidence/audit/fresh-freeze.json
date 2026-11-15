@@ -1,0 +1,12 @@
+{
+  "before_fresh_sample_and_annotation": true,
+  "sources": {
+    "evidence.py": "3c4d046674ffebff208ac8389066c1d40266e4bf3724750b5d5415446a6dedeb",
+    "evidence_v2.py": "6594b4b277726ae8fbb5374b9cb59401aa024faf9ba0727a2d01ce1728424077",
+    "sample.py": "15367137f0bc98517edbbaba1e60163fd5684bc7d6c6ea12ae18ed73ac47560c",
+    "followup_sample.py": "f0379328b85915df8a85b00ed4f5d1e9c9e9695f343ca2c8d7ef45fb9a9dbdbf",
+    "gpu.py": "efb9046a3f9067cb28da9fb2eea0370ee25a2d44a7d1a220a86d225e36ea14d0",
+    "PROTOCOL.md": "1a16eabb3edfcad6c88bdc4bc6844c0bad2c3311dc5cb02605b803e3f0f2ced7"
+  },
+  "role": "Frozen revision after initial outcomes. No test evidence used to revise these files."
+}

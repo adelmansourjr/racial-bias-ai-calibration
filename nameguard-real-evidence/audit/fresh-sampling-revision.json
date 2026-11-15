@@ -1,0 +1,5 @@
+{
+  "before_fresh_excerpts_available": true,
+  "reason": "The planned 48-case sampler did not fill the Python near-verb stratum after overlap exclusion and wrote no cases. Use three per stratum and no unused development allocation. The evidence verifier was already frozen and unchanged.",
+  "sha256": "40ffeb4b87ac93cab8c0dfd9f63469f39b38ea74c9ca57f625ae37e9ef9a99fc"
+}

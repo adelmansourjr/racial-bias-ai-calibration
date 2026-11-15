@@ -1,0 +1,26 @@
+{
+  "scope": "Post-hoc on inspected excerpts. Source guard only; no independent test or new GPU run.",
+  "results": {
+    "initial": {
+      "correct": 14,
+      "unsupported": 0,
+      "missed": 3,
+      "review": 34,
+      "cases": 48
+    },
+    "fresh": {
+      "correct": 9,
+      "unsupported": 0,
+      "missed": 3,
+      "review": 26,
+      "cases": 35
+    },
+    "confirm": {
+      "correct": 4,
+      "unsupported": 0,
+      "missed": 3,
+      "review": 32,
+      "cases": 36
+    }
+  }
+}

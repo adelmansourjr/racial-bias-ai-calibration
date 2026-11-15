@@ -1,0 +1,9 @@
+{
+  "before_test_excerpts_reviewed": true,
+  "sources": {
+    "evidence.py": "3c4d046674ffebff208ac8389066c1d40266e4bf3724750b5d5415446a6dedeb",
+    "sample.py": "15367137f0bc98517edbbaba1e60163fd5684bc7d6c6ea12ae18ed73ac47560c",
+    "PROTOCOL.md": "1a16eabb3edfcad6c88bdc4bc6844c0bad2c3311dc5cb02605b803e3f0f2ced7"
+  },
+  "labels_scope": "A single output-blinded AI research annotation, with exact-span evidence. No independent human gold."
+}

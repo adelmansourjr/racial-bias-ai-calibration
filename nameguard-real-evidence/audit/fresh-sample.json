@@ -1,0 +1,5 @@
+{
+  "fresh_cases": 35,
+  "calibration_cases_excluded": 60,
+  "cases_per_tool_and_stratum": "Three, with two available for Python near_verb"
+}

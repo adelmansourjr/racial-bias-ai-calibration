@@ -1,0 +1,19 @@
+name: NameGuard real-text evidence audit
+on:
+  push:
+    paths: ['nameguard-real-evidence/**', '.github/workflows/nameguard-real-evidence.yml']
+  pull_request:
+    paths: ['nameguard-real-evidence/**', '.github/workflows/nameguard-real-evidence.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s nameguard-real-evidence/tests -v
+      - run: python3 nameguard-real-evidence/verify.py
+      - run: python3 nameguard-coverage-study/verify.py

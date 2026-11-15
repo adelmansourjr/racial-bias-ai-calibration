@@ -1,0 +1,134 @@
+{
+  "run": "fresh",
+  "verifier": "evidence_v2",
+  "independent_cv_excerpts": 35,
+  "planned_name_requests": 140,
+  "names": [
+    "Ivo",
+    "\u0645\u0631\u0648\u0627\u0646 \u0627\u0644\u0642\u064a\u0633\u064a",
+    "Linh Tr\u1ea7n",
+    "\u4e2d\u6751 \u7f8e\u54b2"
+  ],
+  "audit": {
+    "all_variants_admitted": 35,
+    "admitted_requests": 140,
+    "native_decision_variation": 4,
+    "native_logit_variation": 35,
+    "exact_scores": 35,
+    "exact_reports": 35,
+    "planned_direct_array_checks": 465,
+    "zero_identity_checks": 600,
+    "direct_arrays_compared": 465,
+    "exact_direct_arrays": 465,
+    "labeled_support": 12,
+    "verbatim_verified_spans": 7,
+    "true_positive_span_overlap": 5
+  },
+  "decisions": {
+    "mention_only": {
+      "definitive": 35,
+      "correct_support": 12,
+      "unsupported_definitive": 23,
+      "correct_review": 0,
+      "missed_support": 0,
+      "positive_recall": 1.0,
+      "definitive_coverage": 1.0
+    },
+    "native_model": {
+      "definitive": 10,
+      "correct_support": 7,
+      "unsupported_definitive": 3,
+      "correct_review": 20,
+      "missed_support": 5,
+      "positive_recall": 0.5833333333333334,
+      "definitive_coverage": 0.2857142857142857
+    },
+    "protected_model": {
+      "definitive": 12,
+      "correct_support": 8,
+      "unsupported_definitive": 4,
+      "correct_review": 19,
+      "missed_support": 4,
+      "positive_recall": 0.6666666666666666,
+      "definitive_coverage": 0.34285714285714286
+    },
+    "protected_verified": {
+      "definitive": 7,
+      "correct_support": 5,
+      "unsupported_definitive": 2,
+      "correct_review": 21,
+      "missed_support": 7,
+      "positive_recall": 0.4166666666666667,
+      "definitive_coverage": 0.2
+    },
+    "verified_and_model_agrees": {
+      "definitive": 6,
+      "correct_support": 4,
+      "unsupported_definitive": 2,
+      "correct_review": 21,
+      "missed_support": 8,
+      "positive_recall": 0.3333333333333333,
+      "definitive_coverage": 0.17142857142857143
+    },
+    "verifier_only": {
+      "definitive": 7,
+      "correct_support": 5,
+      "unsupported_definitive": 2,
+      "correct_review": 21,
+      "missed_support": 7,
+      "positive_recall": 0.4166666666666667,
+      "definitive_coverage": 0.2
+    }
+  },
+  "by_tool": {
+    "Excel": {
+      "cases": 6,
+      "labeled_support": 0,
+      "correct_verified": 0,
+      "unsupported_verified": 0
+    },
+    "SQL": {
+      "cases": 6,
+      "labeled_support": 3,
+      "correct_verified": 2,
+      "unsupported_verified": 0
+    },
+    "Python": {
+      "cases": 5,
+      "labeled_support": 2,
+      "correct_verified": 1,
+      "unsupported_verified": 0
+    },
+    "AutoCAD": {
+      "cases": 6,
+      "labeled_support": 3,
+      "correct_verified": 1,
+      "unsupported_verified": 0
+    },
+    "Java": {
+      "cases": 6,
+      "labeled_support": 3,
+      "correct_verified": 1,
+      "unsupported_verified": 2
+    },
+    "SAP": {
+      "cases": 6,
+      "labeled_support": 1,
+      "correct_verified": 0,
+      "unsupported_verified": 0
+    }
+  },
+  "gates": {
+    "exact_logit_and_report_equality_with_full_admission": true,
+    "all_planned_arrays_match": true,
+    "zero_unsupported_and_minimum_60_percent_recall": false
+  },
+  "runtime": {
+    "native_forwards": 140,
+    "protected_forwards": 140,
+    "checkpoint_verified": true,
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "seconds": 70.19535999998334
+  },
+  "reference": "Single output-blinded AI annotator. CV documentary claim only. Not verified experience or a hiring label."
+}

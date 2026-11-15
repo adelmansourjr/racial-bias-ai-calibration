@@ -1,0 +1,134 @@
+{
+  "run": "confirm",
+  "verifier": "evidence_v3",
+  "independent_cv_excerpts": 36,
+  "planned_name_requests": 144,
+  "names": [
+    "Ivo",
+    "\u0645\u0631\u0648\u0627\u0646 \u0627\u0644\u0642\u064a\u0633\u064a",
+    "Linh Tr\u1ea7n",
+    "\u4e2d\u6751 \u7f8e\u54b2"
+  ],
+  "audit": {
+    "all_variants_admitted": 36,
+    "admitted_requests": 144,
+    "native_decision_variation": 6,
+    "native_logit_variation": 36,
+    "exact_scores": 36,
+    "exact_reports": 36,
+    "planned_direct_array_checks": 465,
+    "zero_identity_checks": 600,
+    "direct_arrays_compared": 465,
+    "exact_direct_arrays": 465,
+    "labeled_support": 7,
+    "verbatim_verified_spans": 6,
+    "true_positive_span_overlap": 4
+  },
+  "decisions": {
+    "mention_only": {
+      "definitive": 36,
+      "correct_support": 7,
+      "unsupported_definitive": 29,
+      "correct_review": 0,
+      "missed_support": 0,
+      "positive_recall": 1.0,
+      "definitive_coverage": 1.0
+    },
+    "native_model": {
+      "definitive": 8,
+      "correct_support": 3,
+      "unsupported_definitive": 5,
+      "correct_review": 24,
+      "missed_support": 4,
+      "positive_recall": 0.42857142857142855,
+      "definitive_coverage": 0.2222222222222222
+    },
+    "protected_model": {
+      "definitive": 9,
+      "correct_support": 3,
+      "unsupported_definitive": 6,
+      "correct_review": 23,
+      "missed_support": 4,
+      "positive_recall": 0.42857142857142855,
+      "definitive_coverage": 0.25
+    },
+    "protected_verified": {
+      "definitive": 6,
+      "correct_support": 4,
+      "unsupported_definitive": 2,
+      "correct_review": 27,
+      "missed_support": 3,
+      "positive_recall": 0.5714285714285714,
+      "definitive_coverage": 0.16666666666666666
+    },
+    "verified_and_model_agrees": {
+      "definitive": 2,
+      "correct_support": 2,
+      "unsupported_definitive": 0,
+      "correct_review": 29,
+      "missed_support": 5,
+      "positive_recall": 0.2857142857142857,
+      "definitive_coverage": 0.05555555555555555
+    },
+    "verifier_only": {
+      "definitive": 6,
+      "correct_support": 4,
+      "unsupported_definitive": 2,
+      "correct_review": 27,
+      "missed_support": 3,
+      "positive_recall": 0.5714285714285714,
+      "definitive_coverage": 0.16666666666666666
+    }
+  },
+  "by_tool": {
+    "Tableau": {
+      "cases": 6,
+      "labeled_support": 0,
+      "correct_verified": 0,
+      "unsupported_verified": 1
+    },
+    "MATLAB": {
+      "cases": 6,
+      "labeled_support": 1,
+      "correct_verified": 1,
+      "unsupported_verified": 0
+    },
+    "QuickBooks": {
+      "cases": 6,
+      "labeled_support": 2,
+      "correct_verified": 0,
+      "unsupported_verified": 0
+    },
+    "WordPress": {
+      "cases": 6,
+      "labeled_support": 2,
+      "correct_verified": 1,
+      "unsupported_verified": 0
+    },
+    "Photoshop": {
+      "cases": 6,
+      "labeled_support": 1,
+      "correct_verified": 1,
+      "unsupported_verified": 1
+    },
+    "Salesforce": {
+      "cases": 6,
+      "labeled_support": 1,
+      "correct_verified": 1,
+      "unsupported_verified": 0
+    }
+  },
+  "gates": {
+    "exact_logit_and_report_equality_with_full_admission": true,
+    "all_planned_arrays_match": true,
+    "zero_unsupported_and_minimum_60_percent_recall": false
+  },
+  "runtime": {
+    "native_forwards": 144,
+    "protected_forwards": 144,
+    "checkpoint_verified": true,
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "seconds": 74.28830612500315
+  },
+  "reference": "Single output-blinded AI annotator. CV documentary claim only. Not verified experience or a hiring label."
+}

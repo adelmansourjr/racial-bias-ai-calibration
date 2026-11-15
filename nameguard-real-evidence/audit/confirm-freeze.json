@@ -1,0 +1,12 @@
+{
+  "before_new_tool_excerpts_available": true,
+  "source_sha256": {
+    "confirm_sample.py": "2ef63ee599b69a1fc888d86a377dcaf24cf814f65f22e7c0a584becc5de3d88a",
+    "evidence.py": "3c4d046674ffebff208ac8389066c1d40266e4bf3724750b5d5415446a6dedeb",
+    "evidence_v2.py": "6594b4b277726ae8fbb5374b9cb59401aa024faf9ba0727a2d01ce1728424077",
+    "evidence_v3.py": "65782c4cc6af407410b86f7ee8becd63afcbfbef73779de6a2ba58bd78ba898d",
+    "gpu.py": "efb9046a3f9067cb28da9fb2eea0370ee25a2d44a7d1a220a86d225e36ea14d0",
+    "PROTOCOL.md": "1a16eabb3edfcad6c88bdc4bc6844c0bad2c3311dc5cb02605b803e3f0f2ced7"
+  },
+  "scope": "Adaptive revision after 35-case follow-up. Confirm on 6 separate tool families and held-out documents. Retain both earlier runs and errors."
+}

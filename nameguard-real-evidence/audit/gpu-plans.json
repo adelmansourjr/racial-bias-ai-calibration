@@ -1,0 +1,74 @@
+{
+  "initial": {
+    "before_inference": true,
+    "cases": 48,
+    "names": [
+      "Ivo",
+      "مروان القيسي",
+      "Linh Trần",
+      "中村 美咲"
+    ],
+    "cohort_sha256": "3380084cf84a5e10f2b6503e549aeae6a0c7e00bcfee27c06a535ba05e7fc1ac",
+    "labels_sha256": "915ed7fdc22d24bcbad857d4b0a9628feea1d56e2f3ba5960ffdc0914f1e7555",
+    "verifier": "evidence",
+    "sources": {
+      "nameguard-real-evidence/gpu.py": "efb9046a3f9067cb28da9fb2eea0370ee25a2d44a7d1a220a86d225e36ea14d0",
+      "nameguard-real-evidence/sample.py": "15367137f0bc98517edbbaba1e60163fd5684bc7d6c6ea12ae18ed73ac47560c",
+      "nameguard-real-evidence/evidence.py": "3c4d046674ffebff208ac8389066c1d40266e4bf3724750b5d5415446a6dedeb",
+      "nameguard-real-evidence/PROTOCOL.md": "1a16eabb3edfcad6c88bdc4bc6844c0bad2c3311dc5cb02605b803e3f0f2ced7",
+      "nameguard-real-evidence/audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45",
+      "native-token-gate-hardening/gate.py": "d2d8775deb83d8b04491446199b9fb3a3df4668e266b22a9dce6b355f209e347",
+      "native-token-gate-hardening/evidence_contract.py": "ae26faf5bfe471322f44b4c4b609c8a7dba19d9f98cc290ea7b8f27cdba6a78e",
+      "nameguard-peer-review/src/compiler.py": "ad08c3b5794136d4ffccbb2713c827984997840dedfbcce330f2abf855a53ecb",
+      "nameguard-utility-study/experiment.py": "8554fbfea62b8f4a755f9375a9067fa8f846f43a58cffe24bcedc6010010c3b6"
+    }
+  },
+  "fresh": {
+    "before_inference": true,
+    "cases": 35,
+    "names": [
+      "Ivo",
+      "مروان القيسي",
+      "Linh Trần",
+      "中村 美咲"
+    ],
+    "cohort_sha256": "530ea153940df779d4666d61ada6ab03bc65c354ce1726967c0a4dd67ff2604a",
+    "labels_sha256": "2b1b90f3409b71c26527828628cff4c53f0d13fd800d50ea7b659818bea72c85",
+    "verifier": "evidence_v2",
+    "sources": {
+      "nameguard-real-evidence/gpu.py": "efb9046a3f9067cb28da9fb2eea0370ee25a2d44a7d1a220a86d225e36ea14d0",
+      "nameguard-real-evidence/sample.py": "15367137f0bc98517edbbaba1e60163fd5684bc7d6c6ea12ae18ed73ac47560c",
+      "nameguard-real-evidence/evidence_v2.py": "6594b4b277726ae8fbb5374b9cb59401aa024faf9ba0727a2d01ce1728424077",
+      "nameguard-real-evidence/PROTOCOL.md": "1a16eabb3edfcad6c88bdc4bc6844c0bad2c3311dc5cb02605b803e3f0f2ced7",
+      "nameguard-real-evidence/audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45",
+      "native-token-gate-hardening/gate.py": "d2d8775deb83d8b04491446199b9fb3a3df4668e266b22a9dce6b355f209e347",
+      "native-token-gate-hardening/evidence_contract.py": "ae26faf5bfe471322f44b4c4b609c8a7dba19d9f98cc290ea7b8f27cdba6a78e",
+      "nameguard-peer-review/src/compiler.py": "ad08c3b5794136d4ffccbb2713c827984997840dedfbcce330f2abf855a53ecb",
+      "nameguard-utility-study/experiment.py": "8554fbfea62b8f4a755f9375a9067fa8f846f43a58cffe24bcedc6010010c3b6"
+    }
+  },
+  "confirm": {
+    "before_inference": true,
+    "cases": 36,
+    "names": [
+      "Ivo",
+      "مروان القيسي",
+      "Linh Trần",
+      "中村 美咲"
+    ],
+    "cohort_sha256": "daf5e7356bc267376a08933e332e5de08bcf661253594e042a988a28b596fc91",
+    "labels_sha256": "b7deeef6479920eed46db07b3dde6a9b5c378a6f295833b3efbacf1948f23dcb",
+    "verifier": "evidence_v3",
+    "sources": {
+      "nameguard-real-evidence/gpu.py": "efb9046a3f9067cb28da9fb2eea0370ee25a2d44a7d1a220a86d225e36ea14d0",
+      "nameguard-real-evidence/sample.py": "15367137f0bc98517edbbaba1e60163fd5684bc7d6c6ea12ae18ed73ac47560c",
+      "nameguard-real-evidence/evidence_v3.py": "65782c4cc6af407410b86f7ee8becd63afcbfbef73779de6a2ba58bd78ba898d",
+      "nameguard-real-evidence/PROTOCOL.md": "1a16eabb3edfcad6c88bdc4bc6844c0bad2c3311dc5cb02605b803e3f0f2ced7",
+      "nameguard-real-evidence/audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45",
+      "native-token-gate-hardening/gate.py": "d2d8775deb83d8b04491446199b9fb3a3df4668e266b22a9dce6b355f209e347",
+      "native-token-gate-hardening/evidence_contract.py": "ae26faf5bfe471322f44b4c4b609c8a7dba19d9f98cc290ea7b8f27cdba6a78e",
+      "nameguard-peer-review/src/compiler.py": "ad08c3b5794136d4ffccbb2713c827984997840dedfbcce330f2abf855a53ecb",
+      "nameguard-utility-study/experiment.py": "8554fbfea62b8f4a755f9375a9067fa8f846f43a58cffe24bcedc6010010c3b6"
+    }
+  }
+}

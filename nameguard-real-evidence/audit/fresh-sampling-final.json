@@ -1,0 +1,5 @@
+{
+  "before_fresh_annotation": true,
+  "reason": "Only two newly available Python near-verb documents met the frozen overlap and snippet rules. Retain the other strata as planned and include both Python documents. No prior fresh sample was written.",
+  "sampler_sha256": "ec192d3844b67c338767a23f685ae6e2301a4c0ae2f6f2d243bdfa288c727520"
+}

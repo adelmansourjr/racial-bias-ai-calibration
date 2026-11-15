@@ -1,5 +1,15 @@
 # racial-bias-ai-calibration
 
+## Latest study. Exact name invariance and imperfect evidence extraction on real CVs
+
+[Report and preprint assessment](nameguard-real-evidence/REPORT.md) · [Protocol](nameguard-real-evidence/PROTOCOL.md) · [Reproduction](nameguard-real-evidence/README.md)
+
+This study tests whether real CV text explicitly reports using a tool in work or on a project, without a credential registry. All 476 planned name variants across 119 real excerpts were admitted. Exact protected scores and report bytes matched within every case, and all 1,488 direct aligned activation comparisons matched. Native decisions changed under names in 18 cases.
+
+The joint safety and recall target did not pass. In the final 36-case holdout, the verifier recovered 4/7 documented-use claims and emitted 2 unsupported confirmations. Every quote was traceable to its excerpt, demonstrating that source integrity and applicant attribution are separate properties. Requiring model agreement removed both unsupported confirmations in that holdout but covered only 2/7 positives. Earlier results and a post-hoc actor guard are documented separately.
+
+Only public code and aggregates are released. The formal and empirical name-channel claim supports a focused preprint with the negative extraction result and single-annotator, synthetic-name scope plainly stated.
+
 ## Latest study. Complete verified coverage on fresh shuffled-ID cases
 
 [Results and proof](nameguard-coverage-study/REPORT.md) · [Frozen protocol](nameguard-coverage-study/PROTOCOL.md) · [Reproduction](nameguard-coverage-study/README.md)
