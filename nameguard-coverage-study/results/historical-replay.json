@@ -1,0 +1,34 @@
+{
+  "source_sha256": "3bdfc4588916034fed7e833025aeec65125e5295520170f9b49dcf12ff1d3168",
+  "planned_requests": 384,
+  "conditions": 96,
+  "decisive": 48,
+  "exact_score_conditions": 96,
+  "methods": {
+    "model_top_two": {
+      "correct_definitive": 32,
+      "correct_review": 48,
+      "wrong_definitive": 0,
+      "exact_report_conditions": 96
+    },
+    "applicable_top_two": {
+      "correct_definitive": 48,
+      "correct_review": 48,
+      "wrong_definitive": 0,
+      "exact_report_conditions": 96
+    },
+    "latest_top_one": {
+      "correct_definitive": 48,
+      "correct_review": 48,
+      "wrong_definitive": 0,
+      "exact_report_conditions": 96
+    },
+    "registry_only": {
+      "correct_definitive": 48,
+      "correct_review": 48,
+      "wrong_definitive": 0,
+      "exact_report_conditions": 96
+    }
+  },
+  "scope": "Post-hoc archived logits. No new model inference and no independent generalization claim."
+}

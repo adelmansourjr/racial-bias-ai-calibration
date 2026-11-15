@@ -1,5 +1,13 @@
 # racial-bias-ai-calibration
 
+## Latest study. Complete verified coverage on fresh shuffled-ID cases
+
+[Results and proof](nameguard-coverage-study/REPORT.md) · [Frozen protocol](nameguard-coverage-study/PROTOCOL.md) · [Reproduction](nameguard-coverage-study/README.md)
+
+Prioritizing the latest applicable authoritative record recovers the published 32/48 coverage result to 48/48 in an archived replay. On a fresh 96-condition benchmark with shuffled record IDs and balanced answer positions, the same matched score vectors give 22/48 correct definitive outcomes with the original ranking, 29/48 after applicability filtering and 48/48 with the date-first policy. All 48 review cases are correct and there are zero wrong definitive reports.
+
+All 384 named inputs pass admission, with bit-exact logits and byte-identical reports within each condition. All 744 planned direct activation comparisons match. Complete registry evaluation yields the same result without a model. The gain relies on authoritative, complete supplied metadata, and the study tests a specific protected scoring interface.
+
 ## Latest study. Verified evidence and name-dependent referral
 
 [Results and limitations](nameguard-witness-study/REPORT.md) · [Proofs and methods](nameguard-witness-study/METHOD.md) · [Reproduction](nameguard-witness-study/README.md)

@@ -1,0 +1,161 @@
+{
+  "split": "test",
+  "conditions": 96,
+  "decisive": 48,
+  "unresolved": 48,
+  "families": 12,
+  "planned_requests": 384,
+  "utility": {
+    "model_top_two": {
+      "correct_status_and_ids": 70,
+      "correct_definitive": 22,
+      "correct_review": 48,
+      "verified_confirmations": 6,
+      "verified_contradictions": 16,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 2,
+      "proposals_total": 96,
+      "all_reports_exact": 96
+    },
+    "applicable_top_two": {
+      "correct_status_and_ids": 77,
+      "correct_definitive": 29,
+      "correct_review": 48,
+      "verified_confirmations": 8,
+      "verified_contradictions": 21,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 2,
+      "proposals_total": 96,
+      "all_reports_exact": 96
+    },
+    "latest_top_one": {
+      "correct_status_and_ids": 96,
+      "correct_definitive": 48,
+      "correct_review": 48,
+      "verified_confirmations": 12,
+      "verified_contradictions": 36,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 1,
+      "proposals_total": 48,
+      "all_reports_exact": 96
+    },
+    "registry_only": {
+      "correct_status_and_ids": 96,
+      "correct_definitive": 48,
+      "correct_review": 48,
+      "verified_confirmations": 12,
+      "verified_contradictions": 36,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 0,
+      "proposals_total": 0,
+      "all_reports_exact": 96
+    }
+  },
+  "invariance": {
+    "admitted_name_requests": 384,
+    "all_names_admitted_conditions": 96,
+    "bit_exact_logit_conditions": 96,
+    "planned_direct_comparisons": 744,
+    "zero_identity_checks": 960,
+    "compared_aligned_arrays": 744,
+    "bit_exact_aligned_arrays": 744
+  },
+  "paired_rescues_controls": {
+    "recovered": 26,
+    "lost": 0,
+    "display_order_correct": 24,
+    "sorted_id_correct": 20
+  },
+  "uniform_top_two_expected_correct": 24.0,
+  "family_paired_coverage_change": {
+    "mean": 0.5416666666666666,
+    "lower_95": 0.4583333333333333,
+    "upper_95": 0.625,
+    "families": 12,
+    "repetitions": 8000
+  },
+  "both_correct_contrasts_with_valid": {
+    "model_top_two": {
+      "future_only": 6,
+      "holder_swap": 1,
+      "invalid": 3,
+      "later_reversal": 3,
+      "missing": 6,
+      "other_credential": 6,
+      "same_date_conflict": 6
+    },
+    "applicable_top_two": {
+      "future_only": 8,
+      "holder_swap": 4,
+      "invalid": 5,
+      "later_reversal": 4,
+      "missing": 8,
+      "other_credential": 8,
+      "same_date_conflict": 8
+    },
+    "latest_top_one": {
+      "future_only": 12,
+      "holder_swap": 12,
+      "invalid": 12,
+      "later_reversal": 12,
+      "missing": 12,
+      "other_credential": 12,
+      "same_date_conflict": 12
+    },
+    "registry_only": {
+      "future_only": 12,
+      "holder_swap": 12,
+      "invalid": 12,
+      "later_reversal": 12,
+      "missing": 12,
+      "other_credential": 12,
+      "same_date_conflict": 12
+    }
+  },
+  "gates": {
+    "complete_coverage_with_gain": true,
+    "no_wrong_definitive": true,
+    "all_reports_match_oracle": true,
+    "exact_name_outcomes_and_scores": true,
+    "all_direct_comparisons_exact": true
+  },
+  "runtime": {
+    "seconds": 172.32954154201434,
+    "checkpoint_files_verified": true,
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "forwards": 384,
+    "stages": [
+      "boundary",
+      "block_1",
+      "block_2",
+      "block_3",
+      "block_4",
+      "block_5",
+      "block_6",
+      "block_7",
+      "block_8",
+      "block_9",
+      "block_10",
+      "block_11",
+      "block_12",
+      "block_13",
+      "block_14",
+      "block_15",
+      "block_16",
+      "block_17",
+      "block_18",
+      "block_19",
+      "block_20",
+      "block_21",
+      "block_22",
+      "block_23",
+      "block_24",
+      "block_25",
+      "block_26",
+      "block_27",
+      "block_28",
+      "final_hidden",
+      "vocabulary"
+    ]
+  }
+}

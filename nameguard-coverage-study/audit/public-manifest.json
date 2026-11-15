@@ -1,0 +1,31 @@
+{
+  "scope": "Synthetic records and reproduction evidence only. Excludes weights, raw activation arrays, actual CVs and reviewer keys.",
+  "sha256": {
+    ".gitignore": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+    "LICENSE": "92b295fb34de1fe6877e76945c93ca0ea55697a48c35414f8aa7b5fd086aa1fa",
+    "coverage_cases.py": "a193fe31abd06ae455c874b02da301e6ddf748fe99d529ff50732de353e8eae4",
+    "coverage_policy.py": "e4227f89b0bdc2525d17eea3e628dfc9cacc8ea75aba44866075b388bbbeb856",
+    "dependencies.py": "f49f161072e8e3aa8d4832d8a2cdba1ad31b2f716b654fb6945e1f6266d6948d",
+    "historical_replay.py": "0c6df974292f22f4489631a301732af9ab23d2285815aceac96b811191d9c085",
+    "measure.py": "d7e2ab2e37f1356691729f50942d42856949dfe5a87b68b2b727f9e6aabe50c1",
+    "run.py": "a619b299c21219a3676774e3e5b56537d77eba1b3ba0e6457a8e797b75a84fbe",
+    "verify.py": "1c47020230f55d4be115cbe524cc68e263cb62dee8068baf3fee7bac39a9fbf4",
+    "PROTOCOL.md": "4478cae92bc47ef735459ced1e90334fef0be47523ae9f3ed214f20b4e74e483",
+    "README.md": "d91cd150818fed4267ebb31c562ca56b941471b0ba1eaeeda29150f2777a8237",
+    "REPORT.md": "34e36e122eaf16b175a20705f33ba83dc5020b9c595990b653904d9808b2193b",
+    "ci-workflow.yml": "f2ba9044fc7a17364e57ba6931446fbac5e06e176640e2137516698222f870e0",
+    "tests/test_coverage.py": "40b0b701dbe8f677bed934304db0f013b15a82e55187cf17eb222c3e72ca590e",
+    "audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45",
+    "results/dev/plan.json": "af7f6a8cfde33b4a8a6a19b6d45db188fecfe82f98eec524a895765ab62c3851",
+    "results/dev/rows.json": "a9b59220089b49f1856ab8ad7217fb291365d2512b81963d997b7b89070872d9",
+    "results/dev/runtime.json": "75275706ff6684d6f423fa41356b13afd2b4792ed119a129ddbf10e0d64f3254",
+    "results/dev-summary.json": "cc02fb7124542a83d2de93967c001f347daf6a78d59828095e6067dc3f50e505",
+    "results/dev.log": "80cb40649e08cd4ac94fc53c4b1d5b778c2775847e9363c5c3db415adb84f8c6",
+    "results/historical-replay.json": "0139f6fedc3030541169be51882ebcaa68c503e4ed3b886699abc7c1d57e8046",
+    "results/test/plan.json": "282feab1d2efbd7f704a4aec61523d34ad6341f991f41e3d0fcbef062ac6d706",
+    "results/test/rows.json": "ae9a27fc047aa473d455942991baa8e84df1d7d14fce9265563e35a4584cd77e",
+    "results/test/runtime.json": "05c9ccc799656a6c664d0f8c91327bf2ce075a175b70ebd48166e79a964c560f",
+    "results/test-summary.json": "6a6b3efad705466181247901a807cf682de3216233ace891523b9f2ef11d39b6",
+    "results/test.log": "c2a53e8090467e403c523ca490f5c44cc2f382567c1e976626ea84e4d42d2e41"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "split": "dev",
+  "conditions": 24,
+  "decisive": 12,
+  "unresolved": 12,
+  "families": 3,
+  "planned_requests": 48,
+  "utility": {
+    "model_top_two": {
+      "correct_status_and_ids": 16,
+      "correct_definitive": 4,
+      "correct_review": 12,
+      "verified_confirmations": 2,
+      "verified_contradictions": 2,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 2,
+      "proposals_total": 24,
+      "all_reports_exact": 24
+    },
+    "applicable_top_two": {
+      "correct_status_and_ids": 21,
+      "correct_definitive": 9,
+      "correct_review": 12,
+      "verified_confirmations": 2,
+      "verified_contradictions": 7,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 2,
+      "proposals_total": 24,
+      "all_reports_exact": 24
+    },
+    "latest_top_one": {
+      "correct_status_and_ids": 24,
+      "correct_definitive": 12,
+      "correct_review": 12,
+      "verified_confirmations": 3,
+      "verified_contradictions": 9,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 1,
+      "proposals_total": 12,
+      "all_reports_exact": 24
+    },
+    "registry_only": {
+      "correct_status_and_ids": 24,
+      "correct_definitive": 12,
+      "correct_review": 12,
+      "verified_confirmations": 3,
+      "verified_contradictions": 9,
+      "wrong_definitive": 0,
+      "inspection_budget_max": 0,
+      "proposals_total": 0,
+      "all_reports_exact": 24
+    }
+  },
+  "invariance": {
+    "admitted_name_requests": 48,
+    "all_names_admitted_conditions": 24,
+    "bit_exact_logit_conditions": 24
+  },
+  "paired_rescues_controls": {
+    "recovered": 8,
+    "lost": 0,
+    "display_order_correct": 6,
+    "sorted_id_correct": 9
+  },
+  "uniform_top_two_expected_correct": 6.0,
+  "family_paired_coverage_change": {
+    "mean": 0.6666666666666666,
+    "lower_95": 0.5,
+    "upper_95": 0.75,
+    "families": 3,
+    "repetitions": 8000
+  },
+  "both_correct_contrasts_with_valid": {
+    "model_top_two": {
+      "future_only": 2,
+      "holder_swap": 0,
+      "invalid": 0,
+      "later_reversal": 1,
+      "missing": 2,
+      "other_credential": 2,
+      "same_date_conflict": 2
+    },
+    "applicable_top_two": {
+      "future_only": 2,
+      "holder_swap": 1,
+      "invalid": 2,
+      "later_reversal": 1,
+      "missing": 2,
+      "other_credential": 2,
+      "same_date_conflict": 2
+    },
+    "latest_top_one": {
+      "future_only": 3,
+      "holder_swap": 3,
+      "invalid": 3,
+      "later_reversal": 3,
+      "missing": 3,
+      "other_credential": 3,
+      "same_date_conflict": 3
+    },
+    "registry_only": {
+      "future_only": 3,
+      "holder_swap": 3,
+      "invalid": 3,
+      "later_reversal": 3,
+      "missing": 3,
+      "other_credential": 3,
+      "same_date_conflict": 3
+    }
+  },
+  "gates": {
+    "complete_coverage_with_gain": true,
+    "no_wrong_definitive": true,
+    "all_reports_match_oracle": true,
+    "exact_name_outcomes_and_scores": true,
+    "all_direct_comparisons_exact": true
+  },
+  "runtime": {
+    "seconds": 22.463898791000247,
+    "checkpoint_files_verified": true,
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "forwards": 48,
+    "stages": [
+      "boundary",
+      "block_1",
+      "block_2",
+      "block_3",
+      "block_4",
+      "block_5",
+      "block_6",
+      "block_7",
+      "block_8",
+      "block_9",
+      "block_10",
+      "block_11",
+      "block_12",
+      "block_13",
+      "block_14",
+      "block_15",
+      "block_16",
+      "block_17",
+      "block_18",
+      "block_19",
+      "block_20",
+      "block_21",
+      "block_22",
+      "block_23",
+      "block_24",
+      "block_25",
+      "block_26",
+      "block_27",
+      "block_28",
+      "final_hidden",
+      "vocabulary"
+    ]
+  }
+}

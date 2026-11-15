@@ -1,0 +1,19 @@
+name: NameGuard coverage recovery
+on:
+  push:
+    paths: ['nameguard-coverage-study/**', '.github/workflows/nameguard-coverage.yml']
+  pull_request:
+    paths: ['nameguard-coverage-study/**', '.github/workflows/nameguard-coverage.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s nameguard-coverage-study/tests -v
+      - run: python3 nameguard-coverage-study/verify.py
+      - run: python3 nameguard-witness-study/verify.py

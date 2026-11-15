@@ -1,0 +1,962 @@
+[
+  {
+    "case": "0-valid",
+    "family": 0,
+    "kind": "valid",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.03329086303711,
+      26.72262954711914,
+      27.95176124572754,
+      27.740633010864258,
+      32.28626251220703
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "6ab0a491392e964f924ee098d860fd2908380b9ec380d05e7d1c38ea45b3918e",
+    "score_bits": "41e0442e41d5c7f241df9d3541ddecd142012522",
+    "original_token_count": 408,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-valid",
+    "family": 0,
+    "kind": "valid",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.03329086303711,
+      26.72262954711914,
+      27.95176124572754,
+      27.740633010864258,
+      32.28626251220703
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "6ab0a491392e964f924ee098d860fd2908380b9ec380d05e7d1c38ea45b3918e",
+    "score_bits": "41e0442e41d5c7f241df9d3541ddecd142012522",
+    "original_token_count": 410,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-invalid",
+    "family": 0,
+    "kind": "invalid",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      26.878557205200195,
+      25.96321678161621,
+      25.460693359375,
+      27.103485107421875,
+      33.000457763671875
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "8c011dfcf6c670cd2509646963c3024a68616ff952b62432d9cca375e487d67f",
+    "score_bits": "41d7074941cfb4ab41cbaf8041d8d3f042040078",
+    "original_token_count": 408,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-invalid",
+    "family": 0,
+    "kind": "invalid",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      26.878557205200195,
+      25.96321678161621,
+      25.460693359375,
+      27.103485107421875,
+      33.000457763671875
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "8c011dfcf6c670cd2509646963c3024a68616ff952b62432d9cca375e487d67f",
+    "score_bits": "41d7074941cfb4ab41cbaf8041d8d3f042040078",
+    "original_token_count": 410,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-holder_swap",
+    "family": 0,
+    "kind": "holder_swap",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.502683639526367,
+      26.5029296875,
+      25.683805465698242,
+      27.698211669921875,
+      32.64596939086914
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "554f07adbee6d8d3252954a22fd9afd89d8d2a252fbfe3bce61107c1353806e2",
+    "score_bits": "41dc057f41d4060041cd786f41dd95f042029579",
+    "original_token_count": 408,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-holder_swap",
+    "family": 0,
+    "kind": "holder_swap",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.502683639526367,
+      26.5029296875,
+      25.683805465698242,
+      27.698211669921875,
+      32.64596939086914
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "554f07adbee6d8d3252954a22fd9afd89d8d2a252fbfe3bce61107c1353806e2",
+    "score_bits": "41dc057f41d4060041cd786f41dd95f042029579",
+    "original_token_count": 410,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-later_reversal",
+    "family": 0,
+    "kind": "later_reversal",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.562469482421875,
+      29.092260360717773,
+      27.56878662109375,
+      26.993127822875977,
+      30.88835334777832
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "e0bef411575f62a1d9e22d52937fca1b26e46c01b2e80fd24ef7c1bffa4a45ce",
+    "score_bits": "41e47ff041e8bcf341dc8ce041d7f1ed41f71b59",
+    "original_token_count": 408,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-later_reversal",
+    "family": 0,
+    "kind": "later_reversal",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.562469482421875,
+      29.092260360717773,
+      27.56878662109375,
+      26.993127822875977,
+      30.88835334777832
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "e0bef411575f62a1d9e22d52937fca1b26e46c01b2e80fd24ef7c1bffa4a45ce",
+    "score_bits": "41e47ff041e8bcf341dc8ce041d7f1ed41f71b59",
+    "original_token_count": 410,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-missing",
+    "family": 0,
+    "kind": "missing",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      26.715797424316406,
+      26.68476104736328,
+      25.257726669311523,
+      27.810340881347656,
+      32.777854919433594
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "285e66b4ac22c685fdda6ee13000bfaee40817e18474323c71dcbd5fe325833c",
+    "score_bits": "41d5b9f441d57a6441ca0fd341de7b9442031c86",
+    "original_token_count": 411,
+    "evidence_token_count": 408
+  },
+  {
+    "case": "0-missing",
+    "family": 0,
+    "kind": "missing",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      26.715797424316406,
+      26.68476104736328,
+      25.257726669311523,
+      27.810340881347656,
+      32.777854919433594
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "285e66b4ac22c685fdda6ee13000bfaee40817e18474323c71dcbd5fe325833c",
+    "score_bits": "41d5b9f441d57a6441ca0fd341de7b9442031c86",
+    "original_token_count": 413,
+    "evidence_token_count": 408
+  },
+  {
+    "case": "0-other_credential",
+    "family": 0,
+    "kind": "other_credential",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.116546630859375,
+      27.496334075927734,
+      25.582548141479492,
+      27.782032012939453,
+      31.528833389282227
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "f37dc22d235acee45fc72eb51dcd98cd67e346e8f5bfd5b9585bf253b6b739f1",
+    "score_bits": "41d8eeb041dbf87e41cca90f41de419a41fc3b0d",
+    "original_token_count": 411,
+    "evidence_token_count": 408
+  },
+  {
+    "case": "0-other_credential",
+    "family": 0,
+    "kind": "other_credential",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.116546630859375,
+      27.496334075927734,
+      25.582548141479492,
+      27.782032012939453,
+      31.528833389282227
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "f37dc22d235acee45fc72eb51dcd98cd67e346e8f5bfd5b9585bf253b6b739f1",
+    "score_bits": "41d8eeb041dbf87e41cca90f41de419a41fc3b0d",
+    "original_token_count": 413,
+    "evidence_token_count": 408
+  },
+  {
+    "case": "0-future_only",
+    "family": 0,
+    "kind": "future_only",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.59198760986328,
+      26.84042739868164,
+      25.90733528137207,
+      27.45850372314453,
+      31.70077133178711
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "90efc86f276b79ef429b8abbabc18733bc521dc1bb9975b3ddc2cc3fc408063e",
+    "score_bits": "41e4bc6441d6b93241cf423941dbab0441fd9b2e",
+    "original_token_count": 408,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-future_only",
+    "family": 0,
+    "kind": "future_only",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.59198760986328,
+      26.84042739868164,
+      25.90733528137207,
+      27.45850372314453,
+      31.70077133178711
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "90efc86f276b79ef429b8abbabc18733bc521dc1bb9975b3ddc2cc3fc408063e",
+    "score_bits": "41e4bc6441d6b93241cf423941dbab0441fd9b2e",
+    "original_token_count": 410,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-same_date_conflict",
+    "family": 0,
+    "kind": "same_date_conflict",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.071765899658203,
+      26.865264892578125,
+      25.6011962890625,
+      27.122039794921875,
+      32.4858283996582
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "c9d55707126ae22449a6494bef5a0e85e0b0b4aa0475ff640fc992ab86ea5082",
+    "score_bits": "41e092fa41d6ec1041cccf4041d8f9f04201f17d",
+    "original_token_count": 408,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "0-same_date_conflict",
+    "family": 0,
+    "kind": "same_date_conflict",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.071765899658203,
+      26.865264892578125,
+      25.6011962890625,
+      27.122039794921875,
+      32.4858283996582
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "c9d55707126ae22449a6494bef5a0e85e0b0b4aa0475ff640fc992ab86ea5082",
+    "score_bits": "41e092fa41d6ec1041cccf4041d8f9f04201f17d",
+    "original_token_count": 410,
+    "evidence_token_count": 405
+  },
+  {
+    "case": "1-valid",
+    "family": 1,
+    "kind": "valid",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.563060760498047,
+      28.147850036621094,
+      26.538646697998047,
+      28.25154685974121,
+      31.947542190551758
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "421ab12858af01b99b0c56bbce01e6b6ec6cb7dae32ebd05cb40b9b25c45a8e2",
+    "score_bits": "41dc812641e12ecc41d44f2641e2032b41ff9491",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-valid",
+    "family": 1,
+    "kind": "valid",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.563060760498047,
+      28.147850036621094,
+      26.538646697998047,
+      28.25154685974121,
+      31.947542190551758
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "421ab12858af01b99b0c56bbce01e6b6ec6cb7dae32ebd05cb40b9b25c45a8e2",
+    "score_bits": "41dc812641e12ecc41d44f2641e2032b41ff9491",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-invalid",
+    "family": 1,
+    "kind": "invalid",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      26.33654022216797,
+      29.322099685668945,
+      26.141206741333008,
+      26.06238555908203,
+      31.44902801513672
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "15fefec03e4f7534f469493c5c21b09cd24d182ad89d9770f9c2a93ad5b85d93",
+    "score_bits": "41d2b13c41ea93a941d1213141d07fc441fb979c",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-invalid",
+    "family": 1,
+    "kind": "invalid",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      26.33654022216797,
+      29.322099685668945,
+      26.141206741333008,
+      26.06238555908203,
+      31.44902801513672
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "15fefec03e4f7534f469493c5c21b09cd24d182ad89d9770f9c2a93ad5b85d93",
+    "score_bits": "41d2b13c41ea93a941d1213141d07fc441fb979c",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-holder_swap",
+    "family": 1,
+    "kind": "holder_swap",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.00244140625,
+      27.035335540771484,
+      26.338855743408203,
+      26.59009552001953,
+      31.616069793701172
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "9d5fb49f8ae6f8633f1e7305894361dc747edb4ac399043ad91e356f6a205816",
+    "score_bits": "41e0050041d8485e41d2b5fa41d4b88441fcedb6",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-holder_swap",
+    "family": 1,
+    "kind": "holder_swap",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.00244140625,
+      27.035335540771484,
+      26.338855743408203,
+      26.59009552001953,
+      31.616069793701172
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "9d5fb49f8ae6f8633f1e7305894361dc747edb4ac399043ad91e356f6a205816",
+    "score_bits": "41e0050041d8485e41d2b5fa41d4b88441fcedb6",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-later_reversal",
+    "family": 1,
+    "kind": "later_reversal",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.394180297851562,
+      27.189022064208984,
+      26.082244873046875,
+      26.62684440612793,
+      32.880149841308594
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "a850ad82da0f84a4e851f48d229f3055d394d844aaff77b7caaa3530901452ee",
+    "score_bits": "41db274841d9831e41d0a87041d503c742038546",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-later_reversal",
+    "family": 1,
+    "kind": "later_reversal",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.394180297851562,
+      27.189022064208984,
+      26.082244873046875,
+      26.62684440612793,
+      32.880149841308594
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "a850ad82da0f84a4e851f48d229f3055d394d844aaff77b7caaa3530901452ee",
+    "score_bits": "41db274841d9831e41d0a87041d503c742038546",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-missing",
+    "family": 1,
+    "kind": "missing",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.298072814941406,
+      26.921419143676758,
+      25.635284423828125,
+      25.845382690429688,
+      31.204208374023438
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "114543d415f073cf7b2563e993480186be6face7c71c0ddfe42433f21149a601",
+    "score_bits": "41da627441d75f1141cd151041cec35841f9a238",
+    "original_token_count": 416,
+    "evidence_token_count": 413
+  },
+  {
+    "case": "1-missing",
+    "family": 1,
+    "kind": "missing",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.298072814941406,
+      26.921419143676758,
+      25.635284423828125,
+      25.845382690429688,
+      31.204208374023438
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "114543d415f073cf7b2563e993480186be6face7c71c0ddfe42433f21149a601",
+    "score_bits": "41da627441d75f1141cd151041cec35841f9a238",
+    "original_token_count": 418,
+    "evidence_token_count": 413
+  },
+  {
+    "case": "1-other_credential",
+    "family": 1,
+    "kind": "other_credential",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      26.96251678466797,
+      27.809335708618164,
+      26.716503143310547,
+      27.292320251464844,
+      31.740402221679688
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "a4325170234dd6c85c48109ba3e66fd5af51f57270ef0323f68b150ebc543a0b",
+    "score_bits": "41d7b33c41de798541d5bb6641da56ac41fdec58",
+    "original_token_count": 416,
+    "evidence_token_count": 413
+  },
+  {
+    "case": "1-other_credential",
+    "family": 1,
+    "kind": "other_credential",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      26.96251678466797,
+      27.809335708618164,
+      26.716503143310547,
+      27.292320251464844,
+      31.740402221679688
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "a4325170234dd6c85c48109ba3e66fd5af51f57270ef0323f68b150ebc543a0b",
+    "score_bits": "41d7b33c41de798541d5bb6641da56ac41fdec58",
+    "original_token_count": 418,
+    "evidence_token_count": 413
+  },
+  {
+    "case": "1-future_only",
+    "family": 1,
+    "kind": "future_only",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      26.7882137298584,
+      28.46578025817871,
+      25.878135681152344,
+      26.56243324279785,
+      32.173831939697266
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "b3a10f698dcc667987ada9fb3b3e68feb00ad1ef5a2f520459eae180c50514ff",
+    "score_bits": "41d64e4341e3b9eb41cf066c41d47fdd4200b201",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-future_only",
+    "family": 1,
+    "kind": "future_only",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      26.7882137298584,
+      28.46578025817871,
+      25.878135681152344,
+      26.56243324279785,
+      32.173831939697266
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "b3a10f698dcc667987ada9fb3b3e68feb00ad1ef5a2f520459eae180c50514ff",
+    "score_bits": "41d64e4341e3b9eb41cf066c41d47fdd4200b201",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-same_date_conflict",
+    "family": 1,
+    "kind": "same_date_conflict",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.00857162475586,
+      26.867023468017578,
+      25.744895935058594,
+      27.743350982666016,
+      31.86086082458496
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "674730bab4af1c282e50abd727112e08b5c7eeea3fdfb059f6a4a53eeeeb0340",
+    "score_bits": "41e0118e41d6efaa41cdf58c41ddf26241fee30b",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "1-same_date_conflict",
+    "family": 1,
+    "kind": "same_date_conflict",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.00857162475586,
+      26.867023468017578,
+      25.744895935058594,
+      27.743350982666016,
+      31.86086082458496
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "674730bab4af1c282e50abd727112e08b5c7eeea3fdfb059f6a4a53eeeeb0340",
+    "score_bits": "41e0118e41d6efaa41cdf58c41ddf26241fee30b",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-valid",
+    "family": 2,
+    "kind": "valid",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.715843200683594,
+      26.584217071533203,
+      26.029600143432617,
+      27.032215118408203,
+      32.725189208984375
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "a2c5f1937ccd509b21001a16176c38028e7d88cecf0ef5dc33c0de2d3148f10c",
+    "score_bits": "41ddba0c41d4ac7a41d03c9f41d841fa4202e698",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-valid",
+    "family": 2,
+    "kind": "valid",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.715843200683594,
+      26.584217071533203,
+      26.029600143432617,
+      27.032215118408203,
+      32.725189208984375
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "a2c5f1937ccd509b21001a16176c38028e7d88cecf0ef5dc33c0de2d3148f10c",
+    "score_bits": "41ddba0c41d4ac7a41d03c9f41d841fa4202e698",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-invalid",
+    "family": 2,
+    "kind": "invalid",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.579214096069336,
+      27.975465774536133,
+      26.616561889648438,
+      27.035551071166992,
+      32.61334991455078
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "f931a7616235743f516e91dd543d670d8ce26d45ea758ea5498559c0d08b76ed",
+    "score_bits": "41dca23b41dfcdc141d4eeb841d848cf42027412",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-invalid",
+    "family": 2,
+    "kind": "invalid",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.579214096069336,
+      27.975465774536133,
+      26.616561889648438,
+      27.035551071166992,
+      32.61334991455078
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "f931a7616235743f516e91dd543d670d8ce26d45ea758ea5498559c0d08b76ed",
+    "score_bits": "41dca23b41dfcdc141d4eeb841d848cf42027412",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-holder_swap",
+    "family": 2,
+    "kind": "holder_swap",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.80324935913086,
+      26.72789764404297,
+      25.435909271240234,
+      26.16891098022461,
+      32.99983215332031
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "27ff9919c0fbb93d8b76f10bab13b6745407387c80819b846731d78564c905ef",
+    "score_bits": "41de6d0e41d5d2bc41cb7cbe41d159ee4203ffd4",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-holder_swap",
+    "family": 2,
+    "kind": "holder_swap",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.80324935913086,
+      26.72789764404297,
+      25.435909271240234,
+      26.16891098022461,
+      32.99983215332031
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "27ff9919c0fbb93d8b76f10bab13b6745407387c80819b846731d78564c905ef",
+    "score_bits": "41de6d0e41d5d2bc41cb7cbe41d159ee4203ffd4",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-later_reversal",
+    "family": 2,
+    "kind": "later_reversal",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.157665252685547,
+      27.974945068359375,
+      26.80821990966797,
+      28.140003204345703,
+      31.952167510986328
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "b33869efee6ee21900b6b42fe08fbf8433e54efc693ee2f1a8b0cb17f57f88e7",
+    "score_bits": "41e142e641dfccb041d6773c41e11eba41ff9e0a",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-later_reversal",
+    "family": 2,
+    "kind": "later_reversal",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.157665252685547,
+      27.974945068359375,
+      26.80821990966797,
+      28.140003204345703,
+      31.952167510986328
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "b33869efee6ee21900b6b42fe08fbf8433e54efc693ee2f1a8b0cb17f57f88e7",
+    "score_bits": "41e142e641dfccb041d6773c41e11eba41ff9e0a",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-missing",
+    "family": 2,
+    "kind": "missing",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      27.722366333007812,
+      27.75145721435547,
+      26.298566818237305,
+      28.20256233215332,
+      32.24354553222656
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "ec17b51d1a0ac5a22adc00f71f2afd6c197b9071c6dc869e35ed3d38b44a0c41",
+    "score_bits": "41ddc76841de02fc41d2637741e19ed94200f964",
+    "original_token_count": 414,
+    "evidence_token_count": 411
+  },
+  {
+    "case": "2-missing",
+    "family": 2,
+    "kind": "missing",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      27.722366333007812,
+      27.75145721435547,
+      26.298566818237305,
+      28.20256233215332,
+      32.24354553222656
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "ec17b51d1a0ac5a22adc00f71f2afd6c197b9071c6dc869e35ed3d38b44a0c41",
+    "score_bits": "41ddc76841de02fc41d2637741e19ed94200f964",
+    "original_token_count": 416,
+    "evidence_token_count": 411
+  },
+  {
+    "case": "2-other_credential",
+    "family": 2,
+    "kind": "other_credential",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      26.983623504638672,
+      27.096664428710938,
+      25.763351440429688,
+      26.908226013183594,
+      31.851032257080078
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "01650ed622ba15df1369da693a376e857aceb1ec15c0644ed6c84c5b193d2516",
+    "score_bits": "41d7de7641d8c5f841ce1b5841d7440c41feceea",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-other_credential",
+    "family": 2,
+    "kind": "other_credential",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      26.983623504638672,
+      27.096664428710938,
+      25.763351440429688,
+      26.908226013183594,
+      31.851032257080078
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "01650ed622ba15df1369da693a376e857aceb1ec15c0644ed6c84c5b193d2516",
+    "score_bits": "41d7de7641d8c5f841ce1b5841d7440c41feceea",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-future_only",
+    "family": 2,
+    "kind": "future_only",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.15216064453125,
+      27.61435890197754,
+      26.350141525268555,
+      28.171470642089844,
+      32.01260757446289
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "ab10351a4c117c5f67aeea22d1c24a62f7ca481336656efcbc03c621011cc85b",
+    "score_bits": "41e137a041dcea3541d2cd1741e15f2c42000ce9",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-future_only",
+    "family": 2,
+    "kind": "future_only",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.15216064453125,
+      27.61435890197754,
+      26.350141525268555,
+      28.171470642089844,
+      32.01260757446289
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "ab10351a4c117c5f67aeea22d1c24a62f7ca481336656efcbc03c621011cc85b",
+    "score_bits": "41e137a041dcea3541d2cd1741e15f2c42000ce9",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-same_date_conflict",
+    "family": 2,
+    "kind": "same_date_conflict",
+    "name": "Evan Doyle",
+    "primary": true,
+    "logits": [
+      28.468692779541016,
+      26.870807647705078,
+      26.20623207092285,
+      28.474262237548828,
+      32.36831283569336
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "bd343597c94ab8bb02f24a401cdc6099d71785adf07b12947e0dcf44bf59468a",
+    "score_bits": "41e3bfe241d6f76a41d1a65d41e3cb4a42017927",
+    "original_token_count": 413,
+    "evidence_token_count": 410
+  },
+  {
+    "case": "2-same_date_conflict",
+    "family": 2,
+    "kind": "same_date_conflict",
+    "name": "سامية حمدان",
+    "primary": false,
+    "logits": [
+      28.468692779541016,
+      26.870807647705078,
+      26.20623207092285,
+      28.474262237548828,
+      32.36831283569336
+    ],
+    "zero_identity_checks": 0,
+    "direct_comparisons": null,
+    "visible_prompt_sha256": "bd343597c94ab8bb02f24a401cdc6099d71785adf07b12947e0dcf44bf59468a",
+    "score_bits": "41e3bfe241d6f76a41d1a65d41e3cb4a42017927",
+    "original_token_count": 415,
+    "evidence_token_count": 410
+  }
+]
