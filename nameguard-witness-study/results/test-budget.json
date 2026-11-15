@@ -1,0 +1,158 @@
+{
+  "split": "test",
+  "conditions": 96,
+  "definite": 48,
+  "budgets": {
+    "protected_1": {
+      "correct_status_and_ids": 66,
+      "definitive_cases": 18,
+      "verified_confirmations": 3,
+      "verified_contradictions": 15,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 96
+    },
+    "native_1": {
+      "correct_status_and_ids": 63,
+      "definitive_cases": 15,
+      "verified_confirmations": 3,
+      "verified_contradictions": 12,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 92
+    },
+    "protected_2": {
+      "correct_status_and_ids": 80,
+      "definitive_cases": 32,
+      "verified_confirmations": 4,
+      "verified_contradictions": 28,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 96
+    },
+    "native_2": {
+      "correct_status_and_ids": 81,
+      "definitive_cases": 33,
+      "verified_confirmations": 5,
+      "verified_contradictions": 28,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 85
+    },
+    "protected_3": {
+      "correct_status_and_ids": 86,
+      "definitive_cases": 38,
+      "verified_confirmations": 7,
+      "verified_contradictions": 31,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 96
+    },
+    "native_3": {
+      "correct_status_and_ids": 86,
+      "definitive_cases": 38,
+      "verified_confirmations": 7,
+      "verified_contradictions": 31,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 96
+    },
+    "protected_4": {
+      "correct_status_and_ids": 96,
+      "definitive_cases": 48,
+      "verified_confirmations": 12,
+      "verified_contradictions": 36,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 96
+    },
+    "native_4": {
+      "correct_status_and_ids": 96,
+      "definitive_cases": 48,
+      "verified_confirmations": 12,
+      "verified_contradictions": 36,
+      "wrong_definitive": 0,
+      "all_name_reports_equal_and_present": 96
+    }
+  },
+  "contrasts_both_correct": {
+    "native_1": {
+      "delete": 3,
+      "equal_conflict": 3,
+      "future_only": 3,
+      "invalid": 1,
+      "newer_invalid": 0,
+      "swap_credential": 3,
+      "swap_holder": 1
+    },
+    "native_2": {
+      "delete": 5,
+      "equal_conflict": 5,
+      "future_only": 5,
+      "invalid": 4,
+      "newer_invalid": 4,
+      "swap_credential": 5,
+      "swap_holder": 5
+    },
+    "native_3": {
+      "delete": 7,
+      "equal_conflict": 7,
+      "future_only": 7,
+      "invalid": 7,
+      "newer_invalid": 7,
+      "swap_credential": 7,
+      "swap_holder": 7
+    },
+    "native_4": {
+      "delete": 12,
+      "equal_conflict": 12,
+      "future_only": 12,
+      "invalid": 12,
+      "newer_invalid": 12,
+      "swap_credential": 12,
+      "swap_holder": 12
+    },
+    "protected_1": {
+      "delete": 3,
+      "equal_conflict": 3,
+      "future_only": 3,
+      "invalid": 1,
+      "newer_invalid": 0,
+      "swap_credential": 3,
+      "swap_holder": 1
+    },
+    "protected_2": {
+      "delete": 4,
+      "equal_conflict": 4,
+      "future_only": 4,
+      "invalid": 4,
+      "newer_invalid": 3,
+      "swap_credential": 4,
+      "swap_holder": 4
+    },
+    "protected_3": {
+      "delete": 7,
+      "equal_conflict": 7,
+      "future_only": 7,
+      "invalid": 7,
+      "newer_invalid": 7,
+      "swap_credential": 7,
+      "swap_holder": 7
+    },
+    "protected_4": {
+      "delete": 12,
+      "equal_conflict": 12,
+      "future_only": 12,
+      "invalid": 12,
+      "newer_invalid": 12,
+      "swap_credential": 12,
+      "swap_holder": 12
+    }
+  },
+  "paired_accuracy_difference_2_vs_1": {
+    "mean": 0.14583333333333334,
+    "lower_95": 0.09375,
+    "upper_95": 0.20833333333333334,
+    "units": 12,
+    "resamples": 8000
+  },
+  "gates": {
+    "activation_and_logit_equality": true,
+    "all_checked_report_bytes_identical": true,
+    "no_wrong_definitive": true,
+    "at_least_75_percent_definitive": false
+  }
+}

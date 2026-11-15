@@ -1,0 +1,26 @@
+{
+  "metrics": {
+    "condition_layout_pairs": 192,
+    "verifiable_condition_layout_pairs": 96,
+    "protected_top_two_verified": 62,
+    "first_two_displayed_verified": 55,
+    "first_two_sorted_opaque_ids_verified": 54,
+    "uniform_top_two_expected_verified": 51.999999999999986,
+    "both_rekeyed_layouts_definite_correct": 18,
+    "correct_regardless_of_state_by_layout": {
+      "0": 78,
+      "1": 80
+    },
+    "wrong_definitive": 0,
+    "paired_coverage_change_vs_first_two_displayed": {
+      "mean": 0.07291666666666667,
+      "lower_95": 0.020833333333333332,
+      "upper_95": 0.13541666666666666,
+      "units": 12,
+      "resamples": 8000
+    }
+  },
+  "seconds": 143.4166538749996,
+  "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+  "checkpoint_files_verified": true
+}

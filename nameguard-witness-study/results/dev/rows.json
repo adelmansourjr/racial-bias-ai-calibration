@@ -1,0 +1,1418 @@
+[
+  {
+    "case": "0-valid",
+    "family": 0,
+    "kind": "valid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      26.277442932128906,
+      30.371776580810547,
+      24.89988899230957,
+      25.748031616210938,
+      29.137432098388672
+    ],
+    "protected_logits": [
+      26.625194549560547,
+      30.469961166381836,
+      25.090892791748047,
+      26.607175827026367,
+      29.89295196533203
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "ab336aca10821552a4f4f917c12eb2f75557038ed26078515f4ecc10d3053f9d",
+    "brief_logits": [
+      28.488422393798828,
+      30.97205924987793,
+      26.450586318969727,
+      25.320030212402344,
+      33.423030853271484
+    ]
+  },
+  {
+    "case": "0-valid",
+    "family": 0,
+    "kind": "valid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.128299713134766,
+      30.629741668701172,
+      25.19356918334961,
+      26.267852783203125,
+      29.699392318725586
+    ],
+    "protected_logits": [
+      26.625194549560547,
+      30.469961166381836,
+      25.090892791748047,
+      26.607175827026367,
+      29.89295196533203
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "ab336aca10821552a4f4f917c12eb2f75557038ed26078515f4ecc10d3053f9d"
+  },
+  {
+    "case": "0-invalid",
+    "family": 0,
+    "kind": "invalid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.22480010986328,
+      28.434457778930664,
+      25.373891830444336,
+      26.813182830810547,
+      31.96826171875
+    ],
+    "protected_logits": [
+      27.351573944091797,
+      28.580446243286133,
+      25.559589385986328,
+      27.27866554260254,
+      32.569358825683594
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "5b0c8f0b1ffe0c49725af42fea2c38b5cc7ce3938df6a7b95dc9970a24cdc552",
+    "brief_logits": [
+      28.162635803222656,
+      28.77297019958496,
+      26.31911849975586,
+      25.081239700317383,
+      34.63865661621094
+    ]
+  },
+  {
+    "case": "0-invalid",
+    "family": 0,
+    "kind": "invalid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.551347732543945,
+      28.214542388916016,
+      25.40199851989746,
+      27.076356887817383,
+      32.11952590942383
+    ],
+    "protected_logits": [
+      27.351573944091797,
+      28.580446243286133,
+      25.559589385986328,
+      27.27866554260254,
+      32.569358825683594
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "5b0c8f0b1ffe0c49725af42fea2c38b5cc7ce3938df6a7b95dc9970a24cdc552"
+  },
+  {
+    "case": "0-delete",
+    "family": 0,
+    "kind": "delete",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.458118438720703,
+      29.725492477416992,
+      28.493709564208984,
+      27.041194915771484,
+      31.25120735168457
+    ],
+    "protected_logits": [
+      27.481624603271484,
+      29.481908798217773,
+      28.643760681152344,
+      27.335033416748047,
+      31.101715087890625
+    ],
+    "native_tokens": 355,
+    "evidence_tokens": 352,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "e51eedb6394deb3f4c5e4f3ea7fd492fb09ec42eb75519b957ae3faf840cb70c",
+    "brief_logits": [
+      25.374961853027344,
+      26.091209411621094,
+      26.6887149810791,
+      24.619104385375977,
+      33.717960357666016
+    ]
+  },
+  {
+    "case": "0-delete",
+    "family": 0,
+    "kind": "delete",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.639907836914062,
+      29.685100555419922,
+      28.043617248535156,
+      27.418113708496094,
+      30.84117317199707
+    ],
+    "protected_logits": [
+      27.481624603271484,
+      29.481908798217773,
+      28.643760681152344,
+      27.335033416748047,
+      31.101715087890625
+    ],
+    "native_tokens": 357,
+    "evidence_tokens": 352,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "e51eedb6394deb3f4c5e4f3ea7fd492fb09ec42eb75519b957ae3faf840cb70c"
+  },
+  {
+    "case": "0-swap_holder",
+    "family": 0,
+    "kind": "swap_holder",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.384998321533203,
+      29.306598663330078,
+      26.799606323242188,
+      28.646366119384766,
+      31.87646484375
+    ],
+    "protected_logits": [
+      27.248987197875977,
+      28.90254020690918,
+      26.409114837646484,
+      29.594104766845703,
+      31.915821075439453
+    ],
+    "native_tokens": 378,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "c4c2215b0cbeb56c197253cc3befd51bf7b3ae5e5d447168b8b8179ebabc400d",
+    "brief_logits": [
+      27.158973693847656,
+      27.717571258544922,
+      26.39959716796875,
+      26.271181106567383,
+      34.74800109863281
+    ]
+  },
+  {
+    "case": "0-swap_holder",
+    "family": 0,
+    "kind": "swap_holder",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.537811279296875,
+      28.805002212524414,
+      26.282230377197266,
+      28.93499183654785,
+      31.73284339904785
+    ],
+    "protected_logits": [
+      27.248987197875977,
+      28.90254020690918,
+      26.409114837646484,
+      29.594104766845703,
+      31.915821075439453
+    ],
+    "native_tokens": 380,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "c4c2215b0cbeb56c197253cc3befd51bf7b3ae5e5d447168b8b8179ebabc400d"
+  },
+  {
+    "case": "0-swap_credential",
+    "family": 0,
+    "kind": "swap_credential",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.11501693725586,
+      29.790267944335938,
+      26.54812240600586,
+      28.867244720458984,
+      31.115169525146484
+    ],
+    "protected_logits": [
+      26.660419464111328,
+      29.06163787841797,
+      25.734241485595703,
+      29.402938842773438,
+      30.780597686767578
+    ],
+    "native_tokens": 379,
+    "evidence_tokens": 376,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "59825bc34e14cc129d8ab2e719e02cc089eb6be16ce9ee29dc7488d8bb9bb974",
+    "brief_logits": [
+      26.54983139038086,
+      26.65557861328125,
+      25.683443069458008,
+      25.83557891845703,
+      34.21476745605469
+    ]
+  },
+  {
+    "case": "0-swap_credential",
+    "family": 0,
+    "kind": "swap_credential",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.152603149414062,
+      29.204618453979492,
+      25.84009552001953,
+      28.63925552368164,
+      30.652088165283203
+    ],
+    "protected_logits": [
+      26.660419464111328,
+      29.06163787841797,
+      25.734241485595703,
+      29.402938842773438,
+      30.780597686767578
+    ],
+    "native_tokens": 381,
+    "evidence_tokens": 376,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "59825bc34e14cc129d8ab2e719e02cc089eb6be16ce9ee29dc7488d8bb9bb974"
+  },
+  {
+    "case": "0-future_only",
+    "family": 0,
+    "kind": "future_only",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      25.792131423950195,
+      31.773780822753906,
+      26.038637161254883,
+      26.377117156982422,
+      28.86935806274414
+    ],
+    "protected_logits": [
+      25.636428833007812,
+      31.544906616210938,
+      25.663803100585938,
+      26.424427032470703,
+      28.658716201782227
+    ],
+    "native_tokens": 378,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "bbae5caac320003c2c9c6ab417b0d98a25554867a08c74339c9b56ae71cb7d8a",
+    "brief_logits": [
+      27.780954360961914,
+      29.652469635009766,
+      26.703166961669922,
+      26.487281799316406,
+      33.61890411376953
+    ]
+  },
+  {
+    "case": "0-future_only",
+    "family": 0,
+    "kind": "future_only",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      26.216169357299805,
+      31.58171844482422,
+      25.797584533691406,
+      26.497882843017578,
+      29.185009002685547
+    ],
+    "protected_logits": [
+      25.636428833007812,
+      31.544906616210938,
+      25.663803100585938,
+      26.424427032470703,
+      28.658716201782227
+    ],
+    "native_tokens": 380,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "bbae5caac320003c2c9c6ab417b0d98a25554867a08c74339c9b56ae71cb7d8a"
+  },
+  {
+    "case": "0-equal_conflict",
+    "family": 0,
+    "kind": "equal_conflict",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      26.91387176513672,
+      30.770599365234375,
+      25.492385864257812,
+      26.396949768066406,
+      29.897613525390625
+    ],
+    "protected_logits": [
+      26.990558624267578,
+      30.525211334228516,
+      25.49819564819336,
+      27.174678802490234,
+      30.314550399780273
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "5b01d87badc1f906321317872953df4b02f5ed1d2b5f7bb5fa9852197a46683b",
+    "brief_logits": [
+      28.54663848876953,
+      29.891616821289062,
+      26.495025634765625,
+      25.452707290649414,
+      34.23706817626953
+    ]
+  },
+  {
+    "case": "0-equal_conflict",
+    "family": 0,
+    "kind": "equal_conflict",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.181697845458984,
+      30.553218841552734,
+      25.415569305419922,
+      26.786964416503906,
+      29.979822158813477
+    ],
+    "protected_logits": [
+      26.990558624267578,
+      30.525211334228516,
+      25.49819564819336,
+      27.174678802490234,
+      30.314550399780273
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "5b01d87badc1f906321317872953df4b02f5ed1d2b5f7bb5fa9852197a46683b"
+  },
+  {
+    "case": "0-newer_invalid",
+    "family": 0,
+    "kind": "newer_invalid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      26.43948745727539,
+      31.044090270996094,
+      25.580520629882812,
+      26.642324447631836,
+      29.590538024902344
+    ],
+    "protected_logits": [
+      26.725418090820312,
+      31.05297088623047,
+      25.734275817871094,
+      27.467205047607422,
+      30.404605865478516
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "dd3be0810afd0a329f4c5cfe3b1c73e6a727295491e1126f9cfd5a247264f30f",
+    "brief_logits": [
+      28.355785369873047,
+      30.364545822143555,
+      26.53411102294922,
+      25.686918258666992,
+      33.75701904296875
+    ]
+  },
+  {
+    "case": "0-newer_invalid",
+    "family": 0,
+    "kind": "newer_invalid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      26.842208862304688,
+      31.17371368408203,
+      25.708799362182617,
+      27.17466926574707,
+      29.931779861450195
+    ],
+    "protected_logits": [
+      26.725418090820312,
+      31.05297088623047,
+      25.734275817871094,
+      27.467205047607422,
+      30.404605865478516
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "dd3be0810afd0a329f4c5cfe3b1c73e6a727295491e1126f9cfd5a247264f30f"
+  },
+  {
+    "case": "1-valid",
+    "family": 1,
+    "kind": "valid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.441116333007812,
+      31.613353729248047,
+      26.744516372680664,
+      27.959835052490234,
+      29.715110778808594
+    ],
+    "protected_logits": [
+      27.689706802368164,
+      31.167476654052734,
+      26.67852020263672,
+      28.331844329833984,
+      30.735952377319336
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "b262f5dd5761ccb1d7c2f37665d3d84a92dbad5f149a2d65dadbf51d840f0436",
+    "brief_logits": [
+      28.638927459716797,
+      29.90513038635254,
+      26.738113403320312,
+      24.99951171875,
+      33.2890625
+    ]
+  },
+  {
+    "case": "1-valid",
+    "family": 1,
+    "kind": "valid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.77938461303711,
+      31.22653579711914,
+      26.42007827758789,
+      27.925376892089844,
+      30.006114959716797
+    ],
+    "protected_logits": [
+      27.689706802368164,
+      31.167476654052734,
+      26.67852020263672,
+      28.331844329833984,
+      30.735952377319336
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "b262f5dd5761ccb1d7c2f37665d3d84a92dbad5f149a2d65dadbf51d840f0436"
+  },
+  {
+    "case": "1-invalid",
+    "family": 1,
+    "kind": "invalid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      28.022125244140625,
+      28.186540603637695,
+      26.799270629882812,
+      29.058759689331055,
+      32.16889572143555
+    ],
+    "protected_logits": [
+      28.087142944335938,
+      28.361637115478516,
+      26.568788528442383,
+      28.850189208984375,
+      32.85265350341797
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "bce081ebb745010e65d99f146ca67b66eb029ce8cfae64b128a1dd9407742716",
+    "brief_logits": [
+      27.88146209716797,
+      27.14104652404785,
+      26.062089920043945,
+      24.926305770874023,
+      34.672508239746094
+    ]
+  },
+  {
+    "case": "1-invalid",
+    "family": 1,
+    "kind": "invalid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      28.188617706298828,
+      28.12471580505371,
+      26.456453323364258,
+      28.68573570251465,
+      32.3091926574707
+    ],
+    "protected_logits": [
+      28.087142944335938,
+      28.361637115478516,
+      26.568788528442383,
+      28.850189208984375,
+      32.85265350341797
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "bce081ebb745010e65d99f146ca67b66eb029ce8cfae64b128a1dd9407742716"
+  },
+  {
+    "case": "1-delete",
+    "family": 1,
+    "kind": "delete",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.470449447631836,
+      29.471942901611328,
+      28.37118911743164,
+      26.933366775512695,
+      31.108850479125977
+    ],
+    "protected_logits": [
+      27.529998779296875,
+      28.955955505371094,
+      28.983312606811523,
+      27.58254051208496,
+      31.753826141357422
+    ],
+    "native_tokens": 355,
+    "evidence_tokens": 352,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "e36df62ba856b4a508e10910452d542706399a01f50223180c734c27daaf3bcb",
+    "brief_logits": [
+      25.61774444580078,
+      26.36229705810547,
+      26.880565643310547,
+      24.82689094543457,
+      34.020263671875
+    ]
+  },
+  {
+    "case": "1-delete",
+    "family": 1,
+    "kind": "delete",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.73812484741211,
+      29.326168060302734,
+      28.227619171142578,
+      27.487234115600586,
+      31.251413345336914
+    ],
+    "protected_logits": [
+      27.529998779296875,
+      28.955955505371094,
+      28.983312606811523,
+      27.58254051208496,
+      31.753826141357422
+    ],
+    "native_tokens": 357,
+    "evidence_tokens": 352,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "e36df62ba856b4a508e10910452d542706399a01f50223180c734c27daaf3bcb"
+  },
+  {
+    "case": "1-swap_holder",
+    "family": 1,
+    "kind": "swap_holder",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      26.161773681640625,
+      31.65863609313965,
+      27.088476181030273,
+      26.945695877075195,
+      30.02147102355957
+    ],
+    "protected_logits": [
+      25.95287322998047,
+      31.37204360961914,
+      26.49462890625,
+      27.23036766052246,
+      30.061925888061523
+    ],
+    "native_tokens": 378,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "172ca5143cd4c0fed46d7bf9012e0336807bc926f49a15b2243bcb58fd717180",
+    "brief_logits": [
+      27.145404815673828,
+      27.875368118286133,
+      26.377460479736328,
+      25.965373992919922,
+      34.50542449951172
+    ]
+  },
+  {
+    "case": "1-swap_holder",
+    "family": 1,
+    "kind": "swap_holder",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      26.21198272705078,
+      31.35675048828125,
+      26.612428665161133,
+      26.755779266357422,
+      29.776554107666016
+    ],
+    "protected_logits": [
+      25.95287322998047,
+      31.37204360961914,
+      26.49462890625,
+      27.23036766052246,
+      30.061925888061523
+    ],
+    "native_tokens": 380,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "172ca5143cd4c0fed46d7bf9012e0336807bc926f49a15b2243bcb58fd717180"
+  },
+  {
+    "case": "1-swap_credential",
+    "family": 1,
+    "kind": "swap_credential",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.96788215637207,
+      29.59129524230957,
+      28.206268310546875,
+      28.8172607421875,
+      30.79848861694336
+    ],
+    "protected_logits": [
+      27.40618324279785,
+      29.149486541748047,
+      27.22415542602539,
+      29.339962005615234,
+      30.719009399414062
+    ],
+    "native_tokens": 379,
+    "evidence_tokens": 376,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "1d54fbb6fcddd8579fd608a39adc46ec300c974144e38f092a9151dd8ff16b2a",
+    "brief_logits": [
+      26.257232666015625,
+      26.587400436401367,
+      26.08315658569336,
+      25.948081970214844,
+      34.36353302001953
+    ]
+  },
+  {
+    "case": "1-swap_credential",
+    "family": 1,
+    "kind": "swap_credential",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.893016815185547,
+      29.27570343017578,
+      27.521442413330078,
+      28.937641143798828,
+      30.778928756713867
+    ],
+    "protected_logits": [
+      27.40618324279785,
+      29.149486541748047,
+      27.22415542602539,
+      29.339962005615234,
+      30.719009399414062
+    ],
+    "native_tokens": 381,
+    "evidence_tokens": 376,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "1d54fbb6fcddd8579fd608a39adc46ec300c974144e38f092a9151dd8ff16b2a"
+  },
+  {
+    "case": "1-future_only",
+    "family": 1,
+    "kind": "future_only",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      29.001537322998047,
+      29.094528198242188,
+      27.004411697387695,
+      27.837318420410156,
+      30.915790557861328
+    ],
+    "protected_logits": [
+      28.465103149414062,
+      29.206893920898438,
+      26.795982360839844,
+      28.178571701049805,
+      30.96746063232422
+    ],
+    "native_tokens": 378,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "8020ad479c3350b377e18e5f2da2cd3cd782d24556ea4fb03f721050e23e847b",
+    "brief_logits": [
+      27.273723602294922,
+      26.97643280029297,
+      26.256637573242188,
+      25.97698974609375,
+      34.54127883911133
+    ]
+  },
+  {
+    "case": "1-future_only",
+    "family": 1,
+    "kind": "future_only",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      29.293231964111328,
+      28.960235595703125,
+      26.6856689453125,
+      27.695329666137695,
+      31.003684997558594
+    ],
+    "protected_logits": [
+      28.465103149414062,
+      29.206893920898438,
+      26.795982360839844,
+      28.178571701049805,
+      30.96746063232422
+    ],
+    "native_tokens": 380,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "8020ad479c3350b377e18e5f2da2cd3cd782d24556ea4fb03f721050e23e847b"
+  },
+  {
+    "case": "1-equal_conflict",
+    "family": 1,
+    "kind": "equal_conflict",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      26.325531005859375,
+      32.12482833862305,
+      25.84001922607422,
+      26.302459716796875,
+      28.013803482055664
+    ],
+    "protected_logits": [
+      26.770450592041016,
+      32.1482048034668,
+      26.27159881591797,
+      27.173702239990234,
+      29.216463088989258
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "9cfa138910dd80c0ab2d2b5da0d4b4515cb356ceeddd62ee108e9a1f2edde65d",
+    "brief_logits": [
+      28.591434478759766,
+      30.858440399169922,
+      26.523334503173828,
+      24.832693099975586,
+      33.05674743652344
+    ]
+  },
+  {
+    "case": "1-equal_conflict",
+    "family": 1,
+    "kind": "equal_conflict",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      26.45317840576172,
+      32.041011810302734,
+      25.626768112182617,
+      26.058557510375977,
+      28.137840270996094
+    ],
+    "protected_logits": [
+      26.770450592041016,
+      32.1482048034668,
+      26.27159881591797,
+      27.173702239990234,
+      29.216463088989258
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "9cfa138910dd80c0ab2d2b5da0d4b4515cb356ceeddd62ee108e9a1f2edde65d"
+  },
+  {
+    "case": "1-newer_invalid",
+    "family": 1,
+    "kind": "newer_invalid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.09374237060547,
+      31.715621948242188,
+      26.475313186645508,
+      27.028610229492188,
+      29.11913299560547
+    ],
+    "protected_logits": [
+      27.862071990966797,
+      31.605052947998047,
+      26.906869888305664,
+      28.0048885345459,
+      30.884248733520508
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "dd36696a8a27a38d899e50cb13ba664217d6731bae82d11bcccdbccae82a6d1d",
+    "brief_logits": [
+      28.907283782958984,
+      30.655363082885742,
+      27.104995727539062,
+      25.113975524902344,
+      33.19328689575195
+    ]
+  },
+  {
+    "case": "1-newer_invalid",
+    "family": 1,
+    "kind": "newer_invalid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.474563598632812,
+      31.676191329956055,
+      26.382566452026367,
+      27.119754791259766,
+      29.63640594482422
+    ],
+    "protected_logits": [
+      27.862071990966797,
+      31.605052947998047,
+      26.906869888305664,
+      28.0048885345459,
+      30.884248733520508
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "dd36696a8a27a38d899e50cb13ba664217d6731bae82d11bcccdbccae82a6d1d"
+  },
+  {
+    "case": "2-valid",
+    "family": 2,
+    "kind": "valid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      28.90285301208496,
+      27.95328140258789,
+      26.253244400024414,
+      27.363605499267578,
+      31.628711700439453
+    ],
+    "protected_logits": [
+      28.830842971801758,
+      28.31647491455078,
+      26.39853286743164,
+      28.195390701293945,
+      31.964780807495117
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "6c3c9124d9f7a33becb4d891418fe981e0cabc54192d048875041e40066f2c46",
+    "brief_logits": [
+      27.666370391845703,
+      27.083511352539062,
+      25.889301300048828,
+      24.748830795288086,
+      34.58306884765625
+    ]
+  },
+  {
+    "case": "2-valid",
+    "family": 2,
+    "kind": "valid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      29.224754333496094,
+      27.994083404541016,
+      26.12842559814453,
+      27.66329574584961,
+      31.424388885498047
+    ],
+    "protected_logits": [
+      28.830842971801758,
+      28.31647491455078,
+      26.39853286743164,
+      28.195390701293945,
+      31.964780807495117
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "6c3c9124d9f7a33becb4d891418fe981e0cabc54192d048875041e40066f2c46"
+  },
+  {
+    "case": "2-invalid",
+    "family": 2,
+    "kind": "invalid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.96004867553711,
+      27.82825469970703,
+      26.233081817626953,
+      28.072734832763672,
+      32.22721862792969
+    ],
+    "protected_logits": [
+      27.97991943359375,
+      27.67977523803711,
+      26.12359046936035,
+      28.614856719970703,
+      32.633934020996094
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "f413b3b80dcbbeb9c8d58f8fe5d9be53f8cc0375172dc5a09306d1966c68caa8",
+    "brief_logits": [
+      27.166982650756836,
+      26.869380950927734,
+      26.014545440673828,
+      25.147537231445312,
+      35.02300262451172
+    ]
+  },
+  {
+    "case": "2-invalid",
+    "family": 2,
+    "kind": "invalid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      28.34017562866211,
+      27.810148239135742,
+      26.25137710571289,
+      28.276174545288086,
+      32.254432678222656
+    ],
+    "protected_logits": [
+      27.97991943359375,
+      27.67977523803711,
+      26.12359046936035,
+      28.614856719970703,
+      32.633934020996094
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "f413b3b80dcbbeb9c8d58f8fe5d9be53f8cc0375172dc5a09306d1966c68caa8"
+  },
+  {
+    "case": "2-delete",
+    "family": 2,
+    "kind": "delete",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      27.655044555664062,
+      30.271974563598633,
+      28.324600219726562,
+      26.890926361083984,
+      30.935997009277344
+    ],
+    "protected_logits": [
+      27.597537994384766,
+      29.82181739807129,
+      28.339019775390625,
+      27.26046371459961,
+      31.05813980102539
+    ],
+    "native_tokens": 355,
+    "evidence_tokens": 352,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "81b4b2f6f54d87f4df29390d049fb1e97f55521009ac079a26c6103041ba9c90",
+    "brief_logits": [
+      25.001466751098633,
+      25.650508880615234,
+      26.372833251953125,
+      24.2782039642334,
+      33.4407958984375
+    ]
+  },
+  {
+    "case": "2-delete",
+    "family": 2,
+    "kind": "delete",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      27.88005828857422,
+      30.12004852294922,
+      27.922834396362305,
+      27.354400634765625,
+      30.998023986816406
+    ],
+    "protected_logits": [
+      27.597537994384766,
+      29.82181739807129,
+      28.339019775390625,
+      27.26046371459961,
+      31.05813980102539
+    ],
+    "native_tokens": 357,
+    "evidence_tokens": 352,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "81b4b2f6f54d87f4df29390d049fb1e97f55521009ac079a26c6103041ba9c90"
+  },
+  {
+    "case": "2-swap_holder",
+    "family": 2,
+    "kind": "swap_holder",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      26.269363403320312,
+      31.50147247314453,
+      27.219741821289062,
+      26.774890899658203,
+      29.80091667175293
+    ],
+    "protected_logits": [
+      26.059803009033203,
+      31.086095809936523,
+      26.512088775634766,
+      27.189525604248047,
+      29.891977310180664
+    ],
+    "native_tokens": 378,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "d2c8c47a10bc399416ae7dc9176d8565cfa380a594929e558b9134984bab6508",
+    "brief_logits": [
+      26.692533493041992,
+      27.05449676513672,
+      26.175662994384766,
+      25.661605834960938,
+      34.28740310668945
+    ]
+  },
+  {
+    "case": "2-swap_holder",
+    "family": 2,
+    "kind": "swap_holder",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      26.33072280883789,
+      31.3646183013916,
+      26.8304443359375,
+      26.596927642822266,
+      29.580408096313477
+    ],
+    "protected_logits": [
+      26.059803009033203,
+      31.086095809936523,
+      26.512088775634766,
+      27.189525604248047,
+      29.891977310180664
+    ],
+    "native_tokens": 380,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "d2c8c47a10bc399416ae7dc9176d8565cfa380a594929e558b9134984bab6508"
+  },
+  {
+    "case": "2-swap_credential",
+    "family": 2,
+    "kind": "swap_credential",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      28.23883819580078,
+      29.26766586303711,
+      28.554424285888672,
+      28.54004669189453,
+      30.531213760375977
+    ],
+    "protected_logits": [
+      27.66913604736328,
+      28.877439498901367,
+      27.61651611328125,
+      28.884410858154297,
+      30.20114517211914
+    ],
+    "native_tokens": 379,
+    "evidence_tokens": 376,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "f7cd8cc895431399bc04a622fed944a41e07df634db3d4f5dc752b07f884466f",
+    "brief_logits": [
+      26.039823532104492,
+      26.293907165527344,
+      25.837186813354492,
+      25.663772583007812,
+      34.18598556518555
+    ]
+  },
+  {
+    "case": "2-swap_credential",
+    "family": 2,
+    "kind": "swap_credential",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      28.736183166503906,
+      29.26681900024414,
+      27.86113166809082,
+      28.67426300048828,
+      30.620359420776367
+    ],
+    "protected_logits": [
+      27.66913604736328,
+      28.877439498901367,
+      27.61651611328125,
+      28.884410858154297,
+      30.20114517211914
+    ],
+    "native_tokens": 381,
+    "evidence_tokens": 376,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "f7cd8cc895431399bc04a622fed944a41e07df634db3d4f5dc752b07f884466f"
+  },
+  {
+    "case": "2-future_only",
+    "family": 2,
+    "kind": "future_only",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      28.638389587402344,
+      29.00946044921875,
+      27.42195701599121,
+      27.85307502746582,
+      31.04450225830078
+    ],
+    "protected_logits": [
+      28.121850967407227,
+      29.132617950439453,
+      27.06516456604004,
+      28.368864059448242,
+      31.118133544921875
+    ],
+    "native_tokens": 378,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "41f0759ecfbb3be236137a3292b1b320be98d8896c4663ba0db8491fd7540ade",
+    "brief_logits": [
+      26.865997314453125,
+      26.763771057128906,
+      26.234962463378906,
+      25.863609313964844,
+      34.33167266845703
+    ]
+  },
+  {
+    "case": "2-future_only",
+    "family": 2,
+    "kind": "future_only",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      29.01016616821289,
+      29.06020736694336,
+      27.05940818786621,
+      28.064029693603516,
+      31.196365356445312
+    ],
+    "protected_logits": [
+      28.121850967407227,
+      29.132617950439453,
+      27.06516456604004,
+      28.368864059448242,
+      31.118133544921875
+    ],
+    "native_tokens": 380,
+    "evidence_tokens": 375,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "41f0759ecfbb3be236137a3292b1b320be98d8896c4663ba0db8491fd7540ade"
+  },
+  {
+    "case": "2-equal_conflict",
+    "family": 2,
+    "kind": "equal_conflict",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      28.975154876708984,
+      28.13443946838379,
+      26.22427749633789,
+      27.72957992553711,
+      31.752037048339844
+    ],
+    "protected_logits": [
+      28.842864990234375,
+      28.1572265625,
+      26.285310745239258,
+      28.57317352294922,
+      32.32971954345703
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "2cee5b99930d965a77e2eb479deebd2caff43572a26d3d0b66aabcb08b28f2a3",
+    "brief_logits": [
+      27.779027938842773,
+      27.07386016845703,
+      25.962665557861328,
+      25.016632080078125,
+      34.88707733154297
+    ]
+  },
+  {
+    "case": "2-equal_conflict",
+    "family": 2,
+    "kind": "equal_conflict",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      28.934776306152344,
+      27.93759536743164,
+      26.159748077392578,
+      27.960647583007812,
+      31.539995193481445
+    ],
+    "protected_logits": [
+      28.842864990234375,
+      28.1572265625,
+      26.285310745239258,
+      28.57317352294922,
+      32.32971954345703
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "2cee5b99930d965a77e2eb479deebd2caff43572a26d3d0b66aabcb08b28f2a3"
+  },
+  {
+    "case": "2-newer_invalid",
+    "family": 2,
+    "kind": "newer_invalid",
+    "name": "Dara Moore",
+    "primary": true,
+    "native_logits": [
+      28.457935333251953,
+      28.071399688720703,
+      26.431396484375,
+      28.487369537353516,
+      31.548141479492188
+    ],
+    "protected_logits": [
+      28.55910873413086,
+      28.39300537109375,
+      26.70161247253418,
+      29.243309020996094,
+      32.37229919433594
+    ],
+    "native_tokens": 401,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "b10844063d891f2803b34e51b8b2e8c6ff05d3f654b172b365bf9358d1c497a0",
+    "brief_logits": [
+      27.858678817749023,
+      27.33603286743164,
+      26.204448699951172,
+      25.41128158569336,
+      34.87518310546875
+    ]
+  },
+  {
+    "case": "2-newer_invalid",
+    "family": 2,
+    "kind": "newer_invalid",
+    "name": "Amina Tarek",
+    "primary": false,
+    "native_logits": [
+      28.986358642578125,
+      28.188140869140625,
+      26.59341812133789,
+      28.975101470947266,
+      32.006263732910156
+    ],
+    "protected_logits": [
+      28.55910873413086,
+      28.39300537109375,
+      26.70161247253418,
+      29.243309020996094,
+      32.37229919433594
+    ],
+    "native_tokens": 403,
+    "evidence_tokens": 398,
+    "stage_equality": null,
+    "zero_identity_checks": 0,
+    "visible_records_sha256": "b10844063d891f2803b34e51b8b2e8c6ff05d3f654b172b365bf9358d1c497a0"
+  }
+]

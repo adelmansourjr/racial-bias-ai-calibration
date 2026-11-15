@@ -1,0 +1,252 @@
+{
+  "split": "test",
+  "conditions": 96,
+  "verifiable": 48,
+  "unresolved": 48,
+  "invariance": {
+    "planned_name_rows": 384,
+    "admitted_name_rows": 384,
+    "complete_conditions": 96,
+    "native_logit_variation": 96,
+    "native_witness_change": 9,
+    "native_unchecked_status_change": 9,
+    "protected_logit_equality": 96,
+    "checked_report_byte_equality": 96,
+    "direct_activation_conditions": 32,
+    "identical_direct_activation_conditions": 32,
+    "direct_stage_comparisons": 2976,
+    "exact_direct_stage_comparisons": 2976,
+    "zero_identity_stage_checks": 3840
+  },
+  "utility": {
+    "native_unchecked": {
+      "status_correct": 44,
+      "status_and_evidence_correct": 34,
+      "definitive": 10,
+      "wrong_definitive": 7,
+      "false_confirmations": 7,
+      "verifiable_covered": 3,
+      "unresolved_referred": 41
+    },
+    "native_checked": {
+      "status_correct": 51,
+      "status_and_evidence_correct": 51,
+      "definitive": 3,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 3,
+      "unresolved_referred": 48
+    },
+    "protected_unchecked": {
+      "status_correct": 45,
+      "status_and_evidence_correct": 34,
+      "definitive": 9,
+      "wrong_definitive": 6,
+      "false_confirmations": 6,
+      "verifiable_covered": 3,
+      "unresolved_referred": 42
+    },
+    "protected_checked": {
+      "status_correct": 51,
+      "status_and_evidence_correct": 51,
+      "definitive": 3,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 3,
+      "unresolved_referred": 48
+    },
+    "brief_checked": {
+      "status_correct": 48,
+      "status_and_evidence_correct": 48,
+      "definitive": 0,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 0,
+      "unresolved_referred": 48
+    },
+    "registry_only": {
+      "status_correct": 96,
+      "status_and_evidence_correct": 96,
+      "definitive": 48,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 48,
+      "unresolved_referred": 48
+    }
+  },
+  "correct_by_kind": {
+    "valid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "delete": {
+      "native_unchecked": 12,
+      "native_checked": 12,
+      "protected_unchecked": 12,
+      "protected_checked": 12,
+      "brief_checked": 12,
+      "registry_only": 12
+    },
+    "swap_holder": {
+      "native_unchecked": 3,
+      "native_checked": 3,
+      "protected_unchecked": 3,
+      "protected_checked": 3,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "swap_credential": {
+      "native_unchecked": 12,
+      "native_checked": 12,
+      "protected_unchecked": 12,
+      "protected_checked": 12,
+      "brief_checked": 12,
+      "registry_only": 12
+    },
+    "future_only": {
+      "native_unchecked": 7,
+      "native_checked": 12,
+      "protected_unchecked": 7,
+      "protected_checked": 12,
+      "brief_checked": 12,
+      "registry_only": 12
+    },
+    "equal_conflict": {
+      "native_unchecked": 10,
+      "native_checked": 12,
+      "protected_unchecked": 11,
+      "protected_checked": 12,
+      "brief_checked": 12,
+      "registry_only": 12
+    },
+    "newer_invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    }
+  },
+  "contrasts_both_correct_vs_valid": {
+    "invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "delete": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "swap_holder": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "swap_credential": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "future_only": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "equal_conflict": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    },
+    "newer_invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 12
+    }
+  },
+  "paired_status_change_checked_vs_unchecked": {
+    "mean": 0.0625,
+    "lower_95": 0.03125,
+    "upper_95": 0.09375,
+    "units": 12,
+    "resamples": 8000
+  },
+  "gates": {
+    "all_names_admit_and_equal": true,
+    "no_wrong_definitive": true,
+    "at_least_half_definitive_coverage": false
+  },
+  "runtime": {
+    "forwards": 864,
+    "seconds": 398.4115892080008,
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "checkpoint_files_verified": true,
+    "stage_names": [
+      "boundary",
+      "block_1",
+      "block_2",
+      "block_3",
+      "block_4",
+      "block_5",
+      "block_6",
+      "block_7",
+      "block_8",
+      "block_9",
+      "block_10",
+      "block_11",
+      "block_12",
+      "block_13",
+      "block_14",
+      "block_15",
+      "block_16",
+      "block_17",
+      "block_18",
+      "block_19",
+      "block_20",
+      "block_21",
+      "block_22",
+      "block_23",
+      "block_24",
+      "block_25",
+      "block_26",
+      "block_27",
+      "block_28",
+      "final_hidden",
+      "vocabulary"
+    ]
+  }
+}

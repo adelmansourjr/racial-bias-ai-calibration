@@ -1,5 +1,13 @@
 # racial-bias-ai-calibration
 
+## Latest study. Verified evidence and name-dependent referral
+
+[Results and limitations](nameguard-witness-study/REPORT.md) · [Proofs and methods](nameguard-witness-study/METHOD.md) · [Reproduction](nameguard-witness-study/README.md)
+
+With the same evidence checker and the same frozen Qwen prompt, changing only the applicant name changed 11/96 native outcomes between a definitive decision and manual review. Internal activation routing reduced those changes to 0/96. All 384 test inputs were admitted, and all 2,976 direct aligned activation comparisons were identical. The trusted ledger checker issued no wrong definitive reports.
+
+The protected two-proposal scorer covered 32/48 verifiable cases and failed its 75% target. An adaptive record-ID and display-order audit found a modest ranking gain at budget two (62/96 versus 55/96 by displayed order), which disappeared at budget three. Complete registry evaluation covered all 48 verifiable cases and matched all 96 synthetic reference outcomes. The record-level experiment separates name invariance from accurate evidence verification and empirically exposes residual proposal failures.
+
 ## Latest study. Credential utility after exact name isolation
 
 [Experiment report](nameguard-utility-study/REPORT.md) · [Proofs](nameguard-utility-study/MATHEMATICS.md) · [Reproduction](nameguard-utility-study/README.md)

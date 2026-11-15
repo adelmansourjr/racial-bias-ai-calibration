@@ -1,0 +1,13 @@
+{
+  "before_opaque_inference": true,
+  "scope": "Adaptive design-check follow-up. Two rekeyed layouts per case; every case included. Compare top-two coverage with deterministic and uniform rank baselines. One primary name. No parameters refitted.",
+  "sources": {
+    "nameguard-witness-study/opaque_replay.py": "b0d7e41bf0eb2a701055830d78eeecebf0dbe6b41d08656297a1e137ab474e1b",
+    "nameguard-witness-study/run.py": "90e1c8f2ca008b13513d2fc9b5b8dfdec00f40ad6990b782c816571d87451afd",
+    "nameguard-witness-study/analyze.py": "998e90b97a3e30b5a280be3bfb6f29fa22371f3f16db0fcc38b608edccb37ee3",
+    "nameguard-witness-study/study_cases.py": "231e7b82eec8420cd0d2c2fc52a4c7b0457c1c4d82e5cccb86001cad7a5371d0",
+    "nameguard-witness-study/witness.py": "d7a341f13fc3eb70c4b2b9c967f83fcb028e12247f3f05a774fc06253da72c91",
+    "nameguard-witness-study/proposal_budget.py": "968076dfd536a04442c34ec68d7c04ef9e7f1079851bf600e39ef29519d7b3f3",
+    "nameguard-witness-study/audit/checkpoint-manifest.json": "e32694a44d10a6f786092d0e252aea2820aab057ccf65c60a3769796bf3a7c45"
+  }
+}

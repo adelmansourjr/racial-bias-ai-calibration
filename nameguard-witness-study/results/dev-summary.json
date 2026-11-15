@@ -1,0 +1,247 @@
+{
+  "split": "dev",
+  "conditions": 24,
+  "verifiable": 12,
+  "unresolved": 12,
+  "invariance": {
+    "planned_name_rows": 48,
+    "admitted_name_rows": 48,
+    "complete_conditions": 24,
+    "native_logit_variation": 24,
+    "native_witness_change": 0,
+    "native_unchecked_status_change": 0,
+    "protected_logit_equality": 24,
+    "checked_report_byte_equality": 24
+  },
+  "utility": {
+    "native_unchecked": {
+      "status_correct": 13,
+      "status_and_evidence_correct": 12,
+      "definitive": 9,
+      "wrong_definitive": 5,
+      "false_confirmations": 5,
+      "verifiable_covered": 4,
+      "unresolved_referred": 9
+    },
+    "native_checked": {
+      "status_correct": 16,
+      "status_and_evidence_correct": 16,
+      "definitive": 4,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 4,
+      "unresolved_referred": 12
+    },
+    "protected_unchecked": {
+      "status_correct": 13,
+      "status_and_evidence_correct": 12,
+      "definitive": 9,
+      "wrong_definitive": 5,
+      "false_confirmations": 5,
+      "verifiable_covered": 4,
+      "unresolved_referred": 9
+    },
+    "protected_checked": {
+      "status_correct": 16,
+      "status_and_evidence_correct": 16,
+      "definitive": 4,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 4,
+      "unresolved_referred": 12
+    },
+    "brief_checked": {
+      "status_correct": 12,
+      "status_and_evidence_correct": 12,
+      "definitive": 0,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 0,
+      "unresolved_referred": 12
+    },
+    "registry_only": {
+      "status_correct": 24,
+      "status_and_evidence_correct": 24,
+      "definitive": 12,
+      "wrong_definitive": 0,
+      "false_confirmations": 0,
+      "verifiable_covered": 12,
+      "unresolved_referred": 12
+    }
+  },
+  "correct_by_kind": {
+    "valid": {
+      "native_unchecked": 2,
+      "native_checked": 2,
+      "protected_unchecked": 2,
+      "protected_checked": 2,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "delete": {
+      "native_unchecked": 3,
+      "native_checked": 3,
+      "protected_unchecked": 3,
+      "protected_checked": 3,
+      "brief_checked": 3,
+      "registry_only": 3
+    },
+    "swap_holder": {
+      "native_unchecked": 2,
+      "native_checked": 2,
+      "protected_unchecked": 2,
+      "protected_checked": 2,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "swap_credential": {
+      "native_unchecked": 3,
+      "native_checked": 3,
+      "protected_unchecked": 3,
+      "protected_checked": 3,
+      "brief_checked": 3,
+      "registry_only": 3
+    },
+    "future_only": {
+      "native_unchecked": 2,
+      "native_checked": 3,
+      "protected_unchecked": 2,
+      "protected_checked": 3,
+      "brief_checked": 3,
+      "registry_only": 3
+    },
+    "equal_conflict": {
+      "native_unchecked": 1,
+      "native_checked": 3,
+      "protected_unchecked": 1,
+      "protected_checked": 3,
+      "brief_checked": 3,
+      "registry_only": 3
+    },
+    "newer_invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 3
+    }
+  },
+  "contrasts_both_correct_vs_valid": {
+    "invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "delete": {
+      "native_unchecked": 2,
+      "native_checked": 2,
+      "protected_unchecked": 2,
+      "protected_checked": 2,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "swap_holder": {
+      "native_unchecked": 1,
+      "native_checked": 1,
+      "protected_unchecked": 1,
+      "protected_checked": 1,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "swap_credential": {
+      "native_unchecked": 2,
+      "native_checked": 2,
+      "protected_unchecked": 2,
+      "protected_checked": 2,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "future_only": {
+      "native_unchecked": 1,
+      "native_checked": 2,
+      "protected_unchecked": 1,
+      "protected_checked": 2,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "equal_conflict": {
+      "native_unchecked": 0,
+      "native_checked": 2,
+      "protected_unchecked": 0,
+      "protected_checked": 2,
+      "brief_checked": 0,
+      "registry_only": 3
+    },
+    "newer_invalid": {
+      "native_unchecked": 0,
+      "native_checked": 0,
+      "protected_unchecked": 0,
+      "protected_checked": 0,
+      "brief_checked": 0,
+      "registry_only": 3
+    }
+  },
+  "paired_status_change_checked_vs_unchecked": {
+    "mean": 0.125,
+    "lower_95": 0,
+    "upper_95": 0.25,
+    "units": 3,
+    "resamples": 8000
+  },
+  "gates": {
+    "all_names_admit_and_equal": true,
+    "no_wrong_definitive": true,
+    "at_least_half_definitive_coverage": false
+  },
+  "runtime": {
+    "forwards": 120,
+    "seconds": 46.833232250006404,
+    "parameter_sha256": "c6c622310d66489a5a9de5f438c23063bf784b3031f2e8af64bfd60da0394b40",
+    "checkpoint_files_verified": true,
+    "stage_names": [
+      "boundary",
+      "block_1",
+      "block_2",
+      "block_3",
+      "block_4",
+      "block_5",
+      "block_6",
+      "block_7",
+      "block_8",
+      "block_9",
+      "block_10",
+      "block_11",
+      "block_12",
+      "block_13",
+      "block_14",
+      "block_15",
+      "block_16",
+      "block_17",
+      "block_18",
+      "block_19",
+      "block_20",
+      "block_21",
+      "block_22",
+      "block_23",
+      "block_24",
+      "block_25",
+      "block_26",
+      "block_27",
+      "block_28",
+      "final_hidden",
+      "vocabulary"
+    ]
+  }
+}

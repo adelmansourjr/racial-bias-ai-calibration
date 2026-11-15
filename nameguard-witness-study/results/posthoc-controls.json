@@ -1,0 +1,78 @@
+{
+  "scope": "Post-hoc budget curve. The original held-out gate and rekeyed top-two comparison retain their frozen definitions.",
+  "original": [
+    {
+      "budget": 1,
+      "cases": 48,
+      "model": 18,
+      "first_displayed": 17,
+      "id_order": 24,
+      "uniform_expected": 13.0
+    },
+    {
+      "budget": 2,
+      "cases": 48,
+      "model": 32,
+      "first_displayed": 30,
+      "id_order": 48,
+      "uniform_expected": 26.0
+    },
+    {
+      "budget": 3,
+      "cases": 48,
+      "model": 38,
+      "first_displayed": 41,
+      "id_order": 48,
+      "uniform_expected": 39.0
+    },
+    {
+      "budget": 4,
+      "cases": 48,
+      "model": 48,
+      "first_displayed": 48,
+      "id_order": 48,
+      "uniform_expected": 48.0
+    }
+  ],
+  "opaque": [
+    {
+      "budget": 1,
+      "cases": 96,
+      "model": 37,
+      "first_displayed": 30,
+      "id_order": 24,
+      "uniform_expected": 26.0
+    },
+    {
+      "budget": 2,
+      "cases": 96,
+      "model": 62,
+      "first_displayed": 55,
+      "id_order": 54,
+      "uniform_expected": 52.0
+    },
+    {
+      "budget": 3,
+      "cases": 96,
+      "model": 80,
+      "first_displayed": 80,
+      "id_order": 78,
+      "uniform_expected": 78.0
+    },
+    {
+      "budget": 4,
+      "cases": 96,
+      "model": 96,
+      "first_displayed": 96,
+      "id_order": 96,
+      "uniform_expected": 96.0
+    }
+  ],
+  "two_proposal_name_dependence_by_true_status": {
+    "native": {
+      "contradicted": 8,
+      "confirmed": 3
+    },
+    "protected": {}
+  }
+}
