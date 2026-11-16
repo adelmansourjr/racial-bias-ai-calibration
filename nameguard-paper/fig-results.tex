@@ -1,0 +1,29 @@
+\begin{figure}[!htbp]
+\centering
+\begin{tikzpicture}[font=\footnotesize\sffamily,x=0.082cm,y=0.70cm]
+\foreach \x in {0,20,40,60,80,100} {
+  \draw[ink!14] (\x,0) -- (\x,4.4);
+  \node[below,text=charcoal] at (\x,0) {\x};
+}
+\draw[teal!90!black,densely dashed,thick] (20,0) -- (20,4.5);
+\node[anchor=west,text=teal!85!black] at (22,4.59) {20\% coverage target};
+\node[anchor=east,align=right] at (-2,3.9) {Literal span};
+\node[anchor=east,align=right] at (-2,2.86) {Candidate-aware\\frozen cutoff};
+\node[anchor=east,align=right] at (-2,1.82) {Candidate-blind\\exact match};
+\node[anchor=east,align=right] at (-2,0.78) {Candidate-aware\\matched count};
+\foreach \y/\a/\b in {3.9/50/100,1.82/11.25/17.1875,0.78/13.75/17.1875} {
+  \fill[teal] (0,\y-.24) rectangle (\a,\y+.24);
+  \fill[rose] (\a,\y-.24) rectangle (\b,\y+.24);
+  \fill[pattern=north east lines,pattern color=white!70!rose] (\a,\y-.24) rectangle (\b,\y+.24);
+}
+\fill[ink] (0,2.86) circle[radius=1.7pt];
+\node[anchor=west,fill=white,inner sep=1pt] at (1.4,2.86) {0 confirmed};
+\node[anchor=west] at (21.7,1.82) {36 supported / 19 unsupported};
+\node[anchor=west] at (21.7,0.78) {44 supported / 11 unsupported (post hoc)};
+\node[anchor=west,text=white] at (2.3,3.9) {160 supported};
+\node[anchor=west,fill=rose,inner sep=1.5pt,text=white] at (52,3.9) {160 unsupported};
+\node[below=12pt,text=charcoal] at (50,0) {Share of all 320 cases (\%)};
+\end{tikzpicture}
+\caption[Coverage and unsupported confirmations on the reserve set]{Reserve-set coverage and its composition. Solid bars represent supported confirmations and hatched bars represent unsupported ones. Both model-based rules failed to achieve the target combination of coverage and risk. The matched-count comparison was calculated retrospectively.}
+\label{fig:results}
+\end{figure}

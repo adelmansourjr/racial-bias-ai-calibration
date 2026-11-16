@@ -1,0 +1,26 @@
+\section{Assurance and governance}
+\label{sec:assurance}
+
+The model guarantee is useful as one item in a wider evaluation record. \citet{mitchell2019} and \citet{gebru2021} propose model and dataset documentation that specifies intended use, data origin and evaluation boundaries. \citet{raji2020} place those artifacts in an end-to-end auditing process with defined roles and hand-offs. For a screening system, a reviewer needs to see which spans were marked, which configuration ran and why a case was referred. These records also make changes to the model, tokenizer, prompt, contract or hardware identifiable. Resume text and private activation logs need separate access controls because the proof covers the protected computation, not storage.
+
+The NIST AI Risk Management Framework organises risk work around Govern, Map, Measure and Manage \citep{nist100}. Its generative AI profile discusses risks such as confabulation and harmful bias \citep{nist600}. NIST SP~1270 situates bias in systemic, computational and human processes \citep{nist1270}. ISO/IEC~42001 specifies an AI management system, while ISO/IEC~23894 provides guidance on AI risk management \citep{iso42001,iso23894}. IEEE~7003 describes algorithmic bias considerations such as test-data selection and application boundaries \citep{ieee7003}. Table~\ref{tab:assurance} relates the archived tests to these themes. The mapping describes the kinds of evidence a deployment team would need to assemble. The technical prototype has no recorded conformity assessment.
+
+\begin{table}[htbp]
+\small
+\centering
+\caption[Research artifacts and remaining assurance evidence]{Mapping experiment artifacts to assurance questions. These are research artifacts and open deployment questions.}
+\label{tab:assurance}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.20\linewidth}
+ >{\raggedright\arraybackslash}p{.35\linewidth} >{\raggedright\arraybackslash}X@{}}
+\toprule
+Assurance question & Evidence in this study & Evidence a deployment would still need \\
+\midrule
+Govern and document & Pinned checkpoint, tokenizer policy, experiment hashes, public methods. & Named owners, version approval, incident handling, controlled retention.\\[2pt]
+Map the use case & Marked name field, fixed evidence, source-specific rubric. & Job analysis, justified selection criteria, coverage of demographic proxies, accessibility.\\[2pt]
+Measure & Paired checks, admission counts, finite error audit, capability controls. & Independently labelled applicant data, outcomes and group-disaggregated admission and errors.\\[2pt]
+Manage & Fail-closed referrals and a record of unsupported confirmations. & Review capacity, applicant notice and correction, escalation, re-testing after changes.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+For jurisdictional context, New York City's official guidance describes bias audits and notice for covered automated employment decision tools \citep{nyc144}. Annex~III of the EU AI Act lists systems intended for recruitment or candidate selection among its employment use cases \citep{euai2024}. Obligations depend on the intended application and jurisdiction. The results here establish a property of a score path and an evaluated operating point. They supply neither an independent bias audit on applicants nor evidence of legal compliance.

@@ -1,0 +1,208 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,inner=27mm,outer=27mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsthm}
+\usepackage{lmodern,amssymb}
+\usepackage{microtype,booktabs,tabularx,array,enumitem,caption,titlesec,needspace,placeins}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,patterns}
+\usepackage[authoryear,round]{natbib}
+\usepackage{fancyhdr,tocloft}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=blue!50!black,urlcolor=blue!50!black,
+  pdftitle={Exact Name-Field Noninterference in Language-Model Screening},
+  pdfauthor={Adel Mansour},pdfdisplaydoctitle=true]{hyperref}
+\usepackage{bookmark}
+
+\definecolor{ink}{HTML}{17191B}
+\definecolor{teal}{HTML}{126B65}
+\definecolor{rose}{HTML}{973E30}
+\definecolor{soft}{HTML}{EAF5F2}
+\definecolor{bluegray}{HTML}{EAF0F5}
+\definecolor{charcoal}{HTML}{414D55}
+\color{ink}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{3.5pt plus 1pt}
+\setlength{\headheight}{15pt}
+\setlength{\emergencystretch}{1.3em}
+\renewcommand{\arraystretch}{1.19}
+\raggedbottom
+\fancyhf{}
+\fancyhead[L]{\footnotesize\itshape Exact name-field noninterference}
+\fancyhead[R]{\footnotesize\itshape Adel Mansour}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\titleformat{\section}{\Large\bfseries}{\thesection}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.65em}{}
+\titlespacing*{\section}{0pt}{17pt plus 2pt}{5pt}
+\titlespacing*{\subsection}{0pt}{12pt plus 2pt}{4pt}
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Table of Contents}
+\setlength{\cftbeforesecskip}{4pt}
+\setlength{\cftbeforesubsecskip}{1.2pt}
+\setlength{\cftbeforefigskip}{5pt}
+\setlength{\cftbeforetabskip}{5pt}
+\cftsetindents{sec}{0pt}{2em}
+\cftsetindents{subsec}{1.7em}{3em}
+\captionsetup{font=small,labelfont=bf,labelsep=period,skip=7pt}
+\setlist{nosep,leftmargin=1.7em}
+\newtheorem{proposition}{Proposition}
+\newcommand{\T}{\mathcal{T}}
+\newcommand{\E}{\operatorname{Emb}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+\begin{document}
+\input{front-matter.tex}
+
+\section{Introduction}
+
+A recruiter can ask a straightforward question of a screening tool. If the qualifications stay fixed, should changing the name on the résumé change the result? Correspondence studies use this intervention to measure discrimination in hiring \citep{bertrand2004}. Similar audits have documented sensitivity to names in language-model screening and retrieval \citep{armstrong2024,wilson2024}. A score gap calculated across two name groups, however, can conceal changes for individual applicants. If two résumés receive decisions \( (1,0) \) under one name condition and \( (0,1) \) under another, both shortlist rates are \(50\%\), even though both applicants exchange outcomes.
+
+Reducing an observed group gap and isolating an input channel are different engineering objectives. A narrower question can be answered exactly. Can a particular model interface enforce that changing one reviewed field leaves the computation unchanged? Evaluation then has two parts. The first checks the intervention against the information-flow property. The second asks how often the resulting system can make a justified decision.
+
+We implement that interface for frozen Qwen2.5-1.5B-Instruct \citep{qwen2024}. It preserves the original named prompt through tokenisation and embedding. Each protected block then operates on the same ordered stream of retained evidence wherever two variants satisfy the token contract. We derive the equality of states and outputs, test it on résumé excerpts and generated evidence reports, and compare it with the ordinary model given the same retained token IDs. We also test two evidence verifiers on a public human-labelled benchmark. Both miss the prespecified risk and coverage target. Publishing those outcomes alongside the proof makes clear what a screening tool can certify about its computation and what it still needs to establish about its judgement.
+
+\input{related-work.tex}
+
+\section{Method}
+\subsection{Input contract and routing}
+
+Let \(x\) be a named prompt with reviewed character runs, each assigned the role \emph{identity} or \emph{evidence}. Render the fixed chat template once to obtain \(x\), and partition that string into its reviewed runs. Let \(\T\) denote the pinned tokenizer with automatic insertion of special tokens disabled. It is applied to the full string and to each run under the same settings. The runtime checks
+\begin{equation}
+ \T(x)=\T(r_1)\mathbin{\|}\cdots\mathbin{\|}\T(r_k).
+ \label{eq:factor}
+\end{equation}
+Here \(\|\) denotes sequence concatenation. An exact match witnesses that the reviewed roles can be represented by disjoint groups of native tokens. The runtime also requires a nonempty retained sequence and a retained final readout slot. The compiler may try bounded reassignments of adjacent whitespace, leaving the original string and full token sequence intact. It chooses a reference retained tuple from fitting names by maximising the number of distinct fitting names supported by an admissible split. At inference a matching witness must satisfy Eq.~\ref{eq:factor} and reproduce that tuple exactly. A request outside the contract is referred before scoring. The guarantee is conditional on correct role annotation, so names inside unmarked evidence or mistakes in review remain in scope for separate auditing.
+
+Write \(u=\T(x)\) and let \(P(x)\) index the retained tokens in order. The embedding lookup \(\E(u)\) is evaluated on the full sequence. Only the rows at \(P(x)\) are passed to the transformer blocks. The retained stream uses positions \(0,\ldots,|P|-1\) and a causal mask on that stream. Positions measured in the original prompt would change whenever a name used a different number of tokens. The protected scorer can scatter the aligned states into the original layout with identity slots set to zero for inspection. The cache for greedy generation is built from the packed stream and is fresh for each request. Figure~\ref{fig:routing} traces the two inputs to the common scoring path. Figure~\ref{fig:positions} isolates the position change made by packing.
+
+\input{fig-routing.tex}
+\input{fig-positions.tex}
+
+\Needspace{6\baselineskip}
+\subsection{Exact noninterference}
+
+For admitted prompts define \(e(x)=u_{P(x)}\). Two prompts are equivalent for scoring when \(e(x)=e(x')\). We compare the retained state in logical token order, rather than comparing physical arrays of potentially different lengths. For a report, fix the additional inputs used by its serialiser, including source text, offsets, rubric and any proposed answer.
+
+\begin{proposition}[Protected-trace equality]
+\label{prop:noninterference}
+Choose fixed weights, a deterministic execution policy on the packed stream, and fresh per-request decoding state. If two admitted prompts have the same retained ID tuple, their aligned hidden states and readout logits are equal. Deterministic greedy decoding with the same tie and stopping rules gives the same tokens. A deterministic report using identical additional inputs has the same bytes.
+\end{proposition}
+
+\begin{proof}
+The embedding lookup is row-wise. Gathering the rows whose token IDs form \(e(x)\) therefore gives \(H_0(x)=\E(e(x))\). Write \(L=|e(x)|\), \(\rho_L=(0,\ldots,L-1)\), and \(C_L\) for the causal mask on that sequence. Block \(\ell\) computes
+\[
+ H_{\ell+1}(x)=F_{\ell,\theta}\bigl(H_\ell(x),\rho_L,C_L\bigr).
+\]
+The two prompts share \(H_0\), \(L\), \(\rho_L\) and \(C_L\). Induction gives equality through each block, final normalisation and vocabulary projection. The decode prefill uses the same packed inputs and gives equal logits and cache states. Greedy decoding selects the same token, appends it at the same position and updates equal caches in the same way. Induction over decoding steps gives equal continuation tokens until the common stop. The report serialiser then receives identical inputs and emits identical bytes.
+\end{proof}
+
+The execution policy must agree for the two packed streams, including precision, kernel and batching behaviour where these affect the numerical result. The implementation is checked on the pinned runtime. A configuration that selects a different scoring kernel from the original physical name length would require a separate proof or conformance test.
+
+A native model given the same retained token IDs is a strong control. Its active input is the same as the protected stream. This equivalence is part of the method's specification and an empirical check of its implementation. Internal routing matters when the original named input must reach the model front end and the protected boundary must be observable. Character-level deletion can produce different token IDs after retokenisation, so it controls a different input transformation. The proof concerns the protected computation. Raw embeddings, identity positions, timing and other outputs outside that path remain outside the observable.
+
+\section{Evaluation design}
+
+Table~\ref{tab:studies} summarises the study units. The tests address input admission, paired equality and evidence quality at different levels.
+
+\input{table-studies.tex}
+\subsection{Résumé excerpts}
+
+We used 119 distinct excerpts from a public résumé dataset \citep{resume}. Sampling required a named tool mention and varied the presence of a nearby activity cue. Records from the 12-document development set were excluded. The three disjoint evaluation cohorts contained 48, 35 and 36 excerpts. Each cohort tested a frozen revision of a rule-based verifier. We changed the verifier after inspecting earlier cohorts; the results therefore describe a sequence of evaluations on fresh extracts rather than a comparison of the revisions on the same inputs.
+
+The question was whether the excerpt explicitly reports the applicant personally using the tool in work or a project. A single AI research annotator who did not see predictions for the upcoming cohort supplied reference judgements before each run. This supports an audit of the experimental rubric. The labels lack independent human adjudication. The candidate name was then changed across four previously unused evaluation strings, yielding 476 requests. We counted model admission, exact protected scores and report bytes, and sampled aligned activation arrays. The ordinary model received the original named prompt as a control. The source verifier identified exact offsets in the excerpt and produced a binary support or review outcome. We also measured a stricter rule requiring both an accepted span and the model's support preference.
+
+\subsection{Public evidence benchmark}
+
+We constructed matched cases from the official SQuAD~2.0 development release. Each selected paragraph supplied one answerable question with its gold answer and one unanswerable question with its human-written plausible answer. Both candidate answers had to occur verbatim at their source offsets. The questions within a pair differ. Matching on paragraph controls the source text and makes string presence uninformative by design (Figure~\ref{fig:benchmark}). The benchmark contains 144 development questions, 312 initial held-out questions and 320 reserve questions. Entire articles were assigned to splits before inference. Protocol and source hashes were recorded locally. No third party registered the plans.
+
+The \emph{candidate-aware} verifier saw the passage, question and proposed answer. We used the signed support margin from each of two complementary label maps. If the margins are \(s_1\) and \(s_2\), their mean cancels a fixed additive A-versus-B logit offset shared by the two maps. This cancellation does not extend to prompt-dependent changes in semantic margins. The minimum requires both margins to clear the cutoff. We fit the lowest cutoff for each of the single, mean and minimum scores that accepted at least 12 development cases with at most \(4\%\) observed false support. The primary rule selected whichever of mean and minimum accepted more cases, with ties going to the mean. When no cutoff qualified, the rule referred every case.
+
+After the development failure, we froze a second protocol and tested it on the unused reserve articles. The \emph{candidate-blind} verifier generated a short answer from the passage and question. It was given neither the candidate answer nor its offset during generation. Let \(g\) be the terminated, single-line model answer after stripping outer whitespace and paired quotation marks, \(a\) the proposed answer, and \(p[i:j]\) the supplied source slice. The verifier confirmed a claim if \(g=a=p[i:j]\) and \(g\) was neither empty nor the abstention sentinel. This test verifies exact agreement with the supplied quote. Whether the quote answers the question remains an empirical issue.
+
+\input{fig-benchmark.tex}
+
+\subsection{Risk, coverage and checks}
+
+Coverage is the number of confirmed cases divided by the number of eligible queries. False-support risk is the fraction of confirmed cases labelled unsupported. If no case is confirmed, risk among confirms is undefined. The prespecified gate required at least \(20\%\) coverage, a one-sided \(95\%\) audit upper bound on false-support risk of at most \(10\%\), and exact conformance on all planned name groups.
+
+The audit estimates the unknown number \(K\) of unsupported claims in the \(N\) accepted items as if only a subset could be reviewed. We fixed a uniform random order of the held-out cases before inference, restricted it to the frozen accepted set, and audited the first \(m=\min(160,\lceil 0.8N\rceil)\) items. Restriction to any fixed accepted subset preserves uniform relative order if the rule is independent of the draw. Conditional on the realised accepted set and its labels, the count \(X\) of audited errors is hypergeometric. For an observed \(x\), we invert the lower tail to compute the upper count
+\begin{equation}
+ U=\max\left\{K\in[x,N-m+x] :
+ \frac{\displaystyle\sum_{i\le x}\binom{K}{i}\binom{N-K}{m-i}}
+ {\binom{N}{m}}>0.05\right\}.
+ \label{eq:audit}
+\end{equation}
+Only feasible terms are included. If the true \(K\) exceeds the reported bound, then its lower-tail probability at the observed count is at most \(0.05\). The discrete lower-tail probability at a draw from its own distribution is super-uniform, so this event occurs with probability at most \(0.05\) under repeated audit sampling from the fixed set. We divide \(U\) by \(N\) and compare it with the exhaustive benchmark count. The bound concerns this finite accepted set. It requires no independent-error assumption across claims in the same article and gives no interval for future hiring outcomes.
+
+We ran all inference on a pinned four-bit Qwen2.5-1.5B-Instruct checkpoint using Apple MLX. The checkpoint files and parameter fingerprint were checked. Twenty preselected cases in each public test received four names for conformance. We compare exact values or recorded digests as specified below. Repeated names test counterfactual equality and are counted once per underlying claim in the statistical audit.
+
+\section{Results}
+\subsection{Name-field invariance on résumé text}
+
+All 476 named requests were admitted. For all 119 excerpts, protected score vectors and report bytes were identical across names, with 1,488 sampled aligned activation comparisons matching bit for bit. The unrestricted model's score vector changed in every excerpt and its binary decision changed in 18. This comparison measures the causal effect of an experimental change to the name string with evidence fixed. It supplies no demographic classification of the applicant.
+
+The final 36-excerpt cohort illustrates the difference between invariance and task performance. The verifier found four of the seven cases labelled supported and made two unsupported confirmations. Requiring model agreement reduced the final cohort to two correct confirmations and zero unsupported confirmations. It recovered only two of seven supported cases. On the preceding 35-excerpt cohort, the agreement rule still made two unsupported confirmations. Table~\ref{tab:cv-evidence} gives the three cohort outcomes. Every emitted span could be recovered at its exact source offset. The errors concerned whether the applicant performed the activity the quote described.
+
+\input{table-cv.tex}
+
+\subsection{Human-labelled evidence}
+
+The candidate-aware verifier found no admissible development cutoff and referred all 312 initial test claims, despite area under the receiver operating characteristic curve of \(0.790\), \(0.761\) and \(0.769\) for the single, mean and minimum margins. All 20 name groups matched protected logits and report digests in both maps, and all 3,720 cross-name stage digests matched. A raw binary choice in the unrestricted first map changed with the name in one group. The fully referred rule is operationally uninformative, which is why the protected logits and activation comparisons matter.
+
+The candidate-blind verifier confirmed 55 of 320 reserve claims. Of those, 36 were supported and 19 were unsupported. Coverage was \(17.2\%\) and false-support risk was \(34.5\%\). The audit found 15 unsupported claims in 44 sampled confirmations, giving \(U=22\) and a \(95\%\) upper bound of \(22/55=40.0\%\). The exhaustive count of 19 lay below that bound. The verifier missed both operational thresholds and passed exact name conformance. Figure~\ref{fig:results} compares the operating points on the same cases. At matched coverage, the retrospectively selected top 55 candidate-aware margins gave 11 unsupported confirmations. That comparison shows that withholding the candidate was insufficient. Its cutoff was chosen after inference, so it supplies no validated operating point.
+
+\input{fig-results.tex}
+\FloatBarrier
+
+\subsection{Generation and diagnostic controls}
+
+In all 20 reserve name groups, the four protected variants yielded identical generated token IDs, packed embedding prefixes and report bytes. All 375 direct cross-name full-vocabulary step comparisons matched. A native cached model given the identical retained token IDs reproduced all 500 compared vocabulary-step digests. With the original named input, native generated sequences varied in seven groups, although exact confirmation did not change in this small panel. Table~\ref{tab:conformance} aligns the paired outcomes across evaluations.
+
+\input{table-exact.tex}
+
+In a separate retrospective diagnostic we blanked the passage and measured answer agreement before applying the required source-offset check. One answer matched under blank input and 55 matched with the passage present. All 19 wrong full-passage matches disappeared in the blank condition. Thus the omitted passage mattered even for wrong answers, consistent with the author inspection of attribution, rank, numerical and negation errors. Blank input also changes the prompt and can encourage abstention. This control alone cannot identify the specific evidence that caused a model error.
+
+\subsection{Admission and capability controls}
+
+A separate tokenizer stress panel measured an important boundary of the guarantee. With 24 disjoint test names crossed with eight layouts, the compiled contract with exhaustive witness search admitted 170 of 192 inputs, versus 158 for the greedy contract and greedy search. Holding witness search fixed at exhaustive, changing the contract alone increased admission from 160 to 170. Figure~\ref{fig:admission} separates contract selection from witness search.
+
+\input{fig-admission.tex}
+
+On a fixed 100-item ARC-Challenge subset \citep{clark2018}, where every input token was evidence, both the native and protected paths answered 68 items correctly and produced identical full-vocabulary outputs. On a separate synthetic credential diagnostic, native accuracy was 179 of 192 and protected accuracy was 168 of 192. Character deletion also obtained 168. The ARC result establishes all-evidence fidelity. The credential drop limits claims about task usefulness.
+
+\section{Discussion}
+
+An exact citation establishes that a string appears in the source. Screening requires judging whether the source supports the claim and whether the claim is true. The former requires attention to the relationship between the quoted material and the question. The latter may require independent records. Even perfect source reasoning cannot authenticate a credential from the résumé alone. Two applicants can submit the same textual claim while only one has the credential. A text-only procedure necessarily returns the same result in both cases.
+
+The proof covers each new name that satisfies the role and token contract without learning a name-specific correction. Reviewed spans and fixed evidence are essential assumptions. A system that mistakes a name for a skill, misses identifying text elsewhere, or refers more inputs from one naming convention can still disadvantage people. Logging only the protected score would miss those failures.
+
+The work tests one frozen checkpoint and one runtime configuration. The résumé case selection targets particular tools and the semantic labels come from one AI annotator. The public benchmark uses human labels, but its passages concern Wikipedia rather than candidate qualifications. Its balanced case construction fixes the prevalence at one half, and false support among confirmations changes with prevalence. Public examples may also have appeared during pretraining. The study offers no demographic-rate estimate and does not validate an automated hiring process. A deployment evaluation would need independent annotators, job-specific validity evidence, admission rates across naming conventions, and a process for applicants to correct an extraction or appeal a refusal.
+
+\FloatBarrier
+
+\input{assurance.tex}
+
+\FloatBarrier
+
+\section{Conclusion}
+
+A precisely marked name field can be prevented from affecting a frozen model's protected states and outputs. The proof holds for identical retained evidence on an admitted request, and the measured equality extends from scores to greedy generation. The evidence-verification results put a concrete limit on what that achievement buys. Removing the name channel still leaves the screening system responsible for reading the source correctly.
+
+\phantomsection
+\section*{Code, data and drafting disclosure}
+\addcontentsline{toc}{section}{Code, data and drafting disclosure}
+
+The \href{https://github.com/adelmansourjr/racial-bias-ai-calibration/tree/main/nameguard-paper}{manuscript package on GitHub} contains the PDF and editable LaTeX source. The protocols, code, public benchmark identifiers, audit manifests and result summaries are archived in the \href{https://github.com/adelmansourjr/racial-bias-ai-calibration/tree/d51b96f96982bc41a42b368af6d38d459b2a95d5}{project repository at commit \code{d51b96f}}. The \href{https://github.com/adelmansourjr/racial-bias-ai-calibration/tree/main/nameguard-risk-study}{public benchmark package} reproduces the cohort construction and audit. The \href{https://github.com/adelmansourjr/racial-bias-ai-calibration/tree/main/nameguard-real-evidence}{résumé study package} publishes aggregate counts and holds raw excerpts and case-level outputs locally. The \href{https://github.com/adelmansourjr/racial-bias-ai-calibration/tree/main/nameguard-peer-review}{runtime study} documents checkpoint reconstruction and the admission, capability and same-ID controls. OpenAI Codex assisted with drafting, literature search and figure preparation. Study data and result claims refer to the archived experiments.
+
+\clearpage
+\input{appendix.tex}
+
+\clearpage
+\renewcommand{\bibfont}{\small}
+\setlength{\bibsep}{3.8pt}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+\bibliographystyle{plainnat}
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\bibliography{references}
+\end{document}

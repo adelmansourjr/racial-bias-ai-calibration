@@ -1,0 +1,26 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+  font=\small\sffamily, >=Latex,
+  box/.style={rounded corners=3pt,draw=ink!36,fill=bluegray,minimum height=8mm,minimum width=31mm,align=center},
+  kept/.style={box,draw=teal!70,fill=soft},
+  flow/.style={->,draw=ink!72,line width=0.65pt},
+  same/.style={->,draw=teal,line width=0.85pt}
+]
+\node[box] (a) at (0,1.2) {Original prompt A\\name \(n\) + evidence};
+\node[box] (b) at (0,0) {Original prompt B\\name \(n'\) + evidence};
+\node[box] (ea) at (3.65,1.2) {Full tokenisation\\and embedding};
+\node[box] (eb) at (3.65,0) {Full tokenisation\\and embedding};
+\node[kept] (gate) at (7.33,0.6) {Gather retained rows\\Reset positions};
+\node[kept] (dec) at (11.04,0.6) {Native blocks\\and readout};
+\draw[flow] (a.east) -- (ea.west);
+\draw[flow] (b.east) -- (eb.west);
+\draw[same] (ea.east) -- ([yshift=2.2mm]gate.west);
+\draw[same] (eb.east) -- ([yshift=-2.2mm]gate.west);
+\draw[same] (gate.east) -- (dec.west);
+\node[font=\footnotesize\sffamily,text=teal,align=center] at (7.33,-0.23) {Identity rows are excluded here};
+
+\end{tikzpicture}
+\caption[Protected activation path for paired named prompts]{The protected path. The two full prompts may have different token IDs and lengths. When the admitted evidence tuples agree, the transformer sees identical gathered states, positions and masks.}
+\label{fig:routing}
+\end{figure}

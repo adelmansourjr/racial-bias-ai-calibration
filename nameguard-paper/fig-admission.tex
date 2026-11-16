@@ -1,0 +1,21 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm,font=\small\sffamily,
+ lab/.style={font=\footnotesize\sffamily,text=charcoal,align=center},
+ metric/.style={font=\large\bfseries\sffamily,text=ink}]
+\node[lab] at (1.4,2.65) {First witness only};
+\node[lab] at (4.48,2.65) {Exhaustive matching};
+\node[anchor=east,align=right] at (-.23,1.72) {Greedy\\contract};
+\node[anchor=east,align=right] at (-.23,.54) {Maximum-support\\contract};
+\foreach \x/\y/\n/\tone in {0/1.20/158/16,3.08/1.20/160/24,0/.02/154/9,3.08/.02/170/49}{
+ \fill[rounded corners=2pt,teal!\tone!white] (\x,\y) rectangle ({\x+2.8},{\y+1.02});
+ \draw[rounded corners=2pt,ink!28] (\x,\y) rectangle ({\x+2.8},{\y+1.02});
+ \node[metric] at ({\x+1.4},{\y+.53}) {\n\ / 192};
+}
+\draw[teal!75!black,thick] (3.08,.02) rectangle (5.88,1.04);
+\node[anchor=west,align=left,font=\footnotesize\sffamily,text=teal!90!black] at (6.15,.53)
+ {+10 at the same\\search policy};
+\end{tikzpicture}
+\caption[Admission by contract and witness-search policy]{Factorial admission analysis on 24 held-out names across eight layouts. Each cell gives the number of structurally supported inputs out of 192. The maximum-support contract helps under exhaustive witness search, while pairing it with only the first witness yields the lowest admission count.}
+\label{fig:admission}
+\end{figure}

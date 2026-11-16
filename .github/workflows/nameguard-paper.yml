@@ -1,0 +1,45 @@
+name: NameGuard manuscript
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'nameguard-paper/**'
+      - 'nameguard-peer-review/results/*.json'
+      - 'nameguard-real-evidence/results/*-summary.json'
+      - 'nameguard-risk-study/results/*.json'
+      - '.github/workflows/nameguard-paper.yml'
+  pull_request:
+    paths:
+      - 'nameguard-paper/**'
+      - 'nameguard-peer-review/results/*.json'
+      - 'nameguard-real-evidence/results/*-summary.json'
+      - 'nameguard-risk-study/results/*.json'
+      - '.github/workflows/nameguard-paper.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install typesetting and PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends latexmk lmodern texlive-latex-extra texlive-pictures
+          python3 -m pip install pypdf==6.21.4
+      - name: Compile and verify manuscript
+        working-directory: nameguard-paper
+        run: |
+          latexmk -pdf -halt-on-error -interaction=nonstopmode -outdir="$RUNNER_TEMP/nameguard-paper" manuscript.tex
+          python3 verify.py --build-dir "$RUNNER_TEMP/nameguard-paper"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nameguard-preprint
+          path: ${{ runner.temp }}/nameguard-paper/manuscript.pdf
+          if-no-files-found: error

@@ -1,0 +1,29 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=1.06cm,y=.74cm,>=Latex,font=\small\sffamily,
+    token/.style={minimum width=8.4mm,minimum height=6.9mm,inner sep=1pt,rounded corners=2pt,draw=teal!65,fill=soft},
+    identity/.style={token,draw=rose!55,fill=rose!7,text=rose},
+    rowlabel/.style={anchor=east,text=ink,align=right,font=\footnotesize\sffamily},
+    axis/.style={font=\footnotesize\sffamily,text=charcoal}]
+\node[rowlabel] at (-.73,3) {Physical position};
+\foreach \i in {0,...,5} {\node[axis] at (\i,3) {\i};}
+\node[rowlabel] at (-.73,2) {Prompt A};
+\node[rowlabel] at (-.73,1) {Prompt B};
+\foreach \p/\t in {0/q,2/e_1,3/e_2} {\node[token] at (\p,2) {\(\t\)};}
+\node[identity] at (1,2) {\(n\)};
+\foreach \p/\t in {0/q,4/e_1,5/e_2} {\node[token] at (\p,1) {\(\t\)};}
+\foreach \p in {1,2,3} {\node[identity] at (\p,1) {\(n'_{\p}\)};}
+\draw[densely dashed,ink!35] (-.48,.40) -- (5.48,.40);
+\node[rowlabel] at (-.73,-.3) {Packed A and B};
+\foreach \p/\t in {0/q,1/e_1,2/e_2} {
+ \node[token] at (\p,-.3) {\(\t\)};
+ \node[axis] at (\p,-1.02) {\p};
+}
+\node[rowlabel] at (-.73,-1.02) {Logical position};
+\node[anchor=west,align=left,font=\footnotesize\sffamily,text=teal] at (2.62,-.3)
+ {Identical order and\\position assignments};
+\node[anchor=west,font=\footnotesize\sffamily,text=rose] at (6.00,1.49) {Name tokens};
+\end{tikzpicture}
+\caption[Physical token positions and packed logical positions]{Why compact positions are part of the guarantee. In this schematic, \(q,e_1,e_2\) are retained tokens. Simply masking the name would leave the distance from \(q\) to \(e_1\) at two positions in prompt A and four in B. Packing makes the distance one in both.}
+\label{fig:positions}
+\end{figure}

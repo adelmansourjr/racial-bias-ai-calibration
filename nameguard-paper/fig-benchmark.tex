@@ -1,0 +1,21 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+  font=\small\sffamily, >=Latex,
+  box/.style={rounded corners=3pt,draw=ink!40,fill=bluegray,minimum height=9mm,align=center},
+  supportedcase/.style={box,draw=teal!75,fill=soft},
+  distractorcase/.style={box,draw=rose!72,fill=rose!8},
+  line/.style={->,draw=ink!69,line width=0.65pt}
+]
+\node[box,text width=32mm] (source) at (0,0) {One source\\paragraph};
+\node[supportedcase,text width=37mm] (positive) at (4.55,0.84) {Answerable question\\and its gold answer};
+\node[distractorcase,text width=37mm] (negative) at (4.55,-0.84) {Unanswerable question\\and its distractor};
+\node[box,text width=40mm] (test) at (10.18,0) {Both candidate answers\\occur verbatim};
+\draw[line] (source.east) -- (positive.west);
+\draw[line] (source.east) -- (negative.west);
+\draw[line] (positive.east) -- ([yshift=2mm]test.west);
+\draw[line] (negative.east) -- ([yshift=-2mm]test.west);
+\end{tikzpicture}
+\caption[Construction of the matched evidence benchmark]{The matched-evidence benchmark. Each paragraph supplies a supported and an unsupported candidate for two distinct questions. A literal occurrence check treats them alike.}
+\label{fig:benchmark}
+\end{figure}

@@ -1,0 +1,106 @@
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+  \pdfbookmark[0]{Title page}{title-page}
+  \thispdfpagelabel{Cover}
+  \centering
+  \vspace*{38mm}
+  {\Large\scshape Technical Research Preprint\par}
+  \vspace{15mm}
+  {\fontsize{25}{31}\selectfont\bfseries
+    Exact Name-Field Noninterference\par
+    in Language-Model Screening\par}
+  \vspace{12mm}
+  \rule{0.42\textwidth}{0.45pt}\par
+  \vspace{10mm}
+  {\Large Adel Mansour\par}
+  \vspace{4mm}
+  {\large 16 November 2026\par}
+  \vfill
+  {\small\href{https://github.com/adelmansourjr/racial-bias-ai-calibration/tree/main/nameguard-paper}{Manuscript, source and research archive}\par}
+  \vspace*{12mm}
+\end{titlepage}
+
+\pagenumbering{roman}
+\hypersetup{pageanchor=true}
+\pagestyle{plain}
+\newcommand{\frontheading}[1]{%
+  \phantomsection
+  \section*{#1}%
+  \addcontentsline{toc}{section}{#1}}
+
+\frontheading{Abstract}
+
+A language model can give consistent scores across applicant names and still draw the wrong conclusion from a résumé. We study these two failures separately. Our method tokenises and embeds the original named input, then excludes the reviewed name rows from the transformer’s scoring path. For admitted inputs with identical retained tokens, the protected activations, scores and deterministic reports are equal. The guarantee also extends to greedy generation with a fresh cache. In 119 real résumé excerpts evaluated under four names, all protected score vectors and report bytes matched. The unrestricted model changed its binary decision in 18 excerpts. In a public benchmark with human-labelled source support, all 20 generation comparisons across four names passed, but the evidence verifier confirmed 55 of 320 claims, including 19 unsupported claims. A native reference given the identical retained token IDs also reproduced the protected computation. These results establish a precise guarantee about the name field and show why evidence quality requires a separate evaluation.
+
+\medskip
+\noindent\textbf{Keywords:} résumé screening, noninterference, activation routing, evidence verification.
+
+\clearpage
+\pdfbookmark[0]{Table of Contents}{front-contents}
+\tableofcontents
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+\bigskip
+\phantomsection
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+
+\clearpage
+\frontheading{Abbreviations and notation}
+\begingroup
+\small
+\noindent\begin{tabularx}{\linewidth}{@{}p{.19\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Abbreviation} & \textbf{Meaning} \\
+\midrule
+A/B & Two answer labels, with their mapping to supported and unsupported reversed between prompts.\\
+ARC & AI2 Reasoning Challenge.\\
+AUROC & Area under the receiver operating characteristic curve.\\
+CV & Curriculum vitae.\\
+FEVER & Fact Extraction and VERification.\\
+ID & Identifier. In this report, a token ID is its integer vocabulary index.\\
+IEEE & Institute of Electrical and Electronics Engineers.\\
+ISO/IEC & International Organization for Standardization and International Electrotechnical Commission.\\
+KV cache & The keys and values retained by attention between decoding steps.\\
+LLM & Large language model.\\
+LoRA / QLoRA & Low-rank adaptation and its quantised-base variant.\\
+MLX & The Apple Silicon machine-learning framework used in the experiments.\\
+NIST & United States National Institute of Standards and Technology.\\
+SQuAD & Stanford Question Answering Dataset.\\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\noindent\begin{tabularx}{\linewidth}{@{}p{.19\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Symbol} & \textbf{Meaning} \\
+\midrule
+\(x,\ \T(x)\) & Rendered named prompt and its exact token ID sequence.\\
+\(P(x),\ e(x)\) & Retained physical positions and the ordered token IDs at those positions.\\
+\(H_\ell(x)\) & Retained hidden state after \(\ell\) transformer blocks.\\
+\(N,\ m,\ K,\ X\) & Accepted-set size, audit size, unknown number of errors in that set, and sampled error count.\\
+\(U\) & Upper confidence bound on the finite accepted-set error count.\\
+\bottomrule
+\end{tabularx}
+\endgroup
+
+\clearpage
+\frontheading{Vocabulary}
+
+\begin{description}[leftmargin=1.1em,labelindent=0pt,labelsep=.55em,style=nextline,itemsep=8pt]
+\item[Admission] A request is admitted when its reviewed spans and native token IDs satisfy the contract and scoring can proceed.
+\item[Activation] An internal numerical state computed while the model processes a prompt.
+\item[Name-field noninterference] Equal protected states and outputs when two admitted prompts differ in the designated name field and retain the same evidence.
+\item[Witness] A proposed split at reviewed character boundaries whose separate token sequences reproduce the full prompt's native tokens.
+\item[Evidence tuple] The exact ordered sequence of token IDs retained after the reviewed identity span is excluded from the scoring path.
+\item[Coverage] The fraction of evaluated claims receiving confirmation. Confirmations count whether or not the reference label supports them.
+\item[False-support risk] The fraction of confirmed claims marked unsupported by the reference labels.
+\item[Same-ID reference] An ordinary model invocation supplied with precisely the retained token IDs used by the protected path.
+\end{description}
+
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{fancy}

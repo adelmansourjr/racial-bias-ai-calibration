@@ -1,0 +1,28 @@
+\begin{table}[tbp]
+\small
+\centering
+\caption[Comparison with published methods]{Evidence from selected published methods and the corresponding claim tested here.}
+\label{tab:methods}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.23\linewidth}
+ >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+Approach & What the evaluation establishes & What our experiment tests separately \\
+\midrule
+Correspondence and retrieval audits \citep{bertrand2004,wilson2024}
+ & Sensitivity to a manipulated cue in a specified population or ranking task.
+ & Exact equality of each admitted pair, including logits and aligned states.\\[2pt]
+Counterfactual text training \citep{garg2019}
+ & Robustness to evaluated token edits after training.
+ & Equality by a deterministic inference contract, with no task-specific weight update.\\[2pt]
+Linear representation erasure \citep{ravfogel2020,belrose2023}
+ & Suppression of a specified class of decoders or linear concept information.
+ & Equality of the full aligned state for each admitted pair after the embedding boundary.\\[2pt]
+Question-answering verification \citep{wang2020,fabbri2022}
+ & Agreement between a claim and an answer extracted from a document.
+ & Whether exact agreement with a supplied span predicts human support labels.\\[2pt]
+Selective classification \citep{geifman2017,jones2021}
+ & Error as a function of the proportion of cases on which a classifier acts.
+ & Separate counts for token admission, confirmation and evidence error.\\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -1,5 +1,13 @@
 # racial-bias-ai-calibration
 
+## Research preprint
+
+**Exact Name-Field Noninterference in Language-Model Screening**, Adel Mansour, 16 November 2026.
+
+[Read the PDF](nameguard-paper/nameguard-preprint.pdf) · [Download editable LaTeX](nameguard-paper/nameguard-latex-source.zip) · [Manuscript and build instructions](nameguard-paper/README.md)
+
+The report proves a conditional name-field guarantee for an admitted request on a frozen scoring path. It checks the result using exact model states and reports, and separately measures the failures of evidence verification. The paper includes a replication appendix and links to the frozen experiment records.
+
 ## Latest study. Exact name-invariant generation and evidence-verification failures
 
 [Research report](nameguard-risk-study/REPORT.md) · [Reproduction](nameguard-risk-study/README.md)

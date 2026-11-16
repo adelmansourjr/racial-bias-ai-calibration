@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\small
+\centering
+\caption[Exact name conformance and unrestricted-model changes]{Paired name conformance. Native changes use the endpoint shown and are counts of underlying cases. Activation checks are nested within cases and should not be pooled as independent observations.}
+\label{tab:conformance}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.23\linewidth}
+ >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{.23\linewidth}
+ >{\raggedright\arraybackslash}p{.20\linewidth}@{}}
+\toprule
+Cohort & Protected equality & Internal verification & Native changes \\
+\midrule
+Résumé scoring
+ & \(119/119\) cases, logits and report bytes
+ & 1,488 direct activation comparisons
+ & \(18/119\) binary choices \\[2pt]
+Initial public test
+ & \(20/20\) cases, logits and report digests
+ & 3,720 stage-digest comparisons
+ & \(1/20\) first-map binary choices \\[2pt]
+Reserve generation
+ & \(20/20\) cases, tokens and report bytes
+ & 375 direct vocabulary-step comparisons
+ & \(7/20\) generated sequences \\
+\bottomrule
+\end{tabularx}
+\end{table}

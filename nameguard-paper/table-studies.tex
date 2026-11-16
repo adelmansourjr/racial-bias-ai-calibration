@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\small
+\centering
+\caption[Evaluation units and their endpoints]{Evaluation units and the claims they support. A question or CV condition remains one unit after name substitution.}
+\label{tab:studies}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.23\linewidth}
+ >{\raggedright\arraybackslash}p{.29\linewidth} >{\raggedright\arraybackslash}X@{}}
+\toprule
+Study & Material and unit & Main outcome \\
+\midrule
+Name admission & 24 held-out names, eight constructed layouts & Compatible token boundaries and shared evidence IDs.\\[2pt]
+Synthetic scoring & 32 constructed credential conditions, six names each & Native and protected readout, same-ID reference, credential-task accuracy.\\[2pt]
+Résumé text & 119 distinct excerpts, four names each & Exact scoring and reporting. Tool-use labels from one AI annotator.\\[2pt]
+Public evidence & 144 development, 312 held-out and 320 reserve questions & Source support from official labels. Four-name comparison on 20 fixed cases per test.\\[2pt]
+Capability control & 100 fixed ARC-Challenge questions & Full-vocabulary fidelity when every input token is retained.\\
+\bottomrule
+\end{tabularx}
+\end{table}

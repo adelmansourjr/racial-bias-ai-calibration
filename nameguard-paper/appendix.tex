@@ -1,0 +1,28 @@
+\appendix
+\section{Replication details}
+\label{sec:replication}
+
+\subsection{Compiling a common token contract}
+
+For each fitting name \(i\), let \(W_i\) be the set of exact retained ID tuples reachable with a structurally admissible boundary witness. The implementation enumerates permitted adjacent whitespace assignments up to 16 characters per side. It checks token factorisation for each proposed boundary and deduplicates evidence tuples. For every candidate tuple \(e\in\bigcup_i W_i\), it computes
+\[
+  s(e) = \sum_i \mathbf{1}\{e\in W_i\}.
+\]
+Any tuple outside the union admits no fitting member, so a maximiser attains the largest structural support possible for one contract on this finite fitting panel. Ties favour lower aggregate formatting cost and then lexicographic order of IDs. A common tuple exists for all fitting names exactly when \(\bigcap_i W_i\) is nonempty. The test name panels are separate from the fit. These are statements about structural feasibility. A runtime witness must also match the approved source roles, and admission on future names remains an empirical question.
+
+\subsection{Run order, public inputs and trace checks}
+
+In the public evidence study, a stable hash orders the 35 eligible articles into eight development, 17 initial test and ten reserve articles. The pipeline keeps paragraphs up to 1,600 characters and excludes embedded chat delimiters. Case construction uses official answerability labels to select matched cases. Those labels are withheld from model inputs and threshold selection on test. Two fixture names compile the contracts, and four evaluation strings are used for the predefined name checks. The first verifier keeps ties together when choosing its cutoff on development. The reserve verifier stops after the specified termination or a 32-token cap. An unterminated or multi-line result is referred.
+
+The pinned generation record uses macOS on arm64, Python 3.12.8, MLX 0.32.3 and MLX LM 0.31.3 \citep{mlxproj}. The \href{https://github.com/adelmansourjr/racial-bias-ai-calibration/blob/d51b96f96982bc41a42b368af6d38d459b2a95d5/nameguard-risk-study/audit/checkpoint-manifest.json}{checkpoint manifest} records full file hashes and the parameter fingerprint. The public replay rebuilds the question IDs, scores the archived predictions against the official labels, checks the planned audit draw and reproduces summary metrics. A separate Metal run can reproduce the inference path with the reconstructed checkpoint. The résumé replay remains limited to released aggregates because raw case material stays local.
+
+\subsection{Fidelity to a name-sensitive baseline}
+
+An invariant replacement cannot preserve every native score if the native scores vary with the name. Given native scalar scores \(v_i\) for one fixed CV, any replacement score \(c\) obeys
+\[
+  \frac{1}{m}\sum_{i=1}^{m}(v_i-c)^2
+   = \frac{1}{m}\sum_{i=1}^{m}(v_i-\bar v)^2+(\bar v-c)^2,
+  \qquad
+  \min_c\max_i |v_i-c|=\frac{\max_i v_i-\min_i v_i}{2}.
+\]
+The first identity follows by expanding around the mean. The second follows by placing \(c\) at the midpoint of the two extremal values. These bounds concern agreement with a baseline that may itself depend on the name. Accuracy against an independent label is a separate question, measured in the synthetic credential and source-support experiments.
