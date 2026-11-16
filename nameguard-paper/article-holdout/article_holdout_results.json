@@ -1,0 +1,307 @@
+{
+  "aggregate": {
+    "extraction_only": {
+      "clears_gate": false,
+      "confirmed": 55,
+      "coverage": 0.171875,
+      "false_supports": 19,
+      "risk": 0.34545454545454546
+    },
+    "extraction_then_threshold": {
+      "clears_gate": false,
+      "confirmed": 0,
+      "coverage": 0.0,
+      "false_supports": 0,
+      "risk": null
+    },
+    "score_threshold": {
+      "clears_gate": false,
+      "confirmed": 0,
+      "coverage": 0.0,
+      "false_supports": 0,
+      "risk": null
+    },
+    "top_extraction_first": {
+      "clears_gate": false,
+      "confirmed": 61,
+      "coverage": 0.190625,
+      "false_supports": 20,
+      "risk": 0.32786885245901637
+    },
+    "top_score": {
+      "clears_gate": false,
+      "confirmed": 61,
+      "coverage": 0.190625,
+      "false_supports": 12,
+      "risk": 0.19672131147540983
+    }
+  },
+  "extraction_subset_oracle_maximum_confirmations": 40,
+  "folds": [
+    {
+      "cases": 16,
+      "extraction_only": {
+        "confirmed": 2,
+        "false_supports": 0
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 3,
+        "false_supports": 0
+      },
+      "top_score": {
+        "confirmed": 3,
+        "false_supports": 0
+      }
+    },
+    {
+      "cases": 20,
+      "extraction_only": {
+        "confirmed": 2,
+        "false_supports": 1
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 4,
+        "false_supports": 2
+      },
+      "top_score": {
+        "confirmed": 4,
+        "false_supports": 2
+      }
+    },
+    {
+      "cases": 48,
+      "extraction_only": {
+        "confirmed": 7,
+        "false_supports": 3
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 9,
+        "false_supports": 3
+      },
+      "top_score": {
+        "confirmed": 9,
+        "false_supports": 2
+      }
+    },
+    {
+      "cases": 12,
+      "extraction_only": {
+        "confirmed": 1,
+        "false_supports": 1
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 2,
+        "false_supports": 1
+      },
+      "top_score": {
+        "confirmed": 2,
+        "false_supports": 0
+      }
+    },
+    {
+      "cases": 60,
+      "extraction_only": {
+        "confirmed": 8,
+        "false_supports": 2
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 12,
+        "false_supports": 4
+      },
+      "top_score": {
+        "confirmed": 12,
+        "false_supports": 3
+      }
+    },
+    {
+      "cases": 24,
+      "extraction_only": {
+        "confirmed": 6,
+        "false_supports": 1
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 4,
+        "false_supports": 1
+      },
+      "top_score": {
+        "confirmed": 4,
+        "false_supports": 0
+      }
+    },
+    {
+      "cases": 52,
+      "extraction_only": {
+        "confirmed": 6,
+        "false_supports": 1
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 10,
+        "false_supports": 2
+      },
+      "top_score": {
+        "confirmed": 10,
+        "false_supports": 1
+      }
+    },
+    {
+      "cases": 20,
+      "extraction_only": {
+        "confirmed": 5,
+        "false_supports": 2
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 4,
+        "false_supports": 1
+      },
+      "top_score": {
+        "confirmed": 4,
+        "false_supports": 0
+      }
+    },
+    {
+      "cases": 38,
+      "extraction_only": {
+        "confirmed": 12,
+        "false_supports": 6
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 7,
+        "false_supports": 4
+      },
+      "top_score": {
+        "confirmed": 7,
+        "false_supports": 3
+      }
+    },
+    {
+      "cases": 30,
+      "extraction_only": {
+        "confirmed": 6,
+        "false_supports": 2
+      },
+      "extraction_then_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "score_threshold": {
+        "confirmed": 0,
+        "false_supports": 0,
+        "threshold": null
+      },
+      "top_extraction_first": {
+        "confirmed": 6,
+        "false_supports": 2
+      },
+      "top_score": {
+        "confirmed": 6,
+        "false_supports": 1
+      }
+    }
+  ],
+  "infeasible_training_folds": {
+    "extraction_then_threshold": 10,
+    "score_threshold": 10
+  },
+  "inputs_sha256": {
+    "baseline.json": "ad20321e52bc08777afadc8e987d53fee3dae62325a9776f546f2d1208aea9ce",
+    "labels.json": "40db3c2cb08136fe96d3f79b0970db25202a3fe496cec458a772d045048da946",
+    "observed.json": "ecd94bd0215948b4bb01a8c82d0a0fa0af277feed01a31e76cab7358f69cf206",
+    "rows.json": "a5afabc01c8b21d16b792c13fc09ab82a24c6a2cf10f0afb317a7181578f2fb4"
+  },
+  "paired_article_interval_fixed_capacity": [
+    -0.18867924528301888,
+    -0.09210526315789473
+  ],
+  "protocol_sha256": "206345efa358c61b52bc85d8b952ecd9e7cf5ee34ffe55502ae108910a814c24"
+}

@@ -23,3 +23,5 @@ From a repository clone, `python3 nameguard-paper/verify.py` checks key reported
 - [Runtime and admission study](https://github.com/adelmansourjr/racial-bias-ai-calibration/tree/d51b96f96982bc41a42b368af6d38d459b2a95d5/nameguard-peer-review) contains the checkpoint reconstruction and capability controls.
 
 The evidence archives are pinned to the experimental commit. The latest report package is maintained on the default branch. The report is a venue-neutral preprint.
+
+[Article-held-out follow-up](article-holdout/ARTICLE_HOLDOUT_REPORT.md) compares verification rules at a matched workload and bounds the best possible coverage of an extraction-only filter.
