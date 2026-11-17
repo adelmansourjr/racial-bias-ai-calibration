@@ -1,0 +1,38 @@
+{
+  "corpus_alignment_checks": 2031,
+  "exact_rankings_per_arm": 209,
+  "protocol_sha256": "a8cdeb7373a0dba371aa375ac8184b581916d38bdffd0cd577aa5f1da0e7ad38",
+  "random_oracle_pairs": 1000,
+  "work": {
+    "exhaustive_dense": {
+      "alignment_calls": 2031,
+      "dense_cells": 413869
+    },
+    "exhaustive_sparse": {
+      "alignment_calls": 2031,
+      "fenwick_query_steps": 8845,
+      "fenwick_update_steps": 11670,
+      "matching_pairs": 4250
+    },
+    "ordered_pairs_dense": {
+      "alignment_calls": 465,
+      "dense_cells": 104415
+    },
+    "ordered_pairs_sparse": {
+      "alignment_calls": 465,
+      "fenwick_query_steps": 4474,
+      "fenwick_update_steps": 5663,
+      "matching_pairs": 2087
+    },
+    "weighted_bag_dense": {
+      "alignment_calls": 470,
+      "dense_cells": 105465
+    },
+    "weighted_bag_sparse": {
+      "alignment_calls": 470,
+      "fenwick_query_steps": 4510,
+      "fenwick_update_steps": 5748,
+      "matching_pairs": 2110
+    }
+  }
+}

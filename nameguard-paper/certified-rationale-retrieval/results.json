@@ -1,0 +1,160 @@
+{
+  "archive_sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+  "by_label": {
+    "CONTRADICT": {
+      "bm25": {
+        "agrees_with_exhaustive": 60,
+        "alignment_calls": 0,
+        "alignment_cells": 0,
+        "cases": 71,
+        "complete_rationale": 43,
+        "rationale_hit": 45
+      },
+      "exhaustive": {
+        "agrees_with_exhaustive": 71,
+        "alignment_calls": 685,
+        "alignment_cells": 132566,
+        "cases": 71,
+        "complete_rationale": 43,
+        "rationale_hit": 45
+      },
+      "matched_bm25_first": {
+        "agrees_with_exhaustive": 67,
+        "alignment_calls": 160,
+        "alignment_cells": 34422,
+        "cases": 71,
+        "complete_rationale": 43,
+        "rationale_hit": 45
+      },
+      "ordered_pairs": {
+        "agrees_with_exhaustive": 71,
+        "alignment_calls": 160,
+        "alignment_cells": 35452,
+        "cases": 71,
+        "complete_rationale": 43,
+        "rationale_hit": 45
+      },
+      "weighted_bag": {
+        "agrees_with_exhaustive": 71,
+        "alignment_calls": 161,
+        "alignment_cells": 35686,
+        "cases": 71,
+        "complete_rationale": 43,
+        "rationale_hit": 45
+      }
+    },
+    "SUPPORT": {
+      "bm25": {
+        "agrees_with_exhaustive": 112,
+        "alignment_calls": 0,
+        "alignment_cells": 0,
+        "cases": 138,
+        "complete_rationale": 89,
+        "rationale_hit": 96
+      },
+      "exhaustive": {
+        "agrees_with_exhaustive": 138,
+        "alignment_calls": 1346,
+        "alignment_cells": 281303,
+        "cases": 138,
+        "complete_rationale": 91,
+        "rationale_hit": 98
+      },
+      "matched_bm25_first": {
+        "agrees_with_exhaustive": 124,
+        "alignment_calls": 305,
+        "alignment_cells": 66207,
+        "cases": 138,
+        "complete_rationale": 92,
+        "rationale_hit": 98
+      },
+      "ordered_pairs": {
+        "agrees_with_exhaustive": 138,
+        "alignment_calls": 305,
+        "alignment_cells": 68963,
+        "cases": 138,
+        "complete_rationale": 91,
+        "rationale_hit": 98
+      },
+      "weighted_bag": {
+        "agrees_with_exhaustive": 138,
+        "alignment_calls": 309,
+        "alignment_cells": 69779,
+        "cases": 138,
+        "complete_rationale": 91,
+        "rationale_hit": 98
+      }
+    }
+  },
+  "complete_rationale_rate_comparisons": {
+    "bm25": {
+      "cluster_bootstrap_95": [
+        -0.01932367149758454,
+        0.04
+      ],
+      "paired_difference": 0.009569377990430622
+    },
+    "matched_bm25_first": {
+      "cluster_bootstrap_95": [
+        -0.02926829268292683,
+        0.021367521367521368
+      ],
+      "paired_difference": -0.004784688995215311
+    }
+  },
+  "corpus": {
+    "claims": 300,
+    "index_sentences": 45952,
+    "labelled_pairs": 209,
+    "without_labelled_rationale": 112
+  },
+  "independent_gold_components": 164,
+  "ordered_pair_cell_savings": {
+    "exhaustive": 0.7477100241863972,
+    "weighted_bag": 0.00995590954345038
+  },
+  "primary_gate_met": false,
+  "protocol_sha256": "8c814acc43ffba65043f1c78cfa37ecba910be36ef7bd56d7ba9438eb9257a63",
+  "stats": {
+    "bm25": {
+      "agrees_with_exhaustive": 172,
+      "alignment_calls": 0,
+      "alignment_cells": 0,
+      "cases": 209,
+      "complete_rationale": 132,
+      "rationale_hit": 141
+    },
+    "exhaustive": {
+      "agrees_with_exhaustive": 209,
+      "alignment_calls": 2031,
+      "alignment_cells": 413869,
+      "cases": 209,
+      "complete_rationale": 134,
+      "rationale_hit": 143
+    },
+    "matched_bm25_first": {
+      "agrees_with_exhaustive": 191,
+      "alignment_calls": 465,
+      "alignment_cells": 100629,
+      "cases": 209,
+      "complete_rationale": 135,
+      "rationale_hit": 143
+    },
+    "ordered_pairs": {
+      "agrees_with_exhaustive": 209,
+      "alignment_calls": 465,
+      "alignment_cells": 104415,
+      "cases": 209,
+      "complete_rationale": 134,
+      "rationale_hit": 143
+    },
+    "weighted_bag": {
+      "agrees_with_exhaustive": 209,
+      "alignment_calls": 470,
+      "alignment_cells": 105465,
+      "cases": 209,
+      "complete_rationale": 134,
+      "rationale_hit": 143
+    }
+  }
+}

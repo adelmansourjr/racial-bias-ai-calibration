@@ -25,3 +25,5 @@ From a repository clone, `python3 nameguard-paper/verify.py` checks key reported
 The evidence archives are pinned to the experimental commit. The latest report package is maintained on the default branch. The report is a venue-neutral preprint.
 
 [Article-held-out follow-up](article-holdout/ARTICLE_HOLDOUT_REPORT.md) compares verification rules at a matched workload and bounds the best possible coverage of an extraction-only filter.
+
+[Exact rationale selection on SciFact](certified-rationale-retrieval/README.md) compares dense and sparse evidence ranking at the same two-sentence budget.
